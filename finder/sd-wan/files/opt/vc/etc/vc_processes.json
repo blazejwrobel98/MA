@@ -1,0 +1,167 @@
+[
+	{
+		"name": "mgd",
+		"program": "/opt/vc/sbin/mgd",
+		"restart_delay": 3,
+		"log_failure_event": true,
+		"niceness": -15,
+		"failed_event_name": "EDGE_MGD_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_MGD_SERVICE_DISABLED",
+		"pre_start_command": ["mkdir", "-p", "/var/run/mgd"],
+		"post_startup_command": ["sh", "-c", "(sleep 5 && /opt/vc/bin/debug.py --ha mgd_update) &"],
+		"realtime_priority": 0
+	},
+	{
+		"name": "edged",
+		"program": "/opt/vc/sbin/edged",
+		"args": ["-F/etc/config/edged"],
+		"init_delay": 10,
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"log_failure_event": true,
+		"pre_enable_command": ["/opt/vc/bin/edged_preenable.sh"],
+		"pre_start_command": ["/opt/vc/bin/vc_dpdk.py", "--prestart"],
+		"post_exit_command": ["/opt/vc/bin/edged_postexit.sh"],
+		"post_disable_command": ["/opt/vc/bin/edged_postdisable.sh"],
+		"post_startup_command": ["sh", "-c", "(sleep 5 && /etc/init.d/snmpd restart) &"],
+		"start_time_file": "/tmp/.service.start",
+		"niceness": -10,
+		"failed_event_name": "EDGE_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_SERVICE_DISABLED",
+		"memory_monitor_thresholds": [
+			{
+				"threshold_pct": 40,
+				"action": "event"
+			},
+			{
+				"threshold_pct": 60,
+				"action": "restart"
+			}
+		],
+		"realtime_priority": 0
+	},
+	{
+		"name": "ledd",
+		"program": "/opt/vc/sbin/ledd",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"failed_event_name": "EDGE_LED_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_LED_SERVICE_DISABLED",
+		"realtime_priority": 0
+	},
+	{
+		"name": "dot1x",
+		"program": "/opt/vc/sbin/dot1x",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"failed_event_name": "EDGE_DOT1X_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_DOT1X_SERVICE_DISABLED",
+		"realtime_priority": 0
+	},
+	{
+		"name": "nyansa_syslogd",
+		"program": "/opt/vc/bin/nyansa_syslogd.sh",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"log_file": "/var/log/nyansa_syslogd.log",
+		"failed_event_name": "EDGE_NYANSA_SYSLOG_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_NYANSA_SYSLOG_SERVICE_DISABLED",
+		"realtime_priority": 0
+	},
+	{
+		"name": "nyansa_amond",
+		"program": "/opt/vc/bin/nyansa_amond.sh",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"log_file": "/var/log/nyansa_amond.log",
+		"failed_event_name": "EDGE_NYANSA_AMOND_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_NYANSA_AMOND_SERVICE_DISABLED",
+		"realtime_priority": 0
+	},
+	{
+		"name": "nyansa_snmptrapd",
+		"program": "/opt/vc/bin/nyansa_snmptrapd.sh",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"log_file": "/var/log/nyansa_snmptrapd.log",
+		"failed_event_name": "EDGE_NYANSA_SNMP_TRAPD_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_NYANSA_SNMP_TRAPD_SERVICE_DISABLED",
+		"realtime_priority": 0,
+		"config_file": "/etc/nyansa/.crawlersnmptraprc",
+		"segnat_config": {
+			"app_name": "ANA_SNMP_TRAPD",
+			"proto": "udp",
+			"port": 162
+		}
+	},
+	{
+		"name": "nyansa_snmpreader",
+		"program": "/opt/vc/bin/nyansa_snmpreader.sh",
+		"restart_delay": 3,
+		"max_restarts_per_hour": 3,
+		"niceness": 20,
+		"log_failure_event": true,
+		"log_file": "/var/log/nyansa_snmpreader.log",
+		"failed_event_name": "EDGE_NYANSA_SNMP_READER_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_NYANSA_SNMP_READER_SERVICE_DISABLED",
+		"realtime_priority": 0,
+		"config_file": "/etc/nyansa/.crawlersnmprc",
+		"segnat_config": {
+			"app_name": "ANA_SNMP_READER",
+			"proto": "udp",
+			"port": 161
+		}
+	},
+	{
+		"name": "nyansa_arubacli",
+		"config_file":  "/etc/nyansa/.crawlerrc",
+		"segnat_config": {
+			"app_name": "ANA_ARUBA",
+			"proto": "tcp",
+			"port": 22
+		}
+	},
+	{
+		"name": "vnfd",
+		"pre_start_command": ["/opt/vc/sbin/vnfd.py", "--init"],
+		"program": "/opt/vc/sbin/vnfd.py",
+		"restart_delay": 3,
+		"log_failure_event": true,
+		"failed_event_name": "EDGE_VNFD_SERVICE_FAILED",
+		"disabled_event_name": "EDGE_VNFD_SERVICE_DISABLED",
+		"realtime_priority": 0
+    },
+    {
+        "name": "handoff_q_monitor",
+        "program": "/opt/vc/bin/handoff_q_monitor.py",
+        "restart_delay": 3,
+        "log_failure_event": true,
+        "realtime_priority": 0
+    },
+    {
+        "name": "l7_health_check",
+        "program": "/opt/vc/sbin/l7_health_check.py",
+        "init_delay": 60,
+        "restart_delay": 3,
+        "log_failure_event": true,
+        "failed_event_name": "ZSCALER_MONITOR_FAILED",
+        "disabled_event_name": "ZSCALER_MONITOR_DISABLED",
+        "realtime_priority": 0
+    },
+    {
+        "name": "evdslmon",
+        "program": "/opt/vc/sbin/evdslmon.py",
+        "restart_delay": 3,
+        "realtime_priority": 0
+    }
+]

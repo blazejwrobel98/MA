@@ -1,0 +1,123 @@
+config agent
+	option agentaddress 'udp:161'
+
+config com2sec
+	option secname 'snmpv2community'
+	option source '10.71.114.60'
+	option community 'assam14lyab17rjc'
+
+config group
+	option group 'snmpv2group'
+	option version 'v2c'
+	option secname 'snmpv2community'
+
+config access
+	option group 'snmpv2group'
+	option context 'none'
+	option version 'v2c'
+	option level 'noauth'
+	option prefix 'exact'
+	option read 'custom'
+	option write 'none'
+	option notify 'none'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.1'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.2'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.4'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.25'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.4.1.2021'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.31.1.1'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.4.1.45346'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.4.35'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.4.34'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.4.20'
+
+config view
+	option viewname 'custom'
+	option type 'included'
+	option oid '.1.3.6.1.2.1.4.22'
+
+config pass
+	option miboid '.1.3.6.1.4.1.45346'
+	option prog '/opt/vc/bin/snmpagent.py veloEdge'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.2.2'
+	option prog '/opt/vc/bin/snmpagent.py ifTable'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.31.1.1'
+	option prog '/opt/vc/bin/snmpagent.py ifXTable'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.4.35'
+	option prog '/opt/vc/bin/snmpagent.py ipNetToPhysicalTable'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.4.34'
+	option prog '/opt/vc/bin/snmpagent.py ipAddressTable'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.4.20'
+	option prog '/opt/vc/bin/snmpagent.py ipAddrDeperTable'
+	option persist 1
+
+config pass
+	option miboid '.1.3.6.1.2.1.4.22'
+	option prog '/opt/vc/bin/snmpagent.py ipNetToMediaTable'
+	option persist 1
+
+config system
+	option sysLocation 'Kraków'
+	option sysContact 'Grzegorz.Szopa@assaabloy.com'
+	option sysName 'PLASAAKRAPL01PVCE01_EHA'
+	option sysDescr 'VeloCloud EDGE6X0'
+	option sysObjectID '.1.3.6.1.4.1.45346.1.1'
+
+config snmpd general
+	option enabled '1'
+

@@ -1,0 +1,135 @@
+[
+  {
+    "interface": "GE3", 
+    "snmp_if_index": 16777216, 
+    "table": [
+      {
+        "address": "85.128.72.177", 
+        "age": 231, 
+        "c-tag": 0, 
+        "flags": 0, 
+        "mac": "00:fd:22:11:86:24", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:83", 
+        "state": "ALIVE"
+      }
+    ]
+  }, 
+  {
+    "interface": "GE4", 
+    "snmp_if_index": 16777217, 
+    "table": [
+      {
+        "address": "10.255.64.5", 
+        "age": 3778, 
+        "c-tag": 0, 
+        "flags": 0, 
+        "mac": "00:f6:63:da:18:c1", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:84", 
+        "state": "ALIVE"
+      }
+    ]
+  }, 
+  {
+    "interface": "GE1", 
+    "snmp_if_index": 16777218, 
+    "table": []
+  }, 
+  {
+    "interface": "GE5", 
+    "snmp_if_index": 16777223, 
+    "table": [
+      {
+        "address": "192.168.0.148", 
+        "age": 77514, 
+        "c-tag": 400, 
+        "flags": 0, 
+        "mac": "6a:89:ec:c9:0e:fc", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }, 
+      {
+        "address": "192.168.0.196", 
+        "age": 17539, 
+        "c-tag": 400, 
+        "flags": 0, 
+        "mac": "da:56:1a:71:9a:b9", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }, 
+      {
+        "address": "192.168.0.18", 
+        "age": 84635, 
+        "c-tag": 400, 
+        "flags": 0, 
+        "mac": "b2:81:12:cc:4c:97", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }, 
+      {
+        "address": "0.0.0.0", 
+        "age": 1758688, 
+        "c-tag": 400, 
+        "flags": 0, 
+        "mac": "6a:89:ec:c9:0e:fc", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "DEAD"
+      }, 
+      {
+        "address": "192.168.0.115", 
+        "age": 56676, 
+        "c-tag": 400, 
+        "flags": 0, 
+        "mac": "52:9c:ae:37:11:91", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }, 
+      {
+        "address": "0.0.0.0", 
+        "age": 1364533678, 
+        "c-tag": 0, 
+        "flags": 1, 
+        "mac": "f0:8e:db:b7:17:85", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }, 
+      {
+        "address": "10.239.31.252", 
+        "age": 256188, 
+        "c-tag": 900, 
+        "flags": 0, 
+        "mac": "dc:8c:37:5a:18:c5", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "REFRESH"
+      }, 
+      {
+        "address": "10.239.31.254", 
+        "age": 10192, 
+        "c-tag": 900, 
+        "flags": 0, 
+        "mac": "00:1b:17:00:01:12", 
+        "refcnt": 1, 
+        "s-tag": 0, 
+        "srcMac": "f0:8e:db:b7:17:85", 
+        "state": "ALIVE"
+      }
+    ]
+  }
+]

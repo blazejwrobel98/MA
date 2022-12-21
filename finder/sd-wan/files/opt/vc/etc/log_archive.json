@@ -1,0 +1,97 @@
+{
+    "default_dest": "/velocloud/log",
+    "default_size": 100000,
+    "default_numrevs": 3,
+    "default_check": 5,
+    "default_truncate": 0,
+	"files": [
+        {"filename": "/var/log/messages", "size": 10000000, "numrevs": 5, "check": 1,
+         "msgstart": 30,
+         "enable_tracing": false,
+         "events": {
+             "EDGE_DHCP_BAD_OPTION": {
+                "pattern": "dnsmasq.*: bad dhcp-option at line ",
+                "severity": "WARNING",
+                "squelch": 30
+             },
+             "EDGE_DNSMASQ_FAILED": {
+                "pattern": "dnsmasq.*: FAILED to start up",
+                "severity": "ERROR",
+                "squelch": 30
+             },
+             "EDGE_SSH_LOGIN": {
+                "pattern": "sshd.*: Accepted (?P<type>\\S+) for (?P<username>\\S+) from (?P<source>(?!169.254.2.(1|2))\\S+) ",
+                "severity": "INFO"
+             },
+             "EDGE_CONSOLE_LOGIN": {
+                "pattern": "login.*: session opened for user (?P<username>\\S+) by LOGIN",
+                "severity": "INFO"
+             },
+             "EDGE_COMMAND": {
+                "pattern": "vccmd.*: \\[(?P<username>[^@]+)@(?P<source>[^]]+)\\] (?P<command>.*)",
+                "severity": "INFO"
+             },
+             "EDGE_L2_LOOP_DETECTED": {
+                "pattern": "kernel:.* (?P<network>\\S+): received packet on (?P<interface>\\S+) with own address as source address.*addr:(?P<macaddr>[0-9a-fA-F:]+)",
+                "severity": "ERROR",
+                "squelch": 60
+             },
+             "EDGE_DISK_IO_ERROR": {
+                "pattern": "kernel.*I/O error(, dev | on (device )?)(?P<disk>[a-z/0-9]*)",
+                "severity": "WARNING",
+                "squelch": 900
+             },
+             "EDGE_DISK_READONLY": {
+                "pattern": "kernel.*\\((?P<disk>\\S+)\\).*Remounting filesystem read-only",
+                "severity": "CRITICAL"
+             }
+         },
+         "redirect" :
+             [
+                {
+                    "msgstart": 39,
+                    "prefix": "VCF",
+                    "upload_freq_secs": 15,
+                    "redirectfile": "/velocloud/fwlog/sys_edged_firewall.log"
+                }
+             ]
+        },
+        {"filename": "/var/log/ospfd.log", "size": 10000000, "numrevs": 5, "check": 1, "truncate": 1},
+        {"filename": "/var/log/bgpd.log", "size": 10000000, "numrevs": 5, "check": 1, "truncate": 1},
+        {"filename": "/var/log/pimd.log", "size": 10000000, "numrevs": 5, "check": 1, "truncate": 1},
+        {"filename": "/var/log/bfdd.log", "size": 10000000, "numrevs": 5, "check": 1, "truncate": 1},
+
+        {"filename": "/var/log/edged_firewall.log",
+                        "size": 10000000,
+                        "numrevs": 20,
+                        "check": 1,
+                        "upload_freq_secs": 15,
+                        "destfilename": "/velocloud/fwlog/edged_firewall.log",
+                        "enable_tracing": false},
+
+        {"filename": "/var/log/edged.log", "size": 10000000, "numrevs": 10, "check": 1},
+        {"filename": "/var/log/mgd.log", "size": 10000000, "numrevs": 5, "check": 1},
+        {"filename": "/var/log/mgdha.log", "size": 10000000, "numrevs": 5, "check": 1},
+
+        {"filename": "/var/log/faultmon.log", "size": 10000000, "numrevs": 5, "check": 1},
+
+        {"filename": "/var/log/poed.log", "size": 10000000, "numrevs": 5, "check": 1},
+
+        {"filename": "/var/log/activation.log"},
+        {"filename": "/var/log/mgdlive.log"},
+        {"filename": "/var/log/mgdtools.log"},
+
+        {"filename": "/var/log/dot1x.log"},
+
+        {"filename": "/var/log/vc_procmon.log", "size": 10000000, "numrevs": 5, "check": 1},
+        {"filename": "/var/log/vlanconfig.log"},
+
+        {"filename": "/var/log/cloud-init.log", "size": 10000000, "numrevs": 5, "check": 1},
+        {"filename": "/var/log/cloud-init-output.log", "size": 10000000, "numrevs": 5, "check": 1},
+
+        {"filename": "/var/log/vnfd.log"},
+
+        {"filename": "/var/log/localui.log", "destfilename": "/velocloud/log/localui.log"},
+        {"filename": "/var/log/lighttpd/error.log", "destfilename": "/velocloud/log/lighttpd/error.log"}
+    ]
+}

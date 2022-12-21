@@ -1,0 +1,234 @@
+{
+    "global" : {
+        "route_backtracking_enabled" : 0,
+        "wan" : ["INTERNET1", "INTERNET2", "INTERNET3",
+                 "INTERNET4", "INTERNET5", "INTERNET6",
+                 "wan",
+                 "GE1", "GE2", "GE3", "GE4",
+                 "GE5", "GE6", "GE7", "GE8",
+                 "SFP1", "SFP2", "SFP3", "SFP4",
+                 "SFP5", "SFP6", "SFP7", "SFP8",
+                 "CELL1", "CELL2",
+                 "USB1", "USB2", "USB3", "USB4",
+                 "MODEM1", "MODEM2", "MODEM3", "MODEM4",
+                 "MODEM5", "MODEM6", "MODEM7", "MODEM8"],
+        "legacy_sort_pg_static_pref": 0,
+        "vcmp.port" : "2426",
+        "tcp.client_timeout" : 60,
+        "tcp.listen_port" : 8000,
+        "handoff_qlimit" : 1,
+        "netschenqdeq_ratio" : 50,
+        "lnkschenqdeq_ratio" : 50,
+        "ip_mode_enable" : 1,
+        "path_reseq_timeout_us" : 2000,
+        "edge_run_mode" : "default",
+        "debug_level" : "MSG",
+        "vcmp_proto" : "udp",
+        "override_smart_defaults" : 0,
+        "multi_gw_enable" : 1,
+        "vcmp.rx_to_us" : 50,
+        "jbuf_min_pkt_size" : 64,
+        "jbuf_max_pkt_size" : 1500,
+        "pktfree_log" : 1,
+        "max_ls_replication_depth_bytes" : 64000,
+        "max_ls_replication_depth_ms" : 20,
+        "max_ls_fixed_depth_ms" : 50,
+        "dns_restart_timeout_sec" : 120,
+        "dns_restart_interval_sec" : 43200,
+        "dns_cache_cleanup_interval_sec":600,
+        "vcmp_retry_quiesce_sec" : 300,
+        "vcmp_retry_before_quiesce" : 20,
+        "msq_bw_cap_tolerance" : 2,
+        "msq_restrict_direct" : 0,
+        "vrrp_response_to_icmp" : 0,
+        "vrrp_match_rule" : 3,
+        "max_route_event_resend_in_secs" : 30,
+        "backup_probe_interval_ms" : 30000,
+        "backup_holdoff_interval_ms" : 30000,
+        "backup_up_only_on_dead" : 0,
+        "hotstandby_hb_interval_ms" : 5000,
+        "bw_valid_wired_hours" : 168,
+        "bw_valid_wireless_hours" : 24,
+        "bw_reschedule_timeout_seconds": 0,
+        "tcp_idle_timeout_secs" : 7440,
+        "udp_idle_timeout_secs" : 300,
+        "ip_idle_timeout_secs" : 300,
+        "icmp_idle_timeout_secs" : 60,
+        "gre_idle_timeout_secs" : 7440,
+        "conditional_bh_holdoff_ms" : 30000,
+        "pim_spt_switchover" : 1,
+        "sdwanreachable_active" : 0,
+        "fc_max_reorder_qlen" : 4096,
+        "unpreferred_dest_refresh_interval_s":180,
+        "shr_corrective_action_reqd" : 0,
+        "admission_control_enabled" : 1,
+        "admission_control_mbuf_threshold_percent" : 30,
+        "clock_sync_interval_minutes": 0,
+        "disable_path_hb_probe": 0
+    },
+    "vpn" : {
+        "ike_spd_hard_limit" : 512,
+        "ike_spd_soft_limit" : 256,
+        "de2e_piso_compat_enable" : true,
+    	"ipsec_anti_rep_win_size" : 1024,
+	"ipsec_dpdk_crypto_ossl_dev" : 0,
+    	"fips_mode" : 1
+    },
+    "classifier" : {
+        "name" : "qosmos",
+        "debug" : 0
+    },
+    "role" : {
+	    "dce" : 0,
+	    "want_dce" : 1
+    },
+	"ipfrag" : {
+		"mode" : 1,
+		"max_flows" : 0,
+		"max_frags" :  114,
+		"min_frag_size" : 500,
+		"max_defrag_pktsz" : 3900,
+		"timeout_secs" : 15
+	},
+    "ha" : {
+        "hb_interval_ms" : 100,
+        "ha_failover_ms" : 5000,
+        "ha_dpdk_load_delay_secs" : 40,
+        "use_peer" : 1,
+        "test_state" : 0,
+        "disable_natsync" : 0,
+        "sync_ms_timer": 10000,
+        "intfdown_swover": 1,
+        "intfdown_wait": 15,
+        "peerwait_interval": 10,
+        "pvt_lan_wait_time_cnt": 10000,
+        "intfdown_check_num_hbs" : 7,
+        "intf_chk_arp_monitor_s": 10,
+        "wan_hb_enabled": 1,
+        "wan_hb_intl_ms": 300,
+        "wan_hb_ether_type": 39321,
+        "vnf_ha_suppress": 0,
+        "route_sync" : 1
+    },
+	"latency_probes" : {
+	 	"enable" : 0,
+	 	"probe_intvl_ms" : 5000,
+	 	"probe_destination" : "8.8.8.8"
+	},
+    "debug" : {
+	    "debug_on_sigsegv" : 0
+    },
+    "ospf" : {
+        "enabled": 0,
+        "interfaces": [
+            {
+                "name" : "eth4",
+                "area" : 2,
+                "passive" : 0
+            },
+            {
+                "name" : "br-network1",
+                "area" : 1,
+                "passive" : 1
+            }
+        ],
+        "ospf_passive_interface" : "ospf0",
+        "virt_interface" : 0
+    },
+    "qos_sch_config": {
+	    "bwcap_perc_factor": 95,
+        "real_aggr_depth_multiplier": 20,
+        "tran_aggr_depth_multiplier": 20,
+        "bulk_aggr_depth_multiplier": 10,
+        "realtime_max_depth_msecs" : 100,
+        "trans_max_depth_msecs" : 100,
+        "bulk_max_depth_msecs" : 100,
+		"net_sch_flowq_drr" : 1
+    },
+    "qoe" : {
+        "voice" : {
+            "latency" : {
+                "yellow" : 25,
+                "red" : 65
+            },
+            "jitter" : {
+                "yellow" : 7,
+                "red" : 30
+            },
+            "loss" : {
+                "yellow" : 0.3,
+                "red" : 1.0
+            }
+        },
+        "video" : {
+            "latency" : {
+                "yellow" : 25,
+                "red" : 65
+            },
+            "jitter" : {
+                "yellow" : 5,
+                "red" : 15
+            },
+            "loss" : {
+                "yellow" : 0.05,
+                "red" : 0.1
+            }
+        },
+        "trans" : {
+            "latency" : {
+                "yellow" : 50,
+                "red" : 80
+            },
+            "jitter" : {
+                "yellow" : 200,
+                "red" : 200
+            },
+            "loss" : {
+                "yellow" : 1.0,
+                "red" : 3.0
+            }
+        }
+    },
+    "mtu_probing" : {
+        "enabled" : 1,
+        "disabled_wan_links" : [],
+        "update_path_mtu" : 1,
+        "handle_quiet_event" : 1,
+        "search_floor" : 1300,
+        "search_low" : 1300,
+        "search_high" : 1500,
+        "default_mtu" : 1500,
+        "probe_timeout_ms" : 1000,
+        "max_delay_start_ms" : 4000,
+        "test_mtu_drop" : 0,
+        "test_mtu_icmp" : 0,
+        "probe_num_tries" : 5,
+        "probe_min_ack_confirmed" : 2,
+        "tolerance_range" : 2
+    },
+    "ipv6_nd_timers": {
+        "max_retransmits": 3,
+        "reachable_time" : 30,
+        "retrans_timer" : 1,
+        "delay_1st_probe_time" : 5
+    },
+    "handoffq_len" : {
+	"vcmp_writeq" : 2048,
+	"vcmp_readq" : 2048,
+	"ike_readq" : 1024,
+	"esp_readq" : 1024,
+	"natt_readq" : 1024,
+    "haproxy_readq": 2048,
+	"gcloud_readq" : 2048,
+	"gcloud_bottom_readq" : 2048,
+	"net_schq" : 2048,
+	"cloud_txq" : 1024,
+	"link_encryptq" : 4096,
+	"link_schq" : 1024
+    },
+    "vcmp_metrics" : {
+        "trafficHeartbeatMsec": 100,
+        "noTrafficHeartbeatMsec": 500,
+        "slowdownWaitSec": 180
+    }
+}

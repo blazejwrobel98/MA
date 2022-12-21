@@ -1,0 +1,7 @@
+[
+  {
+    "my_table_version": -750321338, 
+    "peer_table_version": 760239312, 
+    "which path": "active"
+  }
+]

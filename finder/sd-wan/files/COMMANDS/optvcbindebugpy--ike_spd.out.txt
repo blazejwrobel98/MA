@@ -1,0 +1,21 @@
+Security Policy
+======================================================================================================================================================
+Index   SpdId  Cookie     Flags       Mode  SecuProto       Auth             Encr                              Tunnel                           Traffic
+1        5ac9  0x2d50  0000000d     Tunnel   ESP_NULL  sha1-hmac             null  85.128.72.178 <<=>> 165.225.206.48           0.0.0.0/0 <-> 0.0.0.0/0
+2        0023    0x12  0000000d     Tunnel   ESP_NULL  sha1-hmac             null  85.128.72.178 <<=>> 165.225.206.48           0.0.0.0/0 <-> 0.0.0.0/0
+3        0597   0x2cb  0000000d  Transport   ESP_AUTH        any              any                                 N/A  85.128.72.178 <-> 213.212.40.117
+4        0599   0x2cc  0000000d  Transport   ESP_AUTH        any              any                                 N/A       10.255.64.6 <-> 10.255.64.2
+5        610f  0x306f  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A     10.255.64.6 <-> 136.144.97.32
+6        59db  0x2cd7  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A        10.255.64.6 <-> 10.71.70.3
+7        5c1f  0x243d  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A  85.128.72.178 <-> 141.81.168.205
+8        59d9  0x2cd9  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A        10.255.64.6 <-> 10.72.70.2
+9        5e49  0x2f0e  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A  85.128.72.178 <-> 136.144.105.42
+10       5e45  0x2f0c  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A  85.128.72.178 <-> 141.81.167.206
+12       29cb  0x109b  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A  85.128.72.178 <-> 136.144.103.35
+14       289d  0x109d  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A       10.255.64.6 <-> 10.71.70.19
+15       5fef  0x2fe1  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A    10.255.64.6 <-> 136.144.103.35
+16       289b  0x109f  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A       10.255.64.6 <-> 10.72.70.18
+17       6123  0x3079  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A   85.128.72.178 <-> 136.144.97.32
+18       5ff3  0x2fe3  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A    10.255.64.6 <-> 136.144.105.42
+19       63e5  0x31da  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A  85.128.72.178 <-> 81.252.217.125
+20       63e7  0x31db  0000000d  Transport        ESP       null  aes-128-gcm-128                                 N/A      10.255.64.6 <-> 10.255.64.22

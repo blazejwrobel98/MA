@@ -1,0 +1,7 @@
+DCE LogicalId                                                                   V4 Address  V6 Address  Peer Tun Pref  Private  Type  VCMP Port  IKE Port  NAT-t Port  MPLS Network
+68745f57-74c5-4861-ae02-fbee15671d4a:ccc271c9-1062-4920-8a1e-1bbfb0ef7328   141.81.167.206    NotAvlbl             V4       no   DCE       2426       500        4500             0
+07fe0dea-c7de-4306-8d40-d8fb28ef29fa:60b260a8-1eb0-49f4-ab2a-8d75b98b8bbb   141.81.168.205    NotAvlbl             V4       no   DCE       2426       500        4500             0
+07fe0dea-c7de-4306-8d40-d8fb28ef29fa:60b260a8-1eb0-49f4-ab2a-8d75b98b8bbb      10.72.70.18    NotAvlbl             V4      yes   DCE       2426       500           0             0
+07fe0dea-c7de-4306-8d40-d8fb28ef29fa:60b260a8-1eb0-49f4-ab2a-8d75b98b8bbb       10.72.70.2    NotAvlbl             V4      yes   DCE       2426       500           0             0
+68745f57-74c5-4861-ae02-fbee15671d4a:ccc271c9-1062-4920-8a1e-1bbfb0ef7328      10.71.70.19    NotAvlbl             V4      yes   DCE       2426       500           0             0
+68745f57-74c5-4861-ae02-fbee15671d4a:ccc271c9-1062-4920-8a1e-1bbfb0ef7328       10.71.70.3    NotAvlbl             V4      yes   DCE       2426       500           0             0

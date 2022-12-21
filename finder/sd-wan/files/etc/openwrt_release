@@ -1,0 +1,7 @@
+DISTRIB_ID='OpenWrt'
+DISTRIB_RELEASE='rel45-base-6-gc7c6d30'
+DISTRIB_REVISION='r0+2475-c7c6d30'
+DISTRIB_CODENAME='velocloud_edge5x0'
+DISTRIB_TARGET='x64/edge5x0'
+DISTRIB_DESCRIPTION='OpenWrt VeloCloud edge5x0 rel45-base-6-gc7c6d30'
+DISTRIB_TAINTS='no-all glibc busybox'

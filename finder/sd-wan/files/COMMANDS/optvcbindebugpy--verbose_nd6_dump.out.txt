@@ -1,0 +1,22 @@
+[
+  {
+    "cache_entry": [], 
+    "interface": "GE3", 
+    "snmp_index": 16777216
+  }, 
+  {
+    "cache_entry": [], 
+    "interface": "GE4", 
+    "snmp_index": 16777217
+  }, 
+  {
+    "cache_entry": [], 
+    "interface": "GE1", 
+    "snmp_index": 16777218
+  }, 
+  {
+    "cache_entry": [], 
+    "interface": "GE5", 
+    "snmp_index": 16777223
+  }
+]

@@ -1,0 +1,3 @@
+Node 0, zone      DMA      1      1      0      0      2      1      1      0      1      1      3 
+Node 0, zone    DMA32      7      7      6      8      7      7      9      8      6      3    444 
+Node 0, zone   Normal    148     44     21     18     23     21     20    181    139     77    336 

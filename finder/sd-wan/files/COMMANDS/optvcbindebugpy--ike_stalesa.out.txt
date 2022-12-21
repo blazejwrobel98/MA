@@ -1,0 +1,5 @@
+Total SA = 400
+Stale SA = 0
+Unused SA = 364
+==============================================================================================================================================================================================
+Index   Ref  Cookie  SpdId  IkeSaid  Flags  Dir  Spi  PeerPort  Auth  Encr  Tunnel // Traffic  Pkts  Drops  Interface  Secs

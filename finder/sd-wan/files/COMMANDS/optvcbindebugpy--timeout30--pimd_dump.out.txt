@@ -1,0 +1,71 @@
+show running-config
+===================
+Building configuration...
+
+Current configuration:
+!
+frr version 7.0
+frr defaults traditional
+hostname vc-edge
+log file /var/log/pimd.log
+!
+debug igmp events
+debug igmp packets
+debug igmp trace
+debug mroute
+debug pim events
+debug pim packets
+debug pim trace
+debug pim zebra
+debug pim packets joins
+debug pim packets register
+debug pim nht
+!
+password zebra
+!
+access-list vty permit 127.0.0.0/8
+access-list vty deny any
+!
+line vty
+ access-class vty
+!
+end
+
+show ip pim assert
+==================
+Interface        Address         Source          Group           State  Winner          Uptime   Timer
+
+show ip pim interface
+=====================
+Interface         State          Address  PIM Nbrs           PIM DR  FHR IfChannels
+
+show ip pim neighbor
+====================
+Interface                Neighbor    Uptime  Holdtime  DR Pri
+
+show ip pim state
+=================
+Codes: J -> Pim Join, I -> IGMP Report, S -> Source, * -> Inherited from (*,G)
+Installed Source           Group            IIF               OIL
+
+
+show ip pim rp-info
+===================
+RP address       group/prefix-list   OIF               I am RP   Source
+
+show ip pim rpf
+===============
+RPF Cache Refresh Delay:    50 msecs
+RPF Cache Refresh Timer:    0 msecs
+RPF Cache Refresh Requests: 0
+RPF Cache Refresh Events:   0
+RPF Cache Refresh Last:     --:--:--
+Nexthop Lookups:            0
+Nexthop Lookups Avoided:    0
+
+Source          Group           RpfIface         RpfAddress      RibNextHop      Metric Pref
+
+show ip pim join
+================
+Interface        Address         Source          Group           State      Uptime   Expire Prune
+

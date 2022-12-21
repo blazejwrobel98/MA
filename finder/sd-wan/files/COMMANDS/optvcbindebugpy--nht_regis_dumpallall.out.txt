@@ -1,0 +1,2 @@
+Address   Netmask  Next Hop ID  Dst LogicalId  Intf  Sub IntfId  Next Hop IP  Reachability  Clients  SEG
+B - BGP, P - PIM, b - BFD

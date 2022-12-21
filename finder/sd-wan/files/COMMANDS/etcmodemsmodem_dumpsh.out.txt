@@ -1,0 +1,3 @@
+modem config: 
+CELL1: status Error:LTE for EDGE620 not implemented
+CELL2: status Error:LTE for EDGE620 not implemented

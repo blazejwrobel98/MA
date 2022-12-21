@@ -1,0 +1,6 @@
+#!/bin/sh
+iptables -t mangle -N LOGGING
+iptables -t mangle -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1320
+iptables -I reject 1 -p tcp --dport 179 -j DROP
+iptables -I reject 2 -p tcp --sport 179 -j DROP
+ip6tables -C POSTROUTING -t mangle -p icmpv6 --icmpv6-type neighbor-solicitation -s :: -j MARK --set-mark 32 || ip6tables -I POSTROUTING -t mangle -p icmpv6 --icmpv6-type neighbor-solicitation -s :: -j MARK --set-mark 32

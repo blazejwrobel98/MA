@@ -1,0 +1,9 @@
+2022-08-02T14:16:50.119 INFO    [nyansastats (6227:MainThread:6227)] Analytics thread initiates URL: tcp://localhost:9001
+2022-08-02T14:16:50.296 INFO    [nyansastats (6227:MainThread:6227)] Request for configuring analytics settings
+2022-08-02T14:16:50.297 INFO    [nyansastats (6227:MainThread:6227)] Set analytics mode: SDWAN_ONLY
+2022-08-02T14:16:50.297 ERROR   [nyansastats (6227:MainThread:6227)] Failed to start Analytics thread: ValueError('Analytic Mode disabled',)
+2022-08-02T14:24:19.061 INFO    [nyansastats (6227:MainThread:6227)] Analytics thread is not running
+2022-08-02T14:24:24.499 INFO    [nyansastats (15926:MainThread:15926)] Analytics thread initiates URL: tcp://localhost:9001
+2022-08-02T14:24:24.659 INFO    [nyansastats (15926:MainThread:15926)] Request for configuring analytics settings
+2022-08-02T14:24:24.659 INFO    [nyansastats (15926:MainThread:15926)] Set analytics mode: SDWAN_ONLY
+2022-08-02T14:24:24.659 ERROR   [nyansastats (15926:MainThread:15926)] Failed to start Analytics thread: ValueError('Analytic Mode disabled',)

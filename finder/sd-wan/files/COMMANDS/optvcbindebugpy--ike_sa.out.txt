@@ -1,0 +1,23 @@
+IKE SA
+======================================================================================================================================================
+Index    IkeSaId  Cookie  IKE     Flags        Dir         NAT  Auth  DH_Group       PFS                        Ike Spi/Cookie              PeerAddr   State         Secs
+30      c5183644  0x306f   v2  0100081d  initiator  local peer   RSA        14  disabled  {9a2a2082a8139272 57b566e5b53645bf}    136.144.97.32[2426]  MAIN_I  65607/86400
+38      c51837af  0x31da   v2  0100081d  initiator  local peer   RSA        14  disabled  {e484ee8ac6a60497 268d86821e796f58}   81.252.217.125[2426]  MAIN_I     16/86400
+56      c5181a1b  0x109f   v2  0100080d  initiator  local peer   RSA        14  disabled  {b0fd205e3a640d65 68ba873d6b4d27c0}      10.72.70.18[2426]  MAIN_I   4190/86400
+62      c51837b0  0x31db   v2  0100081d  initiator  local peer   RSA        14  disabled  {ae5a645b30838b20 d8da8d27ab4a01c5}     10.255.64.22[2426]  MAIN_I     16/86400
+66      c518088e   0x2cc   v2  00000809  responder  local peer   RSA        14  disabled  {41b5c8a7928ad454 27ad8fccfdccd775}      10.255.64.2[2426]  MAIN_R  71844/86400
+69      c51837ad  0x31d8   v2  0110081d  initiator  local peer   RSA        14  disabled  {d9350878c22b94df c53eafccb99ad9d4}   107.167.192.79[2426]  MAIN_I    191/86400
+73      c518088d   0x2cb   v2  00000809  responder  local peer   RSA        14  disabled  {24c1fcd6a63e0af2 77da837d63372f0d}   213.212.40.117[2426]  MAIN_R  71845/86400
+74      c51834e1  0x2f0c   v2  0100080d  initiator  local peer   RSA        14  disabled  {6915f1d7bbb00a83 6954fad6c04e0a1f}   141.81.167.206[2426]  MAIN_I  36598/86400
+76      c51835b5  0x2fe1   v2  0100080d  initiator  local peer   RSA        14  disabled  {0279e921d5f19013 32692fa22fe1e291}   136.144.103.35[2426]  MAIN_I   1550/86400
+78      c51835b7  0x2fe3   v2  0100080d  initiator  local peer   RSA        14  disabled  {bf8aaeb492450634 638bb3a1f9f59027}   136.144.105.42[2426]  MAIN_I   1547/86400
+80      c5181ab4  0x109b   v2  0100080d  initiator  local peer   RSA        14  disabled  {a0922a4175f282e8 5c7c2a1947e43abb}   136.144.103.35[2426]  MAIN_I  69696/86400
+104     c51837ae  0x31d9   v2  0110081d  initiator  local peer   RSA        14  disabled  {3e5ef64da1195712 60ceca38bf008097}      10.255.80.6[2426]  MAIN_I    191/86400
+111     c518364e  0x3079   v2  0100081d  initiator  local peer   RSA        14  disabled  {c2248c68f674c229 02d35efafb82e6a4}    136.144.97.32[2426]  MAIN_I  65429/86400
+112     c51832aa  0x2cd7   v2  0100080d  initiator  local peer   RSA        14  disabled  {95a320d9740a7050 e0842879a456e502}       10.71.70.3[2426]  MAIN_I  54618/86400
+121     c5183323    0x12   v2  0100000d  initiator       local   PSK        14        14  {f3a57f6e0a9bcfa9 5eebd6a723255588}   165.225.206.48[4500]  MAIN_I  28710/86400
+127     c5183324  0x2d50   v2  0100000d  initiator       local   PSK        14        14  {92119eeb15e9f566 cc0aaeaad55e4188}   165.225.206.48[4500]  MAIN_I  28554/86400
+131     c51832a9  0x2cd9   v2  0100080d  initiator  local peer   RSA        14  disabled  {03db9aa81ec3148c 5d6c5fb37b64fc78}       10.72.70.2[2426]  MAIN_I  54683/86400
+135     c51834e3  0x2f0e   v2  0100080d  initiator  local peer   RSA        14  disabled  {941418068854b510 46ead88a850baa03}   136.144.105.42[2426]  MAIN_I  36587/86400
+181     c5181a1c  0x109d   v2  0100080d  initiator  local peer   RSA        14  disabled  {648527892b231732 9b9f250faa35570b}      10.71.70.19[2426]  MAIN_I   4190/86400
+190     c51833ce  0x243d   v2  0100080d  initiator  local peer   RSA        14  disabled  {e3d98beba9cd3881 e5c063b5aab3ec6f}   141.81.168.205[2426]  MAIN_I  80754/86400

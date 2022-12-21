@@ -1,0 +1,6 @@
+sh bgp vrf all summary
+======================
+
+Instance [vc:0:1]:
+% No BGP neighbors found
+

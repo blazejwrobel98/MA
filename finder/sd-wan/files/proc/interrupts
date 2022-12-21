@@ -1,0 +1,58 @@
+           CPU0       CPU1       CPU2       CPU3       
+  0:         44          0          0          0   IO-APIC   2-edge      timer
+  8:          1          0          0          0   IO-APIC   8-edge      rtc0
+  9:          0          0          0          0   IO-APIC   9-fasteoi   acpi
+ 16:   32456200          0          0          0   IO-APIC  16-fasteoi   mmc0, ttyS0
+ 17:         35          0          0          0   IO-APIC  17-fasteoi   ttyS1
+ 23:          8          0          0          0   IO-APIC  23-fasteoi   INTC3000:00, i801_smbus
+ 24:          0          0          0          0   PCI-MSI 98304-edge      aerdrv, PCIe PME
+ 25:          0          0          0          0   PCI-MSI 180224-edge      aerdrv, PCIe PME
+ 26:          0          0          0          0   PCI-MSI 245760-edge      aerdrv, PCIe PME
+ 27:          0          0          0          0   PCI-MSI 360448-edge      aerdrv, PCIe PME
+ 28:          0          0          0          0   PCI-MSI 376832-edge      aerdrv, PCIe PME
+ 34:        396          0          0          0   PCI-MSI 311301-edge      ahci5
+ 37:          0          0          0          0   PCI-MSI 344064-edge      xhci_hcd
+ 38:    1003904          0          0          0   PCI-MSI 294912-edge      ismt-msi
+ 39:          0          0          0          0   PCI-MSI 524288-edge      qat0-bundle0
+ 40:          0          0          0          0   PCI-MSI 524289-edge      UIO_c3xxx_00_BUNDLE_00
+ 41:          0          0          0          0   PCI-MSI 524290-edge      UIO_c3xxx_00_BUNDLE_01
+ 42:          0          0          0          0   PCI-MSI 524291-edge      UIO_c3xxx_00_BUNDLE_02
+ 43:          0          0          0          0   PCI-MSI 524292-edge      UIO_c3xxx_00_BUNDLE_03
+ 44:          0          0          0          0   PCI-MSI 524293-edge      UIO_c3xxx_00_BUNDLE_04
+ 45:          0          0          0          0   PCI-MSI 524294-edge      UIO_c3xxx_00_BUNDLE_05
+ 46:          0          0          0          0   PCI-MSI 524295-edge      UIO_c3xxx_00_BUNDLE_06
+ 47:          0          0          0          0   PCI-MSI 524296-edge      UIO_c3xxx_00_BUNDLE_07
+ 48:          0          0          0          0   PCI-MSI 524297-edge      UIO_c3xxx_00_BUNDLE_08
+ 49:          0          0          0          0   PCI-MSI 524298-edge      UIO_c3xxx_00_BUNDLE_09
+ 50:          0          0          0          0   PCI-MSI 524299-edge      UIO_c3xxx_00_BUNDLE_10
+ 51:          0          0          0          0   PCI-MSI 524300-edge      UIO_c3xxx_00_BUNDLE_11
+ 52:          0          0          0          0   PCI-MSI 524301-edge      UIO_c3xxx_00_BUNDLE_12
+ 53:          0          0          0          0   PCI-MSI 524302-edge      UIO_c3xxx_00_BUNDLE_13
+ 54:          0          0          0          0   PCI-MSI 524303-edge      UIO_c3xxx_00_BUNDLE_14
+ 55:          0          0          0          0   PCI-MSI 524304-edge      qat0-ae-cluster
+ 56:          1          0          0          0   PCI-MSI 1048576-edge      igb_uio
+ 57:          0          0          0          0   PCI-MSI 1050624-edge      igb_uio
+ 58:          3          0          0          0   PCI-MSI 1052672-edge      igb_uio
+ 59:          0          0          0          0   PCI-MSI 2621440-edge      igb_uio
+ 60:          0          0          0          0   PCI-MSI 2623488-edge      igb_uio
+ 61:          0          0          0          0   PCI-MSI 3670016-edge      igb_uio
+ 62:          1          0          0          0   PCI-MSI 3672064-edge      igb_uio
+ 95:         26          0          0          0   PCI-MSI 2097152-edge      ath10k_pci
+NMI:          0          0          0          0   Non-maskable interrupts
+LOC: 3643019901 2374790764 3882577185 2088288706   Local timer interrupts
+SPU:          0          0          0          0   Spurious interrupts
+PMI:          0          0          0          0   Performance monitoring interrupts
+IWI:        812        689        692        712   IRQ work interrupts
+RTR:          0          0          0          0   APIC ICR read retries
+RES:  509076775   28783544  458904379  206432650   Rescheduling interrupts
+CAL: 2030102953    3056025 4045818445 1576721277   Function call interrupts
+TLB:     390147    3047133     701812     711271   TLB shootdowns
+TRM:          0          0          0          0   Thermal event interrupts
+THR:          0          0          0          0   Threshold APIC interrupts
+MCE:          0          0          0          0   Machine check exceptions
+MCP:       4167       4167       4167       4167   Machine check polls
+ERR:          0
+MIS:          0
+PIN:          0          0          0          0   Posted-interrupt notification event
+NPI:          0          0          0          0   Nested posted-interrupt event
+PIW:          0          0          0          0   Posted-interrupt wakeup event

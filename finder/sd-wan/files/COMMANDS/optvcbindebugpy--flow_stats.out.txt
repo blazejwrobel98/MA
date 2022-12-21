@@ -1,0 +1,13 @@
+Path                           Total Flows  TCP Flows  UDP Flows  ICMP Flows  Other Flows
+Edge2CloudViaGateway              37015164   36207433     680387      127345            0
+Edge2CloudDirect                        93          1          0          92            0
+Edge2EdgeViaGateway                      0          0          0           0            0
+Edge2EdgeViaHub                       1141       1128         12           1            0
+Edge2EdgeDirect                       7547       -799       8470          -4            0
+Edge2DataCenterDirect                    0          0          0           0            0
+Edge2DataCenterViaGateway                0          0          0           0            0
+Edge2Backhaul                         -390       -307        -83           0            0
+Edge2Proxy                               0          0          0           0            0
+Edge2OPG                                 0          0          0           0            0
+Routed                                   0          0          0           0            0
+Edge2CloudViaSecurityService          1415       1171        243           1            0

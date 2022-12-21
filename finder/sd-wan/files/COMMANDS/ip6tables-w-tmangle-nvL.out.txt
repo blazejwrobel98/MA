@@ -1,0 +1,19 @@
+Chain PREROUTING (policy ACCEPT 368 packets, 20648 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  370 20800 VCMP_MARK_ACL  all      *      *       ::/0                 ::/0                
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 746 packets, 38800 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 746 packets, 38800 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    1    72 MARK       icmpv6    *      *       ::                   ::/0                 ipv6-icmptype 135 MARK set 0x20
+
+Chain VCMP_MARK_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         

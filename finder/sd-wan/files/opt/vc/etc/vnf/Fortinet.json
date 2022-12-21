@@ -1,0 +1,30 @@
+{
+    "type": "fg",
+    "name": "fg",
+    "mem":  4096,
+    "cpu": 2,
+    "drive" : [{
+        "path": "fortios.qcow2",
+        "sha1": "bfc5311f0fd23a239b22006a0a31e41702d53c14"
+    }],
+    "config" : {
+        "files" : [{
+            "path" : "openstack/latest/user_data",
+            "url"  : "file:///opt/vc/etc/vnf/Fortinet/user_data"
+        },{
+	    "path" : "openstack/content/0000",
+	    "url"  : "file:///opt/vc/etc/vnf/Fortinet/0000"
+	}],
+        "data" : {
+            "vendorSpecificData": {
+                "vmConfiguration" : {
+                    "adminPassword" : "admin"
+                }
+            }
+        }
+    },
+    "model" : {
+        "edge520-v" : { "mem" : 2048 },
+        "edge620" : { "mem" : 2048 }
+    }
+}

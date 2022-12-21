@@ -1,0 +1,37 @@
+[
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "13e5ce0a-d2c1-11ec-bafa-02a808da1510"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "b1f756e1-956e-11ec-b518-02a808da1510"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "4cbebae6-c467-11eb-929b-02a808da1510"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "36cf415c-d909-11eb-929b-02a808da1510"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "00000000-0000-0000-0000-000000000000"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "ff09d8cc-14b9-11ec-ab12-02a808da1510"
+  }, 
+  {
+    "DE2E Isolation ON Segments": "", 
+    "Isolation ON Segments": "", 
+    "Profile Id": "47abcf02-4196-11ec-93df-02a808da1510"
+  }
+]

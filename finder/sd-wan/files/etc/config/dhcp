@@ -1,0 +1,52 @@
+config dnsmasq secure
+	option bind_dynamic 1
+	option domainneeded 1
+	option boguspriv 1
+	option filterwin2k 0
+	option localise_queries 1
+	option rebind_protection 0
+	option rebind_localhost 1
+	option local '/lan/'
+	option domain 'lan'
+	option expandhosts 1
+	option noresolv 1
+	option nonegcache 1
+	option authoritative 1
+	option readethers 1
+	option dnsforwardmax 500
+	option dhcpleasemax 5000
+	option dhcpnooverride 1
+	option leasefile '/tmp/dhcp.leases.secure'
+	# Provider: Google
+	list server '8.8.8.8'
+	list server '8.8.4.4'
+	# Provider: VeloCloud escape net
+	list server '/velocloud.net/8.8.8.8'
+	list server '/velocloud.net/8.8.4.4'
+	list server '/nyansa.com/8.8.8.8'
+	list server '/nyansa.com/8.8.4.4'
+	list interface network1
+	list interface GE5_400
+	list interface vce1
+	list interface lo
+
+config dhcp network1
+	option interface network1
+	option dnsmasq_config 'secure'
+	option start 13
+	option limit 242
+	option leasetime 86400
+	option force 1
+	list dhcp_option 119,velocloud.net,nyansa.com
+
+config dhcp GE5_400
+	option interface GE5_400
+	option dnsmasq_config 'secure'
+	option start 10
+	option limit 190
+	option leasetime 3600
+	option force 1
+	list dhcp_option 6,'8.8.8.8'
+	list dhcp_option 6,'8.8.4.4'
+	list dhcp_option 119,velocloud.net,nyansa.com
+

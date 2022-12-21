@@ -1,0 +1,100 @@
+{
+  "edge_peers": [
+    {
+      "peer_id": "37e9e477-b6e5-46a4-9741-f9f871f46293", 
+      "segment_id": 0, 
+      "subnet_count": 2, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "523da38f-4998-4654-8d9b-d23c10cb47c4", 
+      "segment_id": 0, 
+      "subnet_count": 6, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "3d78d354-6be3-439e-bdad-3658df51aa51", 
+      "segment_id": 0, 
+      "subnet_count": 1, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "6924de2e-d43c-44e5-bdf3-15e70052305b", 
+      "segment_id": 0, 
+      "subnet_count": 5, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "0503e23e-7641-4828-b982-a9027c105e44", 
+      "segment_id": 0, 
+      "subnet_count": 2, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "e6d2b154-ae24-4f38-b03e-3a7c72d5c6e8", 
+      "segment_id": 0, 
+      "subnet_count": 2, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "507a5f88-21be-4856-b2dc-1328cd0b8ba4", 
+      "segment_id": 0, 
+      "subnet_count": 1, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "5af5fd99-8bd6-4d94-a581-bf3db611baaa", 
+      "segment_id": 0, 
+      "subnet_count": 1, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "68745f57-74c5-4861-ae02-fbee15671d4a", 
+      "segment_id": 0, 
+      "subnet_count": 53, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "07fe0dea-c7de-4306-8d40-d8fb28ef29fa", 
+      "segment_id": 0, 
+      "subnet_count": 36, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "57450d7b-94b8-4681-89f3-3820927101b8", 
+      "segment_id": 0, 
+      "subnet_count": 1, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "33071481-dba7-4ed6-a63c-abf40dca73f1", 
+      "segment_id": 0, 
+      "subnet_count": 2, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "f41b5798-c16e-44bc-adc9-b9b402f1b50f", 
+      "segment_id": 0, 
+      "subnet_count": 2, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "ff110adf-3487-41c9-b3d3-6826e5cab08a", 
+      "segment_id": 0, 
+      "subnet_count": 4, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "016b9fda-c608-4c42-8b22-81b5c3ba0fb9", 
+      "segment_id": 0, 
+      "subnet_count": 5, 
+      "type": 1
+    }, 
+    {
+      "peer_id": "379a9f73-4cb0-44f8-8e68-19e4a7c24fcd", 
+      "segment_id": 0, 
+      "subnet_count": 5, 
+      "type": 1
+    }
+  ]
+}

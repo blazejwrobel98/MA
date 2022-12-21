@@ -1,0 +1,1 @@
+Interface   COS ID  PeerName  PublicIpAddr  PeerIpAddr  Version  Path State  RxState  TxState  AvgLatencyRx  AvgLatencyTx  RxJitter  TxJitter  lossRx  lossTx  Precedence  COS Name

@@ -1,0 +1,8 @@
+default via 85.128.72.177 dev ge3  proto static  metric 5 
+default via 10.255.64.5 dev ge4  proto static  metric 6 
+10.239.31.248/29 dev ge5.900  proto kernel  scope link  src 10.239.31.249 
+10.255.64.4/30 dev ge4  proto kernel  scope link  src 10.255.64.6 
+85.128.72.176/28 dev ge3  proto kernel  scope link  src 85.128.72.178 
+169.254.2.0/24 dev ge1  proto kernel  scope link  src 169.254.2.1 
+169.254.129.1 dev vce1  proto kernel  scope link  src 169.254.130.9 
+192.168.0.0/22 dev ge5.400  proto kernel  scope link  src 192.168.0.1 

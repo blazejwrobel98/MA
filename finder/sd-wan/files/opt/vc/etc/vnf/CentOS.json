@@ -1,0 +1,23 @@
+{
+    "type": "centos",
+    "name": "centos",
+    "mem":  4096,
+    "cpu": 2,
+    "drive" : [{
+        "path": "CentOS.qcow2",
+        "sha1": "38704e06f14a8318222d5035cb2868bd6a99b248"
+    }],
+    "config" : {
+        "label" : "cidata",
+        "files" : [{
+            "path" : "user-data",
+            "url"  : "file:///opt/vc/etc/vnf/CentOS/user-data"
+        },{
+            "path" : "meta-data",
+            "url"  : "file:///opt/vc/etc/vnf/CentOS/meta-data"
+        }],
+        "data" : {
+            "password" : "qwerty123"
+        }
+    }
+}

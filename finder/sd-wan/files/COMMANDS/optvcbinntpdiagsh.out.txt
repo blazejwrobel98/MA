@@ -1,0 +1,67 @@
+==== listpeers ====
+
+131.234.220.231  time1.uni-paderborn.de
+193.158.22.13    193.158.22.13
+85.214.133.14    byggvir.de
+5.1.73.2         ntp.creoline.net
+
+==== peer details ====
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
++time1.uni-pader .DCF.            1 u  452 1024  377   34.308   +1.838   0.204
+*193.158.22.13   .MBGh.           1 u  444 1024  377   31.731   -0.060   0.224
+-byggvir.de      131.188.3.220    2 u  162 1024  377   40.965   -4.181   0.126
++ntp.creoline.ne 131.188.3.222    2 u  198 1024  377   25.561   -0.449   0.179
+
+     remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
++131.234.220.231 .DCF.            1 u  452 1024  377   34.308   +1.838   0.204
+*193.158.22.13   .MBGh.           1 u  444 1024  377   31.731   -0.060   0.224
+-85.214.133.14   131.188.3.220    2 u  162 1024  377   40.965   -4.181   0.126
++5.1.73.2        131.188.3.222    2 u  198 1024  377   25.561   -0.449   0.179
+
+==== timerstats ====
+
+time since reset:    1364944
+timer overruns:      0
+calls to transmit:   0
+
+==== sysinfo ====
+
+associd=0 status=0618 leap_none, sync_ntp, 1 event, no_sys_peer,
+system peer:        193.158.22.13:123
+system peer mode:   client
+leap indicator:     00
+stratum:            2
+log2 precision:     -23
+root delay:         31.731
+root dispersion:    39.880
+reference ID:       193.158.22.13
+reference time:     e6a87e2a.0a3f0607  Thu, Aug 18 2022  9:00:26.040
+system jitter:      1.783948
+clock jitter:       0.192
+clock wander:       0.024
+broadcast delay:    -50.000
+symm. auth. delay:  0.000
+
+==== kerninfo ====
+
+associd=0 status=0618 leap_none, sync_ntp, 1 event, no_sys_peer,
+pll offset:            0.262112
+pll frequency:         -19.5771
+maximum error:         795.371
+estimated error:       0.192
+kernel status:         pll nano
+pll time constant:     10
+precision:             1e-06
+frequency tolerance:   500
+pps frequency:         0
+pps stability:         0
+pps jitter:            0
+calibration interval   0
+calibration cycles:    0
+jitter exceeded:       0
+stability exceeded:    0
+calibration errors:    0
+

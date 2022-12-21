@@ -1,0 +1,21 @@
+{
+    "type": "dummy",
+    "name": "dummy",
+    "mem":  2048,
+    "cpu": 1,
+    "state" : "active",
+    "cdrom" : [{
+        "path": "dummy.iso",
+        "sha1" : "e817a10df1c40e30cb905de23456d4f5f38ecdd2"
+    }],
+    "config" : {
+        "files" : [{
+            "path" : "openstack/latest/user_data",
+            "url"  : "file:///opt/vc/etc/vnf/dummy/user_data",
+            "sha1" : "342c2b3506231bf8b55952ce8befa7317ddd3359"
+        }]
+    },
+    "model" : {
+        ".*" :  { "mem" : 512 }
+    }
+}

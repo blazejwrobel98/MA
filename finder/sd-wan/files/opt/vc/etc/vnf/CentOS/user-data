@@ -1,0 +1,26 @@
+#cloud-config
+hostname: {{ hostname }}
+user: admin
+password: admin
+manage_etc_hosts: true
+disable_root: false
+ssh_pwauth: True
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWfkKewI6n7mO4UNGg/vKwkC/dUcOnzUsygvyeUTlyL5FH1hmR7Dn+Ax+c2VNBHEQuPJupVeEmQ7uBOw+X+hLl8je35GCuPQL1otqPs1TYnMx7gSBYK1BgmbxgQ0uU693QSMeFJtlRMEUYXtPXF6qpA33XSU3+4vHNIfb48CeDnwn9sAvlZs7MgPbUGC7+R+twjgTHT4vIJGdwZdAJc6JARBmfyFPikC7Dlo3QHBIbk9NP2DlRWRobm2sG27MFgneY+whc9+jVWjOKqXwIzZrxBXK5Q30dHwrG6YLxYwh9fAVrF19n/334nygdhhlmGHJLbpXZUZe0oV7/97T1QRbD vegorov@htb-1n-eng-dhcp431.eng.vmware.com
+chpasswd:
+  list: |
+     root:admin
+  expire: False
+write_files:
+-   content: |
+        #!/bin/bash
+        ip link add name br0 type bridge
+        ip link set eth1 master br0
+        ip link set eth2 master br0
+        ip link set br0 up
+        ip link set eth1 up
+        ip link set eth2 up
+    path: /etc/rc.local
+    permissions: '0777'
+runcmd:
+ - [ /etc/rc.local ]

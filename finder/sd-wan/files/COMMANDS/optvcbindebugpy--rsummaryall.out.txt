@@ -1,0 +1,46 @@
+[
+  {
+    "rsummary": {
+      "cloud_routes": 4, 
+      "dc_routes": 0, 
+      "e2dc_routes": 0, 
+      "e2e_bgp_routes": 89, 
+      "e2e_ospf_routes": 0, 
+      "e2e_static_routes": 63, 
+      "local_bgp_routes": 0, 
+      "local_connected_routes": 7, 
+      "local_connected_routes6": 0, 
+      "local_mgmt_routes": 1, 
+      "local_ospf_routes": 0, 
+      "local_static_routes": 1, 
+      "local_static_routes6": 0, 
+      "pg_bgp_routes": 0, 
+      "pg_static_routes": 0, 
+      "total_routes": 165, 
+      "unknown_routes": 0
+    }, 
+    "segment_id": 0
+  }, 
+  {
+    "rsummary": {
+      "cloud_routes": 3, 
+      "dc_routes": 0, 
+      "e2dc_routes": 0, 
+      "e2e_bgp_routes": 0, 
+      "e2e_ospf_routes": 0, 
+      "e2e_static_routes": 0, 
+      "local_bgp_routes": 0, 
+      "local_connected_routes": 6, 
+      "local_connected_routes6": 0, 
+      "local_mgmt_routes": 0, 
+      "local_ospf_routes": 0, 
+      "local_static_routes": 0, 
+      "local_static_routes6": 0, 
+      "pg_bgp_routes": 0, 
+      "pg_static_routes": 0, 
+      "total_routes": 9, 
+      "unknown_routes": 0
+    }, 
+    "segment_id": 1
+  }
+]

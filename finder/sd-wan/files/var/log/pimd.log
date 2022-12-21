@@ -1,0 +1,47 @@
+2022/08/02 14:24:30 PIM:  in zclient_socket
+2022/08/02 14:24:40 PIM:  in zclient_socket
+2022/08/02 14:26:00 PIM: pim_zebra_if_address_add: GE1(0) connected IP address 169.254.2.1/24 flags 0 primary
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 addresses:
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.2 primary
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.1 primary
+2022/08/02 14:26:00 PIM: pim_zebra_if_address_add: GE1 : forcing secondary flag on 169.254.2.1/24
+2022/08/02 14:26:00 PIM: pim_zebra_if_address_add: GE1(0) connected IP address 169.254.2.1/24 flags 0 primary
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 addresses:
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.2 primary
+2022/08/02 14:26:00 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.1 primary
+2022/08/02 14:26:00 PIM: pim_zebra_if_address_add: GE1 : forcing secondary flag on 169.254.2.1/24
+2022/08/02 14:26:01 PIM: pim_zebra_if_address_add: vce1(0) connected IP address 169.254.129.1/17 flags 0 primary
+2022/08/02 14:26:01 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 addresses:
+2022/08/02 14:26:01 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 address 169.254.129.1 primary
+2022/08/02 14:26:01 PIM: pim_zebra_if_address_add: vce1(0) connected IP address 169.254.129.1/17 flags 0 primary
+2022/08/02 14:26:01 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 addresses:
+2022/08/02 14:26:01 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 address 169.254.129.1 primary
+2022/08/02 14:26:14 PIM: pim_zebra_if_state_down: GE1 index 3(0) flags 4098 metric 1 mtu 1500 operative 0
+2022/08/02 14:26:14 PIM: pim_zebra_if_state_down: GE1 is not pim enabled
+2022/08/02 14:26:18 PIM: pim_zebra_if_state_up: GE1 index 3(0) flags 69699 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:18 PIM: pim_zebra_if_add: GE1 index 3(0) flags 69699 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:18 PIM: pim_zebra_if_address_add: GE1(0) connected IP address 169.254.2.1/24 flags 0 primary
+2022/08/02 14:26:18 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 addresses:
+2022/08/02 14:26:18 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.2 primary
+2022/08/02 14:26:18 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE1 address 169.254.2.1 primary
+2022/08/02 14:26:18 PIM: pim_zebra_if_address_add: GE1 : forcing secondary flag on 169.254.2.1/24
+2022/08/02 14:26:40 PIM: pim_zebra_if_add: GE4 index 2(0) flags 4098 metric 1 mtu 1500 operative 0
+2022/08/02 14:26:40 PIM: pim_zebra_if_address_add: GE4(0) connected IP address 10.255.64.6/30 flags 0 primary
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 addresses:
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 address 10.255.64.6 primary
+2022/08/02 14:26:40 PIM: pim_zebra_if_state_up: GE4 index 2(0) flags 4163 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:40 PIM: pim_zebra_if_add: GE4 index 2(0) flags 4163 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:40 PIM: pim_zebra_if_address_add: GE4(0) connected IP address 10.255.64.6/30 flags 0 primary
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 addresses:
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 address 10.255.64.6 primary
+2022/08/02 14:26:40 PIM: pim_zebra_if_state_up: GE4 index 2(0) flags 4163 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:40 PIM: pim_zebra_if_add: GE4 index 2(0) flags 4163 metric 1 mtu 1500 operative 1
+2022/08/02 14:26:40 PIM: pim_zebra_if_address_add: GE4(0) connected IP address 10.255.64.6/30 flags 0 primary
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 addresses:
+2022/08/02 14:26:40 PIM: ../pimd/pim_zebra.c dump_if_address: interface GE4 address 10.255.64.6 primary
+2022/08/08 16:17:09 PIM: pim_zebra_if_address_add: vce1(0) connected IP address 169.254.129.1/17 flags 0 primary
+2022/08/08 16:17:09 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 addresses:
+2022/08/08 16:17:09 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 address 169.254.129.1 primary
+2022/08/08 16:17:09 PIM: pim_zebra_if_address_add: vce1(0) connected IP address 169.254.129.1/17 flags 0 primary
+2022/08/08 16:17:09 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 addresses:
+2022/08/08 16:17:09 PIM: ../pimd/pim_zebra.c dump_if_address: interface vce1 address 169.254.129.1 primary

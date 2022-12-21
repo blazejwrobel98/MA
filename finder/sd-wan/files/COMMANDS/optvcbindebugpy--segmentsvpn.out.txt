@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0, 
+    "name": "Global Segment", 
+    "vpn": [
+      {
+        "cg_enabled": "no", 
+        "cloud_vpn": "yes", 
+        "de2e enabled": 1, 
+        "de2e timeout": 180, 
+        "de2e_isolation": 0, 
+        "e2dc": "no", 
+        "e2e_enabled": "yes", 
+        "flags": 49, 
+        "flags new": 49, 
+        "hub": [
+          {
+            "config count": 0, 
+            "config list": [], 
+            "count": 2, 
+            "iamhub": 0, 
+            "list": [
+              {
+                "vceid": "fa02eb20-d320-4b46-9113-c760f84a8f05"
+              }, 
+              {
+                "vceid": "07fe0dea-c7de-4306-8d40-d8fb28ef29fa"
+              }, 
+              {
+                "vceid": "68745f57-74c5-4861-ae02-fbee15671d4a"
+              }
+            ]
+          }
+        ], 
+        "hub_enabled": "yes", 
+        "isolation": 0, 
+        "node_order": 0, 
+        "nvs": [
+          {
+            "count": 0, 
+            "count old": 0
+          }
+        ], 
+        "opg_enabled": "no", 
+        "peer_conn": "no", 
+        "profile": 0, 
+        "profile version": 0, 
+        "vcmp responder": 1
+      }
+    ]
+  }, 
+  {
+    "id": 1, 
+    "name": "AAGuest", 
+    "vpn": [
+      {
+        "cg_enabled": "no", 
+        "cloud_vpn": "yes", 
+        "de2e enabled": 0, 
+        "de2e timeout": 0, 
+        "de2e_isolation": 0, 
+        "e2dc": "no", 
+        "e2e_enabled": "no", 
+        "flags": 1, 
+        "flags new": 1, 
+        "hub": [
+          {
+            "config count": 0, 
+            "config list": [], 
+            "count": 0, 
+            "iamhub": 0, 
+            "list": []
+          }
+        ], 
+        "hub_enabled": "no", 
+        "isolation": 0, 
+        "node_order": 0, 
+        "nvs": [
+          {
+            "count": 0, 
+            "count old": 0
+          }
+        ], 
+        "opg_enabled": "no", 
+        "peer_conn": "no", 
+        "profile": 0, 
+        "profile version": 0, 
+        "vcmp responder": 1
+      }
+    ]
+  }
+]

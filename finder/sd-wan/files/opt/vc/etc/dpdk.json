@@ -1,0 +1,91 @@
+{
+    "status": "Supported", 
+    "enabled": 1, 
+    "rte_mem": 1024, 
+    "netrestart": 1, 
+    "interfaces": [
+        {
+            "intf": "ge3", 
+            "name": [
+                "GE3"
+            ], 
+            "driver": "igb", 
+            "ifindex": 2, 
+            "mac": "f0:8e:db:b7:17:83", 
+            "pci": "0000:02:00.0", 
+            "tx_stall_monitor": 0
+        }, 
+        {
+            "intf": "ge1", 
+            "name": [
+                "HA"
+            ], 
+            "driver": "igb", 
+            "ifindex": 4, 
+            "mac": "18:5a:58:80:85:62", 
+            "pci": "0000:02:00.2", 
+            "tx_stall_monitor": 0
+        }, 
+        {
+            "intf": "ge6", 
+            "name": [
+                "GE6"
+            ], 
+            "driver": "ixgbe", 
+            "ifindex": 8, 
+            "mac": "f0:8e:db:b7:17:86", 
+            "pci": "0000:07:00.0", 
+            "tx_stall_monitor": 0
+        }, 
+        {
+            "intf": "ge5", 
+            "name": [
+                "GE5"
+            ], 
+            "driver": "ixgbe", 
+            "subifs": [
+                "GE5_400", 
+                "GE5_900"
+            ], 
+            "ifindex": 9, 
+            "mac": "f0:8e:db:b7:17:85", 
+            "pci": "0000:07:00.1", 
+            "tx_stall_monitor": 0
+        }, 
+        {
+            "intf": "ge4", 
+            "name": [
+                "GE4"
+            ], 
+            "driver": "igb", 
+            "ifindex": 3, 
+            "mac": "f0:8e:db:b7:17:84", 
+            "pci": "0000:02:00.1", 
+            "tx_stall_monitor": 0
+        }, 
+        {
+            "intf": "sfp2", 
+            "name": [
+                "SFP2"
+            ], 
+            "driver": "ixgbe", 
+            "ifindex": 6, 
+            "mac": "f0:8e:db:b7:17:92", 
+            "pci": "0000:05:00.0", 
+            "tx_stall_monitor": 0, 
+            "flag_detect": 1
+        }, 
+        {
+            "intf": "sfp1", 
+            "name": [
+                "SFP1"
+            ], 
+            "driver": "ixgbe", 
+            "ifindex": 7, 
+            "mac": "f0:8e:db:b7:17:91", 
+            "pci": "0000:05:00.1", 
+            "tx_stall_monitor": 0, 
+            "flag_detect": 1
+        }
+    ]
+}

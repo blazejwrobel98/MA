@@ -1,0 +1,44 @@
+{
+    "type": "pan",
+    "name": "pan",
+    "mem":  4608,
+    "cpu": 2,
+    "drive" : [{
+        "path": "pa710.qcow2",
+        "sha1": "6d0de020bf61861010fdc57d5fe4a7711affcf65"
+    }],
+    "config" : {
+        "label" : "panconf",
+        "dirs"  : ["config", "license", "software", "content"],
+        "files" : [{
+            "path" : "config/init-cfg.txt",
+            "url"  : "file:///opt/vc/etc/vnf/PaloAlto/init-cfg.txt",
+            "sha1" : "a1390c95e8a6fa597218fff21f301065f31ce728"
+        },{
+            "path" : "license/authcodes",
+            "url"  : "file:///opt/vc/etc/vnf/PaloAlto/authcodes",
+            "sha1" : "a3ef85e9c190f9a3c2865b86851eebbfa7ac1e6c"
+        }],
+        "data" : {
+            "cidrIp" : "",
+            "cidrPrefix": 0,
+            "netmask" : "",
+            "gateway" : "",
+            "dns" : "",
+            "dnsSecondary": "",
+            "hostname" : "",
+            "vendorSpecificData": {
+                "authCode": "",
+                "authCodeValidated": "",
+                "authCodeValidationTimeStamp": "",
+                "configTemplateName": "",
+                "deviceGroupName": "",
+                "managementServer": {
+                    "authKey": "",
+                    "primary": "",
+                    "secondary": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1133 @@
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.194  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.195  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.200  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:37.201  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:40.960  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:40.962  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-ge6.pid
+2022-07-25T14:35:40.964  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: udhcpc-ge6.pid
+2022-07-25T14:35:40.966  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:40.968  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:40.971  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:40.973  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:40.976  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:40.977  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:40.980  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:40.985  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:40.987  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-ge6.pid
+2022-07-25T14:35:40.987  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: udhcpc-ge6.pid
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-sfp2.pid
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: udhcpc-sfp2.pid
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-sfp2.pid
+2022-07-25T14:35:41.199  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: udhcpc-sfp2.pid
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-sfp1.pid
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: udhcpc-sfp1.pid
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_inotify_event_print:552 name = udhcpc-sfp1.pid
+2022-07-25T14:35:41.273  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: udhcpc-sfp1.pid
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 48
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 32
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:552 name = dnsmasq-secure.pid
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: dnsmasq-secure.pid
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 48
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 32
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_inotify_event_print:552 name = dnsmasq-secure.pid
+2022-07-25T14:35:41.380  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: dnsmasq-secure.pid
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.157  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.158  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.159  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.160  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.161  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 64
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 32 resp_len: 64
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.162  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.163  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.167  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:35:44.168  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:45.981  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:35:45.992  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.lock
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:29.772  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:35:29.786  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.lock
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:35.095  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:35:35.096  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:35:35.104  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:45.897  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.lock
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:45.904  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.252  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.253  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: snmpd.conf
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_inotify_event_print:552 name = snmpd.conf
+2022-07-25T14:37:49.262  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: snmpd.conf
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:51.079  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.lock
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:51.083  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.state
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.state
+2022-07-25T14:37:51.754  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.state
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: fw3.lock
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_inotify_event_print:552 name = fw3.lock
+2022-07-25T14:37:51.760  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: fw3.lock
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:552 name = edged.sem.lock
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: edged.sem.lock
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:552 name = edged.sem.lock
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: edged.sem.lock
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:57.107  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:552 name = edged.pid
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy0.pid in_event->name: edged.pid
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy1.pid fname_len: 13
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:531 mask = 
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:535 IN_CLOSE_WRITE 
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:548 
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:550 Len = 16
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_inotify_event_print:552 name = edged.pid
+2022-07-25T14:37:57.108  ERR     [DOT1X] dot1x_wlan_config_hdlr:513 fname: wifi-phy1.pid in_event->name: edged.pid
+2022-07-25T14:37:57.316  ERR     [DOT1X] dot1x_wlan_config_hdlr:500 fname: wifi-phy0.pid fname_len: 13
+2022-07-25T14:37:57.316  ERR     [DOT1X] dot1x_wlan_config_hdlr:505 Received event
+2022-07-25T14:37:57.316  ERR     [DOT1X] dot1x_wlan_config_hdlr:508 skip len: 0 resp_len: 32
+2022-07-25T14:37:57.316  ERR     [DOT1X] dot1x_inotify_event_print:527 fd = 1; 

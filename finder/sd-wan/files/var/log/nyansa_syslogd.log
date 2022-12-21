@@ -1,0 +1,9 @@
+2022-08-02T14:16:48.969 INFO [nyansa_syslogd 6180(6198)] Service has been enabled: nyansa_syslogd
+2022-08-02T14:16:48.970 INFO [nyansa_syslogd 6180(6198)] Launching process nyansa_syslogd: /opt/vc/bin/nyansa_syslogd.sh
+2022-08-02T14:16:49.078 INFO [nyansa_syslogd 6180(6198)] Process nyansa_syslogd: pid = 6220
+2022-08-02T14:24:23.183 INFO [nyansa_syslogd 6180(6198)] Process nyansa_syslogd (6220, 6220) returned from wait with retcode -15
+2022-08-02T14:24:23.183 INFO [nyansa_syslogd 6180(6198)] process nyansa_syslogd (pid 6220) completed
+2022-08-02T14:24:23.183 INFO [nyansa_syslogd 6180(6198)] Process nyansa_syslogd stopped during shutdown
+2022-08-02T14:24:23.583 INFO [nyansa_syslogd 15890(15905)] Service has been enabled: nyansa_syslogd
+2022-08-02T14:24:23.586 INFO [nyansa_syslogd 15890(15905)] Launching process nyansa_syslogd: /opt/vc/bin/nyansa_syslogd.sh
+2022-08-02T14:24:23.604 INFO [nyansa_syslogd 15890(15905)] Process nyansa_syslogd: pid = 15924

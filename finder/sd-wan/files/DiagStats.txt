@@ -1,0 +1,218 @@
+TIME             DUR COMPR SIZE ITEM
+------------     --- ---------- ----
+09:25:50.069    0.03       2749 ps -e -ww --forest -opid,ppid,time,etime,vsz,rss,tty,args
+09:25:50.100    0.02        832 pstree -aln
+09:25:50.122    0.54       4364 top -H -n 1 -b
+09:25:50.661    0.03      20361 dmesg
+09:25:50.691    0.02        888 ip addr show
+09:25:50.706    0.14       2691 ss -anp
+09:25:50.842    0.02        251 ip route list
+09:25:50.859    0.02        114 ip -6 route list
+09:25:50.876    0.03       2605 iptables -w -nvL
+09:25:50.905    0.02        819 iptables -w -t nat -nvL
+09:25:50.921    0.02        839 iptables -w -t mangle -nvL
+09:25:50.938    0.03       1710 ip6tables -w -nvL
+09:25:50.966    0.02        341 ip6tables -w -t mangle -nvL
+09:25:50.984    0.04      29236 /opt/vc/bin/dispcnt -a
+09:25:51.026    0.32        855 /opt/vc/bin/ntpdiag.sh
+09:25:51.344    0.03       2607 openssl x509 -in /etc/vc-public/cert.pem -text
+09:25:51.375    0.02       2382 openssl x509 -in /etc/vc-public/vco-ca.pem -text
+09:25:51.395    0.03       2424 openssl crl2pkcs7 -nocrl -certfile /etc/vc-public/vco-ca.pem | openssl pkcs7 -print_certs -text
+09:25:51.424    0.02      10495 openssl crl -in /etc/vc-public/vco-ca-crl.pem -text
+09:25:51.448    0.02       2264 lsmod
+09:25:51.465    0.06        546 blkid
+09:25:51.527    0.02        383 mount
+09:25:51.543    0.07       5952 lspci; lspci -vvv
+09:25:51.615    0.43       1256 lsusb; lsusb -t; lsusb -v
+09:25:52.042    0.02        125 brctl show
+09:25:52.058    0.06       2081 iw list
+09:25:52.119    0.02        224 iw dev wlan0 info
+09:25:52.135    0.04        100 iw dev wlan1 info
+09:25:52.177    0.01          0 iw dev wlan0 station dump
+09:25:52.192    0.06        107 iw dev wlan1 station dump
+09:25:52.249    0.02        500 ip neigh show
+09:25:52.265    0.03        207 find -L /vnf/ -type f -exec ls -la {} +
+09:25:52.290    0.03       4743 conntrack -L
+09:25:52.324    0.03       3957 dmidecode
+09:25:52.355    0.02        276 sensors
+09:25:52.377    0.02        134 ipmitool sel list
+09:25:52.394    0.02          0 mcelog --client
+09:25:52.418    0.93       2286 /opt/vc/bin/dellemc-diags.sh
+09:25:53.349    0.04        141 /etc/modems/modem_dump.sh
+09:25:53.391    0.06        121 /opt/vc/bin/dsl_config.sh sfps show_dsl_data
+09:25:53.448    0.07        158 /opt/vc/sbin/disable_usb.sh -s
+09:25:53.522    0.07        192 /opt/vc/bin/usb_ports_diag.sh
+09:25:53.592    0.56        132 /opt/vc/bin/debug.py --control_bytes
+09:25:54.150    0.53       3249 /opt/vc/bin/debug.py -v --path_stats
+09:25:54.682    0.57       1575 /opt/vc/bin/debug.py -v --link_stats
+09:25:55.249    1.33       1158 /opt/vc/bin/debug.py --path_stats
+09:25:56.578    0.56         85 /opt/vc/bin/debug.py -v --sub_path_stats
+09:25:57.137    1.73     142027 /opt/vc/bin/debug.py --limit=<flow_dump_limit> --timeout 30 --flow_dump all all all
+09:25:58.864    1.36       1095 /opt/vc/bin/debug.py --biz_pol_dump
+09:26:00.229    0.57       3859 /opt/vc/bin/debug.py -v --biz_pol_dump
+09:26:00.802    1.32        764 /opt/vc/bin/debug.py -v --firewall_dump
+09:26:02.119    0.84      58400 /opt/vc/bin/debug.py --user_firewall_dump all all all all all <flow_dump_limit>
+09:26:02.960    0.76        697 /opt/vc/bin/debug.py --dec
+09:26:03.724    0.73        172 /opt/vc/bin/debug.py --jitter
+09:26:04.457    1.59     158580 /opt/vc/bin/debug.py --limit=<flow_dump_limit> --chat_stats <current_apps_path>
+09:26:06.046    0.57        472 /opt/vc/bin/debug.py --clock_sync
+09:26:06.615    0.54        115 /opt/vc/bin/debug.py --cluster_info
+09:26:07.158    0.70      76505 /opt/vc/bin/debug.py --dns_name_cache
+09:26:07.857    0.58       1725 /opt/vc/bin/debug.py --limit=10000 --timeout 30 --nat_dump all orig
+09:26:08.439    0.55        236 /opt/vc/bin/debug.py --limit=10000 --timeout 30 --nat_port_dump
+09:26:08.991    0.56          0 /opt/vc/bin/debug.py --timeout 30 --pnat_1to1 all
+09:26:09.549    0.56        312 /opt/vc/bin/debug.py --segments
+09:26:10.113    0.55        505 /opt/vc/bin/debug.py --segments vpn
+09:26:10.667    0.55        400 /opt/vc/bin/debug.py --segments gateway
+09:26:11.219    0.55        138 /opt/vc/bin/debug.py --segments controller
+09:26:11.769    0.56        208 /opt/vc/bin/debug.py --static_routes
+09:26:12.326    0.56       2271 /opt/vc/bin/debug.py --ike
+09:26:12.883    0.56        616 /opt/vc/bin/debug.py --ike_spd
+09:26:13.440    0.55       1182 /opt/vc/bin/debug.py --ike_sa
+09:26:13.995    0.56       1641 /opt/vc/bin/debug.py --ike_childsa
+09:26:14.559    0.56        214 /opt/vc/bin/debug.py --ike_stalesa
+09:26:15.118    0.55        295 /opt/vc/bin/debug.py --endpoints
+09:26:15.673    0.55        373 /opt/vc/bin/debug.py --dce_edge
+09:26:16.219    0.55        772 /opt/vc/bin/debug.py --handoffq
+09:26:16.773    0.56       6987 /opt/vc/bin/debug.py --timeout 30 --qos_dump_net --logfile <LOGFILE>
+09:26:17.337    0.58       6934 /opt/vc/bin/debug.py --timeout 30 --qos_dump_link --logfile <LOGFILE>
+09:26:17.920    0.53        277 /opt/vc/bin/debug.py --profile_dump
+09:26:18.445    0.56       1280 /opt/vc/bin/debug.py --edge_list
+09:26:19.004    0.68        615 /opt/vc/bin/debug.py --ha verp
+09:26:19.686    0.56        158 /opt/vc/bin/debug.py --ha apath
+09:26:20.246    0.56        444 /opt/vc/bin/debug.py --ha spath
+09:26:20.806    0.56        247 /opt/vc/bin/debug.py --ha tcp
+09:26:21.371    0.56         77 /opt/vc/bin/debug.py --ha ftrack
+09:26:21.929    0.56        644 /opt/vc/bin/debug.py --ha lstate
+09:26:22.487    0.55         82 /opt/vc/bin/debug.py --ha los_state
+09:26:23.042    0.55        152 /opt/vc/bin/debug.py --ha_flow all
+09:26:23.594    0.56        553 /opt/vc/bin/debug.py --verbose_arp_dump
+09:26:24.155    0.56        180 /opt/vc/bin/debug.py --verbose_nd6_dump
+09:26:24.711    0.55        118 /opt/vc/bin/debug.py --ip_sla_dump
+09:26:25.261    0.03       4127 /opt/vc/bin/vcdbgdump -r routes
+09:26:25.289    0.04       5951 /opt/vc/bin/vcdbgdump -r remote_routes
+09:26:25.328    0.56        352 /opt/vc/bin/debug.py --flow_stats
+09:26:25.892    0.57        661 /opt/vc/bin/debug.py --pki
+09:26:26.467    1.72        479 /opt/vc/bin/debug.py --ospfd_dump
+09:26:28.187    0.55        220 /opt/vc/bin/debug.py --limit=16000 --timeout 30 --ospf_redis_dump
+09:26:28.733    0.56         97 /opt/vc/bin/debug.py --ospf_info
+09:26:29.293    0.55        587 /opt/vc/bin/debug.py --edge_peers
+09:26:29.845    0.55        326 /opt/vc/bin/debug.py --de2e_print
+09:26:30.399    0.55        226 /opt/vc/bin/debug.py --hub_list
+09:26:30.951    0.57       1027 /opt/vc/bin/debug.py --interfaces
+09:26:31.516    0.57       1466 /opt/vc/bin/debug.py -v --ifaces
+09:26:32.081    0.57        738 /opt/vc/bin/debug.py --gateways
+09:26:32.653    0.58       2419 /opt/vc/bin/debug.py --pr_dump all
+09:26:33.232    0.57        994 /opt/vc/bin/debug.py --pmtud_dump
+09:26:33.800    1.28       1291 /opt/vc/bin/debug.py --bgpd_dump
+09:26:35.085    0.57        132 /opt/vc/bin/debug.py --uptime
+09:26:35.650    0.69        154 /opt/vc/bin/debug.py --bgp_view_summary
+09:26:36.345    0.57       1414 /opt/vc/bin/debug.py --limit=16000 --timeout 30 --bgp_redis_dump
+09:26:36.914    0.55        201 /opt/vc/bin/debug.py --vrrp_dump
+09:26:37.467    1.50      97343 /opt/vc/bin/debug.py -v --applications
+09:26:38.967    0.56        102 /opt/vc/bin/debug.py --dpdk_bond_dump bond0
+09:26:39.526    0.55        256 /opt/vc/bin/debug.py --dpdk_ports_dump
+09:26:40.080    0.56       2192 /opt/vc/bin/debug.py --dpdk_xstats_dump
+09:26:40.641    0.17       1649 /opt/vc/bin/ethtool_dump.sh
+09:26:40.815    0.20        146 /opt/vc/www/scripts/lua-ajaxPortal-get_init_data.sh
+09:26:41.016    0.56        961 /opt/vc/bin/debug.py --health
+09:26:41.579    0.02        280 /opt/vc/bin/dump_8021x.sh
+09:26:41.600    0.02         95 /opt/vc/bin/mvswdump.sh
+09:26:41.617    0.56        761 /opt/vc/bin/debug.py --verbose --nvs
+09:26:42.174    0.56        101 /opt/vc/bin/debug.py --radius_on_routed
+09:26:42.730    0.55        119 /opt/vc/bin/debug.py --timeout 30 --mcr_dump
+09:26:43.281    3.56        721 /opt/vc/bin/debug.py --timeout 30 --pimd_dump
+09:26:46.836    1.62        240 /opt/vc/bin/debug.py --timeout 30 --igmp_dump
+09:26:48.457    1.13        650 /opt/vc/bin/debug.py --route_event_stats
+09:26:49.586    0.56        203 /opt/vc/bin/debug.py --lan_side_nat
+09:26:50.146    0.56        177 /opt/vc/bin/debug.py --limit=<flow_dump_limit> --timeout 30 --stale_flow_dump all
+09:26:50.708    0.79        123 /opt/vc/bin/debug.py --stale_pi_dump
+09:26:51.500    0.55        137 /opt/vc/bin/debug.py --stale_td_dump
+09:26:52.055    0.57        818 /opt/vc/bin/debug.py -v --qos_net gateway all stats
+09:26:52.624    0.56        673 /opt/vc/bin/debug.py -v --qos_link local stats
+09:26:53.185    0.57        786 /opt/vc/bin/debug.py -v --control_bytes all peer
+09:26:53.750    1.37       2775 /opt/vc/bin/debug.py -v --control_bytes all link
+09:26:55.125    0.56        289 /opt/vc/bin/debug.py --rsummary all
+09:26:55.690    6.92     402010 /opt/vc/bin/debug.py --limit=<flow_dump_limit> --timeout 30 --uflow_dump all all all
+09:27:02.607    0.59         90 /opt/vc/bin/debug.py --vnf
+09:27:03.201    1.75        242 /opt/vc/bin/debug.py --bfdd_dump
+09:27:04.951    0.87        172 /opt/vc/bin/debug.py --bfd_info
+09:27:05.817    1.11        162 /opt/vc/bin/debug.py --denylist_dump
+09:27:06.928    0.54        193 /opt/vc/bin/debug.py --nht_regis_dump all all
+09:27:07.464    1.30        114 /opt/vc/bin/debug.py --bgp_local_ip_dump all all
+09:27:08.765   10.38     105962 dispcnt -s . -s _ -s - -r 3 -t 5
+09:27:19.142    0.02        160 if ls /velocloud/state/*.stack; then tail -n +1 $(ls /velocloud/state/*.stack); fi
+09:27:19.164    0.55        101 /opt/vc/bin/debug.py --cos
+09:27:19.719    0.93        191 /opt/vc/bin/debug.py --sub_path
+09:27:20.647    1.49      14170 /opt/vc/bin/debug.py --app_ip_port_cache
+09:27:22.138    0.00          0 tmp/ge[0-9]*_*
+09:27:22.138    0.00          0 tmp/internet[0-9]*_*
+09:27:22.139    0.00          0 tmp/sfp[0-9]*_*
+09:27:22.139    0.00          0 tmp/dsl/*
+09:27:22.139    0.00        113 tmp/vce[0-9]*_*
+09:27:22.140    0.00        216 tmp/activelinks.json
+09:27:22.140    0.00          0 tmp/cleanup*
+09:27:22.140    0.00          0 tmp/core2[a-z]*
+09:27:22.141    0.00        189 tmp/dhcp.leases.*
+09:27:22.141    0.00        100 tmp/hosts
+09:27:22.142    0.00       1082 tmp/ha*
+09:27:22.144    0.00         56 tmp/health*
+09:27:22.145    0.00         86 tmp/interface-types*
+09:27:22.146    0.00        129 tmp/resolv.conf*
+09:27:22.147    0.00          0 tmp/USB
+09:27:22.147    0.00         63 tmp/.service*
+09:27:22.147    0.00          0 tmp/.uci
+09:27:22.147    0.00          0 var/core/*.core.tgz
+09:27:22.147    0.00          0 var/core/*.core.tbz2
+09:27:22.147    0.00          0 velocloud/core/*.core.tgz
+09:27:22.147    0.00          0 velocloud/core/*.core.tbz2
+09:27:22.148    0.00        453 var/run/*.conf
+09:27:22.148    0.00        615 var/run/*.pid
+09:27:22.152    0.00          0 var/run/*/*.conf
+09:27:22.153    0.00        369 var/run/*/*.pid
+09:27:22.156    0.00        614 var/etc
+09:27:22.157    1.33    3020417 var/log
+09:27:23.488    0.01       1357 var/lock
+09:27:23.499    0.00        183 var/state
+09:27:23.499    0.00          0 var/spool
+09:27:23.500   14.58   19977231 velocloud/log
+09:27:38.081    0.00          0 velocloud/kcore
+09:27:38.081    0.01       4953 velocloud/state
+09:27:38.091    0.11     334947 velocloud/debug/debugmap
+09:27:38.200    0.00          0 velocloud/debug/handoffq
+09:27:38.200    3.90   11673193 velocloud/debug/debugall
+09:27:42.104    4.67   61901274 velocloud/diagtmp/standby.zip
+09:27:46.778    0.00       1088 root/upgrade-log*
+09:27:46.778    0.00        146 etc/inittab
+09:27:46.779    0.00       1068 etc/mtebm*
+09:27:46.780    0.00        176 etc/upgrade-history
+09:27:46.780    0.00        290 etc/openwrt_*
+09:27:46.781    0.00        284 etc/ntp*
+09:27:46.782    0.00        335 etc/pam.d/tac*
+09:27:46.783    0.00        369 etc/tac*
+09:27:46.784    0.00        359 etc/fsw-version.properties
+09:27:46.785    0.00        262 etc/firewall*
+09:27:46.785    0.16    1978020 opt/vc/etc
+09:27:46.948    0.00          0 vnf/instance/state.json
+09:27:46.948    0.00          0 vnf/instance/serial.log
+09:27:46.948    0.00          0 vnf/instance/config
+09:27:46.948    0.03      22168 proc/*info*
+09:27:46.975    0.00       1924 proc/*stat*
+09:27:46.978    0.00       8909 proc/sched_debug
+09:27:46.982    0.00       1035 proc/interrupts
+09:27:46.983    0.00          0 boot/grub/grub.cfg
+09:27:46.983    0.00       1365 boot/boot/grub/grub.cfg
+09:27:46.984    0.00        193 tmp/sfp*
+09:27:46.984    0.00       2521 /opt/vc/bin/vc_qos_view.py
+09:27:46.985    0.06       7902 etc/config
+09:27:47.043    0.28     187389 opt/vc/.*.info
+09:27:47.323    0.01       3224 opt/vc/.*.GOOD
+09:27:47.330    7.50   23807128 opt/vc/sbin/edged
+09:27:54.830    1.05    3428084 usr/sbin/bgpd
+09:27:55.884    0.42    1384361 usr/sbin/ospfd
+09:27:56.303    0.40    1331100 usr/sbin/pimd
+09:27:56.706    0.11     359833 usr/sbin/bfdd
+09:27:56.811    0.05     164251 opt/vc/lib/classifier/libqosmos.so
+09:27:56.859    0.04     125397 opt/vc/bin/dbgctl
+------------    ---- ---------- -----
+09:27:56.909  126.83  130986025 TOTAL

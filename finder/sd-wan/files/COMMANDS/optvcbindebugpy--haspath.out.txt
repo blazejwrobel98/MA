@@ -1,0 +1,79 @@
+[
+  {
+    "my_table_version": -750321338, 
+    "peer_table_version": 760239312, 
+    "which path": "standby"
+  }, 
+  {
+    "Gateway IP": "136.144.97.32", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "2370460752"
+  }, 
+  {
+    "Gateway IP": "136.144.103.35", 
+    "Local IP": "85.128.72.178", 
+    "Logical ID": "c9e3c5a5-8a20-4cbb-b9c6-b60bb5082a26", 
+    "TD version": "1699363807"
+  }, 
+  {
+    "Gateway IP": "10.71.70.19", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "1699370825"
+  }, 
+  {
+    "Gateway IP": "136.144.97.32", 
+    "Local IP": "85.128.72.178", 
+    "Logical ID": "c9e3c5a5-8a20-4cbb-b9c6-b60bb5082a26", 
+    "TD version": "2543600447"
+  }, 
+  {
+    "Gateway IP": "136.144.105.42", 
+    "Local IP": "85.128.72.178", 
+    "Logical ID": "c9e3c5a5-8a20-4cbb-b9c6-b60bb5082a26", 
+    "TD version": "885296685"
+  }, 
+  {
+    "Gateway IP": "136.144.103.35", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "1562927585"
+  }, 
+  {
+    "Gateway IP": "136.144.105.42", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "1564306402"
+  }, 
+  {
+    "Gateway IP": "141.81.168.205", 
+    "Local IP": "85.128.72.178", 
+    "Logical ID": "c9e3c5a5-8a20-4cbb-b9c6-b60bb5082a26", 
+    "TD version": "1048921656"
+  }, 
+  {
+    "Gateway IP": "10.71.70.3", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "3804093416"
+  }, 
+  {
+    "Gateway IP": "10.72.70.2", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "3820382031"
+  }, 
+  {
+    "Gateway IP": "141.81.167.206", 
+    "Local IP": "85.128.72.178", 
+    "Logical ID": "c9e3c5a5-8a20-4cbb-b9c6-b60bb5082a26", 
+    "TD version": "865206165"
+  }, 
+  {
+    "Gateway IP": "10.72.70.18", 
+    "Local IP": "10.255.64.6", 
+    "Logical ID": "c3dba4e5-3de1-4b95-9ce3-6066d0cf37be", 
+    "TD version": "1699378045"
+  }
+]

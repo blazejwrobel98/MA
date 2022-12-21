@@ -1,0 +1,21 @@
+[
+  {
+    "active fd": 596, 
+    "bad_msg": 0, 
+    "ep_qlen": 0, 
+    "flow_floods": 1, 
+    "flow_qlen": 0, 
+    "ha state": "ACTIVE", 
+    "if_qlen": 0, 
+    "ip6addr_qlen": 0, 
+    "lkif_qlen": 0, 
+    "los_qlen": 0, 
+    "rd offset": 0, 
+    "remote fd": 612, 
+    "route_qlen": 0, 
+    "standby fd": 596, 
+    "sync_fail": 0, 
+    "tcp state": "ACCEPTED", 
+    "worker_qlen": 0
+  }
+]

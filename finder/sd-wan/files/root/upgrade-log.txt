@@ -1,0 +1,93 @@
+Invoking upgrade script 00-0-preserve-files.sh
+Upgrading from 4.2.2 R422-20210926-GA-ATT-3d6f4ac3e9 to 4.5.0 R450-20220404-GA-ATT-de78fc2902
+==== Tue Aug 2 14:15:12 UTC 2022 ====
+sending incremental file list
+/etc/
+/etc/lighttpd/
+/etc/lighttpd/ssl/
+/etc/lighttpd/ssl/cert.pem
+etc/hosts
+etc/mactab
+etc/passwd
+etc/rc.local
+etc/shadow
+etc/tacplus.conf
+etc/uipasswd
+etc/upgrade-history
+etc/config/
+etc/config/fstab
+etc/config/interface
+etc/config/mgd
+etc/config/network
+etc/config/snmpd
+etc/ntp/
+etc/ntp/ntp.drift
+etc/pam.d/
+etc/pam.d/tacacs
+etc/ssh/
+etc/ssh/ssh_host_dsa_key
+etc/ssh/ssh_host_dsa_key.pub
+etc/ssh/ssh_host_ecdsa_key
+etc/ssh/ssh_host_ecdsa_key.pub
+etc/ssh/ssh_host_ed25519_key
+etc/ssh/ssh_host_ed25519_key.pub
+etc/ssh/ssh_host_rsa_key
+etc/ssh/ssh_host_rsa_key.pub
+etc/vc-private/
+etc/vc-private/csr.pem
+etc/vc-private/key.pem
+etc/vc-public/
+etc/vc-public/cert.config.json
+etc/vc-public/cert.pem
+etc/vc-public/default_public_ca.certs
+etc/vc-public/vco-ca-crl.pem
+etc/vc-public/vco-ca.pem
+etc/vc-public/backup/
+etc/vc-public/backup/cert.pem
+etc/vc-public/backup/vco-ca.pem
+opt/
+opt/vc/
+opt/vc/.deviceSettings.GOOD
+opt/vc/.edge.info
+root/
+root/.ssh/
+root/.ssh/authorized_keys
+root/.ssh/authorized_keys_ha
+root/.ssh/id_rsa
+root/.ssh/id_rsa.pub
+root/.ssh/known_hosts
+usr/
+usr/lib/
+usr/lib/snmp/
+usr/lib/snmp/snmpd.conf
+
+sent 1,292,267 bytes  received 872 bytes  2,586,278.00 bytes/sec
+total size is 1,288,797  speedup is 1.00
+Merged imageUpdate into /tmp/mnt-root/opt/vc/.edge.info
+Invoking upgrade script 00-2-fix-reboot-helper.sh
+Invoking upgrade script 00-3-activation-pwr-cycle-reboot.sh
+Invoking upgrade script 01-create-hardwareinfo.sh
+Invoking upgrade script 03-create-intfconfig.sh
+Invoking upgrade script 03-create-usbconfig.sh
+Invoking upgrade script 04-fix-ipmi-config.sh
+Invoking upgrade script 05-add-admin-user.sh
+Invoking upgrade script 06-fix-wan-interfaces.sh
+Invoking upgrade script 08-delete-20-network.sh
+Invoking upgrade script 09-fix-grub-crashkernel.sh
+Invoking upgrade script 10-copy-fsw-version.sh
+Invoking upgrade script 11-remove-old-cores.sh
+Removing stale cores core/dispcnt.19718.11.1658344415.core.tgz
+core/edged.18363.3.1657117083.core.tgz
+core/timestamp
+Invoking upgrade script 12-upgrade-bios.sh
+Invoking upgrade script 13-fix-vnf-part.sh
+Invoking upgrade script 14-lock-grub-edit.sh
+Invoking upgrade script 15-set-console-login.sh
+set-console-login: ENABLED=True HARDWARE_DISABLED=False
+set-console-login: Enabling serial console in /etc/inittab
+Invoking upgrade script 16-fix-6x0-factory-reset.sh
+Invoking upgrade script 17-fix-ext4fs-flags.sh
+Invoking upgrade script 18-create-self-signed-cert.sh
+Invoking upgrade script 19-check-3x00-cpld.sh
+Invoking upgrade script 20-add-localui-user.sh
+Invoking upgrade script 21-Update-Phy-reset-cmos-bit.sh

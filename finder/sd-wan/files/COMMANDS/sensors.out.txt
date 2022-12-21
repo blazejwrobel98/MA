@@ -1,0 +1,17 @@
+lm75b-i2c-1-4a
+Adapter: SMBus iSMT adapter at dff5c000
+temp1:        +44.5 C  (high = +80.0 C, hyst = +75.0 C)
+
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +56.0 C  (high = +71.0 C, crit = +91.0 C)
+Core 2:        +53.0 C  (high = +71.0 C, crit = +91.0 C)
+Core 6:        +55.0 C  (high = +71.0 C, crit = +91.0 C)
+Core 8:        +51.0 C  (high = +71.0 C, crit = +91.0 C)
+Core 12:       +53.0 C  (high = +71.0 C, crit = +91.0 C)
+
+tc654-i2c-1-1b
+Adapter: SMBus iSMT adapter at dff5c000
+fan1:        1550 RPM  (min =  500 RPM)
+fan2:        1450 RPM  (min =  500 RPM)
+

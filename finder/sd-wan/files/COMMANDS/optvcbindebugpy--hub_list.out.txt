@@ -1,0 +1,4 @@
+LogicalId                                 Type  HUB_ORDER  VPN_HUB_ORDER
+68745f57-74c5-4861-ae02-fbee15671d4a   VPN_HUB          9              9
+07fe0dea-c7de-4306-8d40-d8fb28ef29fa   VPN_HUB         10             10
+fa02eb20-d320-4b46-9113-c760f84a8f05       HUB         11              0

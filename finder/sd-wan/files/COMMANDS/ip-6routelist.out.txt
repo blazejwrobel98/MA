@@ -1,0 +1,2 @@
+fe80::/64 dev ge1  proto kernel  metric 256 
+fe80::/64 dev vce1  proto kernel  metric 256 

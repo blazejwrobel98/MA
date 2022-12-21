@@ -1,0 +1,20 @@
+2022-08-02T14:16:49.719 DEBUG   [vnfd (6223:MainThread:6223)] modprobe kvm_intel => (0) :  []
+2022-08-02T14:16:49.746 DEBUG   [vnfd (6223:MainThread:6223)] modinfo kvm_intel => (0) : module:		/lib/modules/4.14.239/kvm-intel.ko
+license:	GPL
+author:		Qumranet
+alias:		cpu:type:x86,ven*fam*mod*:feature:*0085*
+depends:	kvm
+intree:		Y
+name:		kvm_intel
+vermagic:	4.14.239 SMP mod_unload 
+ []
+2022-08-02T14:24:24.237 DEBUG   [vnfd (15930:MainThread:15930)] modprobe kvm_intel => (0) :  []
+2022-08-02T14:24:24.251 DEBUG   [vnfd (15930:MainThread:15930)] modinfo kvm_intel => (0) : module:		/lib/modules/4.14.239/kvm-intel.ko
+license:	GPL
+author:		Qumranet
+alias:		cpu:type:x86,ven*fam*mod*:feature:*0085*
+depends:	kvm
+intree:		Y
+name:		kvm_intel
+vermagic:	4.14.239 SMP mod_unload 
+ []

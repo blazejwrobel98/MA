@@ -1,0 +1,12 @@
+[
+  {
+    "dst_ip": "165.225.206.48", 
+    "dst_port": 4500, 
+    "port_freecount": 43989, 
+    "port_offset": 11, 
+    "ports_in_tailq": 9, 
+    "protocol": 17, 
+    "src_ip": "85.128.72.178", 
+    "tot_ports": 44000
+  }
+]

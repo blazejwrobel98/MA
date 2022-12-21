@@ -1,0 +1,2774 @@
+{
+ "1,3,6,12,15,28,33,40,41,42,44,46,47,121,249": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,3,6,15,119,78,79,95,252": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,176,67": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,28,2,3,15,6,12,44,47": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,2,3,4,6,15,42,54,7,160": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,3,6,42,43,66,159,160": {
+  "id": "326", 
+  "description": "Aastra VoIP"
+ }, 
+ "1,3,6,15,43,60": {
+  "id": "424", 
+  "description": "Aruba Access Point"
+ }, 
+ "3,1,6,15,12": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "54,51,58,59,1,3,6,15,28,139": {
+  "id": "306", 
+  "description": "UniData IP Phone"
+ }, 
+ "1,28,66,6,15,3,35,43,128,131,144,157,188,191,205,219,223,232,247,251": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,33,3,6,12,15,26,28,51,58,59,119": {
+  "id": "1130", 
+  "description": "Kyocera Android"
+ }, 
+ "79,78": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,3,6,12,15,28,43,125": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,3,6,15,119,252,67,52,13": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,43,119,154": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,42,121,33,249": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,2,3,4,6,15,42,54,7,43": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "3,6,15": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,4,6,12,15,28,42,43,60": {
+  "id": "424", 
+  "description": "Aruba Access Point"
+ }, 
+ "1,28,3,6,15,42,242": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "1,28,2,3,15,6,43": {
+  "id": "424", 
+  "description": "Aruba Access Point"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,252": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,7,12,15,28,42,43,44,66,67,125,128,150,159,160": {
+  "id": "320", 
+  "description": "Cisco/Linksys SPA series IP Phone"
+ }, 
+ "1,2,3,4,5,6,7,8,9,12,13,15,16,17,23,26,28,42,44,50,51,53,54,56,66,67": {
+  "id": "1107", 
+  "description": "Samsung S8000"
+ }, 
+ "1,3,6,12,15,28,33,40,41,42,44,46,47,121,212,249": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,3,6,12,15,42,43": {
+  "id": "304", 
+  "description": "Mediatrix VoIP Adapter"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,112,64": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,12,15,17,28,42": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,66,72,150": {
+  "id": "327", 
+  "description": "Nortel IP Phone Model 1535"
+ }, 
+ "3,1,6,12,15,67,66,43": {
+  "id": "307", 
+  "description": "Sunrocket VoIP Gizmo"
+ }, 
+ "1,28,3": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,3,6,15,112,113,78,79,95,252,44,47": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,43": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3": {
+  "id": "809", 
+  "description": "Trendnet Printserver"
+ }, 
+ "1,3,6,12,15,17,28,40,41,42": {
+  "id": "1100", 
+  "description": "Nokia"
+ }, 
+ "1,3,6,15,119,95,252,44,46,47,101": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,12,15,6,33,121,42,101": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,6,28": {
+  "id": "1100", 
+  "description": "Nokia"
+ }, 
+ "6,3,1,15,66,67,13,44,43,58,59,42,2,12": {
+  "id": "1202", 
+  "description": "APC UPS"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,9,7,44,45,46,47": {
+  "id": "502", 
+  "description": "SUSE Linux/Novell Desktop"
+ }, 
+ "1,3,6,15,43,44,46,47": {
+  "id": "408", 
+  "description": "Gemtek Wireless Router"
+ }, 
+ "1,33,3,6,12,15,28,51,58,59,119": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,6,15,12,69,70,88,42": {
+  "id": "1200", 
+  "description": "NetBotz WallBotz 400C"
+ }, 
+ "1,2,4,3,12,6,15,44,43,161,162,184,185,186,192,187,181,182,188,190,194": {
+  "id": "112", 
+  "description": "Microsoft Windows MultiPoint Server 2011 (Thin clients)"
+ }, 
+ "191,157,144,128,43,7,54,42,15,6,4,3,2,1": {
+  "id": "341", 
+  "description": "Polycom VVX"
+ }, 
+ "1,2,3,4,6,7,12,15,28,42,66,67,43,132,133,120,51": {
+  "id": "336", 
+  "description": "XIAMEN YEALINK NETWORK TECHNOLOGY"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,40,41,42": {
+  "id": "817", 
+  "description": "Shandong New Beiyang Information Technology"
+ }, 
+ "1,121,33,3,6,15,28,44,51,58,59,119": {
+  "id": "1117", 
+  "description": "Motorola Android"
+ }, 
+ "1,28,66,6,15,3,35,176": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,33,3,6,15,28,51": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,121,42,121,249,33,252,42": {
+  "id": "516", 
+  "description": "Linux Ubuntu 14.04"
+ }, 
+ "1,3,6,15,66,69,43,176": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,32,176,67": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,12,15,42,66,150": {
+  "id": "334", 
+  "description": "Cisco ATA 186"
+ }, 
+ "1,3,6,12,15,17,28": {
+  "id": "2102", 
+  "description": "Generic Thin Client"
+ }, 
+ "1,3,6,15,119,25": {
+  "id": "717", 
+  "description": "Apple TV"
+ }, 
+ "1,3,6,15,119,95,252,44,46": {
+  "id": "202", 
+  "description": "Mac OS X Lion or later"
+ }, 
+ "1,33,3,6,1": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,28,3,160,66,4,42,2,6,15,43,128,144,157,191": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,43": {
+  "id": "702", 
+  "description": "Amino Aminet Set Top Box"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,44": {
+  "id": "1003", 
+  "description": "Synology NAS"
+ }, 
+ "1,3,5,6,12,15,44,46,47,155,156,157,158,159,160,161,162,163,164,165,166,167,168,186,187": {
+  "id": "1506", 
+  "description": "Tattile Camera"
+ }, 
+ "1,2,3,4,6,15,28,33,42,43,44,58,59,100,101": {
+  "id": "1201", 
+  "description": "HP iLO Agent"
+ }, 
+ "1,28,156,4,3,66,42": {
+  "id": "314", 
+  "description": "ShoreTel IP Phone"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,200": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,28,3,6,15": {
+  "id": "405", 
+  "description": "Apple Airport"
+ }, 
+ "1,3,6,15,42,66,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,28,160,66,43,3,4,42,2,6,15,7": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,28,3,43,128,131,144,157,188,191,205,219,223,232,247,251,58,59,66,6,15": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,3,6,12,15,66,69,70,67": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,2,3,4,5,6,11,12,13,15,16,17,18,22,23,28,40,41,42,43,50,51,54,58,59,60,66,67,128,129,130,131,132,133,134,135": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "3,44,6,7,12,15,22,54,58,59,69,18,144": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,121,33,3,6,12,15,26,28,51,54,58,59,119": {
+  "id": "513", 
+  "description": "Chrome OS"
+ }, 
+ "1,3,5,6,56,13,15,17,23,28,42,50,51,53,54,56,66,67": {
+  "id": "1108", 
+  "description": "Samsung S8500"
+ }, 
+ "6,3,1,15,12,44,81,69,42,43,18,66,67,150,7": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,3,15,6,12,44,78,79,66,67": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,12,15,28": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,15,6,212": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,12,15,26,28,40,41,42,43": {
+  "id": "337", 
+  "description": "NetCODEC Co VoIP"
+ }, 
+ "1,66,6,15,44,3,67,12,33,150,43": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,28,43,3": {
+  "id": "317", 
+  "description": "Siemens optiPoint 410/420"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,121,42,121,249,252,42": {
+  "id": "511", 
+  "description": "Ubuntu 11.04"
+ }, 
+ "1,15,3,6,44,46,47,31,33,43,252,12": {
+  "id": "101", 
+  "description": "Microsoft Windows 2000 (Version 5.0)"
+ }, 
+ "1,28,3,43": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "6,3,1,15,66,67,13,44,2,42,120,125,12": {
+  "id": "804", 
+  "description": "Brother Printer"
+ }, 
+ "1,3,6,12,15,28,33,42,120,249": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,3,6,15,28,33,40,41,42,51,58,59,119,121": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,121,33,3,6,28,42,51,58,59": {
+  "id": "1116", 
+  "description": "Unknown Android"
+ }, 
+ "1,3,6,15,28,54": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,2,3,6,12,15,28,42,43,66,125": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,28,3,15,6,12,44,78,79,2,42": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,18,144": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,80": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "6,3,1,15,66,67,13,44,119,12,81,252": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,15,44": {
+  "id": "813", 
+  "description": "Konica Minolta Multifunction Printer"
+ }, 
+ "1,33,3,6,12,15,28,42,51,58,59,119": {
+  "id": "1124", 
+  "description": "Samsung Galaxy Tab 3 7.0 SM-T210R"
+ }, 
+ "1,121,33,3,6,12,15,28,42,51,58,59,119": {
+  "id": "1131", 
+  "description": "Galaxy Xcover"
+ }, 
+ "1,3,43,44,46,47,6": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,28,58,59,6,15,78,79,44,46,69,12,81": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,195": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,15,3,6,43": {
+  "id": "419", 
+  "description": "Enterasys or Trapeze Wireless Access Point"
+ }, 
+ "1,121,3,6,12,15,28,33,43": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,6,10,12,14,15,28,40,41,42,87": {
+  "id": "431", 
+  "description": "Zioncom Wireless Router"
+ }, 
+ "6,3,1,15,66,67,13,44,12,81,252": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,66,3,4,42,2,6,15": {
+  "id": "324", 
+  "description": "Polycom SoundPoint IP 430"
+ }, 
+ "3,1,6,15": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,28,58,59,6,15,78,79,44,46,69,66,67,12,81": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "12,6,15,1,3,28,120": {
+  "id": "1104", 
+  "description": "Symbian OS"
+ }, 
+ "1,28,43,3,4,42,2,6,15,7,128,144,157,191": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,15,3,6,44,46,47,31,33,249,43,252,12": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,3,6,12,15,26,28,40,41,42": {
+  "id": "432", 
+  "description": "AP Meraki"
+ }, 
+ "1,15,3,6,44,46,47,31,33,249,43,0,128,112": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "66,160,7,54,42,15,6,4,3,2,1": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,2,3,6,12,15,26,28,85,86,87,88,44,45,46,47": {
+  "id": "804", 
+  "description": "Brother Printer"
+ }, 
+ "1,3,6,12,51,58,59": {
+  "id": "1119", 
+  "description": "Sony Ericsson CK15A"
+ }, 
+ "1,15,3,6,44,46,47,31,33": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "1,28,2,3,15,6,12": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,28,2,3,15,6,11": {
+  "id": "505", 
+  "description": "Ubuntu/Debian 5/Knoppix 6"
+ }, 
+ "1,3,6,12,42,44,51,54,58,59,128,66,120,129,130,131,132,133,134,135,224,138,125,43": {
+  "id": "322", 
+  "description": "Mitel IP Phone"
+ }, 
+ "1,3,4,23,43,6,15,119,42,2": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,3,6,12,15,28,44,47,204": {
+  "id": "812", 
+  "description": "Ricoh Multifunction Printer"
+ }, 
+ "1,66,6,15,44,3,67,33,150,43": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,3,6,12,15,28,33,51,58,59,119,121": {
+  "id": "1105", 
+  "description": "Sony Ericsson Android"
+ }, 
+ "1,3,6,15,12,19": {
+  "id": "1601", 
+  "description": "BeOS"
+ }, 
+ "1,3,6,12,15,23,28,29,31,33,40,41,42,44": {
+  "id": "412", 
+  "description": "Buffalo Wireless AP"
+ }, 
+ "1,3,6,15,119,95,252,44,46,47": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,33,3,6": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "6,3,1,15,66,67,13,44,12": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,15,119,252,46,208,92": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,3,6,12,15,44,46,47": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,33,3,6,28,51,54,58,59": {
+  "id": "513", 
+  "description": "Chrome OS"
+ }, 
+ "163,1,28,2,3,15,6,12": {
+  "id": "1126", 
+  "description": "Barnes and Noble Nook (eReader)"
+ }, 
+ "6,3,1,15,66,67,13,44,12,81": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,15,28,12,7,9,42,48,49,137,211,212,213,214,219": {
+  "id": "2100", 
+  "description": "Neoware e100 NeoLinux"
+ }, 
+ "54,59,83,101,114,61,57,52,50,49,80,89,51,59,255": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,3,6,12,15,28,43,66,125": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,6,15,119,112,113,78,79,95,252": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,12,15,28,33,44": {
+  "id": "426", 
+  "description": "Belkin Wireless Router"
+ }, 
+ "1,3,6,15,43,44,46,47,33,121,249": {
+  "id": "1128", 
+  "description": "Windows Phone 8.0"
+ }, 
+ "1,121,33,3,6,15,28,40,41,42,51,58,59,119": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,33,3,6,15,28,51,58": {
+  "id": "1103", 
+  "description": "HTC Android"
+ }, 
+ "58,59,6,15,44,51,54,1,3": {
+  "id": "818", 
+  "description": "Panasonic MB2030CX"
+ }, 
+ "1,28,3,15,6,12,7,26,42,43,242": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "6,3,1,15,66,67,13,12,44,2,42": {
+  "id": "804", 
+  "description": "Brother Printer"
+ }, 
+ "116,252,67,28,59,58,15,6,119,81,12,44,46,47,42,70,3,78,79,69,1,66,2": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,66,6,15,44,3,67,12,33,150,43,125": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,3,7,12,26,44,51,54,58,59": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,3,42": {
+  "id": "711", 
+  "description": "Arecont Vision"
+ }, 
+ "1,28,3,43,128,131,144,157,188,191,205,219,223,232,247,251,58,59,66": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,28,3,6,15,12": {
+  "id": "420", 
+  "description": "Enterasys HiPath Wireless Access Point"
+ }, 
+ "1,121,33,3,6,15,28,51,58,59,119": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,2,3,4,5,6,12,13,15,17,18,22,23,28,40,41,42,43,50,51,54,58,59,60,66,67,97,128,129,130,131,132,133,134,135": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "1,28": {
+  "id": "701", 
+  "description": "Replay TV"
+ }, 
+ "1,3,6,12,15,28,44": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,12,15,28,42": {
+  "id": "10001", 
+  "description": "Edge OS"
+ }, 
+ "1,3,6,12,15,28,43": {
+  "id": "1900", 
+  "description": "OpenSolaris"
+ }, 
+ "1,28,3,15,6,12,42,242,120,66,150,43": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "1,121,33,3,28,51,58,59": {
+  "id": "1103", 
+  "description": "HTC Android"
+ }, 
+ "6,3,1,15,66,67,13,4": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,42,4,6,7,12,15,26,51,54,58,59": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,28,1,3,6,15,33,42,2,43": {
+  "id": "317", 
+  "description": "Siemens optiPoint 410/420"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,121,42": {
+  "id": "505", 
+  "description": "Ubuntu/Debian 5/Knoppix 6"
+ }, 
+ "1,28,3,6,12,15,53,54,51,58,59,69,44,60": {
+  "id": "1505", 
+  "description": "Intermec corporation"
+ }, 
+ "1,3,4,23,67,43,6,15,119": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,28,3,160,66,4,42,2,6,15": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,28,3,6,15,42,43,176,66": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "1,3,42,6,7,15,58,59,44,66": {
+  "id": "308", 
+  "description": "Sipura VoIP Adaptor"
+ }, 
+ "15,3,6,44,46,47,31,33,249,43": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,3,6,15,112,113,78,79": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,12,23,6,15,44,47": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,3,6,12,15,42,66,67,120": {
+  "id": "325", 
+  "description": "Snom VoIP solutions"
+ }, 
+ "1,3,6,58,59,44,46,47": {
+  "id": "805", 
+  "description": "Tally Printer"
+ }, 
+ "1,3,6,12,15,42,43,66,67,120,125,132,133": {
+  "id": "325", 
+  "description": "Snom VoIP solutions"
+ }, 
+ "128,66,160,43,7,54,42,15,6,4,3,2,1": {
+  "id": "341", 
+  "description": "Polycom VVX"
+ }, 
+ "1,3,6,12,15,28,43,66,125,0": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,33,3,6,12,15,26,28,42,51,58,59,119": {
+  "id": "1132", 
+  "description": "Verizon Ellipsis 8"
+ }, 
+ "120,43": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "1,28,2,3,15,6,12,43,191,186,187,188,189": {
+  "id": "435", 
+  "description": "Motorola AP 6511"
+ }, 
+ "3,6,12,15,17,23,28,29,31,33,40,41,42,9,7,200,44": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,6,15,44,47": {
+  "id": "801", 
+  "description": "Canon Printer"
+ }, 
+ "1,28,156,4,3,6,66,42": {
+  "id": "314", 
+  "description": "ShoreTel IP Phone"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,176,112": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "28,2,3,15,6,12,40,41,42": {
+  "id": "503", 
+  "description": "RedHat/Fedora-based Linux"
+ }, 
+ "3,6": {
+  "id": "600", 
+  "description": "Xbox"
+ }, 
+ "1,33,3,28,51,58,59": {
+  "id": "1112", 
+  "description": "Samsung Android"
+ }, 
+ "3,1": {
+  "id": "903", 
+  "description": "Enterasys SecureStacks"
+ }, 
+ "3,7,44,51,54,58,59,12,15,144,18": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,17,26,28,40": {
+  "id": "2102", 
+  "description": "Generic Thin Client"
+ }, 
+ "1,3,12,43": {
+  "id": "1700", 
+  "description": "Etherboot/Sun Blade 100"
+ }, 
+ "1,3,12,44": {
+  "id": "1707", 
+  "description": "Generic Intel PXE"
+ }, 
+ "1,15,3,6,44,46,47,31,33,249,43,252": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "3,22,23,1,24,33,35,6,15,44,11": {
+  "id": "814", 
+  "description": "Zebra Printer"
+ }, 
+ "1,15,3,6,44,46,47,66": {
+  "id": "308", 
+  "description": "Sipura VoIP Adaptor"
+ }, 
+ "6,3,1,15,66,67,13,44,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,120,184": {
+  "id": "342", 
+  "description": "3COM VoIP"
+ }, 
+ "1,28,2,3,15,6,12,42": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,28,2,3,15,6,12,43": {
+  "id": "422", 
+  "description": "HP ProCurve Access Point"
+ }, 
+ "1,28,2,3,15,6,12,44": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,3,15,66,3,4,54,42,2,6,15": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,3,6,12,15,28,42,121": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,3,43,44,46,47,6,33,121,249": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,12,23,6,15": {
+  "id": "801", 
+  "description": "Canon Printer"
+ }, 
+ "1,3,6,12,15,28,42,125": {
+  "id": "708", 
+  "description": "Samsung SMART-TV"
+ }, 
+ "1,121,33,3,6,12,15,28,43,51,58,59,119": {
+  "id": "1305", 
+  "description": "Brightsign Video Conferencing"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,43,119,81,153,154": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,12,43,17,128,129,130,150": {
+  "id": "1706", 
+  "description": "Etherboot/gPXE"
+ }, 
+ "1,6,15,44,52": {
+  "id": "901", 
+  "description": "Cisco Catalyst 35xx"
+ }, 
+ "1,121,3,6,15,33,43": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,28,3,43,128,131,144,157,188,191,205,219,223,232,247,251,58,59": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,28,160,43,3,4,42,2,6,15": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,3,6,12,15,28,40,41,42,66,67,100,101,141,150,159,159,160,160": {
+  "id": "344", 
+  "description": "Vtech VoIP"
+ }, 
+ "6,3,1,15,66,67,13,44,12,43,58,59,42,2": {
+  "id": "1502", 
+  "description": "APC Uninterruptible Power Supply"
+ }, 
+ "1,3,6,12,15,28,33,44,121,249": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,28,3,6,15,33,42,2,43": {
+  "id": "317", 
+  "description": "Siemens optiPoint 410/420"
+ }, 
+ "1,3,6,12,15,28,40,41,42,43,119,121": {
+  "id": "719", 
+  "description": "MAG IPTV"
+ }, 
+ "1,3,42,4,6,7,12,26,44,51,54,58,59,190": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,28,2,3,15,6,12,43,242": {
+  "id": "343", 
+  "description": "Invoxia IP phone"
+ }, 
+ "1,3,6,15,12": {
+  "id": "302", 
+  "description": "BATM VoIP Adapter"
+ }, 
+ "54,51,58,59,1,3,6,15,28": {
+  "id": "333", 
+  "description": "MagicJack Plus"
+ }, 
+ "85": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,28,43,3,4,42,2,6,15,7": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,3,44,6,15,12,11,43": {
+  "id": "814", 
+  "description": "Zebra Printer"
+ }, 
+ "1,2,3,6,12,15,17,23,28,29,31,33,40,41,42,43": {
+  "id": "702", 
+  "description": "Amino Aminet Set Top Box"
+ }, 
+ "6,3,1,15,66,67,13,44": {
+  "id": "2000", 
+  "description": "Epson Projectors"
+ }, 
+ "1,3,6,12,15,28,42,224": {
+  "id": "720", 
+  "description": "Vaddio IPCamera"
+ }, 
+ "1,3,58,59": {
+  "id": "710", 
+  "description": "Extron Electronics"
+ }, 
+ "1,3,4,23,67": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,66,6,3,67": {
+  "id": "900", 
+  "description": "Cisco Catalyst 29xx"
+ }, 
+ "1,3,3,5,6,11,12,13,15,16,17,18,43,54,60,67,128,129,130,131,132,133,134,135": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "1,28,3,6,15,67,4": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "15,3,6,44,46,47": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,33,3,6,15,28,51,58,59": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,2,3,4,7,6,15": {
+  "id": "701", 
+  "description": "Replay TV"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,43,119": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,12": {
+  "id": "906", 
+  "description": "HP ProCurve 1800-8G"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,40,41,42,26": {
+  "id": "504", 
+  "description": "Gentoo Linux"
+ }, 
+ "129,66,160,54,42,15,6,4,3,2,1": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,121,33,3,6,12,15,28,40,41,42,51,58,59,119": {
+  "id": "504", 
+  "description": "Gentoo Linux"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,121": {
+  "id": "505", 
+  "description": "Ubuntu/Debian 5/Knoppix 6"
+ }, 
+ "1,3,6,7,12,15,18,23,26,44,46,51,54,58,59,78,79": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,15,12,44": {
+  "id": "1303", 
+  "description": "Polycom VSX 3000"
+ }, 
+ "1,3,6,7,12,15,17,43,60,66,67,175,203": {
+  "id": "2102", 
+  "description": "Generic Thin Client"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,188,67": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "78,79,85": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "15,3,6,44,46,47,31,33,43": {
+  "id": "101", 
+  "description": "Microsoft Windows 2000 (Version 5.0)"
+ }, 
+ "3,1,6,15,121": {
+  "id": "426", 
+  "description": "Belkin Wireless Router"
+ }, 
+ "1,3,6,15,44,46,47,57": {
+  "id": "103", 
+  "description": "Microsoft Windows 98 (Version 4.10)"
+ }, 
+ "1,3,6,15,33,43,44,46,47,121,249": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,12,6,15,23,44,47": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,3,6,7,12,15,28,42,119": {
+  "id": "912", 
+  "description": "Dell Switches"
+ }, 
+ "1,3,28,6,15,44,46,69,12,81": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,58,59,6,15": {
+  "id": "710", 
+  "description": "Extron Electronics"
+ }, 
+ "1,121,33,3,6,12,15,26,28,51,54,58,59,119,252": {
+  "id": "513", 
+  "description": "Chrome OS"
+ }, 
+ "3,22,23,1,24,33,35,6,15": {
+  "id": "421", 
+  "description": "Quanta Microsystems Router"
+ }, 
+ "1,3,6,15,33,43,44,46,47,121": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,6,15,44,46,47": {
+  "id": "703", 
+  "description": "Slingbox"
+ }, 
+ "1,6,15,44,3,33,150,43": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,3,6,15,112,113,78,79,95,252": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,15,35,66,51,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "3,6,15,112,113,78,79,95,44,47": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "28,2,3,15,6,12": {
+  "id": "700", 
+  "description": "TiVo"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,119": {
+  "id": "504", 
+  "description": "Gentoo Linux"
+ }, 
+ "1,3,6,12,15,17,43,60": {
+  "id": "424", 
+  "description": "Aruba Access Point"
+ }, 
+ "1,3,6,15,33,44,46,47,121,249,43": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,3,6,12,15,120,242": {
+  "id": "1300", 
+  "description": "Tandberg 1000"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,168,112,64": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,43,72": {
+  "id": "702", 
+  "description": "Amino Aminet Set Top Box"
+ }, 
+ "1,28,3,43,128,131,144,157,188,191,205,219,223,224,227,230,232,235,238,241,244,247,249,251,254,58,59,66,6,15": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "78,79": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,15,3,6,44,46,47,31,33,249,43": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,3,4,6,12,15,17,23,28,29,31,33,40,41,42": {
+  "id": "712", 
+  "description": "ACTi Corporation"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,45,46,252,121,42": {
+  "id": "2102", 
+  "description": "Generic Thin Client"
+ }, 
+ "1,3,6,15,3": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,3,6,15,33,42,44,45,46,47,69,70,71,74,78,79": {
+  "id": "201", 
+  "description": "Mac OS 9"
+ }, 
+ "1,15,3,6,44,46,47,43,77,252": {
+  "id": "106", 
+  "description": "Microsoft Windows 98SE (Version 4.10)"
+ }, 
+ "1,28,3,99,43,128,131,144,157,188,191,205,219,223,224,227,230,232,235,238,241,244,247,249,251,254,58,59,66,6,15": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,3,4,43": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,3,6,12,15,28,42,40,38,23,37,44,39,19,26": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,3,6,12,15,28,42,40": {
+  "id": "807", 
+  "description": "Epson Printer"
+ }, 
+ "43,7,54,42,15,6,4,3,2,1": {
+  "id": "341", 
+  "description": "Polycom VVX"
+ }, 
+ "1,3,6,12,15,28,42,44": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,43,54,60,67,128,129,130,131,132,133,134,135": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "1,28,2,3,15,6,12,4,7,23,26,43,50,51,54,55,60,72": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,2,3,4,6,15,42,54,7,160,66": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,3,23,6,15": {
+  "id": "813", 
+  "description": "Konica Minolta Multifunction Printer"
+ }, 
+ "12,6,15,1,3,28,120,119": {
+  "id": "1104", 
+  "description": "Symbian OS"
+ }, 
+ "1,3,6,15,27": {
+  "id": "905", 
+  "description": "3Com Switches"
+ }, 
+ "1,3,66,67,54,129,150,6,15,100": {
+  "id": "904", 
+  "description": "Cisco Small Business"
+ }, 
+ "1,3,6,15,28,12,7,9,42,48,49": {
+  "id": "1801", 
+  "description": "PHLAK"
+ }, 
+ "1,3,6,15,28": {
+  "id": "1000", 
+  "description": "Hotway LanDrive"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,40,41,42,26,17,120": {
+  "id": "507", 
+  "description": "Puppy Linux 4.x"
+ }, 
+ "1,28,15,6,3": {
+  "id": "1503", 
+  "description": "PHAST Electronics"
+ }, 
+ "1,28,2,3,15,6,12,121,249,252,42": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,28,6,5,3,44,15": {
+  "id": "416", 
+  "description": "Trendnet Access Point"
+ }, 
+ "1,3,4,23,67,66": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "3,6,15,28,12,7,9,42,48,49": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,2,4,3,12,6,15,44,43,161,162,184,185,186,192,187,181,182,188,190": {
+  "id": "2103", 
+  "description": "Wyse Technology thin client"
+ }, 
+ "1,28,3,26,12,15,6,40,41,87,85,86,44,45,46,47,42": {
+  "id": "510", 
+  "description": "Suse Linux Enterprise Desktop 11"
+ }, 
+ "15,3,6,44,46,47,31,33,43,77": {
+  "id": "102", 
+  "description": "Microsoft Windows ME (Version 4.90)"
+ }, 
+ "1,3,67,43,60": {
+  "id": "1705", 
+  "description": "Apple Netboot"
+ }, 
+ "1,121,33,3,6,12,15,28,42,51,54,58,59,119": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,6,15,35,66,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,6,15,112,113,78,79,95": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,28,6,66,150": {
+  "id": "340", 
+  "description": "2N TELEKOMUNIKACE Helios Phones"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,24,32,67,112": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,28,2,3,15,6,12,46,44": {
+  "id": "1800", 
+  "description": "Linspire"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,252,43": {
+  "id": "109", 
+  "description": "Microsoft Windows 8 or 8.1 (Version 6.2)"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,128,64": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,42,43,2,66,159,160": {
+  "id": "326", 
+  "description": "Aastra VoIP"
+ }, 
+ "1,3,6,7,15,66,151,152,43,128,129,130": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,2,3,4,6,15,42,54,160,66,43": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,28,2,121,15,6,12,40,41,42,26,119,3,121,249,252,42": {
+  "id": "514", 
+  "description": "Fedora 15 or 16 based distro"
+ }, 
+ "1,2,3,6,15,88,42,44,46,47": {
+  "id": "410", 
+  "description": "2Wire Residential Gateway"
+ }, 
+ "1,3,6,15,44,46,47,31,33,43": {
+  "id": "309", 
+  "description": "Clipcomm IP Phone"
+ }, 
+ "6,3,1,15,66": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "100": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,3,42,6,7,15,58,59,44,66,150,151": {
+  "id": "320", 
+  "description": "Cisco/Linksys SPA series IP Phone"
+ }, 
+ "1,66,6,3,15,150,35": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,28,3,15,6,12,44": {
+  "id": "414", 
+  "description": "Bluesocket BSC"
+ }, 
+ "3,1,15,44,12": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,121": {
+  "id": "1005", 
+  "description": "Iomega Backup Center"
+ }, 
+ "1,3,6,28,33,51,58,59,121": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "6,3,1,15,66,67,1": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,42,66,72": {
+  "id": "346", 
+  "description": "Algo Phones VoIP"
+ }, 
+ "1,3,12,15,6,42,33,121": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,66,67,54,125,129,150,131,132,6,15,100": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,6,12,15,23,28,29,31,33,40,41,42,9,7,200,44": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,4,43,6,15": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,28,3,58,59,6,15,78,79,12,42,44,46,69,116,66,67": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,33,3,6,15,28,44,51,58,59": {
+  "id": "1117", 
+  "description": "Motorola Android"
+ }, 
+ "1,3,28,6,12,15,42,242,120": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "15,3,6,44,46,47,31,33,43,252": {
+  "id": "101", 
+  "description": "Microsoft Windows 2000 (Version 5.0)"
+ }, 
+ "54,51,6,1,3,15,120": {
+  "id": "1114", 
+  "description": "Sharp Phone"
+ }, 
+ "3,6,15,112,113,78,79,95,252": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,15,28,33,51,58,59,121": {
+  "id": "1112", 
+  "description": "Samsung Android"
+ }, 
+ "1,33,3,6,15,26,28,51,58": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,44,6,7,12,252,15,22,54,58,59,69,18,43,119,81,153,154": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,15,26,28,51,58,59": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,15,6,43,77": {
+  "id": "401", 
+  "description": "Compex Wireless Access Point"
+ }, 
+ "1,33,3,6,15,28,51,58,59,120": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,28,3,15,6,12,42,242,120,43": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "1,3,6,44,46,47,12,15,17,23,28,29,31,33": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,3,6,12,15,28,33,121": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,6,12,15,28,42,43,186,187,188,189,191,192": {
+  "id": "435", 
+  "description": "Motorola AP 6511"
+ }, 
+ "1,33,3,6,15,28,44,51,58,59,119": {
+  "id": "1117", 
+  "description": "Motorola Android"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,119,43": {
+  "id": "1202", 
+  "description": "APC UPS"
+ }, 
+ "1,33,3,6,15,28,51,58,59,119": {
+  "id": "1120", 
+  "description": "ZTE N9120 Android"
+ }, 
+ "66,160,43,7,54,42,15,6,4,3,2,1": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "85,86,87": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,28,54,58,59,60,43,3": {
+  "id": "318", 
+  "description": "Alcatel Advanced Reflex IP Phone"
+ }, 
+ "1,3,43,60,125": {
+  "id": "909", 
+  "description": "Extreme Networks Switches"
+ }, 
+ "1,28,15,6,3,1": {
+  "id": "714", 
+  "description": "Matsushita electric / Panasonic"
+ }, 
+ "6,3,1": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,121,249,3,6,12,15,28,33,43": {
+  "id": "434", 
+  "description": "N300 Wireless Router"
+ }, 
+ "1,15,3,6,44,46,47,43,77": {
+  "id": "106", 
+  "description": "Microsoft Windows 98SE (Version 4.10)"
+ }, 
+ "1,28,2,3,15,6,12,40,41": {
+  "id": "502", 
+  "description": "SUSE Linux/Novell Desktop"
+ }, 
+ "1,3,7,6,15,66,69,43,176": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "1,3,4,42,6,7,12,15,26,44,51,54,58,59,190": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,121,3,6,12,15,28,33": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "6,3,1,15": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,144,119": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,2,3,15,6": {
+  "id": "1126", 
+  "description": "Barnes and Noble Nook (eReader)"
+ }, 
+ "1,28,2,3,15,6,12,44,47,26": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,3,6,15,40,41,44,46,47,69": {
+  "id": "1006", 
+  "description": "NetApp Storage"
+ }, 
+ "191,157,144,128,66,160,43,7,54,42,15,6,4,3,2,1": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "6,3,1,15,12,42": {
+  "id": "1112", 
+  "description": "Samsung Android"
+ }, 
+ "1,3,7": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "1,3,6": {
+  "id": "601", 
+  "description": "Xbox 360"
+ }, 
+ "6,3,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,15,3,6,44,46,47,31,33,249,43,171,172": {
+  "id": "111", 
+  "description": "Microsoft Windows XP for embedded devices"
+ }, 
+ "1,3,6,15,67,43,60": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,7,12,15,17,43,60,66,67,119,128,129,130,131,132,133,134,135,175,203": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,40,41,42,26,17,120,9,7,44,45,47": {
+  "id": "2300", 
+  "description": "VMware vCenter Server Appliance"
+ }, 
+ "6,3,1,66,15,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,28,66,6,15,3,35,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,28,160,3,4,42,2,6,15": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,192,176,112": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "1,3,6,12,15,28,40,41,42,43,66,67": {
+  "id": "304", 
+  "description": "Mediatrix VoIP Adapter"
+ }, 
+ "1,3,6,12,15,23,28,29,31,33,40,41,42": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,2,3,4,6,7,12,15,28,42,66,67,43,132,133,120": {
+  "id": "336", 
+  "description": "XIAMEN YEALINK NETWORK TECHNOLOGY"
+ }, 
+ "1,33,3,6,15,26,28,51,58,59": {
+  "id": "1125", 
+  "description": "Android LG Nexus 5 & 7"
+ }, 
+ "1,2,3,5,6,12,15,19,28,33,40,41,64,65": {
+  "id": "1901", 
+  "description": "Solaris 8 (SunOS 5.8)"
+ }, 
+ "1,3,6,12,15,28,40,41,42,66": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,121,3,6,15,119,252,95,44,46": {
+  "id": "202", 
+  "description": "Mac OS X Lion or later"
+ }, 
+ "1,3,6,7,12,15,28,40,41,42,225,226,227,228": {
+  "id": "429", 
+  "description": "AeroHive Hive Access Points"
+ }, 
+ "1,121,33,3,6,28,51,58,59": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,33,3,6,28,51,58,59": {
+  "id": "1115", 
+  "description": "Android Tablet"
+ }, 
+ "1,3,6,12,15,28,33,44,249": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,28,3,160,66,4,42,2,6,15,128,144,157,191": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,3,6,12,15,28,33,42,249": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "3,6,15,112,113,78,79,95": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "6,3,1,15,66,67,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "100,1,66,6,3,67,152": {
+  "id": "904", 
+  "description": "Cisco Small Business"
+ }, 
+ "1,15,3,44,46,47,6": {
+  "id": "105", 
+  "description": "Microsoft Windows NT 4 (Version 4.0)"
+ }, 
+ "1,3,6,42,43,2,66": {
+  "id": "326", 
+  "description": "Aastra VoIP"
+ }, 
+ "1,3,6,15,44,46,47,137,215,224,226": {
+  "id": "2101", 
+  "description": "Neoware Capio Windows CE"
+ }, 
+ "6,3,1,15,66,67,13,44,1": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,4,72": {
+  "id": "1127", 
+  "description": "LG G2 F320"
+ }, 
+ "1,28,3,15,6,12,42,242,120,66,43": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "1,28,3,6,15,35,66,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,6,120": {
+  "id": "1109", 
+  "description": "Sony Ericsson W800i"
+ }, 
+ "15,3,6,44,46,47,43,77,252": {
+  "id": "106", 
+  "description": "Microsoft Windows 98SE (Version 4.10)"
+ }, 
+ "1,15,3,6,44,46,47,1,3,6,15,44,46,47": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,28,3,160,66,4,42,2,6,15,43": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,28,3,43,128,131,144,157,188,191,205,219,223,224,227,230,232,235,238,241,244,247,249,251,254,58,59,66": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "6,1,3,12,44,15": {
+  "id": "1301", 
+  "description": "Polycom ViewStation"
+ }, 
+ "1,28,2,3,15,6,119,12,17,26": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,6,7,12,15,28,42,43,54,66,67,72,114,125": {
+  "id": "912", 
+  "description": "Dell Switches"
+ }, 
+ "1,3,6,12,15,28,33,121,249": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,3,43,44,46,47,6,33,121": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "15,3,6,44,46,47,43,77": {
+  "id": "106", 
+  "description": "Microsoft Windows 98SE (Version 4.10)"
+ }, 
+ "1,2,3,6,12,15,28,42,43,66,120,125": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,3,6,15,51": {
+  "id": "705", 
+  "description": "Sony player"
+ }, 
+ "1,3,4,43,6,15,119,42,2": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,3,6,15,44,46,47,66,67": {
+  "id": "1113", 
+  "description": "Palm OS"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,66,67,150": {
+  "id": "914", 
+  "description": "ZyXEL Switches"
+ }, 
+ "1,28,3,58,59,6,15,78,79,44,46,69,116,66,67,12": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,121,33,3,6,12,15,26,28,42,51,54,58,59,119,157": {
+  "id": "1304", 
+  "description": "LifeSize Video Conferencing"
+ }, 
+ "1,3,6,7,15,66,151,152": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "51,1,3,58,59,12,44,54,6,15,144": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,12,15,28,40,41,42,121": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,15,7,44,51,54,58,59,12": {
+  "id": "815", 
+  "description": "SEH COMPUTERTECHNIK GMBH"
+ }, 
+ "1,3,6,43": {
+  "id": "1706", 
+  "description": "Etherboot/gPXE"
+ }, 
+ "1,3,12,23,44,47": {
+  "id": "426", 
+  "description": "Belkin Wireless Router"
+ }, 
+ "1,3,6,15,44,46,47,137,215": {
+  "id": "2101", 
+  "description": "Neoware Capio Windows CE"
+ }, 
+ "1,3,4,6,12,15,42,43,51,66,67,120,125,132,133": {
+  "id": "325", 
+  "description": "Snom VoIP solutions"
+ }, 
+ "1,3,6,12,15,28,66,125,0": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,28,2,3,15,6,12,121,249,33,252,42": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "3,51,1,15,6,66,67,43,150,12,7,42": {
+  "id": "913", 
+  "description": "Juniper Switches"
+ }, 
+ "1,3,6,12,15,28,43,66,125,160,0": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,2,3,5,6,11,12,13,15,16,17,18,43,54,60,67,128,129,130,131,132,133,134,135": {
+  "id": "1701", 
+  "description": "PXE"
+ }, 
+ "1,33,3": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "6,3,1,15,66,67,13,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,249,3,6,12,15,28,33,40,41,42,44": {
+  "id": "425", 
+  "description": "Trendnet Wireless Router"
+ }, 
+ "6,5,3,44,15": {
+  "id": "416", 
+  "description": "Trendnet Access Point"
+ }, 
+ "1,3,6,15,44,46,47,43": {
+  "id": "1505", 
+  "description": "Intermec corporation"
+ }, 
+ "1,3,15,242,4,54,42,2,6": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "6,1,3,12,44": {
+  "id": "1301", 
+  "description": "Polycom ViewStation"
+ }, 
+ "1,28,3,15,6,12,44,81,78,79,116,2,42,58,59,69,119": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,28,3,6,15,33,42,2,43,120": {
+  "id": "317", 
+  "description": "Siemens optiPoint 410/420"
+ }, 
+ "1,3,6,12,15,28,42,121,212": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "56,6,1,3,15": {
+  "id": "1101", 
+  "description": "RIM BlackBerry"
+ }, 
+ "1,6,15,3,43": {
+  "id": "313", 
+  "description": "UTStarcom F3000"
+ }, 
+ "1,15,3,6,44,46,47,31,33,43,77": {
+  "id": "102", 
+  "description": "Microsoft Windows ME (Version 4.90)"
+ }, 
+ "6,3,1,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "85,86": {
+  "id": "1702", 
+  "description": "Novell Netware Client"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,66": {
+  "id": "327", 
+  "description": "Nortel IP Phone Model 1535"
+ }, 
+ "1,28,3,15,6,12,2,42,48,161,162,184,185,163,164,188,189,181,182,190,186,187": {
+  "id": "2103", 
+  "description": "Wyse Technology thin client"
+ }, 
+ "1,33,3,6,15,28,42,51,58,59,66,120": {
+  "id": "339", 
+  "description": "Grandstream Telephone"
+ }, 
+ "1,3,6,12,15,28,42,66,149,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,66,67,54,129,150,131,132,6,15,100": {
+  "id": "904", 
+  "description": "Cisco Small Business"
+ }, 
+ "1,28,160,66,3,4,42,2,6,15": {
+  "id": "328", 
+  "description": "Polycom SoundPoint IP 450"
+ }, 
+ "1,3,6,66,15": {
+  "id": "312", 
+  "description": "ZyXEL WiFi Phone"
+ }, 
+ "1,2,3,6,12,15,17,23,28,29,31,33,40,41,42,43,72": {
+  "id": "715", 
+  "description": "Amino\u2019s IPTV"
+ }, 
+ "1,3,4,23": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,28,3,6,15,2,42,4,66": {
+  "id": "707", 
+  "description": "ClearOne Gentner Communications CONVERGE1212 CONVERGE880"
+ }, 
+ "202": {
+  "id": "1201", 
+  "description": "HP iLO Agent"
+ }, 
+ "1,2,3,15,6,12,44": {
+  "id": "405", 
+  "description": "Apple Airport"
+ }, 
+ "1,3,6,7,12,26,44,51,54,58,59,190": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,4,23,67,66,43": {
+  "id": "907", 
+  "description": "HP ProCurve 3500yl"
+ }, 
+ "1,3,42,6,7,15,58,59,44,66,150,2,151": {
+  "id": "320", 
+  "description": "Cisco/Linksys SPA series IP Phone"
+ }, 
+ "1,3,15,160,66,3,4,54,42,2,6,15": {
+  "id": "329", 
+  "description": "Polycom SoundStation IP 6000"
+ }, 
+ "1,3,66,67,54,125,129,150,6,15,100": {
+  "id": "904", 
+  "description": "Cisco Small Business"
+ }, 
+ "1,3,6,15,42,66,51,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,6,12,15,26,28,42": {
+  "id": "432", 
+  "description": "AP Meraki"
+ }, 
+ "1,3,6,7,12,15,18,23,26,44,46,51,54,58,59,78,79,81": {
+  "id": "810", 
+  "description": "Generic Printer"
+ }, 
+ "1,28,2,121,15,6,12,40,41,42,26,119,3,121,249,33,252,42": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,44,6,7,12,15,22,54,58,59,69,18,144": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,4,23,67,66,43,6,15,119,42,2": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,3,6,15,28,12,7,9,42,48,49,26": {
+  "id": "1704", 
+  "description": "Anaconda (RedHat) Installer"
+ }, 
+ "1,3,6,15,7,44,51,54,58,59,12,69": {
+  "id": "815", 
+  "description": "SEH COMPUTERTECHNIK GMBH"
+ }, 
+ "1,28,2,121,15,6,12,40,41,42,26,119,3,121,249,42": {
+  "id": "515", 
+  "description": "RHEL 6.4 or Centos6.4"
+ }, 
+ "1,3,6,44,12,15,4,69,70,42": {
+  "id": "811", 
+  "description": "Toshiba Multifunction Printer"
+ }, 
+ "1,3,15,6,44": {
+  "id": "806", 
+  "description": "Kyocera Printer"
+ }, 
+ "1,28,2,3,15,6,12,4,7,23,26,43,50,51,54,55,60,61,72": {
+  "id": "408", 
+  "description": "Gemtek Wireless Router"
+ }, 
+ "1,3,6,12,15,28,51,54,58,59": {
+  "id": "807", 
+  "description": "Epson Printer"
+ }, 
+ "1,28,1,3,6,4": {
+  "id": "411", 
+  "description": "Motorola Router"
+ }, 
+ "1,3,6,12,15,28,40,41,42,44,46,47": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "6,3,1,15,44,12": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,6,15,44,3,33": {
+  "id": "901", 
+  "description": "Cisco Catalyst 35xx"
+ }, 
+ "1,3,6,12,15,28,33,58,59": {
+  "id": "604", 
+  "description": "Wii"
+ }, 
+ "1,33,3,6,15,26,28,51,58,593,1,252,42,15,6,12": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "43,60": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,15,51,44": {
+  "id": "1802", 
+  "description": "Knoppix"
+ }, 
+ "1,3,6,15,119,252": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "50,1,3,12,15,51,58,59,6,42,69,70": {
+  "id": "2001", 
+  "description": "NEC Projectors"
+ }, 
+ "1,3,6,12,15,28,42,40,44,46": {
+  "id": "804", 
+  "description": "Brother Printer"
+ }, 
+ "116,252,67,28,59,58,15,6,119,81,44,46,47,42,70,3,78,79,69,1,66,2": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,4,6,15": {
+  "id": "1507", 
+  "description": "Alps Electric"
+ }, 
+ "1,3,6,44,46": {
+  "id": "813", 
+  "description": "Konica Minolta Multifunction Printer"
+ }, 
+ "1,3,28,6,12,15,26,42,242,120": {
+  "id": "1302", 
+  "description": "Tandberg"
+ }, 
+ "1,33,3,6,15,26,2": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,6,12,42,44,51,54,58,59,128,66,120,129,130,131,132,133,134,135,224,138,125,43,225,226": {
+  "id": "322", 
+  "description": "Mitel IP Phone"
+ }, 
+ "1,3,12,6,15,112,113,78,79": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,28,2,121,15,6,12,40,41,42,26,119,3,121,249,33,42": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,2,3,4,5,6,7,8,9,15,17,28,33,42,43,44,66,67,120,121,77,250,58,59,249": {
+  "id": "910", 
+  "description": "Huawei Wireless LAN Router"
+ }, 
+ "1,3,6,12,15,28,40,41,42,44,46,47,212": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,3,6,12,15,28,33,44,121,249,212": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,28,3,15,6,12,81,44,46,78,79,116,66,67,2,69,42,58,59,119,252": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,4,23,67,66,43,6,15": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,28,3,43,44,46,47,6": {
+  "id": "417", 
+  "description": "TP-Link Wireless LAN Router"
+ }, 
+ "1,3,6,15,31,33,43,44,46,47,249": {
+  "id": "430", 
+  "description": "Tenda Wireless Router"
+ }, 
+ "1,3,6,15,120,114,125": {
+  "id": "335", 
+  "description": "Gigaset Communications GmbH"
+ }, 
+ "1,15,3,6,44,46,47,66,1,3,6,15,44,46,47": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,15,3,6,44,46,47,31,33,43,252": {
+  "id": "101", 
+  "description": "Microsoft Windows 2000 (Version 5.0)"
+ }, 
+ "1,3,7,44,51,54,58,59,12,144,18": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,28,58,59,6,15,78,79,44,46,69,66,67,12": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,12,15,28,44,212": {
+  "id": "421", 
+  "description": "Quanta Microsystems Router"
+ }, 
+ "1,3,6,15,42,44,46,47,69": {
+  "id": "713", 
+  "description": "Axis communications ab"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,9,7,44,45,46,47,119": {
+  "id": "502", 
+  "description": "SUSE Linux/Novell Desktop"
+ }, 
+ "1,28,3,121,26,12,15,119,6,40,41,87,85,86,44,45,46,47,42,121,249,33,252,42": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "129,66,160,43,54,42,15,6,4,3,2,1": {
+  "id": "341", 
+  "description": "Polycom VVX"
+ }, 
+ "1,3,6,15,28,33,43,44,58,59": {
+  "id": "1201", 
+  "description": "HP iLO Agent"
+ }, 
+ "15,3,6,44,46,47,31,33,249,43,252": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,28,1,3": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,3,42,6,7,15,58,59,66": {
+  "id": "303", 
+  "description": "Linksys PAP VoIP"
+ }, 
+ "1,42,4,6,11,3": {
+  "id": "2301", 
+  "description": "Precision time and frequency reference system"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,64,112": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,28,6": {
+  "id": "1501", 
+  "description": "Eye-Fi Wireless Memory Card"
+ }, 
+ "1,3,6,51,120,4,2,7": {
+  "id": "345", 
+  "description": "MediaPack Analog gateway"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42,9,7,200,44": {
+  "id": "502", 
+  "description": "SUSE Linux/Novell Desktop"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,28,2,3,15,6,12,4,7,23,26,43,50,51,54,55,60,61": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,15,11": {
+  "id": "717", 
+  "description": "Apple TV"
+ }, 
+ "1,121,33,3,6,15,28,51,58,59,1": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,2,4,3,12,6,15,44,43,161,162,184,185,186,192,187,181,182,188,190,194,199": {
+  "id": "2103", 
+  "description": "Wyse Technology thin client"
+ }, 
+ "6,3,1,15,66,67,13,43,58,59,42,2,12": {
+  "id": "1202", 
+  "description": "APC UPS"
+ }, 
+ "1,28,3,4,42,2,6,15,7,43,128,144,157,191": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,28,3,15,6,12,7,26,42,242": {
+  "id": "301", 
+  "description": "Avaya IP Phone"
+ }, 
+ "1,28,2,3,15,6,12,40,41,42": {
+  "id": "503", 
+  "description": "RedHat/Fedora-based Linux"
+ }, 
+ "1,3,15,6,12,35,66,150": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,6,42,12,15,31,33,43": {
+  "id": "2401", 
+  "description": "PCS Revenue Control Systems"
+ }, 
+ "1,66,6,3,67,150,43": {
+  "id": "900", 
+  "description": "Cisco Catalyst 29xx"
+ }, 
+ "1,3,6,15,7,44,51,54,58,59,12,69,42": {
+  "id": "815", 
+  "description": "SEH COMPUTERTECHNIK GMBH"
+ }, 
+ "6,3,1,1": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,121,3,33,6,42": {
+  "id": "427", 
+  "description": "MikroTik (RouterOS)"
+ }, 
+ "6,3,1,15,66,": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,7,12,15,28,40,41,42,225,226,227,228,229,230,231": {
+  "id": "429", 
+  "description": "AeroHive Hive Access Points"
+ }, 
+ "1,3,6,15,44,46": {
+  "id": "813", 
+  "description": "Konica Minolta Multifunction Printer"
+ }, 
+ "1,3,6,12,15,28,40,41,42,119": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,6,42,43,2,132,66,159,160": {
+  "id": "326", 
+  "description": "Aastra VoIP"
+ }, 
+ "1,28,3,6,15,67,4,7": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,3,6,12,15,28,33,44,121": {
+  "id": "403", 
+  "description": "Netgear Router"
+ }, 
+ "1,28,2,3,15,6,119,12,44,47,26,121,42,121,249,25": {
+  "id": "505", 
+  "description": "Ubuntu/Debian 5/Knoppix 6"
+ }, 
+ "1,121,3,6,15,119,252": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,3,6,12,15,28,44,47": {
+  "id": "812", 
+  "description": "Ricoh Multifunction Printer"
+ }, 
+ "1,3,6,15": {
+  "id": "600", 
+  "description": "Xbox"
+ }, 
+ "1,3,4,43,6,15,119": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,2,3,4,6,7,12,15,28,42,66,67,43": {
+  "id": "336", 
+  "description": "XIAMEN YEALINK NETWORK TECHNOLOGY"
+ }, 
+ "1,2,3,6,12,15,26,28,85,86,87,88,44,45,46,47,70,69,78,79,120": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,15,119,95,252,44,46,101": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,12,15,43,66,67,128,129,130,131,132,133,134,135": {
+  "id": "406", 
+  "description": "Symbol Wireless Access Point"
+ }, 
+ "1,66,6,3,67,12,150": {
+  "id": "900", 
+  "description": "Cisco Catalyst 29xx"
+ }, 
+ "1,121,33,3,6,12,15,26,28,42,51,58,59,119": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,3,7,44,51,54,58,59,12,15,144,18": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "15,3,6,44,46,47,31,33,249,43,252,12": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "191,157,144,128,66,160,7,54,42,15,6,4,3,2,1": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,28,2,3,15,6,12,40,41,42,26,119": {
+  "id": "503", 
+  "description": "RedHat/Fedora-based Linux"
+ }, 
+ "1,3,28,15,6,44,69,70,42,12,4": {
+  "id": "811", 
+  "description": "Toshiba Multifunction Printer"
+ }, 
+ "3,6,26,28,58,59": {
+  "id": "603", 
+  "description": "Gamecube"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,40,41,42,26,17,120,9,7,44,45,46,47": {
+  "id": "2300", 
+  "description": "VMware vCenter Server Appliance"
+ }, 
+ "3,6,15,112,113,78,79,95,252,44,47": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,3,6,12,15,28,66": {
+  "id": "331", 
+  "description": "GrandStream HandyTone 503 ATA"
+ }, 
+ "1,28,2,121,15,6,12,40,41,42,26,119,3": {
+  "id": "512", 
+  "description": "Fedora 14 based distro"
+ }, 
+ "1,3,6,12,15,28,60": {
+  "id": "716", 
+  "description": "TV-IP512P PoE Network Camera"
+ }, 
+ "1,3,6,12,15,28,44,46,47": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,28,2,3,15,6,12,40,41,42,26": {
+  "id": "503", 
+  "description": "RedHat/Fedora-based Linux"
+ }, 
+ "1,28,2,3,15,6,12,66,67,43": {
+  "id": "911", 
+  "description": "EdgeCore Switches"
+ }, 
+ "1,15,3,6,44,46,47,31,33,121,249,43,0,112,98": {
+  "id": "110", 
+  "description": "Microsoft Windows 7 or Server 2008 R2 or Server SBS 2011 (Version 6.1)"
+ }, 
+ "1,3,7,12,26,44,51,54,58,59,190": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,3,6,7,12,15,28,40,41,42": {
+  "id": "429", 
+  "description": "AeroHive Hive Access Points"
+ }, 
+ "1,28,3,15,6,12,44,78,79": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,44,15,46,47": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "28,2,3,15,6,12,44,47": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,3,28,43,58,59": {
+  "id": "319", 
+  "description": "Alcatel IP Touch 8 Series Phones"
+ }, 
+ "1,3,6,15,33,44,46,47,121,249,43,60,212": {
+  "id": "109", 
+  "description": "Microsoft Windows 8 or 8.1 (Version 6.2)"
+ }, 
+ "1,2,3,6,15,42": {
+  "id": "305", 
+  "description": "Uniden DTA VoIP Adapater"
+ }, 
+ "1,28,2,3,15,6,119,12": {
+  "id": "500", 
+  "description": "Debian-based Linux"
+ }, 
+ "1,2,3,6,12,15,28,33,42,43,120": {
+  "id": "315", 
+  "description": "Siemens OpenStage IP Phones"
+ }, 
+ "1,28,1,3,6,42,66": {
+  "id": "326", 
+  "description": "Aastra VoIP"
+ }, 
+ "203": {
+  "id": "1201", 
+  "description": "HP iLO Agent"
+ }, 
+ "1,28,3,58,59,6,15,78,79,42,44,46,69,116,66,67,12": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,15,42,43,44,46,47,119": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,3,5,6,49,13,15,17,23,28,42,50,51,53,54,56,66,67": {
+  "id": "1108", 
+  "description": "Samsung S8500"
+ }, 
+ "1,3,6,15,28,33": {
+  "id": "1600", 
+  "description": "OS/2 Warp"
+ }, 
+ "6,3": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,3,6,15,44": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,121,33,3,6,12,15,26,28,42,51,54,58,59,119": {
+  "id": "504", 
+  "description": "Gentoo Linux"
+ }, 
+ "1,3,42,6,7,15,58,59,66,2,150,151,160,159": {
+  "id": "320", 
+  "description": "Cisco/Linksys SPA series IP Phone"
+ }, 
+ "1,3,6,15,112,113,78,79,95,44,47": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "6,3,1,15,66,67,13,12,44": {
+  "id": "804", 
+  "description": "Brother Printer"
+ }, 
+ "1,28,2,121,3,15,6,12,119": {
+  "id": "1004", 
+  "description": "NAS4FREE"
+ }, 
+ "1,3,44,6,81,7,12,15,22,54,58,59,69,18,144": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "58,59,6,15,66,67,51,54,1,3": {
+  "id": "338", 
+  "description": "Panasonic KX-UDS124CE SIP-DECT Base Station"
+ }, 
+ "1,28,2,3,15,6,12,42,157": {
+  "id": "1304", 
+  "description": "LifeSize Video Conferencing"
+ }, 
+ "1,3,42,4,6,7,12,15,26,44,51,54,58,59,190": {
+  "id": "808", 
+  "description": "Lexmark Printer"
+ }, 
+ "1,15,3,6,44,46,4": {
+  "id": "100", 
+  "description": "Microsoft Windows XP (Version 5.1, 5.2)"
+ }, 
+ "1,3,6,15,23,51,54": {
+  "id": "704", 
+  "description": "Motorola NIM100"
+ }, 
+ "1,3,6,12,15,28,44,33,249": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,12,15,28,33,40,41,42,44,46,47": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,28,3,58,59,6,15,78,79,12,44,46,69,116,66,67": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,2,3,4,6,7,12,15,28,42,66,67,43,132,133": {
+  "id": "336", 
+  "description": "XIAMEN YEALINK NETWORK TECHNOLOGY"
+ }, 
+ "1,33,3,6,15,28,51,58,5": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,2,3,4,6,15,42,54,7,160,43": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "60,43": {
+  "id": "200", 
+  "description": "Mac OS X Snow Leopard or earlier"
+ }, 
+ "1,2,3,6,12,15,28,42,43,120": {
+  "id": "316", 
+  "description": "Siemens optiPoint WL2 Professional"
+ }, 
+ "1,3,6,15,31,33,43,44,46,47,119,121,249,252": {
+  "id": "113", 
+  "description": "Microsoft Windows 10 (Version 10.0)"
+ }, 
+ "1,28,3,6": {
+  "id": "1504", 
+  "description": "ROBE"
+ }, 
+ "1,15,3,6,44,46,47,31": {
+  "id": "109", 
+  "description": "Microsoft Windows 8 or 8.1 (Version 6.2)"
+ }, 
+ "1,121,33,3,6,15,28,51,58,59": {
+  "id": "1112", 
+  "description": "Samsung Android"
+ }, 
+ "1,3,6,15,119,2": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,3,4,6,12,15,28,42,43,66,67,60": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,28,3,66,4,42,2,6,15": {
+  "id": "330", 
+  "description": "Polycom SoundPoint IP 301"
+ }, 
+ "1,6,15,28,51,58,59": {
+  "id": "1129", 
+  "description": "Samsung Galaxy S5"
+ }, 
+ "1,3,6,12,15,28,40,41,42": {
+  "id": "718", 
+  "description": "Axis communications ab IPCamera"
+ }, 
+ "3,15,6": {
+  "id": "602", 
+  "description": "Playstation 2"
+ }, 
+ "1,2,3,6,12,15,26,28,85,86,87,88,44,45,46,47,70,69,78,79": {
+  "id": "105", 
+  "description": "Microsoft Windows NT 4 (Version 4.0)"
+ }, 
+ "6,3,1,15,12,66,67,13,44": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,12,23,6,15,42,44,47": {
+  "id": "816", 
+  "description": "Oki Xante llumina"
+ }, 
+ "1,28,160,66,43,3,4,42,2,6,15,7,128,144,157,191": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,6,15,44,3,7,33,150,43": {
+  "id": "400", 
+  "description": "Cisco Wireless Access Point"
+ }, 
+ "1,3,6,12,15,28,50,33": {
+  "id": "426", 
+  "description": "Belkin Wireless Router"
+ }, 
+ "1,3,6,54": {
+  "id": "1102", 
+  "description": "Apple iPod, iPhone or iPad"
+ }, 
+ "1,2,3,6,12,15,26,28,88,44,45,46,47,70,69,78,79": {
+  "id": "803", 
+  "description": "Dell Printer"
+ }, 
+ "1,3,5,6,12,13,15,17,23,28,42,50,51,53,54,56,66,67": {
+  "id": "1123", 
+  "description": "Samsung S5260 Star II"
+ }, 
+ "1,3,6,51,58,59": {
+  "id": "2200", 
+  "description": "Paradox Card Access module"
+ }, 
+ "1,2,3,6,15,28,42,43,44": {
+  "id": "418", 
+  "description": "Ruckus Wireless"
+ }, 
+ "1,3,6,15,70,69": {
+  "id": "2400", 
+  "description": "Moneris HiSpeed 3100IP"
+ }, 
+ "1,3,44,6,15,12,11": {
+  "id": "814", 
+  "description": "Zebra Printer"
+ }, 
+ "1,3,6,15,33,44,46,47,121": {
+  "id": "409", 
+  "description": "D-Link Wireless Router"
+ }, 
+ "1,3,5,6,32,13,15,17,23,28,42,50,51,53,54,56,66,67": {
+  "id": "1108", 
+  "description": "Samsung S8500"
+ }, 
+ "1,3,6,15,28,44,47": {
+  "id": "812", 
+  "description": "Ricoh Multifunction Printer"
+ }, 
+ "1,3,4,23,67,66,43,6,15,123": {
+  "id": "902", 
+  "description": "HP ProCurve"
+ }, 
+ "1,3,15,6,44,46,47": {
+  "id": "104", 
+  "description": "Microsoft Windows 95 (Version 4.0)"
+ }, 
+ "1,2,3,4,6,7,12,15,28,42,66,67,43,120": {
+  "id": "336", 
+  "description": "XIAMEN YEALINK NETWORK TECHNOLOGY"
+ }, 
+ "6,3,1,15,66,67,13": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,44,46,47,33,249": {
+  "id": "107", 
+  "description": "Microsoft Windows Vista/7 or Server 2008 (Version 6.0)"
+ }, 
+ "1,3,6,15,31,33,43,44,46,47,121,249,252": {
+  "id": "113", 
+  "description": "Microsoft Windows 10 (Version 10.0)"
+ }, 
+ "1,3,58,59,6": {
+  "id": "710", 
+  "description": "Extron Electronics"
+ }, 
+ "1,3,15,6": {
+  "id": "602", 
+  "description": "Playstation 2"
+ }, 
+ "1,3,121,6,12,15,28,50,33": {
+  "id": "426", 
+  "description": "Belkin Wireless Router"
+ }, 
+ "1,28,3,15,6,12": {
+  "id": "1400", 
+  "description": "OpenBSD"
+ }, 
+ "58,59,6,15,51,54,1,3": {
+  "id": "706", 
+  "description": "Panasonic G20 Television"
+ }, 
+ "1,3,6,12,15,28,42,40,38,23,37,39,19,26": {
+  "id": "1203", 
+  "description": "Tripplite UPS"
+ }, 
+ "1,28,1,3,43,128,131,144,157,188,191,205,219,223,232,247,251,58,59": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,121,249,3,6,12,15,28,33": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,28,2,121,3,15,6,12": {
+  "id": "1100", 
+  "description": "Nokia"
+ }, 
+ "1,2,3,6,12,15,28,40,42": {
+  "id": "506", 
+  "description": "FortiOS"
+ }, 
+ "1,2,3,4,6,15,42,54,66,43": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "6,3,1,15,66,67,13,12": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,2,3,6,12,15,28,42,43,44": {
+  "id": "418", 
+  "description": "Ruckus Wireless"
+ }, 
+ "1,6,54,69,42,50,4,3,51,12,116": {
+  "id": "908", 
+  "description": "3Com 4400 SE Switch"
+ }, 
+ "1,28,160,66,43,3,4,42,2,6,15": {
+  "id": "323", 
+  "description": "Polycom Conference IP Phone"
+ }, 
+ "1,3,6,7,15,42,43,58,59,66,128,144,151,152,157,191,251": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "3,6,15,44,47": {
+  "id": "801", 
+  "description": "Canon Printer"
+ }, 
+ "1,3,43,60": {
+  "id": "1705", 
+  "description": "Apple Netboot"
+ }, 
+ "1,2,4,3,12,6,15,44,161,162,184,185,186,192,187,181,182,188,190": {
+  "id": "2103", 
+  "description": "Wyse Technology thin client"
+ }, 
+ "252,3,42,15,6,1,12": {
+  "id": "508", 
+  "description": "Meego Netbook"
+ }, 
+ "1,15,3,6": {
+  "id": "1106", 
+  "description": "Apple iPod"
+ }, 
+ "1,6,3": {
+  "id": "1002", 
+  "description": "Xyratex NAS"
+ }, 
+ "1,3,6,12,42,44,51,54,58,59,66,120,129,128,130,131,132,133,134,135,224,138,125,43,178,179": {
+  "id": "322", 
+  "description": "Mitel IP Phone"
+ }, 
+ "1,15,3,28,12,6,26": {
+  "id": "432", 
+  "description": "AP Meraki"
+ }, 
+ "3,6,12,15,17,23,28,29,31,33,40,41,42,119": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "1,33": {
+  "id": "1133", 
+  "description": "Kobo Arc"
+ }, 
+ "1,2,3,6,15,26,28,85,86,87,88,44,45,46,47,70,69,78,79,120": {
+  "id": "802", 
+  "description": "Xerox Printer"
+ }, 
+ "1,3,6,12,15,42,66,51,150": {
+  "id": "334", 
+  "description": "Cisco ATA 186"
+ }, 
+ "1,15,3,6,44,46,47,31,33,43": {
+  "id": "101", 
+  "description": "Microsoft Windows 2000 (Version 5.0)"
+ }, 
+ "54,51,6,1,3,26,15,120": {
+  "id": "1110", 
+  "description": "LG BL40"
+ }, 
+ "1,28,2,3,15,6,4,7,23,26,43,50,51,54,55,60,61,72": {
+  "id": "433", 
+  "description": "Actiontec Wireless Router"
+ }, 
+ "1,66,6,3,15,150,35,151": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,121,33,3,6,12,15,28,51,58,59,119": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "58,59,1,28,121,33,3,12,119,15,6,26,17,120": {
+  "id": "509", 
+  "description": "Ubuntu Server 10.04 LTS"
+ }, 
+ "1,28,3,4,42,2,6,15,43,128,144,157,191": {
+  "id": "332", 
+  "description": "Unidentified Polycom"
+ }, 
+ "1,3,6,49,48,44,4,12,15,17,23,28,29,31,33,40,41,42,210": {
+  "id": "501", 
+  "description": "Generic Linux"
+ }, 
+ "6,3,1,15,12,44,81,69,43,18,66,67,150,7": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,3,6,12,15,28,33,40,41,42,44,249,121": {
+  "id": "437", 
+  "description": "Unidentified Router or AP"
+ }, 
+ "1,42,66,6,3,15,150,35": {
+  "id": "300", 
+  "description": "Cisco IP Phone"
+ }, 
+ "1,3,6,12,15,17,23,28,29,31,33,40,41,42": {
+  "id": "504", 
+  "description": "Gentoo Linux"
+ }, 
+ "1,3,6,12,42,44,51,54,58,59,128,66,120,129,130,131,132,133,134,135,224,138,125,43,178,179": {
+  "id": "322", 
+  "description": "Mitel IP Phone"
+ }, 
+ "54,51,58,59,1,3,6,15,28,139,2,42,66": {
+  "id": "306", 
+  "description": "UniData IP Phone"
+ }, 
+ "28,3,6,15": {
+  "id": "405", 
+  "description": "Apple Airport"
+ }, 
+ "51,58,59,1,3,43,128,144,157,191,251": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }, 
+ "1,3,6,12,15,17,28,42,234": {
+  "id": "436", 
+  "description": "Sophos/Astaro Wireless Access Point AP 10 Access Point"
+ }, 
+ "1,3,6,15,51,58,59,255": {
+  "id": "428", 
+  "description": "Freebox Wireless Router"
+ }, 
+ "1,150,3,6,15,35,66": {
+  "id": "1111", 
+  "description": "Generic Android"
+ }, 
+ "1,3,6,12,15,66": {
+  "id": "321", 
+  "description": "Siemens optiPoint 150 S"
+ }, 
+ "1,3,4,6,12,42": {
+  "id": "709", 
+  "description": "VBrick Multimedia System"
+ }, 
+ "1,15,3,6,44,46,47": {
+  "id": "402", 
+  "description": "Cisco/Linksys Router"
+ }, 
+ "1,3,6,12,15,4,43,44,60,42,28": {
+  "id": "424", 
+  "description": "Aruba Access Point"
+ }, 
+ "1,3,28,6,15": {
+  "id": "605", 
+  "description": "Playstation 3 or Playstation Portable (PSP)"
+ }, 
+ "3,44,6,81,7,12,15,22,54,58,59,69,18,144": {
+  "id": "800", 
+  "description": "HP Printer"
+ }, 
+ "1,28,3,99,43,128,131,144,157,188,191,205,219,223,224,227,230,232,235,238,241,244,247,249,251,254,58,59,66": {
+  "id": "310", 
+  "description": "Nortel IP Phone"
+ }
+}

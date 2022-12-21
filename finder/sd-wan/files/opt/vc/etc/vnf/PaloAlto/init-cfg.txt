@@ -1,0 +1,11 @@
+type=static
+{{"ip-address=" ~ cidrIp if cidrIp}}
+{{"netmask=" ~ netmask if netmask}}
+{{"default-gateway=" ~ gateway if gateway}}
+{{"dns-primary=" ~ dns if dns}}
+{{"hostname=" ~ hostname if hostname}}
+{{"vm-auth-key=" ~ vendorSpecificData.managementServer.authKey if vendorSpecificData.managementServer.authKey}}
+{{"panorama-server=" ~ vendorSpecificData.managementServer.primary if vendorSpecificData.managementServer.primary}}
+{{"panorama-server-2=" ~ vendorSpecificData.managementServer.secondary if vendorSpecificData.managementServer.secondary}}
+{{"tplname=" ~ vendorSpecificData.deviceTemplateName if vendorSpecificData.deviceTemplateName}}
+{{"dgname=" ~ vendorSpecificData.deviceGroupName if vendorSpecificData.deviceGroupName}}

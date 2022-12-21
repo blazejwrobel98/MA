@@ -1,0 +1,10 @@
+show ip igmp groups
+==================
+Total IGMP groups: 0
+Watermark warn limit(Not Set) : 0
+Interface        Address         Group           Mode Timer    Srcs V Uptime  
+
+show ip igmp interface
+=====================
+Interface         State          Address  V  Querier  Query Timer    Uptime
+

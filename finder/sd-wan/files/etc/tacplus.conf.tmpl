@@ -1,0 +1,15 @@
+# Template conf. file for NSS_tacplus.
+# This file MUST NOT EXCEED 1024 BYTES IN SIZE.
+# Replace <serverIP> with TACACS+ server IP, <secret> with secret key.
+server <serverIP>
+secret <secret>
+service ppp
+protocol ip
+#
+timeout 2
+# debug-level 1
+# overrides:
+uid 0
+gid 0
+home /root
+shell /opt/vc/bin/vccmd.py

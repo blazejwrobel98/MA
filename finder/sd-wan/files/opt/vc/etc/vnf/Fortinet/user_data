@@ -1,0 +1,48 @@
+config system global
+    set alias "{{hostname}}"
+    set hostname "{{hostname}}"
+end
+config system admin
+    edit admin
+           set password '{{ vendorSpecificData.vmConfiguration.adminPassword }}'
+    next
+end
+
+config system settings
+    set opmode transparent
+    set manageip "{{ cidrIp }}/{{ netmask }}"
+    set inspection-mode "{{ vendorSpecificData.inspectionMode }}"
+end
+
+config system interface
+   edit "port1"
+        set vdom "root"
+        set allowaccess ping https ssh snmp http fgfm
+        set type physical
+        set alias MGMT
+   next
+   edit "port2"
+        set forward-domain 0
+        set alias LAN
+   next
+   edit "port3"
+        set forward-domain 0
+        set alias WAN
+   next
+end
+
+config router static
+    edit 1
+        set gateway {{ gateway }}
+    next
+end
+config system dns
+    set primary {{ dns }}
+end
+
+config system central-management
+    set type fortimanager
+    set fmg {{ vendorSpecificData.managementServer.primary }}
+end
+
+execute central-mgmt register-device {{ vendorSpecificData.managementServer.serialNumber }} {{ vendorSpecificData.managementServer.registrationPassword }}

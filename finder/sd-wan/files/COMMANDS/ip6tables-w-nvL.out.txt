@@ -1,0 +1,443 @@
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       tcp      *      *       ::/0                 ::/0                 tcp dpt:179
+    0     0 DROP       tcp      *      *       ::/0                 ::/0                 tcp spt:179
+    0     0 DROP       icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128
+    0     0 VCMP_IN_ACL_PERSIST  all      *      *       ::/0                 ::/0                
+    0     0 ACCEPT     all      lo     *       ::/0                 ::/0                 /* !fw3 */
+    0     0 input_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom input rule chain */
+    0     0 ACCEPT     all      *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED /* !fw3 */
+    0     0 syn_flood  tcp      *      *       ::/0                 ::/0                 tcp flags:0x17/0x02 /* !fw3 */
+    0     0 zone_GE3_input  all      ge3    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE4_input  all      ge4    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE5_input  all      ge5    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE6_input  all      ge6    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP1_input  all      sfp1   *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP2_input  all      sfp2   *       ::/0                 ::/0                 /* !fw3 */
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom forwarding rule chain */
+    0     0 ACCEPT     all      *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED /* !fw3 */
+    0     0 zone_GE3_forward  all      ge3    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE4_forward  all      ge4    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE5_forward  all      ge5    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE6_forward  all      ge6    *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP1_forward  all      sfp1   *       ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP2_forward  all      sfp2   *       ::/0                 ::/0                 /* !fw3 */
+    0     0 reject     all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain OUTPUT (policy ACCEPT 745 packets, 38752 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all      *      lo      ::/0                 ::/0                 /* !fw3 */
+  746 38800 output_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom output rule chain */
+    0     0 ACCEPT     all      *      *       ::/0                 ::/0                 ctstate RELATED,ESTABLISHED /* !fw3 */
+    0     0 zone_GE3_output  all      *      ge3     ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE4_output  all      *      ge4     ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE5_output  all      *      ge5     ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_GE6_output  all      *      ge6     ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP1_output  all      *      sfp1    ::/0                 ::/0                 /* !fw3 */
+    0     0 zone_SFP2_output  all      *      sfp2    ::/0                 ::/0                 /* !fw3 */
+
+Chain VCMP_IN_ACL_PERSIST (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       tcp      *      *       ::/0                 ::/0                 tcp dpt:22
+    0     0 DROP       udp      *      *       ::/0                 ::/0                 udp dpt:161
+    0     0 DROP       tcp      *      *       ::/0                 ::/0                 tcp dpt:80
+    0     0 DROP       tcp      *      *       ::/0                 ::/0                 tcp dpt:443
+
+Chain forwarding_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain reject (13 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 REJECT     tcp      *      *       ::/0                 ::/0                 /* !fw3 */ reject-with tcp-reset
+    0     0 REJECT     all      *      *       ::/0                 ::/0                 /* !fw3 */ reject-with icmp6-port-unreachable
+
+Chain syn_flood (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 RETURN     tcp      *      *       ::/0                 ::/0                 tcp flags:0x17/0x02 limit: avg 25/sec burst 50 /* !fw3 */
+    0     0 DROP       all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      ge3     ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      ge3     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      ge3     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE3_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE3 forwarding rule chain */
+    0     0 zone_GE3_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE3_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE3 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_GE3_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE3_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE3 output rule chain */
+    0     0 zone_GE3_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE3_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      ge3    *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      ge4     ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      ge4     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      ge4     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE4_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE4 forwarding rule chain */
+    0     0 zone_GE4_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE4_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE4 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_GE4_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE4_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE4 output rule chain */
+    0     0 zone_GE4_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE4_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      ge4    *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      ge5     ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      ge5     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      ge5     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE5_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE5 forwarding rule chain */
+    0     0 zone_GE5_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE5_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE5 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_GE5_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE5_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE5 output rule chain */
+    0     0 zone_GE5_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE5_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      ge5    *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      ge6     ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      ge6     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      ge6     ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE6_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE6 forwarding rule chain */
+    0     0 zone_GE6_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE6_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE6 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_GE6_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE6_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom GE6 output rule chain */
+    0     0 zone_GE6_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_GE6_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      ge6    *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      sfp1    ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      sfp1    ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      sfp1    ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_SFP1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP1 forwarding rule chain */
+    0     0 zone_SFP1_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_SFP1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP1 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_SFP1_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_SFP1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP1 output rule chain */
+    0     0 zone_SFP1_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP1_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      sfp1   *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all      *      sfp2    ::/0                 ::/0                 ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all      *      sfp2    ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      *      sfp2    ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_SFP2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP2 forwarding rule chain */
+    0     0 zone_SFP2_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_SFP2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP2 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_SFP2_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_SFP2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom SFP2 output rule chain */
+    0     0 zone_SFP2_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_SFP2_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all      sfp2   *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB1_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB1_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_USB1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB1 forwarding rule chain */
+    0     0 zone_USB1_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB1_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_USB1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB1 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_USB1_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB1_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_USB1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB1 output rule chain */
+    0     0 zone_USB1_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB1_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_USB2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB2 forwarding rule chain */
+    0     0 zone_USB2_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB2_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_USB2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB2 input rule chain */
+    0     0 ACCEPT     udp      *      *       ::/0                 ::/0                 udp spt:547 dpt:546 /* !fw3: Allow-DHCP-V6-547-to-546 */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 128 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 129 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 133 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 135 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 134 /* !fw3: Allow-ICMPv6-Input */
+    0     0 ACCEPT     icmpv6    *      *       ::/0                 ::/0                 ipv6-icmptype 136 /* !fw3: Allow-ICMPv6-Input */
+    0     0 zone_USB2_src_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB2_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_USB2_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom USB2 output rule chain */
+    0     0 zone_USB2_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_USB2_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_network1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom network1 forwarding rule chain */
+    0     0 zone_network1_dest_REJECT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_network1_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_network1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom network1 input rule chain */
+    0     0 zone_network1_src_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_network1_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_network1_rule  all      *      *       ::/0                 ::/0                 /* !fw3: Custom network1 output rule chain */
+    0     0 zone_network1_dest_ACCEPT  all      *      *       ::/0                 ::/0                 /* !fw3 */
+
+Chain zone_network1_src_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         

@@ -1,0 +1,37 @@
+{
+  "Identity Certificate": [
+    {
+      "authorityKeyId": "C677E717C245BC434D0259FB0A437BD1B4124073", 
+      "digest": "9C86A20305DD55DC5C548F20D95B33EF9BF06B6F", 
+      "issuerDN": "CN=vco OU=OPS O=VeloCloud", 
+      "notValidAfter": "20221106161701Z", 
+      "notValidBefore": "20220807161701Z", 
+      "serialNumber": "00F8C392BAF32E17FF", 
+      "subjectDN": "CN=05c1d898-6b17-467c-9ec1-79b35f02b717 O=f6222128-6e00-46f1-a747-c6ff155d92b9 serialNumber=1NY6V43 title=edge", 
+      "subjectKeyId": "DF5C5DD1EE9D7F8C5273E64D68332843CBF90FED"
+    }
+  ], 
+  "Revoked Certificates": {
+    "N/A": "N/A"
+  }, 
+  "Trusted CA List": [
+    {
+      "authorityKeyId": "C677E717C245BC434D0259FB0A437BD1B4124073", 
+      "digest": "23F7152759FE8948215DD2D6382F2717BA543D1C", 
+      "issuerDN": "CN=vco OU=OPS O=VeloCloud", 
+      "notValidAfter": "20300128110120Z", 
+      "notValidBefore": "20200130110120Z", 
+      "serialNumber": "00F3E679CF7AA93A13", 
+      "subjectDN": "CN=vco OU=OPS O=VeloCloud", 
+      "subjectKeyId": "C677E717C245BC434D0259FB0A437BD1B4124073"
+    }
+  ], 
+  "pkiSettings": {
+    "crlNumber": "1660744135501", 
+    "endpointIgnoreVCOCertificateErrors": false, 
+    "endpointPkiAlg": "RSA", 
+    "endpointPkiKeyLength": "2048", 
+    "endpointPkiMode": "CERTIFICATE_OPTIONAL", 
+    "endpointTrustedIssuerVersion": "1580468480922"
+  }
+}

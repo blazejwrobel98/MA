@@ -1,0 +1,384 @@
+[
+    {
+        "option":       2,
+        "name":         "Time Offset",
+        "description":  "Time offset in seconds from UTC (note: deprecated by 100 and 101)",
+        "dataType":     "int",
+        "dataLength":	4,
+        "list":         false,
+        "display":	true
+    },
+    {
+        "option":       7,
+        "name":         "Logging Servers",
+        "description":  "List of logging server addresses",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       9,
+        "name":         "LPR Servers",
+        "description":  "List of printer addresses",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       13,
+        "name":         "Boot File Size",
+        "description":  "Size of boot file in 512 byte chunks",
+        "dataType":     "uint",
+        "dataLength":	2,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       16,
+        "name":         "Swap Servers",
+        "description":  "List of swap server addresses",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       17,
+        "name":         "Root Path",
+        "description":  "Path name for root disk",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       18,
+        "name":         "Extension File",
+        "description":  "Path name for extended BOOTP info",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       19,
+        "name":         "Forward On/Off",
+        "description":  "Enable/disable IP forwarding",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       20,
+        "name":         "SrcRte On/Off",
+        "description":  "Enable/disable source routing",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       22,
+        "name":         "Max Datagram Reassembly",
+        "description":  "Max datagram reassembly size, in bytes",
+        "dataType":     "uint",
+        "dataLength":	2,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       23,
+        "name":         "Default IP TTL",
+        "description":  "Default IP time to live",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       26,
+        "name":         "Interface MTU",
+        "description":  "MTU to use on this interface, minimum 68",
+        "dataType":     "uint",
+        "dataLength":	2,
+        "range":	"68-65535",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       27,
+        "name":         "MTU Subnet",
+        "description":  "All subnets are local",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       31,
+        "name":         "Router discovery",
+        "description":  "Perform router discovery",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       32,
+        "name":         "Router Request",
+        "description":  "Router solicitation address",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       34,
+        "name":         "Trailers",
+        "description":  "Trailer encapsulation",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       35,
+        "name":         "ARP Timeout",
+        "description":  "ARP cache timeout",
+        "dataType":     "uint",
+        "dataLength":	4,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       36,
+        "name":         "Ethernet Encapsulation",
+        "description":  "Ethernet encapsulation",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "range":	"0-1",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       37,
+        "name":         "Default TCP TTL",
+        "description":  "Default TCP time to live",
+        "dataType":     "uint",
+        "dataLength":	1,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       38,
+        "name":         "Keepalive Time",
+        "description":  "TCP keepalive interval",
+        "dataType":     "uint",
+        "dataLength":	4,
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       40,
+        "name":         "NIS Domain",
+        "description":  "NIS domain name",
+        "dataType":     "name",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       41,
+        "name":         "NIS Servers",
+        "description":  "NIS server list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       42,
+        "name":         "NTP Servers",
+        "description":  "List of NTP server IP addresses, in preference order",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	true
+    },
+    {
+        "option":       43,
+        "name":         "Vendor Specific",
+        "description":  "This option is used by clients and servers to exchange vendor-specific information",
+        "dataType":     "bytes",
+        "list":         true,
+        "display":      true
+    },
+    {
+        "option":       44,
+        "name":         "NETBIOS Name Servers",
+        "description":  "NETBIOS name servers",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       45,
+        "name":         "NETBIOS Distribution Servers",
+        "description":  "NETBIOS Distribution Servers",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       46,
+        "name":         "NETBIOS Node Type",
+        "description":  "NETBIOS node type 1/2/4/8",
+        "dataType":     "enum",
+        "enum":		{"1":1,"2":2,"4":4,"8":8},
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       47,
+        "name":         "NETBIOS Scope",
+        "description":  "NETBIOS scope",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       48,
+        "name":         "X Windows Font Servers",
+        "description":  "X Windows font servers",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       49,
+        "name":         "X Windows Display Managers",
+        "description":  "X Windows display managers",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       60,
+        "name":         "Vendor Class",
+        "description":  "Vendor class",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       64,
+        "name":         "NIS+ Domain",
+        "description":  "NIS+ domain",
+        "dataType":     "name",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       65,
+        "name":         "NIS+ Servers",
+        "description":  "NIS+ servers",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       66,
+        "name":         "TFTP Server",
+        "description":  "Used when SNAME field is used in the DHCP header",
+        "dataType":     "text",
+        "list":         false,
+        "display":	true
+    },
+    {
+        "option":       67,
+        "name":         "Boot File Name",
+        "description":  "Boot file name",
+        "dataType":     "text",
+        "list":         false,
+        "display":	true
+    },
+    {
+        "option":       68,
+        "name":         "Mobile Home Agents",
+        "description":  "Mobile home agent address list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       69,
+        "name":         "SMTP Servers",
+        "description":  "SMTP server address list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       70,
+        "name":         "POP3 Servers",
+        "description":  "POP3 server address list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       71,
+        "name":         "NNTP Servers",
+        "description":  "NNTP server address list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       74,
+        "name":         "IRC Servers",
+        "description":  "IRC server address list",
+        "dataType":     "ip",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       77,
+        "name":         "User Class",
+        "description":  "User class information",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    },
+    {
+        "option":       119,
+        "name":         "Domain Search",
+        "description":  "DNS domain search list",
+        "dataType":     "name",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       120,
+        "name":         "SIP Servers",
+        "description":  "SIP servers DHCP option",
+        "dataType":     "name",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       150,
+        "name":         "TFTP Servers",
+        "description":  "List of TFTP severs",
+        "dataType":     "name",
+        "list":         true,
+        "display":	false
+    },
+    {
+        "option":       252,
+        "name":         "HTTP Proxy",
+        "description":  "HTTP proxy autoconfigure",
+        "dataType":     "text",
+        "list":         false,
+        "display":	false
+    }
+]

@@ -1,0 +1,6 @@
+Authenticated clients known to hostapd processes:
+
+====
+
+Authenticated clients linked under /var/run/hostapd_authmac:
+

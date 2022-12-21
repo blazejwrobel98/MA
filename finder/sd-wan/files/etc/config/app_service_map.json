@@ -1,0 +1,16 @@
+{"type":"enum",
+ "name":"AppServiceMap",
+ "maps":
+    [
+     {"key":{"app":183, "service":2}, "values":{"sub_app":4096, "flow_type":1}},
+     {"key":{"app":183, "service":3}, "values":{"sub_app":4097, "flow_type":1}},
+     {"key":{"app":183, "service":259}, "values":{"sub_app":4098, "flow_type":1}},
+     {"key":{"app":183, "service":4}, "values":{"sub_app":4099, "flow_type":1}},
+     {"key":{"app":183, "service":261}, "values":{"sub_app":4100, "flow_type":0}},
+     {"key":{"app":183, "service":517}, "values":{"sub_app":4101, "flow_type":0}},
+     {"key":{"app":69, "service":0}, "values":{"sub_app":4102, "flow_type":1}},
+     {"key":{"app":69, "service":1}, "values":{"sub_app":4103, "flow_type":2}},
+     {"key":{"app":69, "service":2}, "values":{"sub_app":4103, "flow_type":2}},
+     {"key":{"app":69, "service":3}, "values":{"sub_app":4104, "flow_type":0}}
+    ]
+}

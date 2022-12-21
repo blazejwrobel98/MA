@@ -1,0 +1,9 @@
+2022-08-02T14:16:48.963 INFO [nyansa_snmptrapd 6180(6206)] Service has been enabled: nyansa_snmptrapd
+2022-08-02T14:16:48.963 INFO [nyansa_snmptrapd 6180(6206)] Launching process nyansa_snmptrapd: /opt/vc/bin/nyansa_snmptrapd.sh
+2022-08-02T14:16:49.034 INFO [nyansa_snmptrapd 6180(6206)] Process nyansa_snmptrapd: pid = 6215
+2022-08-02T14:24:23.167 INFO [nyansa_snmptrapd 6180(6206)] Process nyansa_snmptrapd (6215, 6215) returned from wait with retcode -15
+2022-08-02T14:24:23.167 INFO [nyansa_snmptrapd 6180(6206)] process nyansa_snmptrapd (pid 6215) completed
+2022-08-02T14:24:23.167 INFO [nyansa_snmptrapd 6180(6206)] Process nyansa_snmptrapd stopped during shutdown
+2022-08-02T14:24:23.586 INFO [nyansa_snmptrapd 15890(15910)] Service has been enabled: nyansa_snmptrapd
+2022-08-02T14:24:23.588 INFO [nyansa_snmptrapd 15890(15910)] Launching process nyansa_snmptrapd: /opt/vc/bin/nyansa_snmptrapd.sh
+2022-08-02T14:24:23.650 INFO [nyansa_snmptrapd 15890(15910)] Process nyansa_snmptrapd: pid = 15932

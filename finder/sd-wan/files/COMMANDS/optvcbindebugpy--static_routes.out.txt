@@ -1,0 +1,2 @@
+Address             Netmask       Next Hop                           Destination  Type  Interface  Metric  VLAN  SegId
+10.239.30.0   255.255.254.0  10.239.31.254  00000000-0000-0000-0000-000000000000   WAN        GE5       0   900      0

@@ -1,0 +1,84 @@
+[
+  {
+    "Gateways": [
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 1, 
+        "Logical ID": "157f9142-5533-4981-ab50-b807124e8032", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.103.35", 
+        "name": "vcg35-fra3", 
+        "onPremise": 0
+      }, 
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 0, 
+        "Logical ID": "a9285222-000c-4cb9-8365-81fd64d9277d", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.105.42", 
+        "name": "vcg42-mxp1", 
+        "onPremise": 0
+      }, 
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 0, 
+        "Logical ID": "f7784385-bfee-4ec8-b39f-87b0bb8ea90f", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.97.32", 
+        "name": "vcg32-cdg3", 
+        "onPremise": 0
+      }
+    ], 
+    "Segment ID": 0
+  }, 
+  {
+    "Gateways": [
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 1, 
+        "Logical ID": "157f9142-5533-4981-ab50-b807124e8032", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.103.35", 
+        "name": "vcg35-fra3", 
+        "onPremise": 0
+      }, 
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 0, 
+        "Logical ID": "a9285222-000c-4cb9-8365-81fd64d9277d", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.105.42", 
+        "name": "vcg42-mxp1", 
+        "onPremise": 0
+      }, 
+      {
+        "CDE": 0, 
+        "CWS": 0, 
+        "CWS Primary Gateway": 0, 
+        "Controller": 0, 
+        "Local Gateway": 0, 
+        "Logical ID": "f7784385-bfee-4ec8-b39f-87b0bb8ea90f", 
+        "Private IP": "N/A", 
+        "Public IP": "136.144.97.32", 
+        "name": "vcg32-cdg3", 
+        "onPremise": 0
+      }
+    ], 
+    "Segment ID": 1
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "ha_type": "active-backup", 
+  "icmp_response_to_echo_req": 0, 
+  "pathUp": 6, 
+  "total_vrrp_active_instance": 0, 
+  "total_vrrp_instance": 0, 
+  "total_vrrp_stale_instance": 0, 
+  "vrrp": [], 
+  "vrrp_matching_rule": 3
+}

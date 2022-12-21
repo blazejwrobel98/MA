@@ -1,0 +1,4 @@
+
+config usb 'status'
+	option disabled '0'
+

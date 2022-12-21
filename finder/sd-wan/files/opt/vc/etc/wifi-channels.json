@@ -1,0 +1,2387 @@
+{
+    "00": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 100}
+        ]
+    },
+    "AD": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "AE": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "AF": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "AI": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "AL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "AM": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 63},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 63, "dfs": true}
+        ]
+    },
+    "AN": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "AR": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "AS": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "AT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "AU": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 3981},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 116, "step": 4,
+             "maxwidth": 80, "maxpower": 501, "dfs": true},
+            {"band": "5", "low": 132, "high": 140, "step": 4,
+             "maxwidth": 80, "maxpower": 501, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 3981}
+        ]
+    },
+    "AW": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "AZ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 63},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 63, "dfs": true}
+        ]
+    },
+    "BA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "BB": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BD": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "BF": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BG": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "BH": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 100}
+        ]
+    },
+    "BL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "BM": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BN": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "BO": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BR": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BS": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "BT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "BY": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "BZ": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CA": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 116, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 132, "high": 140, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CF": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 40, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 40, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 40, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 40, "maxpower": 1000}
+        ]
+    },
+    "CH": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "CI": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CL": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "CN": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CO": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CR": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "CU": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 200}
+        ]
+    },
+    "CX": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "CY": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "CZ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "DE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "DK": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "DM": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "DO": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "DZ": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 132, "step": 4,
+             "maxwidth": 160, "maxpower": 200, "dfs": true}
+        ]
+    },
+    "EC": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "EE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "EG": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "ES": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "ET": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "FI": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "FM": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "FR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "GB": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "GD": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "GE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 63},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 63, "dfs": true}
+        ]
+    },
+    "GF": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "GH": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "GL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "GP": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "GR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "GT": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "GU": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "GY": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "HK": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "HN": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "HR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "HT": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "HU": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "ID": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 500},
+            {"band": "5", "low": 36, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 200}
+        ]
+    },
+    "IE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "IL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true}
+        ]
+    },
+    "IN": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 1000},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "IR": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "IS": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "IT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "JM": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "JO": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 200}
+        ]
+    },
+    "JP": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 200, "dfs": true}
+        ]
+    },
+    "KE": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 100, "high": 112, "step": 4,
+             "maxwidth": 80, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 153, "step": 4,
+             "maxwidth": 40, "maxpower": 200}
+        ]
+    },
+    "KH": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "KN": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "KP": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 20, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 124, "step": 4,
+             "maxwidth": 20, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "KR": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 200},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 200}
+        ]
+    },
+    "KW": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "KY": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "KZ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "LB": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "LC": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "LI": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "LK": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 20, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "LS": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "LT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "LU": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "LV": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "MA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "MC": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "MD": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "ME": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "MF": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "MH": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MK": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "MN": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MO": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 200},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MP": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MQ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "MR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "MT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "MU": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MV": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "MW": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "MX": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "MY": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 128, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 251}
+        ]
+    },
+    "NG": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 1000, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "NI": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "NL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "NO": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "NP": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "NZ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "OM": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "PA": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 3981},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 3981},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 1000},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 1000},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 3981}
+        ]
+    },
+    "PE": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PF": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "PG": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PH": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PK": {
+        "authority": "DFS-JP",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PL": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "PM": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "PR": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "PW": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "PY": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "QA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "RE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "RO": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "RS": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "RU": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 64, "step": 4,
+             "maxwidth": 160, "maxpower": 100},
+            {"band": "5", "low": 132, "high": 161, "step": 4,
+             "maxwidth": 160, "maxpower": 100}
+        ]
+    },
+    "RW": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "SA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "SE": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "SG": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 200},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "SI": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "SK": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 500, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 25}
+        ]
+    },
+    "SN": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "SR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "SV": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 20, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 20, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 20, "maxpower": 1000}
+        ]
+    },
+    "SY": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100}
+        ]
+    },
+    "TC": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "TD": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "TG": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 40, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 40, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "TH": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "TN": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "TR": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "TT": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "TW": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "TZ": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "UA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 132, "step": 4,
+             "maxwidth": 160, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 100}
+        ]
+    },
+    "UG": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "US": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "UY": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "UZ": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true}
+        ]
+    },
+    "VC": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "VE": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 200},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 200, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "VI": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 11, "step": 1,
+             "maxwidth": 40, "maxpower": 1000},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 251},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "VN": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "VU": {
+        "authority": "DFS-FCC",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 50},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 251, "dfs": true},
+            {"band": "5", "low": 149, "high": 161, "step": 4,
+             "maxwidth": 80, "maxpower": 1000}
+        ]
+    },
+    "WF": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "WS": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 40, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 40, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "YE": {
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100}
+        ]
+    },
+    "YT": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    },
+    "ZA": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 1000}
+        ]
+    },
+    "ZW": {
+        "authority": "DFS-ETSI",
+        "bands": [
+            {"band": "2.4", "low": 1, "high": 13, "step": 1,
+             "maxwidth": 40, "maxpower": 100},
+            {"band": "5", "low": 36, "high": 48, "step": 4,
+             "maxwidth": 80, "maxpower": 100},
+            {"band": "5", "low": 52, "high": 64, "step": 4,
+             "maxwidth": 80, "maxpower": 100, "dfs": true},
+            {"band": "5", "low": 100, "high": 140, "step": 4,
+             "maxwidth": 160, "maxpower": 501, "dfs": true}
+        ]
+    }
+}

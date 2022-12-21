@@ -1,0 +1,9 @@
+{
+    "mgd":{
+        "device": "edge",
+        "ignore_vco_cert_errors": false
+    },
+    "logging":{
+        "file_log_level": "DEBUG"
+    }
+}

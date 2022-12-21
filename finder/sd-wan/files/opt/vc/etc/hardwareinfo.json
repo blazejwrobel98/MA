@@ -1,0 +1,86 @@
+{
+    "GREEN_COLOR": "0x0000f000", 
+    "STA_LEDS": [], 
+    "USB_ENABLE_VALUE": 255, 
+    "SERIALNUMBER": "1NY6V43", 
+    "SWITCHED_PORTS": [], 
+    "CPUS": 0, 
+    "IPMI_MACADDR": null, 
+    "QAT_PCI_ID": "8086:19e2", 
+    "ALL_WIRED_LINKS": {
+        "GE3": "ge3", 
+        "GE2": "ge2", 
+        "GE1": "ge1", 
+        "GE6": "ge6", 
+        "GE5": "ge5", 
+        "GE4": "ge4", 
+        "SFP2": "sfp2", 
+        "SFP1": "sfp1"
+    }, 
+    "DEFAULT_LAN_LINKS": {
+        "GE2": "ge2", 
+        "GE1": "ge1"
+    }, 
+    "MODEL": "edge620", 
+    "VNF_CPUS": 0, 
+    "USB_AVAILABLE": true, 
+    "COMMENT": "#", 
+    "VNF": true, 
+    "LEDS": [
+        "logo"
+    ], 
+    "QAT_VER": 17, 
+    "USB_DISABLE_STYLE": "CMOS", 
+    "POE_DIR": null, 
+    "USB_DISABLE_CMOS_OFFSET": 82, 
+    "YELLOW_COLOR": "0x0000f0f0", 
+    "QAT_NAME": "c3xxx", 
+    "USB_PATHS": {
+        "USB2": [
+            "/sys/devices/pci0000:00/0000:00:15.0/usb1/1-2", 
+            "/sys/devices/pci0000:00/0000:00:15.0/usb2/2-1"
+        ], 
+        "USB1": [
+            "/sys/devices/pci0000:00/0000:00:15.0/usb1/1-1", 
+            "/sys/devices/pci0000:00/0000:00:15.0/usb2/2-4"
+        ]
+    }, 
+    "QAT_CONTROL": "/bin/adf_ctl_17", 
+    "AP_LEDS": [], 
+    "LTE_MODULES": [], 
+    "SFP_LINKS": {
+        "SFP2": "sfp2", 
+        "SFP1": "sfp1"
+    }, 
+    "USB_LEDS": {}, 
+    "FAMILY": "EDGE6X0", 
+    "VIRTUAL_EDGE": false, 
+    "LED_STYLE": "vc", 
+    "QAT_DRIVER": "qat_c3xxx.ko", 
+    "POE_PORTS": {}, 
+    "QAT_USM_DRIVER": "usdm_drv.ko", 
+    "WHITE_COLOR": "0x00f0f0f0", 
+    "LTE_NAMES": [], 
+    "DEFAULT_INTERNET_LINKS": {
+        "GE3": "ge3", 
+        "SFP2": "sfp2", 
+        "SFP1": "sfp1", 
+        "GE6": "ge6", 
+        "GE5": "ge5", 
+        "GE4": "ge4"
+    }, 
+    "USB_NAMES": [
+        "USB1", 
+        "USB2"
+    ], 
+    "THREEG_LEDS": [], 
+    "USB_DISABLE_VALUE": 0, 
+    "QAT_ALIAS": "Denverton", 
+    "DEVICEID": "497674E2-08C9-4545-A41C-5D98E2DD6348", 
+    "MODEM_LINKS": [
+        "USB1", 
+        "USB2"
+    ], 
+    "RED_COLOR": "0x000000f0", 
+    "BLUE_COLOR": "0x00f00000"
+}

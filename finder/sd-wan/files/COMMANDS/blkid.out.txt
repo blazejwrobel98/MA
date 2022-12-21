@@ -1,0 +1,8 @@
+/dev/sda1: LABEL="vnf" UUID="77464fcd-c45a-4061-9c10-396f3e86d7fc" TYPE="ext4" PARTLABEL="vnf" PARTUUID="57f280e4-5cbe-4e7c-984b-496945ed4898"
+/dev/mmcblk0: PTUUID="d2a3fe06-1d7e-400c-8cdc-d94e599f1336" PTTYPE="gpt"
+/dev/mmcblk0p1: PARTLABEL="grub" PARTUUID="f4c66c87-144c-4f27-b662-5a0bea96fcb6"
+/dev/mmcblk0p2: LABEL="boot" UUID="0f63b491-ae33-4190-9713-dc0a5a5bf22a" TYPE="ext4" PARTLABEL="boot" PARTUUID="b2172fc8-a0ee-47ea-ac09-f8fc4109a776"
+/dev/mmcblk0p3: LABEL="root0" UUID="c7a48ea8-7799-4806-bd7e-1fd41c20c578" TYPE="ext4" PARTLABEL="root0" PARTUUID="3e2df7d2-1e5d-4b43-aedf-f11b50b1001f"
+/dev/mmcblk0p4: LABEL="root1" UUID="2de361d5-418d-4074-b296-36097c4de52f" TYPE="ext4" PARTLABEL="root1" PARTUUID="9b84611d-235a-46c8-8437-b84757ecc3d5"
+/dev/mmcblk0p5: LABEL="root2" UUID="1e80c47c-c451-449d-9313-522a1bd2c581" TYPE="ext4" PARTLABEL="root2" PARTUUID="f7c8a1ef-ff30-4ddc-b8b2-3180a569ac2c"
+/dev/mmcblk0p6: LABEL="user" UUID="563c3449-f0de-4347-9cda-d608825fede6" TYPE="ext4" PARTLABEL="user" PARTUUID="0fcc6cda-1a80-410c-91b3-67690316cbfd"

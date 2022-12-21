@@ -1,0 +1,113 @@
+config interface 'loopback'
+	option ifname 'lo'
+	option proto 'static'
+	option ipaddr '127.0.0.1'
+	option netmask '255.0.0.0'
+	option ipv6 0
+
+config interface 'segmgmt'
+	option ifname 'segmgmt'
+	option type 'bridge'
+	option bridge_empty 1
+	option force_link 1
+	option proto 'static'
+	list   ipaddr '169.254.3.1'
+	list   ipaddr '169.254.3.2'
+	list   ipaddr '169.254.4.1'
+	option netmask '255.255.255.255'
+	option ipv6 0
+
+config interface 'HA'
+	option ifname 'ge1'
+	option lanport 'GE1'
+	option haport '1'
+	option proto 'static'
+	option virtualmac 'f0:8e:db:b7:17:00'
+	option vmacoverride '0'
+
+config interface 'GE2'
+	option ifname 'ge2'
+	option disabled '1'
+
+config interface 'GE3'
+	option ifname 'ge3'
+	option proto 'static'
+	option ipaddr '85.128.72.178'
+	option netmask '255.255.255.240'
+	option mtu '1500'
+	option ipv6 0
+
+
+config route 'GE3_DEFAULT_ROUTE'
+	option interface 'GE3'
+	option target '0.0.0.0'
+	option netmask '0.0.0.0'
+	option gateway '85.128.72.177'
+	option metric 5
+
+config interface 'GE4'
+	option ifname 'ge4'
+	option proto 'static'
+	option ipaddr '10.255.64.6'
+	option netmask '255.255.255.252'
+	option mtu '1500'
+	option ipv6 0
+
+
+config route 'GE4_DEFAULT_ROUTE'
+	option interface 'GE4'
+	option target '0.0.0.0'
+	option netmask '0.0.0.0'
+	option gateway '10.255.64.5'
+	option metric 6
+
+config interface 'GE5'
+	option ifname 'ge5'
+	option hostname 'vc-ge5'
+	option proto 'none'
+	option ipv6 0
+	option mtu '1500'
+	option vlanId 900     # for book-keeping
+
+config interface 'GE5_400'
+	option ifname 'ge5.400'
+	option proto 'static'
+	option ipaddr '192.168.0.1'
+	option netmask '255.255.252.0'
+	option mtu '1500'
+	option ipv6 0
+	option macaddr 'f0:8e:db:b7:17:85'
+
+config interface 'GE5_900'
+	option ifname 'ge5.900'
+	option proto 'static'
+	option ipaddr '10.239.31.249'
+	option netmask '255.255.255.248'
+	option mtu '1500'
+	option ipv6 0
+	option macaddr 'f0:8e:db:b7:17:85'
+
+config interface 'GE6'
+	option ifname 'ge6'
+	option hostname 'vc-ge6'
+	option proto 'dhcp'
+	option ipv6 0
+	option mtu '1500'
+	option metric 8
+
+config interface 'SFP1'
+	option ifname 'sfp1'
+	option hostname 'vc-sfp1'
+	option proto 'dhcp'
+	option ipv6 0
+	option mtu '1500'
+	option metric 31
+
+config interface 'SFP2'
+	option ifname 'sfp2'
+	option hostname 'vc-sfp2'
+	option proto 'dhcp'
+	option ipv6 0
+	option mtu '1500'
+	option metric 32
+

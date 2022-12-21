@@ -1,0 +1,42 @@
+{
+    "default_ospf_preference": 512, 
+    "delete_event_time_in_minutes": 0,
+    "preferred_metric_type": "OE1",
+    "preferred_metric": "auto",
+    "non_preferred_metric_type": "OE2",
+    "non_preferred_metric": "auto",
+    "non_preferred_metric_constant": 16777214,
+    "transit_point_metric_constant": 10,
+	"dead_pool_evict_in_sec": 1,
+    "route_backoff": 0,
+    "redistribute": {
+        "connected": {
+            "enable": 1, 
+            "type": "OE1"
+        }, 
+        "default_route": {
+            "enable": 1, 
+            "type": "OE1"
+        }, 
+        "static": {
+            "enable": 1, 
+            "type": "OE1"
+        }, 
+        "vcrp_external": {
+            "enable": 1, 
+            "type": "OE1"
+        }, 
+        "vcrp_only": {
+            "enable": 1, 
+            "type": "OE1"
+        },
+        "hubless_redistribution": {
+            "enable": 1, 
+            "type": "OE1"
+        },
+        "hub_redistribution": {
+            "enable": 1, 
+            "type": "OE1"
+        }
+    }
+}

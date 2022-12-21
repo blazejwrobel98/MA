@@ -1,0 +1,173 @@
+Chain PREROUTING (policy ACCEPT 15M packets, 2691M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  15M 2691M VCMP_DNAT_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  15M 2691M prerouting_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom prerouting rule chain */
+ 397K   18M zone_GE3_prerouting  all  --  ge3    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE4_prerouting  all  --  ge4    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE5_prerouting  all  --  ge5    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE6_prerouting  all  --  ge6    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP1_prerouting  all  --  sfp1   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP2_prerouting  all  --  sfp2   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain INPUT (policy ACCEPT 543K packets, 29M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 2152K packets, 130M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 2152K packets, 130M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+2152K  130M VCMP_SNAT_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+2152K  130M postrouting_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom postrouting rule chain */
+    1    86 zone_GE3_postrouting  all  --  *      ge3     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE4_postrouting  all  --  *      ge4     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE5_postrouting  all  --  *      ge5     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE6_postrouting  all  --  *      ge6     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP1_postrouting  all  --  *      sfp1    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP2_postrouting  all  --  *      sfp2    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain VCMP_DNAT_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain VCMP_SNAT_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain postrouting_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain prerouting_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_GE3_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    1    86 postrouting_GE3_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE3 postrouting rule chain */
+    1    86 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 397K   18M prerouting_GE3_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE3 prerouting rule chain */
+
+Chain zone_GE4_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_GE4_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE4 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_GE4_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE4 prerouting rule chain */
+
+Chain zone_GE5_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_GE5_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE5 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_GE5_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE5 prerouting rule chain */
+
+Chain zone_GE6_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_GE6_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE6 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_GE6_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE6 prerouting rule chain */
+
+Chain zone_SFP1_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_SFP1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP1 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_SFP1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP1 prerouting rule chain */
+
+Chain zone_SFP2_postrouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_SFP2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP2 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_prerouting (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_SFP2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP2 prerouting rule chain */
+
+Chain zone_USB1_postrouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_USB1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB1 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB1_prerouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_USB1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB1 prerouting rule chain */
+
+Chain zone_USB2_postrouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_USB2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB2 postrouting rule chain */
+    0     0 MASQUERADE  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB2_prerouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_USB2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB2 prerouting rule chain */
+
+Chain zone_network1_postrouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 postrouting_network1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom network1 postrouting rule chain */
+
+Chain zone_network1_prerouting (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 prerouting_network1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom network1 prerouting rule chain */

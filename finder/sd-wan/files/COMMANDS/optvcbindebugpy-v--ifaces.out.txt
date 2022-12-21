@@ -1,0 +1,859 @@
+[
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "52:54:00:00:00:00", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 1, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "net_vhost0", 
+    "netdev": "", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "52:54:00:00:00:01", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 2, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "net_vhost1", 
+    "netdev": "", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "52:54:00:00:01:fe", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 3, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "net_vhost2", 
+    "netdev": "", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:83", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 4, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "GE3_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "UP", 
+    "ref_count": 3, 
+    "running": 1, 
+    "rx_bytes": 399403708826, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 464390183, 
+    "tx_bytes": 121473160105, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 254207599
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "GE3_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:83", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 5, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "85.128.72.178", 
+        "advertise": 0, 
+        "mask": "255.255.255.240", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "GE3", 
+    "netdev": "ge3", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 399403802026, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 464390361, 
+    "tx_bytes": 121435864883, 
+    "tx_dropped": 12, 
+    "tx_errors": 0, 
+    "tx_packets": 253808680
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:84", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 6, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "GE4_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "DOWN", 
+    "ref_count": 3, 
+    "running": 1, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver": {
+      "link_id": 102, 
+      "local": "GE4_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:84", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 7, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "10.255.64.6", 
+        "advertise": 0, 
+        "mask": "255.255.255.252", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "GE4", 
+    "netdev": "ge4", 
+    "oper_state": "UP", 
+    "ref_count": 3, 
+    "running": 1, 
+    "rx_bytes": 65113837830, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 164545276, 
+    "tx_bytes": 43078319984, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 156992502
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "18:5a:58:80:85:62", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 1, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 8, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "169.254.2.1", 
+        "advertise": 0, 
+        "mask": "255.255.255.0", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 0
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "LAN", 
+    "mtu": 1500, 
+    "name": "GE1", 
+    "netdev": "ge1", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 70904409304, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 218256363, 
+    "tx_bytes": 110585120149, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 260951295
+  }, 
+  {
+    "driver": {
+      "map_size": 0, 
+      "netdev": "ge2", 
+      "parent_netdev": "", 
+      "sock": -1
+    }, 
+    "driver_name": "socket", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:82", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 9, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "GE2_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "DOWN", 
+    "ref_count": 3, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "GE2_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:82", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 10, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "0.0.0.0", 
+        "advertise": 0, 
+        "mask": "255.255.255.255", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 0
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "GE2", 
+    "netdev": "ge2", 
+    "oper_state": "DOWN", 
+    "ref_count": 2, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:92", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 11, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "SFP2_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "DOWN", 
+    "ref_count": 3, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "SFP2_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:92", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 12, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "0.0.0.0", 
+        "advertise": 0, 
+        "mask": "255.255.255.255", 
+        "nat_direct": 1, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "SFP2", 
+    "netdev": "sfp2", 
+    "oper_state": "DOWN", 
+    "ref_count": 2, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:91", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 13, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "SFP1_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "DOWN", 
+    "ref_count": 3, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "SFP1_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:91", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 14, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "0.0.0.0", 
+        "advertise": 0, 
+        "mask": "255.255.255.255", 
+        "nat_direct": 1, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "SFP1", 
+    "netdev": "sfp1", 
+    "oper_state": "DOWN", 
+    "ref_count": 2, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:86", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 15, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "GE6_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "DOWN", 
+    "ref_count": 3, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "GE6_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:86", 
+      "cvlan_id": 0, 
+      "cvlan_proto": 0, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 16, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "0.0.0.0", 
+        "advertise": 0, 
+        "mask": "255.255.255.255", 
+        "nat_direct": 1, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "GE6", 
+    "netdev": "ge6", 
+    "oper_state": "DOWN", 
+    "ref_count": 2, 
+    "running": 0, 
+    "rx_bytes": 0, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 0, 
+    "tx_bytes": 0, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 0
+  }, 
+  {
+    "driver_name": "dpdk", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:85", 
+      "cvlan_id": 900, 
+      "cvlan_proto": 33024, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": [
+        {
+          "cvlan_id": 900, 
+          "cvlan_proto": 33024, 
+          "ref_count": 1, 
+          "svlan_id": 0, 
+          "svlan_proto": 0
+        }, 
+        {
+          "cvlan_id": 400, 
+          "cvlan_proto": 33024, 
+          "ref_count": 1, 
+          "svlan_id": 0, 
+          "svlan_proto": 0
+        }
+      ]
+    }, 
+    "ifindex": 17, 
+    "ip": null, 
+    "ipv6_info": [], 
+    "mgmt_type": "INTERNAL", 
+    "mtu": 1500, 
+    "name": "GE5_HA_LOCAL", 
+    "netdev": "", 
+    "oper_state": "UP", 
+    "ref_count": 3, 
+    "running": 1, 
+    "rx_bytes": 124515881374, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 286121756, 
+    "tx_bytes": 411708408000, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 475725340
+  }, 
+  {
+    "driver": {
+      "link_id": -1, 
+      "local": "GE5_HA_LOCAL"
+    }, 
+    "driver_name": "HA", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:85", 
+      "cvlan_id": 900, 
+      "cvlan_proto": 33024, 
+      "promisc": 1, 
+      "sec_addr_list": [
+        {
+          "addr": "01:00:5e:00:00:05", 
+          "ref_count": 1
+        }, 
+        {
+          "addr": "01:00:5e:00:00:06", 
+          "ref_count": 1
+        }
+      ], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": [
+        {
+          "cvlan_id": 400, 
+          "cvlan_proto": 33024, 
+          "ref_count": 1, 
+          "svlan_id": 0, 
+          "svlan_proto": 0
+        }
+      ]
+    }, 
+    "ifindex": 18, 
+    "ip": {
+      "dhcp": {
+        "enabled": 0, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "10.239.31.249", 
+        "advertise": 1, 
+        "mask": "255.255.255.248", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "ROUTED", 
+    "mtu": 1500, 
+    "name": "GE5", 
+    "netdev": "ge5", 
+    "oper_state": "UP", 
+    "ref_count": 3, 
+    "running": 1, 
+    "rx_bytes": 124516078991, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 286121999, 
+    "tx_bytes": 411645425057, 
+    "tx_dropped": 46, 
+    "tx_errors": 0, 
+    "tx_packets": 475706456
+  }, 
+  {
+    "driver": {
+      "lower": "GE5"
+    }, 
+    "driver_name": "vlan", 
+    "encap_type": "ETHERNET", 
+    "eth": {
+      "addr": "f0:8e:db:b7:17:85", 
+      "cvlan_id": 400, 
+      "cvlan_proto": 33024, 
+      "promisc": 0, 
+      "sec_addr_list": [], 
+      "svlan_id": 0, 
+      "svlan_proto": 0, 
+      "vlan_filter_list": []
+    }, 
+    "ifindex": 19, 
+    "ip": {
+      "dhcp": {
+        "enabled": 1, 
+        "relay_enabled": 0, 
+        "relay_from_secondary_ips": 0, 
+        "relay_ips": []
+      }, 
+      "pri_addr": {
+        "addr": "192.168.0.1", 
+        "advertise": 0, 
+        "mask": "255.255.252.0", 
+        "nat_direct": 0, 
+        "ping_reply_enabled": 1
+      }, 
+      "sec_addr_list": []
+    }, 
+    "ipv6_info": [], 
+    "mgmt_type": "SUBIF", 
+    "mtu": 1500, 
+    "name": "GE5:400", 
+    "netdev": "ge5.400", 
+    "oper_state": "UP", 
+    "ref_count": 2, 
+    "running": 1, 
+    "rx_bytes": 2125826092, 
+    "rx_dropped": 0, 
+    "rx_errors": 0, 
+    "rx_packets": 7489195, 
+    "tx_bytes": 967764, 
+    "tx_dropped": 0, 
+    "tx_errors": 0, 
+    "tx_packets": 724
+  }
+]

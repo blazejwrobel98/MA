@@ -1,0 +1,23 @@
+# [.section tun_setup.sh] - used by tun_setup.sh script            
+trusted_lan="br-network1"
+untrusted_lan=""
+wan_list="GE3 GE4 GE5 GE6 MODEM1 MODEM2 MODEM3 MODEM4 MODEM5 MODEM6 MODEM7 MODEM8 SFP1 SFP2 USB1 USB2"
+
+ipif=vce1
+drdif=drd1
+drdif_ip=192.1.1.1
+drdif_nm=255.255.255.0
+drdif_ptp=192.1.1.2
+ip_icmp=1
+ip_mark="200"
+failover_mark=0x5
+ip_table_id=200
+segment_nat_ip="169.254.3.0/24"
+
+#TODO: Configurable MTU in the VCO?
+ipif_mtu=1500
+drdif_mtu=1500
+lan_mtu=1500
+local_tunnel_tcp_ports="22,53,80,123,443,9443,61000,179" # multiport option
+local_tunnel_udp_ports="53,123" # multiport option
+local_tunnel_src_tcp_ports="179"

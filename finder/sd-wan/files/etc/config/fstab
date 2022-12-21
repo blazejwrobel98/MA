@@ -1,0 +1,32 @@
+config global automount
+	option from_fstab 1
+	option anon_mount 0
+
+config global autoswap
+	option from_fstab 1
+	option anon_swap 0
+
+config mount
+	option target   /boot
+	option uuid     '0f63b491-ae33-4190-9713-dc0a5a5bf22a'
+	option fstype   ext4
+	option options  rw,async,noatime
+	option enabled  1
+	option enabled_fsck 0
+
+config mount
+	option target   /velocloud
+	option uuid     '563c3449-f0de-4347-9cda-d608825fede6'
+	option fstype   ext4
+	option options  rw,async,noatime
+	option enabled  1
+	option enabled_fsck 0
+
+config mount
+	option target   /vnf
+	option uuid     '77464fcd-c45a-4061-9c10-396f3e86d7fc'
+	option fstype   ext4
+	option options  rw,async,noatime
+	option enabled  1
+	option enabled_fsck 0
+

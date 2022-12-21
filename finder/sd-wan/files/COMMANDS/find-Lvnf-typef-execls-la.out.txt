@@ -1,0 +1,3 @@
+-rw-rw-r--    1 root     root     3346137088 Jun  7  2019 /vnf/images/cp77_30.qcow2
+-rw-rw-r--    1 root     root     2432106496 Jun  7  2019 /vnf/images/PA-VM-KVM-8.0.5.qcow2
+-rw-r--r--    1 root     root           156 Aug  2 14:16 /vnf/tmp/origmacs

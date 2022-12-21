@@ -1,0 +1,40 @@
+{
+  "iterator": [
+    {
+      "id": 0, 
+      "name": "Global Segment", 
+      "state": "ALIVE"
+    }, 
+    {
+      "id": 1, 
+      "name": "AAGuest", 
+      "state": "ALIVE"
+    }
+  ], 
+  "segments": [
+    {
+      "dynamic bgp lan route cnt": 0, 
+      "dynamic bgp route cnt": 0, 
+      "dynamic ospf lan route cnt": 0, 
+      "dynamic ospf route cnt": 0, 
+      "id": 0, 
+      "name": "Global Segment", 
+      "primary gw": "vcg35-fra3", 
+      "primary gw log id": "157f9142-5533-4981-ab50-b807124e8032", 
+      "state": "ALIVE", 
+      "type": "REGULAR"
+    }, 
+    {
+      "dynamic bgp lan route cnt": 0, 
+      "dynamic bgp route cnt": 0, 
+      "dynamic ospf lan route cnt": 0, 
+      "dynamic ospf route cnt": 0, 
+      "id": 1, 
+      "name": "AAGuest", 
+      "primary gw": "vcg35-fra3", 
+      "primary gw log id": "157f9142-5533-4981-ab50-b807124e8032", 
+      "state": "ALIVE", 
+      "type": "REGULAR"
+    }
+  ]
+}

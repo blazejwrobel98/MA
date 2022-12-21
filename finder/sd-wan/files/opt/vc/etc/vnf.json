@@ -1,0 +1,54 @@
+{
+    "monitor_port": 4321, 
+    "cow-image": 1, 
+    "tmpfs": "/vnf/mem", 
+    "snmp_retries": 3, 
+    "nics": [
+        {
+            "path": "/var/run/vhost0", 
+            "mac": "52:54:00:00:00:00", 
+            "client": 1, 
+            "name": "net_vhost0"
+        }, 
+        {
+            "path": "/var/run/vhost1", 
+            "mac": "52:54:00:00:00:01", 
+            "client": 1, 
+            "name": "net_vhost1"
+        }
+    ], 
+    "args": [
+        "qemu-system-x86_64", 
+        "-no-user-config", 
+        "-nodefaults", 
+        "-enable-kvm", 
+        "-display", 
+        "vnc=0.0.0.0:1", 
+        "-vga", 
+        "cirrus"
+    ], 
+    "serial_port": 4322, 
+    "state": "disabled", 
+    "version": 1, 
+    "edge_id": "789b9f8f-4c93-48ca-817e-f887402f919b", 
+    "management": {
+        "peer_mac": "52:54:00:00:00:FF", 
+        "name": "vnf-mgt0", 
+        "connection": "br-network1", 
+        "mac": "52:54:00:00:01:FF", 
+        "peer_address": null, 
+        "macs": [
+            "52:54:00:00:00:FF", 
+            "52:54:00:00:01:FF"
+        ]
+    }, 
+    "ha": {
+        "mac": "52:54:00:00:01:FE", 
+        "connection": "br-HA", 
+        "macs": [
+            "52:54:00:00:00:FE", 
+            "52:54:00:00:01:FE"
+        ], 
+        "name": "vnf-ha0"
+    }
+}

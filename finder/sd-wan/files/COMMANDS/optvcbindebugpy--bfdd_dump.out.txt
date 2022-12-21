@@ -1,0 +1,27 @@
+show running-config
+===================
+Building configuration...
+
+Current configuration:
+!
+frr version 7.0
+frr defaults traditional
+hostname vc-edge
+!
+password zebra
+!
+line vty
+ access-class vty
+!
+bfd
+!
+end
+
+sh bfd peers
+============
+BFD Peers:
+
+sh bfd peers counters
+=====================
+BFD Peers:
+

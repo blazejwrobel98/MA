@@ -1,0 +1,11 @@
+name         port  link  ignore  strip  speed  duplex  autoneg  driver
+ge3             0     1       0      1   1000       1        1     igb
+ge1             2     1       0      1   1000       1        1     igb
+ge6             5     0       2      1      0       0        1   ixgbe
+ge5             6     1       0      1   1000       1        1   ixgbe
+ge4             1     0       2      1      0       0        0     igb
+sfp2            3     0       2      1      0       0        1   ixgbe
+sfp1            4     0       2      1      0       0        1   ixgbe
+net_vhost0      7     0       0      1  10000       1        0        
+net_vhost1      8     0       0      1  10000       1        0        
+net_vhost2      9     0       0      1  10000       1        0        

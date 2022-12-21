@@ -1,0 +1,11 @@
+[
+    {
+        "bios-version":"3.50.0.9-10",
+        "cmos-disabled":"False",
+        "cmos-offset":"82",
+        "cmos-value":"0xFF",
+        "grub-disabled":"False",
+        "grub-value":"",
+        "status":"success"
+    }
+]

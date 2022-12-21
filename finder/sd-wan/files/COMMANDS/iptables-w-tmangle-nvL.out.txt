@@ -1,0 +1,70 @@
+Chain PREROUTING (policy ACCEPT 74M packets, 8552M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+  74M 8556M SEG_LAN_ROUTING_INPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  74M 8556M VCMP_MARK_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain INPUT (policy ACCEPT 60M packets, 5909M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+    0     0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x06/0x02 TCPMSS set 1320
+
+Chain OUTPUT (policy ACCEPT 394K packets, 16M bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+ 111M   67G SEG_LAN_ROUTING_OUTPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 111M   67G TUN_CHAIN  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain POSTROUTING (policy ACCEPT 111M packets, 67G bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain LOGGING (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain MODEM_CHAIN (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain SEG_LAN_ROUTING_INPUT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  14M 2649M CONNMARK   all  --  ge1    *       0.0.0.0/0            0.0.0.0/0            state NEW CONNMARK set 0x106
+
+Chain SEG_LAN_ROUTING_OUTPUT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  89M   63G MARK       all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x106 MARK set 0x106
+
+Chain TUN_CHAIN (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 MARK       all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x105 MARK set 0x105
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x105
+ 111M   67G MODEM_CHAIN  tcp  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 MARK       all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x10b MARK set 0x10b
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x10b
+ 7431 5546K MARK       all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x104 MARK set 0x104
+ 7431 5546K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            connmark match  0x104
+  90M   63G ACCEPT     all  --  *      ge1     0.0.0.0/0            0.0.0.0/0           
+  15M 2181M ACCEPT     all  --  *      *       0.0.0.0/0            127.0.0.1           
+    0     0 ACCEPT     all  --  *      lo      0.0.0.0/0            0.0.0.0/0           
+4322K  379M MARK       all  --  *      *       169.254.3.0/24       0.0.0.0/0            MARK set 0xc8
+4322K  379M ACCEPT     all  --  *      *       169.254.3.0/24       0.0.0.0/0           
+    0     0 ACCEPT     all  --  *      br-network1  0.0.0.0/0            0.0.0.0/0           
+   15   600 MARK       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport sports 179 MARK set 0xc8
+   15   600 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport sports 179
+2238K 1001M MARK       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport dports 22,53,80,123,443,9443,61000,179 MARK set 0xc8
+2238K 1001M ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport dports 22,53,80,123,443,9443,61000,179
+30207 2270K MARK       udp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport dports 53,123 MARK set 0xc8
+30207 2270K ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            multiport dports 53,123
+   92  4416 MARK       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 code 0 MARK set 0xc8
+ 5614  658K ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain VCMP_MARK_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 397K   18M CONNMARK   all  --  ge3    *       0.0.0.0/0            0.0.0.0/0            state NEW CONNMARK set 0x104
+    6   312 CONNMARK   all  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            state NEW CONNMARK set 0x10b
+    0     0 CONNMARK   all  --  ge4    *       0.0.0.0/0            0.0.0.0/0            state NEW CONNMARK set 0x105

@@ -1,0 +1,8 @@
+config mount
+	option target   /vnf
+	option device   /dev/@VNFPART@
+	option fstype   ext4
+	option options  rw,async,noatime
+	option enabled  1
+	option enabled_fsck 0
+

@@ -1,0 +1,2 @@
+Address   Netmask  Gateway  Nbr IP  Nbr ID  Metric  Redis Metric  OSPF Cost  Type  Intf  Flags
+O - Intra Area, IA - Inter Area, OE1 - External 1, OE2 - External 2

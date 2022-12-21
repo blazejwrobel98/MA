@@ -1,0 +1,136 @@
+
+====== Firmware Versions =======
+
+Failed to set address 31
+BIOS version:
+3.50.0.9-10
+
+CPLD version:
+ERROR: i2ctool_get[1059]: ERROR: FAILED <<<---
+Error Reading from I2C
+Error in reading version by i2ctool
+
+PIC version:
+v20N
+cc26x0 version:
+
+BIOS_VERSION from DMI = 3.50.0.9-10
+CPLD VERSION from sysfs = 0x07
+
+====== IDEEPROM contents ======
+
+TlvInfo Header:
+   Id String:    TlvInfo
+   Version:      1
+   Total Length: 177
+TLV Name             Code Len Value
+-------------------- ---- --- -----
+Product Name         0x21   7 EDGE620
+Part Number          0x22   6 0731RT
+Serial Number        0x23  20 TW0731RTDNG000C10453
+Base MAC Address     0x24   6 18:5A:58:80:85:60
+Manufacture Date     0x25  19 12/01/2020 15:31:10
+Device Version       0x26   1 1
+Label Revision       0x27   3 A00
+Platform Name        0x28  22 x86_64-dellemc_edge620
+MAC Addresses        0x2A   2 64
+Manufacturer         0x2B   5 DNG00
+Country Code         0x2C   2 TW
+Vendor Name          0x2D   8 Dell EMC
+Diag Version         0x2E  12 3.43.3.81-19
+Service Tag          0x2F   7 1NY6V43
+Vendor Extension     0xFD  21 0x00 0x00 0x02 0xA2 0x20 0x49 0x76 0x74 0xE2 0x08 0xC9 0x45 0x45 0xA4 0x1C 0x5D 0x98 0xE2 0xDD 0x63 0x48 
+CRC-32               0xFE   4 0xF8D0E6C8
+Checksum is valid.
+
+====== SMART diagnostics ======
+
+smartctl 6.2 2013-07-26 r3841 [x86_64-linux-4.14.239] (local build)
+Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Device Model:     128GB SATA Flash Drive
+Serial Number:    E02204493000000004F9
+LU WWN Device Id: 6 616500 4f9d0d0d0
+Firmware Version: SFDN004E
+User Capacity:    128,035,676,160 bytes [128 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    Solid State Device
+Device is:        Not in smartctl database [for details use: -P showall]
+ATA Version is:   ACS-2 (minor revision not indicated)
+SATA Version is:  SATA 3.1, 6.0 Gb/s (current: 6.0 Gb/s)
+Local Time is:    Thu Aug 18 09:25:53 2022 UTC
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x02)	Offline data collection activity
+					was completed without error.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(   32) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 (  48) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5873
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       26
+163 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       7
+164 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       2
+166 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+167 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+168 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+175 Program_Fail_Count_Chip 0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       19
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       40 (Min/Max 40/44)
+231 Temperature_Celsius     0x0012   100   100   000    Old_age   Always       -       100
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       271836296
+
+SMART Error Log Version: 1
+No Errors Logged
+
+SMART Self-test log structure revision number 1
+No self-tests have been logged.  [To run self-tests, use: smartctl -t]
+
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+

@@ -1,0 +1,646 @@
+[
+  {
+    "peer": {
+      "stats": {
+        "Peer": "DeviceCap", 
+        "bw_cap": 136401, 
+        "bytes_dropped": 7582672348, 
+        "bytes_queued": 0, 
+        "bytes_rate": 3450, 
+        "curr_bytes_rate": 3817, 
+        "pkts_dropped": 4448103, 
+        "pkts_queued": 0, 
+        "pkts_rate": 596, 
+        "weight": 100.0
+      }
+    }
+  }, 
+  {
+    "peer": {
+      "control_stats": {
+        "Peer": "Control", 
+        "bw_cap": 0, 
+        "bytes_dropped": 0, 
+        "bytes_queued": 0, 
+        "bytes_rate": 11, 
+        "curr_bytes_rate": 8, 
+        "pkts_dropped": 0, 
+        "pkts_queued": 0, 
+        "pkts_rate": 20, 
+        "weight": 100.0
+      }, 
+      "segments": [
+        {
+          "cos": [
+            {
+              "stats": {
+                "Peer": "Real/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 35.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 20.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 3541, 
+                "curr_bytes_rate": 3963, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 498, 
+                "weight": 7.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 5.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }
+          ], 
+          "stats": {
+            "Peer": "Segment-0", 
+            "bw_cap": 0, 
+            "bytes_dropped": 0, 
+            "bytes_queued": 0, 
+            "bytes_rate": 3541, 
+            "curr_bytes_rate": 3963, 
+            "pkts_dropped": 0, 
+            "pkts_queued": 0, 
+            "pkts_rate": 498, 
+            "weight": 100.0
+          }
+        }, 
+        {
+          "cos": [
+            {
+              "stats": {
+                "Peer": "Real/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 35.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 20.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 7.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 5.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }
+          ], 
+          "stats": {
+            "Peer": "Segment-1", 
+            "bw_cap": 0, 
+            "bytes_dropped": 0, 
+            "bytes_queued": 0, 
+            "bytes_rate": 0, 
+            "curr_bytes_rate": 0, 
+            "pkts_dropped": 0, 
+            "pkts_queued": 0, 
+            "pkts_rate": 0, 
+            "weight": 100.0
+          }
+        }
+      ], 
+      "stats": {
+        "Peer": "Gateway", 
+        "bw_cap": 136401, 
+        "bytes_dropped": 0, 
+        "bytes_queued": 0, 
+        "bytes_rate": 3363, 
+        "curr_bytes_rate": 4048, 
+        "pkts_dropped": 0, 
+        "pkts_queued": 0, 
+        "pkts_rate": 497, 
+        "weight": 100.0
+      }
+    }
+  }, 
+  {
+    "peer": {
+      "control_stats": {
+        "Peer": "Control", 
+        "bw_cap": 0, 
+        "bytes_dropped": 0, 
+        "bytes_queued": 0, 
+        "bytes_rate": 0, 
+        "curr_bytes_rate": 0, 
+        "pkts_dropped": 0, 
+        "pkts_queued": 0, 
+        "pkts_rate": 0, 
+        "weight": 100.0
+      }, 
+      "segments": [
+        {
+          "cos": [
+            {
+              "stats": {
+                "Peer": "Real/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 35.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 20.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 7.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 5.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }
+          ], 
+          "stats": {
+            "Peer": "Segment-0", 
+            "bw_cap": 0, 
+            "bytes_dropped": 0, 
+            "bytes_queued": 0, 
+            "bytes_rate": 0, 
+            "curr_bytes_rate": 0, 
+            "pkts_dropped": 0, 
+            "pkts_queued": 0, 
+            "pkts_rate": 0, 
+            "weight": 100.0
+          }
+        }, 
+        {
+          "cos": [
+            {
+              "stats": {
+                "Peer": "Real/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 35.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Real/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 20.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 7.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Tran/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/High", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 15.000000953674316
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Norm", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 5.0
+              }
+            }, 
+            {
+              "stats": {
+                "Peer": "Bulk/Low", 
+                "bw_cap": 136401, 
+                "bytes_dropped": 0, 
+                "bytes_queued": 0, 
+                "bytes_rate": 0, 
+                "curr_bytes_rate": 0, 
+                "pkts_dropped": 0, 
+                "pkts_queued": 0, 
+                "pkts_rate": 0, 
+                "weight": 1.0
+              }
+            }
+          ], 
+          "stats": {
+            "Peer": "Segment-1", 
+            "bw_cap": 0, 
+            "bytes_dropped": 0, 
+            "bytes_queued": 0, 
+            "bytes_rate": 0, 
+            "curr_bytes_rate": 0, 
+            "pkts_dropped": 0, 
+            "pkts_queued": 0, 
+            "pkts_rate": 0, 
+            "weight": 100.0
+          }
+        }
+      ], 
+      "stats": {
+        "Peer": "Direct", 
+        "bw_cap": 136401, 
+        "bytes_dropped": 0, 
+        "bytes_queued": 0, 
+        "bytes_rate": 0, 
+        "curr_bytes_rate": 0, 
+        "pkts_dropped": 0, 
+        "pkts_queued": 0, 
+        "pkts_rate": 0, 
+        "weight": 100.0
+      }
+    }
+  }
+]

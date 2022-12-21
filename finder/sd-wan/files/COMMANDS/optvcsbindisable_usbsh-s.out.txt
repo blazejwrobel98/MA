@@ -1,0 +1,3 @@
+Disable flag in CMOS = False
+usb_enable setting in kernel = 255
+GRUB configuration variables:

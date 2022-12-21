@@ -1,0 +1,525 @@
+Chain INPUT (policy ACCEPT 140K packets, 6313K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+ 231K   17M SEG_MGMT   icmp --  *      *       0.0.0.0/0            0.0.0.0/0           
+  60M 5912M VCMP_IN_ACL_PERSIST  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  59M 5651M VCMP_IN_ACL_SEGMENT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  59M 5651M VCMP_IN_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  15M 2181M ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+  43M 3434M input_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom input rule chain */
+  43M 3411M ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED /* !fw3 */
+ 485K   23M syn_flood  tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x17/0x02 /* !fw3 */
+    0     0 zone_GE3_input  all  --  ge3    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE4_input  all  --  ge4    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE5_input  all  --  ge5    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE6_input  all  --  ge6    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP1_input  all  --  sfp1   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP2_input  all  --  sfp2   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     all  --  *      vce1    0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     all  --  vce1   *       0.0.0.0/0            0.0.0.0/0           
+    0     0 VCMP_FWD_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+    0     0 forwarding_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED /* !fw3 */
+    0     0 zone_GE3_forward  all  --  ge3    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE4_forward  all  --  ge4    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE5_forward  all  --  ge5    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE6_forward  all  --  ge6    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP1_forward  all  --  sfp1   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP2_forward  all  --  sfp2   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 reject     all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain OUTPUT (policy ACCEPT 2153 packets, 201K bytes)
+ pkts bytes target     prot opt in     out     source               destination         
+ 111M   67G VCMP_OUT_ACL  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  15M 2181M ACCEPT     all  --  *      lo      0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+  97M   65G output_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom output rule chain */
+  95M   65G ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate RELATED,ESTABLISHED /* !fw3 */
+1517K   91M zone_GE3_output  all  --  *      ge3     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE4_output  all  --  *      ge4     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE5_output  all  --  *      ge5     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_GE6_output  all  --  *      ge6     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP1_output  all  --  *      sfp1    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+    0     0 zone_SFP2_output  all  --  *      sfp2    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain PORTAL_INPUT (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain SEG_MGMT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain VCE_IN_SNMP_ALLOW (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     udp  --  *      *       10.71.114.60         0.0.0.0/0            udp dpt:161
+
+Chain VCE_IN_SNMP_DROP (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+61024 6292K ACCEPT     udp  --  vce1   *       0.0.0.0/0            169.254.3.0/24       udp dpt:161
+   40  5685 DROP       udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:161
+
+Chain VCE_IN_SNMP_PERSIST (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+  59M 5710M VCE_IN_SNMP_DROP  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+  59M 5652M VCE_IN_SNMP_ALLOW  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain VCMP_FWD_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain VCMP_IN_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     udp  --  ge4    *       0.0.0.0/0            0.0.0.0/0            udp dpt:162
+    0     0 ACCEPT     udp  --  ge4    *       0.0.0.0/0            0.0.0.0/0            udp dpt:8211
+    0     0 ACCEPT     udp  --  ge4    *       0.0.0.0/0            0.0.0.0/0            udp dpt:514
+ 2085  688K ACCEPT     udp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+    0     0 ACCEPT     tcp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53
+    0     0 ACCEPT     udp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            udp dpt:53
+    0     0 ACCEPT     udp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            udp dpt:162
+    0     0 ACCEPT     udp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            udp dpt:8211
+    0     0 ACCEPT     udp  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            udp dpt:514
+    0     0 ACCEPT     udp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            udp dpt:67
+    0     0 ACCEPT     tcp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53
+    0     0 ACCEPT     udp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            udp dpt:53
+    0     0 ACCEPT     udp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            udp dpt:162
+    0     0 ACCEPT     udp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            udp dpt:8211
+    0     0 ACCEPT     udp  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            udp dpt:514
+    7   307 ACCEPT     udp  --  ge3    *       0.0.0.0/0            0.0.0.0/0            udp dpt:162
+    0     0 ACCEPT     udp  --  ge3    *       0.0.0.0/0            0.0.0.0/0            udp dpt:8211
+    4   112 ACCEPT     udp  --  ge3    *       0.0.0.0/0            0.0.0.0/0            udp dpt:514
+    0     0 ACCEPT     udp  --  ge1    *       0.0.0.0/0            0.0.0.0/0            udp dpt:162
+    0     0 ACCEPT     udp  --  ge1    *       0.0.0.0/0            0.0.0.0/0            udp dpt:8211
+    0     0 ACCEPT     udp  --  ge1    *       0.0.0.0/0            0.0.0.0/0            udp dpt:514
+ 231K   17M ACCEPT     icmp --  ge3    *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+   18  4515 ACCEPT     icmp --  ge3    *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+ 392K   18M DROP       all  --  ge3    *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     icmp --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     icmp --  ge5.900 *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    6   312 DROP       all  --  ge5.900 *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     icmp --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     icmp --  ge5.400 *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+ 2149  173K DROP       all  --  ge5.400 *       0.0.0.0/0            0.0.0.0/0           
+    0     0 ACCEPT     icmp --  ge4    *       0.0.0.0/0            0.0.0.0/0            icmptype 11
+    0     0 ACCEPT     icmp --  ge4    *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 DROP       all  --  ge4    *       0.0.0.0/0            0.0.0.0/0           
+
+Chain VCMP_IN_ACL_PERSIST (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 ACCEPT     tcp  --  ge1    *       0.0.0.0/0            0.0.0.0/0            tcp dpt:443
+    0     0 ACCEPT     tcp  --  ge1    *       0.0.0.0/0            0.0.0.0/0            tcp dpt:80
+  120 10317 ACCEPT     tcp  --  *      *       67.161.6.71          0.0.0.0/0            tcp dpt:22
+    0     0 ACCEPT     tcp  --  *      *       129.37.4.157         0.0.0.0/0            tcp dpt:22
+    0     0 ACCEPT     tcp  --  *      *       169.254.129.1        0.0.0.0/0            tcp dpt:22
+ 135K  201M ACCEPT     tcp  --  ge1    *       169.254.2.0/30       0.0.0.0/0            tcp dpt:22
+  59M 5710M VCE_IN_SNMP_PERSIST  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+ 3001  128K DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:22
+    0     0 DROP       udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:161
+ 2316  123K DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:80
+ 1130 53244 DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:443
+
+Chain VCMP_IN_ACL_SEGMENT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  ge5    *       0.0.0.0/0            192.168.0.1         
+    0     0 DROP       all  --  ge1    *       0.0.0.0/0            192.168.0.1         
+
+Chain VCMP_OUT_ACL (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 5529  654K DROP       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    1   143 DROP       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 3
+    0     0 DROP       icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 11 code 0
+    0     0 DROP       icmp --  *      ge3     0.0.0.0/0            0.0.0.0/0            icmptype 5
+    0     0 DROP       icmp --  *      ge5.900  0.0.0.0/0            0.0.0.0/0            icmptype 5
+    0     0 DROP       icmp --  *      ge5.400  0.0.0.0/0            0.0.0.0/0            icmptype 5
+    0     0 DROP       icmp --  *      ge4     0.0.0.0/0            0.0.0.0/0            icmptype 5
+
+Chain forwarding_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain forwarding_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain input_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE3_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE4_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE5_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_GE6_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_SFP1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_SFP2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_USB1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_USB2_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_network1_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain output_rule (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain reject (14 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:179
+    0     0 DROP       tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp spt:179
+    0     0 REJECT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */ reject-with tcp-reset
+    0     0 REJECT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */ reject-with icmp-port-unreachable
+
+Chain syn_flood (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+ 484K   23M RETURN     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x17/0x02 limit: avg 25/sec burst 50 /* !fw3 */
+ 1432 63152 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    3   120 DROP       all  --  *      ge3     0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+1517K   91M ACCEPT     all  --  *      ge3     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      ge3     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE3_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE3 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_GE3_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE3_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE3 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_GE3_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+1517K   91M output_GE3_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE3 output rule chain */
+1517K   91M zone_GE3_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE3_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  ge3    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      ge4     0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all  --  *      ge4     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      ge4     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE4_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE4 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_GE4_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE4_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE4 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_GE4_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE4_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE4 output rule chain */
+    0     0 zone_GE4_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE4_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  ge4    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      ge5     0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all  --  *      ge5     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      ge5     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE5_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE5 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_GE5_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE5_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE5 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_GE5_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE5_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE5 output rule chain */
+    0     0 zone_GE5_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE5_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  ge5    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      ge6     0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all  --  *      ge6     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      ge6     0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_GE6_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE6 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_GE6_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_GE6_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE6 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_GE6_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_GE6_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom GE6 output rule chain */
+    0     0 zone_GE6_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_GE6_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  ge6    *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      sfp1    0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all  --  *      sfp1    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      sfp1    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_SFP1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP1 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_SFP1_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_SFP1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP1 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_SFP1_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_SFP1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP1 output rule chain */
+    0     0 zone_SFP1_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP1_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  sfp1   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 DROP       all  --  *      sfp2    0.0.0.0/0            0.0.0.0/0            ctstate INVALID /* !fw3: Prevent NAT leakage */
+    0     0 ACCEPT     all  --  *      sfp2    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  *      sfp2    0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_forward (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_SFP2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP2 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_SFP2_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_input (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_SFP2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP2 input rule chain */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:68 /* !fw3: Allow-DHCP-Renew */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_SFP2_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_output (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_SFP2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom SFP2 output rule chain */
+    0     0 zone_SFP2_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_SFP2_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 reject     all  --  sfp2   *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB1_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB1_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_USB1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB1 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_USB1_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB1_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_USB1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB1 input rule chain */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53 /* !fw3: @rule[32] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:53 /* !fw3: @rule[32] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp spts:67:68 dpts:67:68 /* !fw3: @rule[33] */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_USB1_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB1_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_USB1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB1 output rule chain */
+    0     0 zone_USB1_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB1_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_dest_ACCEPT (2 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_USB2_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_USB2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB2 forwarding rule chain */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_USB2_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB2_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_USB2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB2 input rule chain */
+    0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0            icmptype 8 /* !fw3: Allow-Ping */
+    0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53 /* !fw3: @rule[27] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:53 /* !fw3: @rule[27] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp spts:67:68 dpts:67:68 /* !fw3: @rule[28] */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_USB2_src_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB2_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_USB2_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom USB2 output rule chain */
+    0     0 zone_USB2_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_USB2_src_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_dest_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_dest_REJECT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         
+
+Chain zone_network1_forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 forwarding_network1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom network1 forwarding rule chain */
+    0     0 zone_GE3_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to GE3 forwarding policy */
+    0     0 zone_GE4_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to GE4 forwarding policy */
+    0     0 zone_GE5_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to GE5 forwarding policy */
+    0     0 zone_GE6_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to GE6 forwarding policy */
+    0     0 zone_SFP1_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to SFP1 forwarding policy */
+    0     0 zone_SFP2_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to SFP2 forwarding policy */
+    0     0 zone_USB1_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to USB1 forwarding policy */
+    0     0 zone_USB2_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Zone network1 to USB2 forwarding policy */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port forwards */
+    0     0 zone_network1_dest_REJECT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_network1_input (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 input_network1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom network1 input rule chain */
+    0     0 ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:53 /* !fw3: @rule[34] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp dpt:53 /* !fw3: @rule[34] */
+    0     0 ACCEPT     udp  --  *      *       0.0.0.0/0            0.0.0.0/0            udp spts:67:68 dpts:67:68 /* !fw3: @rule[35] */
+    0     0 reject     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp dpt:2607 /* !fw3: @rule[36] */
+    0     0 ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0            ctstate DNAT /* !fw3: Accept port redirections */
+    0     0 zone_network1_src_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_network1_output (0 references)
+ pkts bytes target     prot opt in     out     source               destination         
+    0     0 output_network1_rule  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3: Custom network1 output rule chain */
+    0     0 zone_network1_dest_ACCEPT  all  --  *      *       0.0.0.0/0            0.0.0.0/0            /* !fw3 */
+
+Chain zone_network1_src_ACCEPT (1 references)
+ pkts bytes target     prot opt in     out     source               destination         

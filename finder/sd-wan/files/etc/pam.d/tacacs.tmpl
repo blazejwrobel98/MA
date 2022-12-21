@@ -1,0 +1,12 @@
+#PAM configuration for TACACS+
+
+# Replace <serverIP> with the actual TACACS+ server IP or IPs
+# Replace <secret> with the actual TACACS+ server secret key
+
+auth    sufficient /lib/security/pam_tacplus.so \
+	server=<serverIP> secret=<secret>
+account sufficient /lib/security/pam_tacplus.so \
+	server=<serverIP> secret=<secret> service=ppp protocol=ip
+session optional /lib/security/pam_tacplus.so \
+	server=<serverIP> secret=<secret> service=ppp protocol=ip
+

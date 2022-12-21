@@ -1,0 +1,20 @@
+ge1 :
+Cannot get module EEPROM information: Operation not supported
+ge2 :
+Cannot get module EEPROM information: Operation not supported
+ge3 :
+Cannot get module EEPROM information: Operation not supported
+ge4 :
+Cannot get module EEPROM information: Operation not supported
+ge5 :
+Cannot get module EEPROM information: No such device or address
+ge6 :
+Cannot get module EEPROM information: No such device or address
+lo :
+Cannot get module EEPROM information: Operation not supported
+sfp1 :
+Cannot get module EEPROM information: Input/output error
+sfp2 :
+Cannot get module EEPROM information: Input/output error
+wlan0 :
+Cannot get module EEPROM information: Operation not supported

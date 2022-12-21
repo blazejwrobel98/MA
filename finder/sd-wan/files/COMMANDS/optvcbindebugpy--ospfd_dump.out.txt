@@ -1,0 +1,64 @@
+Interfaces Dump
+===============
+
+
+Neighbors Dump
+==============
+
+Neighbor ID     Pri State           Dead Time Address         Interface            RXmtL RqstL DBsmL
+
+
+Routes Dump
+===========
+No OSPF routing information exist
+
+Link State Database
+===================
+
+       OSPF Router with ID (10.239.31.249)
+
+
+
+Detailed routers info
+=====================
+
+       OSPF Router with ID (10.239.31.249)
+
+
+Database summary
+=====================
+
+       OSPF Router with ID (10.239.31.249)
+
+
+show running-config
+=====================
+Building configuration...
+
+Current configuration:
+!
+frr version 7.0
+frr defaults traditional
+hostname vc-edge
+log file /var/log/ospfd.log
+!
+password zebra
+!
+router ospf
+!
+access-list vty permit 127.0.0.0/8
+access-list vty deny any
+!
+line vty
+ access-class vty
+!
+end
+
+Self Originated
+=====================
+
+       OSPF Router with ID (10.239.31.249)
+
+                AS External Link States 
+
+

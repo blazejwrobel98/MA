@@ -1,0 +1,27 @@
+2022/08/02 14:24:20 OSPF: msg_read: Connection closed by peer
+2022/08/02 14:24:20 OSPF: ospf_apiserver_read: read failed on fd=14, closing connection
+2022/08/02 14:24:30 OSPF:  in zclient_socket
+2022/08/02 14:24:40 OSPF:  in zclient_socket
+2022/08/02 14:24:42 OSPF: Redistribute[DEFAULT]: Start Type[0], Metric[0]
+2022/08/02 14:24:42 OSPF: ASBR[Status:1]: Update
+2022/08/02 14:26:00 OSPF: Zebra: interface GE1 address add 169.254.2.1/24 vrf default id 0
+2022/08/02 14:26:00 OSPF: Zebra: interface GE1 address add 169.254.2.1/24 vrf default id 0
+2022/08/02 14:26:01 OSPF: Zebra: interface vce1 address add 169.254.129.1/17 vrf default id 0
+2022/08/02 14:26:01 OSPF: Zebra: interface vce1 address add 169.254.129.1/17 vrf default id 0
+2022/08/02 14:26:14 OSPF: Zebra: Interface[GE1] state change to down.
+2022/08/02 14:26:18 OSPF: Zebra: Interface[GE1] state change to up.
+2022/08/02 14:26:18 OSPF: Zebra: interface add GE1 vrf default[0] index 3 flags 11043 metric 1 mtu 1500 speed 0
+2022/08/02 14:26:18 OSPF: Zebra: interface GE1 address add 169.254.2.1/24 vrf default id 0
+2022/08/02 14:26:40 OSPF: ospf_apiserver_new_if
+2022/08/02 14:26:40 OSPF: ifp name=GE4 status=4 index=0
+2022/08/02 14:26:40 OSPF: ospf_apiserver_new_if: interface GE4 not known to OSPFd?
+2022/08/02 14:26:40 OSPF: Zebra: interface add GE4 vrf default[0] index 2 flags 1002 metric 1 mtu 1500 speed 0
+2022/08/02 14:26:40 OSPF: Zebra: interface GE4 address add 10.255.64.6/30 vrf default id 0
+2022/08/02 14:26:40 OSPF: Zebra: Interface[GE4] state change to up.
+2022/08/02 14:26:40 OSPF: Zebra: interface add GE4 vrf default[0] index 2 flags 1043 metric 1 mtu 1500 speed 0
+2022/08/02 14:26:40 OSPF: Zebra: interface GE4 address add 10.255.64.6/30 vrf default id 0
+2022/08/02 14:26:40 OSPF: Zebra: Interface[GE4] state update speed 0 -> 0, bw  1000000 -> 1000000
+2022/08/02 14:26:40 OSPF: Zebra: interface add GE4 vrf default[0] index 2 flags 1043 metric 1 mtu 1500 speed 0
+2022/08/02 14:26:40 OSPF: Zebra: interface GE4 address add 10.255.64.6/30 vrf default id 0
+2022/08/08 16:17:09 OSPF: Zebra: interface vce1 address add 169.254.129.1/17 vrf default id 0
+2022/08/08 16:17:09 OSPF: Zebra: interface vce1 address add 169.254.129.1/17 vrf default id 0

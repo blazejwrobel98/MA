@@ -1,0 +1,1 @@
+Peer Address   Local Address  Segment Id  Detect Multiplier  Transmit Interval  Receive Interval  Multihop  State  Up/Down Time

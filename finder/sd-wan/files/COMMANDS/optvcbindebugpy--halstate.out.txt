@@ -1,0 +1,152 @@
+[
+  {
+    "IF STATE": "LOCAL_DOWN", 
+    "IF_SYNC_LIST": [
+      {
+        "id": -1, 
+        "ip6_info": [], 
+        "ip6_link_local_addr": "::", 
+        "ip6_lla_is_tentative": 0, 
+        "ip_addr": "0.0.0.0", 
+        "ip_mask": "0.0.0.0", 
+        "nhop_ip": "0.0.0.0"
+      }
+    ], 
+    "LINK IDENTIFIER": 104, 
+    "LINK STATE": 0, 
+    "NHOP MAC": "00:00:00:00:00:00", 
+    "ORIGINAL PHYMAC": "18:5a:58:80:85:65", 
+    "PEER LINK STATE": 0, 
+    "PEER USE": 0, 
+    "POINTER": "0x7f94c402f200", 
+    "SOCK ARP STATE": 101, 
+    "SOCK IP": "", 
+    "SOCK IP6": "", 
+    "SOCK MAC": "", 
+    "SOCK PEERIP": "", 
+    "SOCK PEERIP6": "", 
+    "SOCK PEERMAC": "", 
+    "logical": "SFP1", 
+    "physical": "sfp1"
+  }, 
+  {
+    "IF STATE": "LOCAL_UP", 
+    "IF_SYNC_LIST": [
+      {
+        "id": -1, 
+        "ip6_info": [], 
+        "ip6_link_local_addr": "::", 
+        "ip6_lla_is_tentative": 0, 
+        "ip_addr": "85.128.72.178", 
+        "ip_mask": "255.255.255.240", 
+        "nhop_ip": "85.128.72.177"
+      }
+    ], 
+    "LINK IDENTIFIER": 101, 
+    "LINK STATE": 1, 
+    "NHOP MAC": "00:fd:22:11:86:24", 
+    "ORIGINAL PHYMAC": "18:5a:58:80:85:60", 
+    "PEER LINK STATE": 0, 
+    "PEER USE": 0, 
+    "POINTER": "0x7f94c4057aa0", 
+    "SOCK ARP STATE": 1, 
+    "SOCK IP": "85.128.72.178", 
+    "SOCK IP6": "::", 
+    "SOCK MAC": "f0:8e:db:b7:17:83", 
+    "SOCK PEERIP": "85.128.72.177", 
+    "SOCK PEERIP6": "::", 
+    "SOCK PEERMAC": "00:fd:22:11:86:24", 
+    "logical": "GE3", 
+    "physical": "ge3"
+  }, 
+  {
+    "IF STATE": "USE_PEER", 
+    "IF_SYNC_LIST": [
+      {
+        "id": -1, 
+        "ip6_info": [], 
+        "ip6_link_local_addr": "::", 
+        "ip6_lla_is_tentative": 0, 
+        "ip_addr": "10.255.64.6", 
+        "ip_mask": "255.255.255.252", 
+        "nhop_ip": "10.255.64.5"
+      }
+    ], 
+    "LINK IDENTIFIER": 102, 
+    "LINK STATE": 0, 
+    "NHOP MAC": "00:f6:63:da:18:c1", 
+    "ORIGINAL PHYMAC": "18:5a:58:80:85:61", 
+    "PEER LINK STATE": 1, 
+    "PEER USE": 1, 
+    "POINTER": "0x7f94c40010a0", 
+    "SOCK ARP STATE": 1, 
+    "SOCK IP": "10.255.64.6", 
+    "SOCK IP6": "::", 
+    "SOCK MAC": "f0:8e:db:b7:17:84", 
+    "SOCK PEERIP": "10.255.64.5", 
+    "SOCK PEERIP6": "::", 
+    "SOCK PEERMAC": "00:f6:63:da:18:c1", 
+    "logical": "GE4", 
+    "physical": "ge4"
+  }, 
+  {
+    "IF STATE": "LOCAL_DOWN", 
+    "IF_SYNC_LIST": [
+      {
+        "id": -1, 
+        "ip6_info": [], 
+        "ip6_link_local_addr": "::", 
+        "ip6_lla_is_tentative": 0, 
+        "ip_addr": "0.0.0.0", 
+        "ip_mask": "0.0.0.0", 
+        "nhop_ip": "0.0.0.0"
+      }
+    ], 
+    "LINK IDENTIFIER": 103, 
+    "LINK STATE": 0, 
+    "NHOP MAC": "00:00:00:00:00:00", 
+    "ORIGINAL PHYMAC": "18:5a:58:80:85:64", 
+    "PEER LINK STATE": 0, 
+    "PEER USE": 0, 
+    "POINTER": "0x7f94c402ebe0", 
+    "SOCK ARP STATE": 101, 
+    "SOCK IP": "", 
+    "SOCK IP6": "", 
+    "SOCK MAC": "", 
+    "SOCK PEERIP": "", 
+    "SOCK PEERIP6": "", 
+    "SOCK PEERMAC": "", 
+    "logical": "SFP2", 
+    "physical": "sfp2"
+  }, 
+  {
+    "IF STATE": "LOCAL_DOWN", 
+    "IF_SYNC_LIST": [
+      {
+        "id": -1, 
+        "ip6_info": [], 
+        "ip6_link_local_addr": "::", 
+        "ip6_lla_is_tentative": 0, 
+        "ip_addr": "0.0.0.0", 
+        "ip_mask": "0.0.0.0", 
+        "nhop_ip": "0.0.0.0"
+      }
+    ], 
+    "LINK IDENTIFIER": 105, 
+    "LINK STATE": 0, 
+    "NHOP MAC": "00:00:00:00:00:00", 
+    "ORIGINAL PHYMAC": "18:5a:58:80:85:66", 
+    "PEER LINK STATE": 0, 
+    "PEER USE": 0, 
+    "POINTER": "0x7f94c402f310", 
+    "SOCK ARP STATE": 101, 
+    "SOCK IP": "", 
+    "SOCK IP6": "", 
+    "SOCK MAC": "", 
+    "SOCK PEERIP": "", 
+    "SOCK PEERIP6": "", 
+    "SOCK PEERMAC": "", 
+    "logical": "GE6", 
+    "physical": "ge6"
+  }
+]

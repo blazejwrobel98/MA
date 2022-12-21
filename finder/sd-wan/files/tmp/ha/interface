@@ -1,0 +1,28 @@
+config port 'GE1'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE2'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE2'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE3'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE4'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE5'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+
+config port 'GE6'
+	option autoneg 'on'
+	option evdslmodemattached 'no'
+

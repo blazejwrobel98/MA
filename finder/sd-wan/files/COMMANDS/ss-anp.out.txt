@@ -1,0 +1,240 @@
+Netid  State      Recv-Q Send-Q Local Address:Port               Peer Address:Port              
+nl     UNCONN     0      0         0:4198398                *                   
+nl     UNCONN     0      0         0:5353                   *                   
+nl     UNCONN     0      0         0:4010                   *                   
+nl     UNCONN     0      0         0:16231                  *                   
+nl     UNCONN     0      0         0:15229                  *                   
+nl     UNCONN     0      0         0:-43706045              *                   
+nl     UNCONN     0      0         0:0                      *                   
+nl     UNCONN     0      0         0:4094                   *                   
+nl     UNCONN     0      0         0:5583                   *                   
+nl     UNCONN     0      0         0:16337                  *                   
+nl     UNCONN     0      0         4:0                      *                   
+nl     UNCONN     0      0        10:0                      *                   
+nl     UNCONN     0      0        12:-2002455138            *                   
+nl     UNCONN     0      0        12:4190                   *                   
+nl     UNCONN     0      0        12:-1209798677            *                   
+nl     UNCONN     0      0        12:-395535000             *                   
+nl     UNCONN     0      0        12:0                      *                   
+nl     UNCONN     0      0        12:-1768137556            *                   
+nl     UNCONN     66048  0        15:8392702                *                   
+nl     UNCONN     0      0        15:16231                  *                   
+nl     UNCONN     0      0        15:1                      *                   
+nl     UNCONN     0      0        15:0                      *                   
+nl     UNCONN     0      0        16:5353                   *                   
+nl     UNCONN     0      0        16:0                      *                   
+u_str  ESTAB      0      0         * 4685                  * 0                   users:(("procd",pid=1,fd=8))
+u_str  LISTEN     0      0      @/sys/entropy/haveged 4694                  * 0                   users:(("haveged",pid=2207,fd=3))
+u_str  LISTEN     0      0      /var/run/mcelog-client 5770                  * 0                   users:(("mcelog",pid=3974,fd=4))
+u_str  ESTAB      0      0         * 5904                  * 0                   users:(("netifd",pid=4094,fd=7))
+u_str  ESTAB      0      0      /var/run/ubus.sock 5905                  * 0                   users:(("ubusd",pid=2179,fd=9))
+u_str  LISTEN     0      0      /var/run/conntrackd.ctl 5981                  * 0                   users:(("conntrackd",pid=4190,fd=3))
+u_str  LISTEN     0      0      /var/run/ubus.sock 6209                  * 0                   users:(("ubusd",pid=2179,fd=7))
+u_str  ESTAB      0      0      /var/run/ubus.sock 6211                  * 0                   users:(("ubusd",pid=2179,fd=8))
+u_str  ESTAB      0      0         * 10148                 * 0                   users:(("dbus-daemon",pid=5372,fd=6))
+u_str  ESTAB      0      0         * 10149                 * 0                   users:(("dbus-daemon",pid=5372,fd=7))
+u_str  LISTEN     0      0      /var/run/dbus/system_bus_socket 11431                 * 0                   users:(("dbus-daemon",pid=5372,fd=3))
+u_str  ESTAB      0      0         * 12426                 * 0                   users:(("ntpd",pid=5583,fd=20))
+u_str  ESTAB      0      0         * 12427                 * 0                   users:(("ntpd",pid=5583,fd=21))
+u_str  ESTAB      0      0         * 13724                 * 0                   users:(("ModemManager",pid=5610,fd=6))
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 13725                 * 0                   users:(("dbus-daemon",pid=5372,fd=8))
+u_str  UNCONN     0      0         * 171891                * 0                   users:(("edged",pid=16231,fd=564))
+u_str  UNCONN     0      0         * 171895                * 0                   users:(("edged",pid=16231,fd=567))
+u_str  UNCONN     0      0         * 171896                * 0                   users:(("edged",pid=16231,fd=568))
+u_str  LISTEN     0      0      /var/run/mgd/mgd-req.sock 174110                * 0                   users:(("mgd",pid=15926,fd=7),("ss",pid=7125,fd=7))
+u_str  LISTEN     0      0      /var/run/frr/bgpd.vty 210521                * 0                   users:(("bgpd",pid=16791,fd=17))
+u_str  LISTEN     0      0      /var/run/frr/ospfd.vty 210528                * 0                   users:(("ospfd",pid=16799,fd=12))
+u_str  LISTEN     0      0      /var/run/frr/bfdd.vty 210539                * 0                   users:(("bfdd",pid=16811,fd=12))
+u_str  LISTEN     0      0      /var/run/frr/watchfrr.vty 210544                * 0                   users:(("watchfrr",pid=16817,fd=8))
+u_str  ESTAB      0      0         * 210546                * 0                   users:(("watchfrr",pid=16817,fd=9))
+u_str  ESTAB      0      0      /var/run/frr/bgpd.vty 210547                * 0                   users:(("bgpd",pid=16791,fd=13))
+u_str  ESTAB      0      0         * 210548                * 0                   users:(("watchfrr",pid=16817,fd=10))
+u_str  ESTAB      0      0      /var/run/frr/ospfd.vty 210549                * 0                   users:(("ospfd",pid=16799,fd=10))
+u_str  ESTAB      0      0         * 210550                * 0                   users:(("watchfrr",pid=16817,fd=11))
+u_str  ESTAB      0      0         * 210551                * 0                   users:(("watchfrr",pid=16817,fd=12))
+u_str  ESTAB      0      0      /var/run/frr/bfdd.vty 210552                * 0                   users:(("bfdd",pid=16811,fd=10))
+u_str  LISTEN     0      0      /var/run/frr/bfdd.sock 211857                * 0                   users:(("bfdd",pid=16811,fd=5))
+u_str  LISTEN     0      0      /var/run/frr/pimd.vty 212291                * 0                   users:(("pimd",pid=16805,fd=10))
+u_str  ESTAB      0      0      /var/run/frr/pimd.vty 212307                * 0                   users:(("pimd",pid=16805,fd=8))
+u_str  LISTEN     0      0      /var/run/zebra 250139                * 0                   users:(("edged",pid=16231,fd=592))
+u_str  LISTEN     0      0      /var/run/mgd/dpmgmt-req.sock 255713                * 0                   users:(("edged",pid=16231,fd=587))
+u_str  ESTAB      0      0         * 300766                * 0                   users:(("bgpd",pid=16791,fd=18))
+u_str  ESTAB      0      0      /var/run/zebra 300767                * 0                   users:(("edged",pid=16231,fd=602))
+u_str  ESTAB      0      0         * 300770                * 0                   users:(("bgpd",pid=16791,fd=22))
+u_str  ESTAB      0      0      /var/run/zebra 300778                * 0                   users:(("edged",pid=16231,fd=604))
+u_str  ESTAB      0      0         * 300789                * 0                   users:(("ospfd",pid=16799,fd=13))
+u_str  ESTAB      0      0         * 300790                * 0                   users:(("bfdd",pid=16811,fd=13))
+u_str  ESTAB      0      0         * 305230                * 0                   users:(("pimd",pid=16805,fd=11))
+u_str  ESTAB      0      0         * 305231                * 0                   users:(("pimd",pid=16805,fd=12))
+u_str  ESTAB      0      0      /var/run/zebra 307929                * 0                   users:(("edged",pid=16231,fd=605))
+u_str  ESTAB      0      0      /var/run/zebra 307941                * 0                   users:(("edged",pid=16231,fd=606))
+u_str  ESTAB      0      0      /var/run/zebra 307950                * 0                   users:(("edged",pid=16231,fd=607))
+u_str  ESTAB      0      0      /var/run/zebra 307966                * 0                   users:(("edged",pid=16231,fd=608))
+u_dgr  ESTAB      0      0         * 5902                  * 0                   users:(("netifd",pid=4094,fd=3))
+u_dgr  ESTAB      0      0         * 6011                  * 0                   users:(("netifd",pid=4094,fd=8))
+u_dgr  ESTAB      0      0      /dev/log 6962                  * 0                   users:(("rsyslogd",pid=3882,fd=4))
+u_dgr  ESTAB      0      0         * 6966                  * 0                   users:(("rsyslogd",pid=3882,fd=7))
+u_dgr  ESTAB      0      0         * 6980                  * 0                   users:(("procd",pid=1,fd=11))
+u_dgr  ESTAB      0      0         * 12412                 * 0                   users:(("ntpd",pid=5583,fd=3))
+u_dgr  ESTAB      0      0         * 12436                 * 0                   users:(("ModemManager",pid=5610,fd=5))
+u_dgr  ESTAB      0      0      /var/run/dpdk/rte/mp_socket 172654                * 0                   users:(("edged",pid=16231,fd=27))
+u_dgr  ESTAB      0      0         * 172660                * 0                   users:(("edged",pid=16231,fd=26))
+u_dgr  ESTAB      0      0         * 175305                * 0                   users:(("snmpd",pid=16337,fd=7))
+u_dgr  ESTAB      0      0      /var/run/ifstate 189426                * 0                   users:(("edged",pid=16231,fd=582))
+u_dgr  ESTAB      0      0         * 211806                * 0                   users:(("ospfd",pid=16799,fd=3))
+u_dgr  ESTAB      0      0         * 211833                * 0                   users:(("pimd",pid=16805,fd=3))
+u_dgr  ESTAB      0      0         * 211853                * 0                   users:(("bfdd",pid=16811,fd=3))
+u_dgr  ESTAB      0      0         * 211866                * 0                   users:(("watchfrr",pid=16817,fd=3))
+u_dgr  ESTAB      0      0         * 212277                * 0                   users:(("bgpd",pid=16791,fd=3))
+u_dgr  ESTAB      0      0         * 1982973               * 0                   users:(("dnsmasq",pid=15229,fd=16))
+u_seq  LISTEN     0      0      /var/run/vctcpdump-netif 172646                * 0                   users:(("edged",pid=16231,fd=18))
+u_seq  LISTEN     0      0      /var/run/vcdump 189381                * 0                   users:(("edged",pid=16231,fd=579))
+u_seq  LISTEN     0      0      /var/run/vcping6 189383                * 0                   users:(("edged",pid=16231,fd=580))
+u_seq  LISTEN     0      0      /var/run/vctcpdump 189428                * 0                   users:(("edged",pid=16231,fd=583))
+udp    UNCONN     0      0         *:89                    *:*                   users:(("ospfd",pid=16799,fd=8))
+udp    UNCONN     0      0         *:53164                 *:*                   users:(("systemstatusd",pid=5353,fd=10))
+udp    UNCONN     0      0         *:49110                 *:*                   users:(("linkd",pid=4010,fd=3))
+udp    UNCONN     0      0      169.254.130.9:53                    *:*                   users:(("dnsmasq",pid=15229,fd=6))
+udp    UNCONN     0      0      127.0.0.1:53                    *:*                   users:(("dnsmasq",pid=15229,fd=10))
+udp    UNCONN     0      0      192.168.0.1:53                    *:*                   users:(("dnsmasq",pid=15229,fd=8))
+udp    UNCONN     0      0         *:67                    *:*                   users:(("dnsmasq",pid=15229,fd=4))
+udp    UNCONN     0      0      169.254.130.9:123                   *:*                   users:(("ntpd",pid=5583,fd=28))
+udp    UNCONN     0      0      169.254.2.1:123                   *:*                   users:(("ntpd",pid=5583,fd=23))
+udp    UNCONN     0      0      10.239.31.249:123                   *:*                   users:(("ntpd",pid=5583,fd=25))
+udp    UNCONN     0      0      192.168.0.1:123                   *:*                   users:(("ntpd",pid=5583,fd=24))
+udp    UNCONN     0      0      85.128.72.178:123                   *:*                   users:(("ntpd",pid=5583,fd=22))
+udp    UNCONN     0      0      127.0.0.1:123                   *:*                   users:(("ntpd",pid=5583,fd=18))
+udp    UNCONN     0      0         *:123                   *:*                   users:(("ntpd",pid=5583,fd=17))
+udp    UNCONN     0      0         *:161                   *:*                   users:(("snmpd",pid=16337,fd=6))
+udp    UNCONN     0      0      127.0.0.1:514                   *:*                   users:(("rsyslogd",pid=3882,fd=6))
+udp    ESTAB      0      0      127.0.0.1:41629              127.0.0.1:514                 users:(("edged",pid=16231,fd=593))
+udp    UNCONN     0      0      fe80::32cb:e02e:be6f:e741%vce1:53                   :::*                   users:(("dnsmasq",pid=15229,fd=12))
+udp    UNCONN     0      0      fe80::6d08:9563:2f75:1c19%ge1:123                  :::*                   users:(("ntpd",pid=5583,fd=26))
+udp    UNCONN     0      0      fe80::32cb:e02e:be6f:e741%vce1:123                  :::*                   users:(("ntpd",pid=5583,fd=27))
+udp    UNCONN     0      0        :::123                  :::*                   users:(("ntpd",pid=5583,fd=16))
+tcp    LISTEN     0      128       *:443                   *:*                   users:(("lighttpd",pid=18908,fd=5))
+tcp    LISTEN     0      5      127.0.0.1:26464                 *:*                   users:(("edged",pid=16231,fd=591))
+tcp    LISTEN     0      5      *%ge1:61000                 *:*                   users:(("edged",pid=16231,fd=596))
+tcp    LISTEN     0      5      169.254.2.1:5003                  *:*                   users:(("mgd",pid=15926,fd=10),("ss",pid=7125,fd=10))
+tcp    LISTEN     0      3      127.0.0.1:2604                  *:*                   users:(("ospfd",pid=16799,fd=11))
+tcp    LISTEN     0      3      127.0.0.1:2605                  *:*                   users:(("bgpd",pid=16791,fd=16))
+tcp    LISTEN     0      5      127.0.0.1:5005                  *:*                   users:(("systemstatusd",pid=5353,fd=11))
+tcp    LISTEN     0      3         *:2607                  *:*                   users:(("ospfd",pid=16799,fd=7))
+tcp    LISTEN     0      128       *:80                    *:*                   users:(("lighttpd",pid=18908,fd=4))
+tcp    LISTEN     0      3      127.0.0.1:2611                  *:*                   users:(("pimd",pid=16805,fd=9))
+tcp    LISTEN     0      32     169.254.130.9:53                    *:*                   users:(("dnsmasq",pid=15229,fd=7))
+tcp    LISTEN     0      32     127.0.0.1:53                    *:*                   users:(("dnsmasq",pid=15229,fd=11))
+tcp    LISTEN     0      32     192.168.0.1:53                    *:*                   users:(("dnsmasq",pid=15229,fd=9))
+tcp    LISTEN     0      128       *:22                    *:*                   users:(("sshd",pid=5325,fd=3))
+tcp    LISTEN     0      1      127.0.0.1:26008                 *:*                   users:(("edged",pid=16231,fd=594))
+tcp    LISTEN     0      3      127.0.0.1:2617                  *:*                   users:(("bfdd",pid=16811,fd=11))
+tcp    TIME-WAIT  0      0      169.254.3.1:39259              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41052              
+tcp    TIME-WAIT  0      0      127.0.0.1:40996              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:41008              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      169.254.2.1:56076              169.254.2.2:22                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41040              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41006              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41058              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41036              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41048              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41002              
+tcp    TIME-WAIT  0      0      169.254.3.2:37905              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      169.254.3.2:53159              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40976              
+tcp    TIME-WAIT  0      0      169.254.3.1:42407              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41038              
+tcp    TIME-WAIT  0      0      169.254.3.1:43143              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40998              
+tcp    TIME-WAIT  0      0      169.254.2.1:5003               169.254.2.2:59650              
+tcp    TIME-WAIT  0      0      127.0.0.1:41006              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      169.254.3.2:37619              165.225.206.48:80                 
+tcp    ESTAB      0      0      127.0.0.1:42816              127.0.0.1:26008               users:(("ospfd",pid=16799,fd=16))
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41064              
+tcp    TIME-WAIT  0      0      169.254.3.1:47069              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41014              
+tcp    TIME-WAIT  0      0      127.0.0.1:41032              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:41012              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40982              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40990              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41018              
+tcp    TIME-WAIT  0      0      169.254.2.1:5003               169.254.2.2:59644              
+tcp    TIME-WAIT  0      0      127.0.0.1:40980              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40996              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41008              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41032              
+tcp    ESTAB      0      0      85.128.72.178:55970              35.157.214.226:443                 users:(("mgd",pid=15926,fd=8),("ss",pid=7125,fd=8))
+tcp    SYN-SENT   0      1      169.254.3.1:51315              165.225.26.44:80                  users:(("l7_health_check",pid=18638,fd=4))
+tcp    TIME-WAIT  0      0      169.254.3.2:46851              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:41016              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41030              
+tcp    TIME-WAIT  0      0      127.0.0.1:40976              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40980              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40986              
+tcp    TIME-WAIT  0      0      127.0.0.1:41024              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:40992              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41028              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41024              
+tcp    TIME-WAIT  0      0      169.254.3.1:41807              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      169.254.3.1:36485              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      169.254.3.2:53613              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      85.128.72.178:51187              35.157.214.226:443                
+tcp    TIME-WAIT  0      0      169.254.3.2:49349              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41060              
+tcp    TIME-WAIT  0      0      169.254.2.1:5003               169.254.2.2:59642              
+tcp    TIME-WAIT  0      0      169.254.3.1:35883              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40992              
+tcp    TIME-WAIT  0      0      127.0.0.1:41000              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:40988              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41050              
+tcp    TIME-WAIT  0      0      127.0.0.1:41050              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      169.254.2.1:5003               169.254.2.2:59616              
+tcp    TIME-WAIT  0      0      127.0.0.1:41064              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:41044              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      169.254.2.1:56066              169.254.2.2:22                 
+tcp    TIME-WAIT  0      0      85.128.72.178:59935              54.155.241.81:443                
+tcp    TIME-WAIT  0      0      169.254.3.1:54023              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      85.128.72.178:39251              35.157.214.226:443                
+tcp    TIME-WAIT  0      0      169.254.3.1:51191              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:40998              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41056              
+tcp    TIME-WAIT  0      0      169.254.3.2:36533              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:40982              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41046              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41000              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40978              
+tcp    TIME-WAIT  0      0      85.128.72.178:44157              35.157.214.226:443                
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41020              
+tcp    ESTAB      0      0      127.0.0.1:26007              127.0.0.1:2607                users:(("edged",pid=16231,fd=609))
+tcp    TIME-WAIT  0      0      127.0.0.1:40986              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41016              
+tcp    TIME-WAIT  0      0      169.254.3.2:36909              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:41042              127.0.0.1:26464              
+tcp    ESTAB      0      0      127.0.0.1:2607               127.0.0.1:26007               users:(("ospfd",pid=16799,fd=14))
+tcp    ESTAB      0      0      127.0.0.1:26008              127.0.0.1:42816               users:(("edged",pid=16231,fd=610))
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40988              
+tcp    TIME-WAIT  0      0      127.0.0.1:41022              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      169.254.3.1:43117              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41034              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41062              
+tcp    TIME-WAIT  0      0      127.0.0.1:41034              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41012              
+tcp    TIME-WAIT  0      0      127.0.0.1:41026              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41054              
+tcp    TIME-WAIT  0      0      169.254.3.2:55691              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      169.254.2.1:5003               169.254.2.2:59618              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41010              
+tcp    TIME-WAIT  0      0      127.0.0.1:41010              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:41046              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:40978              127.0.0.1:26464              
+tcp    ESTAB      0      0      169.254.2.1%ge1:61000              169.254.2.2:53318               users:(("edged",pid=16231,fd=612))
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41044              
+tcp    TIME-WAIT  0      0      85.128.72.178:34627              35.157.214.226:443                
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41022              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:40984              
+tcp    TIME-WAIT  0      0      127.0.0.1:41028              127.0.0.1:26464              
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41026              
+tcp    TIME-WAIT  0      0      169.254.3.2:39997              165.225.206.48:80                 
+tcp    TIME-WAIT  0      0      127.0.0.1:26464              127.0.0.1:41042              
+tcp    LISTEN     0      32     fe80::32cb:e02e:be6f:e741%vce1:53                   :::*                   users:(("dnsmasq",pid=15229,fd=13))
+tcp    LISTEN     0      128      :::22                   :::*                   users:(("sshd",pid=5325,fd=4))

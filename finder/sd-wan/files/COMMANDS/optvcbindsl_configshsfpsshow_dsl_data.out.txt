@@ -1,0 +1,4 @@
+INTERFACE=sfp1
+MODE=Standard
+INTERFACE=sfp2
+MODE=Standard

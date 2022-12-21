@@ -1,0 +1,12 @@
+Requested item: ADD/CHANGE/REMOVE INTERNAL DNS RECORD
+
+Order information:
+Action to be performed: Create internal static DNS A record
+Host: plkrwsap0007
+Domain: ad.global
+IP Address: 10.34.241.13
+Create reverse lookup record: true
+Delete reverse lookup record: true
+TTL (Time to Live) in Seconds: 3600
+Business justification: Innovation Hub Services virtual machine
+Task: TASK0230843

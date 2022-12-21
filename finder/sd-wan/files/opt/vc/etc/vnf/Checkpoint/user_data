@@ -1,0 +1,9 @@
+vnf_ip={{cidrIp}}
+vnf_netmask={{netmask}}
+vnf_dg={{gateway}}
+vnf_sic={{vendorSpecificData.managementServer.sicKey}}
+vnf_hostname={{hostname}}
+vnf_password={{vendorSpecificData.vmConfiguration.adminPassword}}
+vnf_dns={{gateway}}
+smc_ip={{vendorSpecificData.managementServer.primary}}
+instance_id={{instanceId}}

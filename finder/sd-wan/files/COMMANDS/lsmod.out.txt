@@ -1,0 +1,234 @@
+act_connmark           16384  0 
+act_csum               20480  0 
+act_gact               16384  0 
+act_ipt                16384  0 
+act_mirred             16384  0 
+act_pedit              16384  0 
+act_police             16384  0 
+act_simple             16384  0 
+act_skbedit            16384  0 
+arp_tables             20480  1 arptable_filter
+arpt_mangle            16384  0 
+arptable_filter        16384  0 
+asix                   36864  0 
+ath                    28672  4 ath10k_core,ath9k,ath9k_common,ath9k_hw
+ath10k_core           368640  1 ath10k_pci
+ath10k_pci             32768  0 
+ath9k                 106496  0 
+ath9k_common           24576  1 ath9k
+ath9k_hw              348160  2 ath9k,ath9k_common
+authenc                16384  1 intel_qat
+ax88179_178a           24576  0 
+cdc_eem                16384  0 
+cdc_ether              16384  1 rndis_host
+cdc_mbim               16384  0 
+cdc_ncm                24576  2 cdc_mbim,huawei_cdc_ncm
+cdc_subset             16384  0 
+cdc_wdm                20480  3 cdc_mbim,qmi_wwan,huawei_cdc_ncm
+cfg80211              552960  5 ath10k_core,ath9k,ath9k_common,ath,mac80211
+cls_basic              16384  0 
+cls_flow               20480  0 
+cls_fw                 16384  0 
+cls_matchall           16384  0 
+cls_route              16384  0 
+cls_tcindex            20480  0 
+cls_u32                20480  0 
+compat                 20480 10 lib80211_crypt_wep,lib80211_crypt_tkip,lib80211_crypt_ccmp,lib80211,ath10k_pci,ath10k_core,ath9k,ath9k_common,mac80211,cfg80211
+compat_xtables         16384  0 
+cordic                 16384  0 
+coretemp               16384  0 
+cp210x                 24576  0 
+crc_ccitt              16384  1 ppp_async
+crc_itu_t              16384  1 udf
+crc7                   16384  0 
+crc8                   16384  0 
+dh_generic             16384  1 intel_qat
+dsa_core               36864  1 mv88e6xxx
+em_cmp                 16384  0 
+em_meta                16384  0 
+em_nbyte               16384  0 
+em_text                16384  0 
+em_u32                 16384  0 
+ena                    65536  0 
+evdev                  20480  1 
+fat                    57344  1 vfat
+ftdi_sio               49152  0 
+hso                    36864  0 
+huawei_cdc_ncm         16384  0 
+hwmon                  16384  3 lm75,tc654,coretemp
+hwmon_vid              16384  0 
+i2c_dev                16384  0 
+i2c_i801               20480  0 
+i2c_ismt               16384  0 
+i40e                  262144  0 
+i40evf                 81920  0 
+ifb                    16384  0 
+igb                   159744  0 
+igb_uio                16384  7 
+intel_qat             184320  6 qat_c3xxx
+ip_set                 32768 16 xt_set,ip_set_list_set,ip_set_hash_netiface,ip_set_hash_netport,ip_set_hash_netnet,ip_set_hash_net,ip_set_hash_netportnet,ip_set_hash_mac,ip_set_hash_ipportnet,ip_set_hash_ipportip,ip_set_hash_ipport,ip_set_hash_ipmark,ip_set_hash_ip,ip_set_bitmap_port,ip_set_bitmap_ipmac,ip_set_bitmap_ip
+ip_set_bitmap_ip       20480  0 
+ip_set_bitmap_ipmac    20480  0 
+ip_set_bitmap_port     16384  0 
+ip_set_hash_ip         28672  0 
+ip_set_hash_ipmark     28672  0 
+ip_set_hash_ipport     28672  0 
+ip_set_hash_ipportip   28672  0 
+ip_set_hash_ipportnet   32768  0 
+ip_set_hash_mac        20480  0 
+ip_set_hash_net        32768  0 
+ip_set_hash_netiface   32768  0 
+ip_set_hash_netnet     32768  0 
+ip_set_hash_netport    32768  0 
+ip_set_hash_netportnet   36864  0 
+ip_set_list_set        20480  0 
+ip_tunnel              24576  1 ipip
+ip6_tables             20480 52 ip6table_mangle,ip6table_filter
+ip6_tunnel             32768  0 
+ip6t_REJECT            16384  2 
+ip6table_filter        16384  1 
+ip6table_mangle        16384  1 
+ipip                   16384  0 
+ipt_ECN                16384  0 
+ipt_MASQUERADE         16384  8 
+ipt_REJECT             16384  2 
+ipt_ah                 16384  0 
+iptable_filter         16384  1 
+iptable_mangle         16384  1 
+iptable_nat            16384  1 
+irqbypass              16384  1 kvm
+ixgbe                 221184  0 
+ixgbevf                53248  0 
+kpp                    16384  2 intel_qat,dh_generic
+kvm                   479232  1 kvm_intel
+kvm_intel             192512  0 
+lib80211               16384  3 lib80211_crypt_wep,lib80211_crypt_tkip,lib80211_crypt_ccmp
+lib80211_crypt_ccmp    16384  0 
+lib80211_crypt_tkip    16384  0 
+lib80211_crypt_wep     16384  0 
+libcrc32c              16384  1 act_csum
+lm75                   20480  0 
+loop                   28672  0 
+mac80211              708608  3 ath10k_core,ath9k,ath9k_hw
+mce_inject             20480  0 
+mdio                   16384  1 ixgbe
+mii                    16384  4 ax88179_178a,asix,usbnet,pcnet32
+mv88e6xxx              73728  0 
+nf_conntrack           77824 20 nf_conntrack_ipv6,ipt_MASQUERADE,xt_state,xt_nat,xt_helper,xt_conntrack,xt_connmark,xt_connlimit,xt_connbytes,xt_REDIRECT,xt_NETMAP,xt_CT,nf_nat_masquerade_ipv4,nf_conntrack_ipv4,nf_nat_ipv4,nf_nat,nf_flow_table,nf_conntrack_rtcache,nf_conntrack_netlink,act_connmark
+nf_conntrack_ipv4      16384 51 
+nf_conntrack_ipv6      16384  9 
+nf_conntrack_netlink   32768  0 
+nf_conntrack_rtcache   16384  0 
+nf_defrag_ipv4         16384  2 xt_TPROXY,nf_conntrack_ipv4
+nf_defrag_ipv6         16384  2 nf_conntrack_ipv6,xt_TPROXY
+nf_dup_ipv4            16384  1 xt_TEE
+nf_dup_ipv6            16384  1 xt_TEE
+nf_flow_table          24576  2 xt_FLOWOFFLOAD,nf_flow_table_hw
+nf_flow_table_hw       16384  1 
+nf_log_common          16384  2 nf_log_ipv4,nf_log_ipv6
+nf_log_ipv4            16384  0 
+nf_log_ipv6            16384  0 
+nf_nat                 24576  5 xt_nat,xt_NETMAP,nf_nat_redirect,nf_nat_masquerade_ipv4,nf_nat_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+nf_nat_masquerade_ipv4   16384  1 ipt_MASQUERADE
+nf_nat_redirect        16384  1 xt_REDIRECT
+nf_reject_ipv4         16384  1 ipt_REJECT
+nf_reject_ipv6         16384  1 ip6t_REJECT
+nfnetlink              16384  9 nfnetlink_queue,nfnetlink_log,nf_conntrack_netlink,ip_set
+nfnetlink_log          20480  0 
+nfnetlink_queue        20480  0 
+nls_cp437              20480  0 
+nls_cp850              20480  0 
+nls_iso8859_1          16384  0 
+nls_iso8859_15         16384  0 
+nls_utf8               16384  0 
+ohci_hcd               32768  1 ohci_platform
+ohci_platform          16384  0 
+option                 57344  0 
+pcnet32                40960  0 
+pl2303                 16384  0 
+ppp_async              20480  0 
+ppp_generic            32768  3 pppoe,ppp_async,pppox
+pppoe                  20480  0 
+pppox                  16384  1 pppoe
+qat_c3xxx              20480  1 
+qcserial               20480  0 
+qmi_wwan               28672  0 
+rndis_host             16384  0 
+rte_kni                24576  1 
+sch_codel              16384  0 
+sch_dsmark             16384  0 
+sch_fq                 20480  0 
+sch_gred               20480  0 
+sch_hfsc               24576  0 
+sch_htb                24576  0 
+sch_ingress            16384  0 
+sch_multiq             16384  0 
+sch_netem              20480  0 
+sch_pie                16384  0 
+sch_prio               16384  0 
+sch_red                16384  0 
+sch_sfq                20480  0 
+sch_tbf                16384  0 
+sch_teql               16384  0 
+sha1_generic           16384  0 
+sha512_generic         16384  0 
+sierra                 16384  0 
+sierra_net             16384  0 
+slhc                   16384  1 ppp_generic
+tc654                  16384  0 
+ts_bm                  16384  0 
+ts_fsm                 16384  0 
+ts_kmp                 16384  0 
+tun                    32768 12 
+tunnel4                16384  1 ipip
+tunnel6                16384  1 ip6_tunnel
+udf                    81920  0 
+usb_wwan               16384  2 qcserial,option
+usbnet                 24576 11 cdc_mbim,sierra_net,rndis_host,qmi_wwan,huawei_cdc_ncm,cdc_subset,cdc_ncm,cdc_ether,cdc_eem,ax88179_178a,asix
+usdm_drv               90112  1 
+veth                   16384  0 
+vfat                   20480  0 
+xt_CLASSIFY            16384  0 
+xt_CT                  16384  0 
+xt_DSCP                16384  0 
+xt_FLOWOFFLOAD         16384  0 
+xt_HL                  16384  0 
+xt_LED                 16384  0 
+xt_LOG                 16384  0 
+xt_NETMAP              16384  0 
+xt_NFQUEUE             16384  0 
+xt_REDIRECT            16384  0 
+xt_TCPMSS              16384  8 
+xt_TEE                 16384  0 
+xt_TPROXY              16384  0 
+xt_addrtype            16384  0 
+xt_comment             16384366 
+xt_connbytes           16384  0 
+xt_connlimit           16384  0 
+xt_connmark            16384 11 
+xt_conntrack           16384 40 
+xt_dscp                16384  0 
+xt_ecn                 16384  0 
+xt_esp                 16384  0 
+xt_hashlimit           20480  0 
+xt_helper              16384  0 
+xt_hl                  16384  0 
+xt_iprange             16384  0 
+xt_length              16384  0 
+xt_limit               16384  2 
+xt_mac                 16384  0 
+xt_mark                16384 10 
+xt_multiport           16384  6 
+xt_nat                 16384  0 
+xt_owner               16384  0 
+xt_pkttype             16384  0 
+xt_quota               16384  0 
+xt_recent              20480  0 
+xt_set                 16384  0 
+xt_state               16384  0 
+xt_statistic           16384  0 
+xt_string              16384  0 
+xt_tcpmss              16384  0 
+xt_time                16384  0 
+xt_u32                 16384  0 

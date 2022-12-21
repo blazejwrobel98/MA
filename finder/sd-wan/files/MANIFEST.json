@@ -1,0 +1,16 @@
+{
+ "deviceModel": "edge620", 
+ "deviceFamily": "EDGE6X0", 
+ "deviceCategory": "edge", 
+ "timestamp": 1660814750068, 
+ "datetime": "2022-08-18T09:25:50.068132", 
+ "reason": "Unknown", 
+ "version": "4.5.0", 
+ "deviceType": "EDGE", 
+ "deviceId": "497674E2-08C9-4545-A41C-5D98E2DD6348", 
+ "id": "9aec1a79-ef05-45d5-a0fe-56b2f4693309", 
+ "logicalId": "05c1d898-6b17-467c-9ec1-79b35f02b717", 
+ "type": "diagnosticDump", 
+ "requestId": "9aec1a79-ef05-45d5-a0fe-56b2f4693309", 
+ "build": "R450-20220404-GA-ATT-de78fc2902"
+}

@@ -1,0 +1,2432 @@
+[
+  {
+    "control": [
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_INIT", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_STATS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLOCK_SYNC", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HEARTBEAT", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PP_TEST", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_SYNC", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TRACE_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TUPLE_DELETE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_TEST", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CACHED_BW_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_INFO_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_NACK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA_FRAG", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_FRAG_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_CONN_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTES_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP_ACK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG_ACK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HB_INTERVAL", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LAT_PROBE_DEPRECATED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REQ", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REP", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS_ACK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_STATS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTU_CHECK_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_E2E_MTU", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PRIVATE_LINKS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DE2E_INFO", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PERSIST_TUNNEL", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_BANDWIDTH", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTE_EVENTS_DEPRECATED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_INB_BW_INFO", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LINK_UPDATE_MESSAGE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP_ACK", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE_RESPONSE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_VPN_PROFILE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_1TO1_NAT_INFO", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_STATS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_IKE_RESTART_UNUSED", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_CONFIG", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_INFO", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_CAP", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ROUTE_VCRP", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PER_SEG_COS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RELIABLE_MSG", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_GW_TUNNEL_RATE", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PIM_PKT", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_LOSS_THRESH", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RETEST_BW", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_GO_STDBY", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_EVENTS", 
+        "name": "GE6_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK_DUAL_ADDR", 
+        "name": "GE6_v4auto"
+      }
+    ], 
+    "name": "GE6_v4auto", 
+    "type": "link"
+  }, 
+  {
+    "control": [
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_INIT", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_STATS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLOCK_SYNC", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HEARTBEAT", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PP_TEST", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_SYNC", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TRACE_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TUPLE_DELETE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_TEST", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CACHED_BW_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_INFO_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_NACK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA_FRAG", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_FRAG_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_CONN_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTES_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP_ACK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG_ACK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HB_INTERVAL", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LAT_PROBE_DEPRECATED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REQ", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REP", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS_ACK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_STATS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTU_CHECK_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_E2E_MTU", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PRIVATE_LINKS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DE2E_INFO", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PERSIST_TUNNEL", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_BANDWIDTH", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTE_EVENTS_DEPRECATED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_INB_BW_INFO", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LINK_UPDATE_MESSAGE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP_ACK", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE_RESPONSE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_VPN_PROFILE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_1TO1_NAT_INFO", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_STATS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_IKE_RESTART_UNUSED", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_CONFIG", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_INFO", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_CAP", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ROUTE_VCRP", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PER_SEG_COS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RELIABLE_MSG", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_GW_TUNNEL_RATE", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PIM_PKT", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_LOSS_THRESH", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RETEST_BW", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_GO_STDBY", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_EVENTS", 
+        "name": "SFP1_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK_DUAL_ADDR", 
+        "name": "SFP1_v4auto"
+      }
+    ], 
+    "name": "SFP1_v4auto", 
+    "type": "link"
+  }, 
+  {
+    "control": [
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_INIT", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_STATS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLOCK_SYNC", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HEARTBEAT", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PP_TEST", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_SYNC", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TRACE_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TUPLE_DELETE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_TEST", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CACHED_BW_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_INFO_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CTRL_NACK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA_FRAG", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_FRAG_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_CONN_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTES_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP_ACK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG_ACK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HB_INTERVAL", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LAT_PROBE_DEPRECATED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REQ", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REP", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS_ACK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_STATS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTU_CHECK_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_E2E_MTU", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PRIVATE_LINKS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DE2E_INFO", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PERSIST_TUNNEL", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_BANDWIDTH", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTE_EVENTS_DEPRECATED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_INB_BW_INFO", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LINK_UPDATE_MESSAGE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP_ACK", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE_RESPONSE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_VPN_PROFILE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_1TO1_NAT_INFO", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_STATS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_IKE_RESTART_UNUSED", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_QOS_CONFIG", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_INFO", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BW_CAP", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ROUTE_VCRP", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PER_SEG_COS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RELIABLE_MSG", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_GW_TUNNEL_RATE", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PIM_PKT", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_LOSS_THRESH", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RETEST_BW", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_GO_STDBY", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_EVENTS", 
+        "name": "SFP2_v4auto"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK_DUAL_ADDR", 
+        "name": "SFP2_v4auto"
+      }
+    ], 
+    "name": "SFP2_v4auto", 
+    "type": "link"
+  }, 
+  {
+    "control": [
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 5015066, 
+        "Tx_num": 21235, 
+        "ctrl_msg_type": "VCMP_CTRL_INIT", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 131394, 
+        "Rx_num": 2154, 
+        "Tx_byte": 165825, 
+        "Tx_num": 2211, 
+        "ctrl_msg_type": "VCMP_PATH_STATS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 1079601038, 
+        "Rx_num": 13747296, 
+        "Tx_byte": 1008124553, 
+        "Tx_num": 13754641, 
+        "ctrl_msg_type": "VCMP_CLOCK_SYNC", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 1881713512, 
+        "Rx_num": 30309216, 
+        "Tx_byte": 1759668435, 
+        "Tx_num": 27931245, 
+        "ctrl_msg_type": "VCMP_HEARTBEAT", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PP_TEST", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 8285821726, 
+        "Rx_num": 37492388, 
+        "Tx_byte": 716936836, 
+        "Tx_num": 3117444, 
+        "ctrl_msg_type": "VCMP_QOS_SYNC", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TRACE_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 269835760, 
+        "Tx_num": 3290680, 
+        "ctrl_msg_type": "VCMP_TUPLE_DELETE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 55797664, 
+        "Rx_num": 37450, 
+        "Tx_byte": 81950144, 
+        "Tx_num": 55002, 
+        "ctrl_msg_type": "VCMP_BW_TEST", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CACHED_BW_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_INFO_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 576337, 
+        "Rx_num": 6961, 
+        "Tx_byte": 4656513, 
+        "Tx_num": 52526, 
+        "ctrl_msg_type": "VCMP_CTRL_NACK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA_FRAG", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_FRAG_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_CONN_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTES_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP_ACK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG_ACK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 233420, 
+        "Rx_num": 4244, 
+        "Tx_byte": 733332, 
+        "Tx_num": 10628, 
+        "ctrl_msg_type": "VCMP_HB_INTERVAL", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LAT_PROBE_DEPRECATED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 49023, 
+        "Rx_num": 757, 
+        "Tx_byte": 1306955, 
+        "Tx_num": 20107, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REQ", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 552234, 
+        "Rx_num": 8668, 
+        "Tx_byte": 49205, 
+        "Tx_num": 757, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REP", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS_ACK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_STATS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTU_CHECK_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_E2E_MTU", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PRIVATE_LINKS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 2321605, 
+        "Tx_num": 27313, 
+        "ctrl_msg_type": "VCMP_DE2E_INFO", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PERSIST_TUNNEL", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 999324, 
+        "Tx_num": 13149, 
+        "ctrl_msg_type": "VCMP_PATH_BANDWIDTH", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTE_EVENTS_DEPRECATED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_INB_BW_INFO", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 327154, 
+        "Tx_num": 4421, 
+        "ctrl_msg_type": "VCMP_LINK_UPDATE_MESSAGE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP_ACK", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 96610, 
+        "Tx_num": 65, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 51076, 
+        "Rx_num": 34, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE_RESPONSE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_VPN_PROFILE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_1TO1_NAT_INFO", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_STATS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_IKE_RESTART_UNUSED", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 684, 
+        "Rx_num": 12, 
+        "Tx_byte": 1356, 
+        "Tx_num": 12, 
+        "ctrl_msg_type": "VCMP_QOS_CONFIG", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_INFO", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 1022, 
+        "Tx_num": 14, 
+        "ctrl_msg_type": "VCMP_BW_CAP", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 256414644, 
+        "Rx_num": 3587180, 
+        "Tx_byte": 309129458, 
+        "Tx_num": 3615092, 
+        "ctrl_msg_type": "VCMP_ROUTE_VCRP", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PER_SEG_COS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 654979260, 
+        "Rx_num": 5192928, 
+        "Tx_byte": 731845743, 
+        "Tx_num": 5234742, 
+        "ctrl_msg_type": "VCMP_RELIABLE_MSG", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 390, 
+        "Rx_num": 6, 
+        "Tx_byte": 474, 
+        "Tx_num": 6, 
+        "ctrl_msg_type": "VCMP_GW_TUNNEL_RATE", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PIM_PKT", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_LOSS_THRESH", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RETEST_BW", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_GO_STDBY", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_EVENTS", 
+        "name": "Internet"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK_DUAL_ADDR", 
+        "name": "Internet"
+      }
+    ], 
+    "name": "Internet", 
+    "type": "link"
+  }, 
+  {
+    "control": [
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 26147810, 
+        "Tx_num": 94153, 
+        "ctrl_msg_type": "VCMP_CTRL_INIT", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 123769, 
+        "Rx_num": 2029, 
+        "Tx_byte": 165675, 
+        "Tx_num": 2209, 
+        "ctrl_msg_type": "VCMP_PATH_STATS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 5968111, 
+        "Rx_num": 76403, 
+        "Tx_byte": 5740320, 
+        "Tx_num": 76424, 
+        "ctrl_msg_type": "VCMP_CLOCK_SYNC", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 3053921262, 
+        "Rx_num": 49461266, 
+        "Tx_byte": 3074094072, 
+        "Tx_num": 48795144, 
+        "ctrl_msg_type": "VCMP_HEARTBEAT", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PP_TEST", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 434660811, 
+        "Rx_num": 1966791, 
+        "Tx_byte": 11405960, 
+        "Tx_num": 48536, 
+        "ctrl_msg_type": "VCMP_QOS_SYNC", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_TRACE_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 6068, 
+        "Tx_num": 74, 
+        "ctrl_msg_type": "VCMP_TUPLE_DELETE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 134807108, 
+        "Rx_num": 90507, 
+        "Tx_byte": 573652625, 
+        "Tx_num": 385035, 
+        "ctrl_msg_type": "VCMP_BW_TEST", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CACHED_BW_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_INFO_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 59577, 
+        "Rx_num": 691, 
+        "Tx_byte": 567530, 
+        "Tx_num": 6508, 
+        "ctrl_msg_type": "VCMP_CTRL_NACK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_ADATA_FRAG", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_SDATA_FRAG_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_CONN_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTES_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_DCE_IP_ACK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HUB_CONFIG_ACK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 219890, 
+        "Rx_num": 3998, 
+        "Tx_byte": 807093, 
+        "Tx_num": 11697, 
+        "ctrl_msg_type": "VCMP_HB_INTERVAL", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_LAT_PROBE_DEPRECATED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 24765, 
+        "Rx_num": 381, 
+        "Tx_byte": 663520, 
+        "Tx_num": 10208, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REQ", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 34125, 
+        "Rx_num": 525, 
+        "Tx_byte": 24765, 
+        "Tx_num": 381, 
+        "ctrl_msg_type": "VCMP_SYNC_HB_REP", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_OPG_STATUS_ACK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PEER_STATS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_MTU_CHECK_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_E2E_MTU", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PRIVATE_LINKS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 935, 
+        "Tx_num": 11, 
+        "ctrl_msg_type": "VCMP_DE2E_INFO", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PERSIST_TUNNEL", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 970596, 
+        "Tx_num": 12771, 
+        "ctrl_msg_type": "VCMP_PATH_BANDWIDTH", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_EDGE_ROUTE_EVENTS_DEPRECATED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_INB_BW_INFO", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 316646, 
+        "Tx_num": 4279, 
+        "ctrl_msg_type": "VCMP_LINK_UPDATE_MESSAGE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLIENT_EDGE_IP_ACK", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 9177700, 
+        "Rx_num": 6086, 
+        "Tx_byte": 13267746, 
+        "Tx_num": 8905, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 9942770, 
+        "Rx_num": 6673, 
+        "Tx_byte": 9177700, 
+        "Tx_num": 6086, 
+        "ctrl_msg_type": "VCMP_MTUP_PROBE_RESPONSE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_VPN_PROFILE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_1TO1_NAT_INFO", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_STATS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_IKE_RESTART_UNUSED", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 114, 
+        "Rx_num": 2, 
+        "Tx_byte": 226, 
+        "Tx_num": 2, 
+        "ctrl_msg_type": "VCMP_QOS_CONFIG", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_CLUSTER_INFO", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 730, 
+        "Tx_num": 10, 
+        "ctrl_msg_type": "VCMP_BW_CAP", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 4745966, 
+        "Rx_num": 67007, 
+        "Tx_byte": 3276358, 
+        "Tx_num": 39720, 
+        "ctrl_msg_type": "VCMP_ROUTE_VCRP", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PER_SEG_COS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 11401507, 
+        "Rx_num": 96725, 
+        "Tx_byte": 7174474, 
+        "Tx_num": 58720, 
+        "ctrl_msg_type": "VCMP_RELIABLE_MSG", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 65, 
+        "Rx_num": 1, 
+        "Tx_byte": 79, 
+        "Tx_num": 1, 
+        "ctrl_msg_type": "VCMP_GW_TUNNEL_RATE", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PIM_PKT", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_PATH_LOSS_THRESH", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_RETEST_BW", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_GO_STDBY", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_HA_EVENTS", 
+        "name": "MPLS"
+      }, 
+      {
+        "Rx_byte": 0, 
+        "Rx_num": 0, 
+        "Tx_byte": 0, 
+        "Tx_num": 0, 
+        "ctrl_msg_type": "VCMP_BACKUP_LINK_CHECK_DUAL_ADDR", 
+        "name": "MPLS"
+      }
+    ], 
+    "name": "MPLS", 
+    "type": "link"
+  }
+]

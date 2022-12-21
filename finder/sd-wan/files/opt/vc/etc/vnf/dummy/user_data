@@ -1,0 +1,12 @@
+#!/bin/bash
+
+ifconfig eth0 {{cidrIp}} netmask {{netmask}}
+route add default gw {{gateway}}
+
+brctl addbr br0
+brctl addif br0 eth1
+brctl addif br0 eth2
+
+ifconfig br0 up
+ifconfig eth1 up
+ifconfig eth2 up

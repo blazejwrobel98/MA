@@ -1,0 +1,5 @@
+====================== Source or Destination NAT ====================
+Type   Segment ID  Inside Cidr IP  Outside Cidr IP  Source Route  Destination Route  Hits
+
+====================== Source and Destination NAT ====================
+Segment ID   SrcInsideIp  SrcOutsideIp  DestInsideIp  DestOutsideIp  Hits

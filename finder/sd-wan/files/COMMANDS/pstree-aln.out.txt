@@ -1,0 +1,61 @@
+procd
+  |-ubusd
+  |-askfirst /sbin/getty -L ttyS0 115200 ansi
+  |-askfirst /sbin/getty -L ttyS1 115200 ansi
+  |-askfirst /sbin/getty -L tty0 115200 ansi
+  |-haveged -F -w 1024 -v 1
+  |-rsyslogd -n
+  |   `-5*[{rsyslogd}]
+  |-faultmon /opt/vc/sbin/faultmon
+  |-log_archive /opt/vc/sbin/log_archive
+  |   `-22*[{log_archive}]
+  |-acpid -f
+  |-mcelog --daemon --foreground --syslog-error --no-dmi
+  |-linkd /opt/vc/sbin/linkd
+  |-netifd -d0xf
+  |-conntrackd -C /etc/conntrackd/conntrackd.conf
+  |-watchdog -T 30 -t 2 -F /dev/watchdog
+  |-sshd
+  |-systemstatusd /opt/vc/sbin/systemstatusd
+  |   `-2*[{systemstatusd}]
+  |-dbus-daemon --system
+  |-ntpd -g -u network:network -p /var/run/ntpd.pid -n
+  |   `-{ntpd}
+  |-ModemManager
+  |   `-2*[{ModemManager}]
+  |-dnsmasq -C /var/etc/dnsmasq-secure.conf -k -x /var/run/dnsmasq-secure.pid
+  |-vc_procmon /opt/vc/bin/vc_procmon edged restart
+  |   |-13*[{vc_procmon}]
+  |   |-nyansa_syslogd. /opt/vc/bin/nyansa_syslogd.sh
+  |   |   `-sleep 5
+  |   |-dot1x
+  |   |-mgd /opt/vc/sbin/mgd
+  |   |   |-18*[{mgd}]
+  |   |   `-pstree -aln
+  |   |-nyansa_amond.sh /opt/vc/bin/nyansa_amond.sh
+  |   |   `-sleep 5
+  |   |-nyansa_snmpread /opt/vc/bin/nyansa_snmpreader.sh
+  |   |   `-sleep 5
+  |   |-nyansa_snmptrap /opt/vc/bin/nyansa_snmptrapd.sh
+  |   |   `-sleep 5
+  |   |-handoff_q_monit /opt/vc/bin/handoff_q_monitor.py
+  |   |-evdslmon.py /opt/vc/sbin/evdslmon.py
+  |   |-ledd /opt/vc/sbin/ledd
+  |   |-vnfd.py /opt/vc/sbin/vnfd.py
+  |   |-edged -F/etc/config/edged
+  |   |   `-64*[{edged}]
+  |   `-l7_health_check /opt/vc/sbin/l7_health_check.py
+  |-snmpd -Lsd -f -I -ip inetNetToMediaTable ifTable ifXTable
+  |   |-snmpagent.py -u /opt/vc/bin/snmpagent.py veloEdge
+  |   |-snmpagent.py -u /opt/vc/bin/snmpagent.py ifTable
+  |   |-snmpagent.py -u /opt/vc/bin/snmpagent.py ifXTable
+  |   |-snmpagent.py -u /opt/vc/bin/snmpagent.py ipNetToMediaTable
+  |   |-snmpagent.py -u /opt/vc/bin/snmpagent.py ipAddressTable
+  |   `-snmpagent.py -u /opt/vc/bin/snmpagent.py ipAddrDeperTable
+  |-bgpd -d -u root -g root -A 127.0.0.1
+  |   `-2*[{bgpd}]
+  |-ospfd -d -u root -g root -A 127.0.0.1
+  |-pimd -d -u root -g root -A 127.0.0.1
+  |-bfdd -d -u root -g root -A 127.0.0.1
+  |-watchfrr -d -T 60 -r /usr/sbin/frr.init_watchrestart_%s -b _ bgpd ospfd pimd bfdd
+  `-lighttpd -D -f /etc/lighttpd/lighttpd.conf

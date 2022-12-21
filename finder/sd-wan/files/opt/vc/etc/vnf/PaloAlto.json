@@ -1,0 +1,57 @@
+{
+    "type": "pan",
+    "name": "pan",
+    "mem":  4608,
+    "cpu": 2,
+    "drive" : [{
+        "path": "PA-VM-KVM-8.0.5.qcow2",
+        "sha1": "92343c5eea337350f4f5d59846de08168a8e5a6f"
+    }],
+    "snmp" : {
+        "iso.3.6.1.2.1.25.3.3.1.2.1" : "mcpu",
+        "iso.3.6.1.2.1.25.3.3.1.2.2" : "cpu",
+        "iso.3.6.1.2.1.25.1.1.0" : "uptime",
+        "iso.3.6.1.2.1.47.1.1.1.1.11.1" : "S/N"
+    },
+    "config" : {
+        "label" : "panconf",
+        "dirs"  : ["config", "license", "software", "content"],
+        "files" : [{
+            "path" : "config/init-cfg.txt",
+            "url"  : "file:///opt/vc/etc/vnf/PaloAlto/init-cfg.txt",
+            "sha1" : "a1390c95e8a6fa597218fff21f301065f31ce728"
+        },{
+            "path" : "license/authcodes",
+            "url"  : "file:///opt/vc/etc/vnf/PaloAlto/authcodes",
+            "sha1" : "a3ef85e9c190f9a3c2865b86851eebbfa7ac1e6c"
+        }],
+        "data" : {
+            "cidrIp" : "",
+            "cidrPrefix": 0,
+            "netmask" : "",
+            "gateway" : "",
+            "dns" : "",
+            "dnsSecondary": "",
+            "hostname" : "",
+            "vendorSpecificData": {
+                "authCode": "",
+                "authCodeValidated": "",
+                "authCodeValidationTimeStamp": "",
+                "configTemplateName": "",
+                "deviceGroupName": "",
+                "managementServer": {
+                    "authKey": "",
+                    "primary": "",
+                    "secondary": ""
+                }
+            }
+        }
+    },
+    "model" : {
+        "edge840.*" : { "mem" : 6656 },
+        "edge640" : { "mem" : 6656 },
+        "edge680" : { "mem" : 6656 },
+        "edge3400" : { "mem" : 9216 },
+        "edge3800" : { "mem" : 9216 }
+    }
+}

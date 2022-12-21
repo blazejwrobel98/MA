@@ -1,0 +1,74 @@
+2022-08-02T14:16:41.988 DEBUG   [network (2726:MainThread:2726)] HA interface GE1
+2022-08-02T14:16:41.989 INFO    [network (2726:MainThread:2726)] metric for interface GE3 is 5
+2022-08-02T14:16:41.989 INFO    [network (2726:MainThread:2726)] metric for interface GE4 is 6
+2022-08-02T14:16:41.989 INFO    [network (2726:MainThread:2726)] metric for interface GE5 is 7
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] metric for sub interface GE5_400 is 585
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] metric for interface GE6 is 8
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] metric for interface SFP1 is 31
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] metric for interface SFP2 is 32
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.990 INFO    [network (2726:MainThread:2726)] metric for interface GE3 is 5
+2022-08-02T14:16:41.991 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.991 INFO    [network (2726:MainThread:2726)] metric for interface GE4 is 6
+2022-08-02T14:16:41.991 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.991 INFO    [network (2726:MainThread:2726)] metric for interface GE5 is 7
+2022-08-02T14:16:41.992 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.992 INFO    [network (2726:MainThread:2726)] metric for interface GE5_400 is 585
+2022-08-02T14:16:41.992 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.992 INFO    [network (2726:MainThread:2726)] metric for interface GE5_900 is 7
+2022-08-02T14:16:41.993 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.993 INFO    [network (2726:MainThread:2726)] metric for interface GE6 is 8
+2022-08-02T14:16:41.993 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.993 INFO    [network (2726:MainThread:2726)] metric for interface SFP1 is 31
+2022-08-02T14:16:41.993 INFO    [network (2726:MainThread:2726)] gen_routed_iface_cfg: evdsl: no
+2022-08-02T14:16:41.994 INFO    [network (2726:MainThread:2726)] metric for interface SFP2 is 32
+2022-08-02T14:16:42.238 INFO    [mgdutils (2726:MainThread:2726)] Command: /opt/vc/bin/vc_ha.sh programmacsifchange; Output: SIOCSIFHWADDR: No such device
+SIOCSIFHWADDR: No such device
+
+2022-08-02T14:16:42.239 INFO    [wireless (2726:MainThread:2726)] Radio phy0 (Qualcomm/Atheros QCA9880) is certified
+2022-08-02T14:16:42.286 INFO    [wireless (2726:MainThread:2726)] Radio settings: country 'auto' resolved to 'PL'
+2022-08-02T14:16:42.286 DEBUG   [wireless (2726:MainThread:2726)] Radio settings: 'Radio1': available channels: [1, 6, 11], serial_number=1NY6V43 (hash 2694097351121881954)
+2022-08-02T14:16:42.286 INFO    [wireless (2726:MainThread:2726)] Radio settings: 'Radio1': automatic channel assignment to '6' (2.4 GHz)
+2022-08-02T14:16:42.295 DEBUG   [vnf (2726:MainThread:2726)] got vnf config {} 
+2022-08-02T14:16:42.307 DEBUG   [settings (2726:MainThread:2726)] /etc/config/network changed via uci comparison
+2022-08-02T14:16:42.308 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: vnf.json: [Errno 2] No such file or directory: '/opt/vc/etc/vnf.json'
+2022-08-02T14:16:42.308 DEBUG   [settings (2726:MainThread:2726)] /opt/vc/etc/vnf.json changed via file comparison
+2022-08-02T14:16:42.319 DEBUG   [settings (2726:MainThread:2726)] /etc/config/firewall changed via uci comparison
+2022-08-02T14:16:42.320 DEBUG   [settings (2726:MainThread:2726)] /etc/ntp.conf changed via file comparison
+2022-08-02T14:16:42.321 DEBUG   [settings (2726:MainThread:2726)] /etc/rsyslog.conf changed via file comparison
+2022-08-02T14:16:42.331 DEBUG   [settings (2726:MainThread:2726)] /etc/config/wireless changed via uci comparison
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: dhclient-sfp2.conf: [Errno 2] No such file or directory: '/etc/dhclient-sfp2.conf'
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] /etc/dhclient-sfp2.conf changed via file comparison
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: routing: [Errno 2] No such file or directory: '/etc/config/routing'
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] /etc/config/routing changed via file comparison
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: dhclient-sfp1.conf: [Errno 2] No such file or directory: '/etc/dhclient-sfp1.conf'
+2022-08-02T14:16:42.332 DEBUG   [settings (2726:MainThread:2726)] /etc/dhclient-sfp1.conf changed via file comparison
+2022-08-02T14:16:42.352 DEBUG   [settings (2726:MainThread:2726)] /etc/config/interface changed via uci comparison
+2022-08-02T14:16:42.362 DEBUG   [settings (2726:MainThread:2726)] /etc/config/dhcp changed via uci comparison
+2022-08-02T14:16:42.363 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: dhclient-ge6.conf: [Errno 2] No such file or directory: '/etc/dhclient-ge6.conf'
+2022-08-02T14:16:42.363 DEBUG   [settings (2726:MainThread:2726)] /etc/dhclient-ge6.conf changed via file comparison
+2022-08-02T14:16:42.363 DEBUG   [settings (2726:MainThread:2726)] file_compare_cfg: dhclient-ge2.conf: [Errno 2] No such file or directory: '/etc/dhclient-ge2.conf'
+2022-08-02T14:16:42.364 DEBUG   [settings (2726:MainThread:2726)] /etc/dhclient-ge2.conf changed via file comparison
+2022-08-02T14:16:42.364 INFO    [localui (2726:MainThread:2726)] Local UI will listen on https port 80 with redirect from http port 443
+2022-08-02T14:16:42.365 INFO    [inittab (2726:MainThread:2726)] Serial console is enabled
+2022-08-02T14:16:42.366 INFO    [usb (2726:MainThread:2726)] VCO usb disable status: enabled
+2022-08-02T14:16:42.366 DEBUG   [settings (2726:MainThread:2726)] /etc/lighttpd/port.conf changed via file comparison
+2022-08-02T14:16:49.774 INFO    [mgdclient (6189:MainThread:6189)] Logging SYSTEM event EDGE_SERVICES_STARTED: Edge services started
+2022-08-02T14:16:49.774 ERROR   [mgdclient (6189:MainThread:6189)] MGD not running; sending offline
+2022-08-02T14:16:50.274 INFO    [mgdclient (6368:MainThread:6368)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE3 is up
+2022-08-02T14:16:50.274 ERROR   [mgdclient (6368:MainThread:6368)] MGD not running; sending offline
+2022-08-02T14:16:55.670 INFO    [mgdclient (8680:MainThread:8680)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE4 is up
+2022-08-02T14:16:55.875 INFO    [mgdclient (8864:MainThread:8864)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5_400 is up
+2022-08-02T14:16:56.128 INFO    [mgdclient (9049:MainThread:9049)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5_900 is up
+2022-08-02T14:16:56.599 INFO    [mgdclient (9497:MainThread:9497)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5 is up
+2022-08-02T14:17:00.659 INFO    [mgdclient (10347:MainThread:10347)] Logging SYSTEM event EDGE_INTERFACE_DOWN: Interface GE5 is down
+2022-08-02T14:17:13.306 INFO    [mgdclient (11363:MainThread:11363)] Logging SYSTEM event EDGE_INTERFACE_DOWN: Interface GE3 is down
+2022-08-02T14:17:18.489 INFO    [mgdclient (11885:MainThread:11885)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE3 is up
+2022-08-02T14:17:24.046 INFO    [mgdclient (12983:MainThread:12983)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5_400 is up
+2022-08-02T14:17:29.434 INFO    [mgdclient (13271:MainThread:13271)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5_900 is up
+2022-08-02T14:17:35.357 INFO    [mgdclient (13591:MainThread:13591)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE4 is up
+2022-08-02T14:17:39.879 INFO    [mgdclient (13852:MainThread:13852)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5 is up
+2022-08-02T14:24:24.162 INFO    [mgdclient (15898:MainThread:15898)] Logging SYSTEM event EDGE_SERVICES_RESTARTED: Edge services restarted
+2022-08-02T14:24:24.162 ERROR   [mgdclient (15898:MainThread:15898)] MGD not running; sending offline
+2022-08-02T14:24:37.844 INFO    [mgdclient (16286:MainThread:16286)] Logging SYSTEM event EDGE_INTERFACE_DOWN: Interface GE5 is down
+2022-08-02T14:24:49.362 INFO    [mgdclient (16943:MainThread:16943)] Logging SYSTEM event EDGE_INTERFACE_UP: Interface GE5 is up

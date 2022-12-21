@@ -1,0 +1,9 @@
+2022-08-02T14:16:48.953 INFO [nyansa_amond 6180(6204)] Service has been enabled: nyansa_amond
+2022-08-02T14:16:48.954 INFO [nyansa_amond 6180(6204)] Launching process nyansa_amond: /opt/vc/bin/nyansa_amond.sh
+2022-08-02T14:16:49.042 INFO [nyansa_amond 6180(6204)] Process nyansa_amond: pid = 6210
+2022-08-02T14:24:23.202 INFO [nyansa_amond 6180(6204)] Process nyansa_amond (6210, 6210) returned from wait with retcode -15
+2022-08-02T14:24:23.202 INFO [nyansa_amond 6180(6204)] process nyansa_amond (pid 6210) completed
+2022-08-02T14:24:23.202 INFO [nyansa_amond 6180(6204)] Process nyansa_amond stopped during shutdown
+2022-08-02T14:24:23.579 INFO [nyansa_amond 15890(15907)] Service has been enabled: nyansa_amond
+2022-08-02T14:24:23.584 INFO [nyansa_amond 15890(15907)] Launching process nyansa_amond: /opt/vc/bin/nyansa_amond.sh
+2022-08-02T14:24:23.606 INFO [nyansa_amond 15890(15907)] Process nyansa_amond: pid = 15927

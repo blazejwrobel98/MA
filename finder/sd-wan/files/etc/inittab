@@ -1,0 +1,5 @@
+::sysinit:/etc/init.d/rcS S boot
+::shutdown:/etc/init.d/rcS K shutdown
+ttyS0::askfirst:/sbin/getty -L ttyS0 115200 ansi
+ttyS1::askfirst:/sbin/getty -L ttyS1 115200 ansi
+tty0::askfirst:/sbin/getty -L tty0 115200 ansi

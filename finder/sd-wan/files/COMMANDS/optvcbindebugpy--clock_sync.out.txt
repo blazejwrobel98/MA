@@ -1,0 +1,56 @@
+[
+  {
+    "clockSyncRounds": 32717, 
+    "clockSyncsRecvd": 50, 
+    "clockSyncsThisRound": 22, 
+    "configIntervalMin": 0, 
+    "nodeType": "DCE_CLIENT", 
+    "offsetUs": 23484190669361, 
+    "peerId": "07fe0dea-c7de-4306-8d40-d8fb28ef29fa"
+  }, 
+  {
+    "clockSyncRounds": 32505, 
+    "clockSyncsRecvd": 50, 
+    "clockSyncsThisRound": 35, 
+    "configIntervalMin": 0, 
+    "nodeType": "DCE_CLIENT", 
+    "offsetUs": 23481332299126, 
+    "peerId": "68745f57-74c5-4861-ae02-fbee15671d4a"
+  }, 
+  {
+    "clockSyncRounds": 30360, 
+    "clockSyncsRecvd": 50, 
+    "clockSyncsThisRound": 45, 
+    "configIntervalMin": 0, 
+    "nodeType": "VCE", 
+    "offsetUs": 9585095453457, 
+    "peerId": "a9285222-000c-4cb9-8365-81fd64d9277d"
+  }, 
+  {
+    "clockSyncRounds": 32447, 
+    "clockSyncsRecvd": 50, 
+    "clockSyncsThisRound": 25, 
+    "configIntervalMin": 0, 
+    "nodeType": "VCE", 
+    "offsetUs": 14897150252919, 
+    "peerId": "157f9142-5533-4981-ab50-b807124e8032"
+  }, 
+  {
+    "clockSyncRounds": 2470, 
+    "clockSyncsRecvd": 50, 
+    "clockSyncsThisRound": 18, 
+    "configIntervalMin": 0, 
+    "nodeType": "VCE", 
+    "offsetUs": 14896943866934, 
+    "peerId": "f7784385-bfee-4ec8-b39f-87b0bb8ea90f"
+  }, 
+  {
+    "clockSyncRounds": 0, 
+    "clockSyncsRecvd": 17, 
+    "clockSyncsThisRound": 17, 
+    "configIntervalMin": 0, 
+    "nodeType": "DCE_CLIENT", 
+    "offsetUs": 0, 
+    "peerId": "6924de2e-d43c-44e5-bdf3-15e70052305b"
+  }
+]

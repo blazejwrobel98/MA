@@ -1,0 +1,488 @@
+2022-01-04T13:07:51.699 ERROR   [resolver (8281:MainThread:8281)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:07:51.713 ERROR   [act (8281:MainThread:8281)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:12:52.055 INFO    [config (8636:MainThread:8636)] Updating configurations for managementPlane
+2022-01-04T13:12:52.055 INFO    [activate (8636:MainThread:8636)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:12:52.075 INFO    [mgdutils (8636:MainThread:8636)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:12:52.076 INFO    [mgd (8636:MainThread:8636)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:12:52.076 INFO    [vcodr (8636:MainThread:8636)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:12:52.076 INFO    [activate (8636:MainThread:8636)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:12:52.077 DEBUG   [act (8636:MainThread:8636)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:12:52.078 ERROR   [resolver (8636:MainThread:8636)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:12:52.092 ERROR   [act (8636:MainThread:8636)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:17:52.427 INFO    [config (8992:MainThread:8992)] Updating configurations for managementPlane
+2022-01-04T13:17:52.427 INFO    [activate (8992:MainThread:8992)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:17:52.448 INFO    [mgdutils (8992:MainThread:8992)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:17:52.449 INFO    [mgd (8992:MainThread:8992)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:17:52.449 INFO    [vcodr (8992:MainThread:8992)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:17:52.449 INFO    [activate (8992:MainThread:8992)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:17:52.450 DEBUG   [act (8992:MainThread:8992)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:17:52.451 ERROR   [resolver (8992:MainThread:8992)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:17:52.465 ERROR   [act (8992:MainThread:8992)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:22:52.807 INFO    [config (9348:MainThread:9348)] Updating configurations for managementPlane
+2022-01-04T13:22:52.807 INFO    [activate (9348:MainThread:9348)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:22:52.827 INFO    [mgdutils (9348:MainThread:9348)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:22:52.828 INFO    [mgd (9348:MainThread:9348)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:22:52.828 INFO    [vcodr (9348:MainThread:9348)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:22:52.828 INFO    [activate (9348:MainThread:9348)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:22:52.829 DEBUG   [act (9348:MainThread:9348)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:22:52.830 ERROR   [resolver (9348:MainThread:9348)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:22:52.844 ERROR   [act (9348:MainThread:9348)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:27:53.178 INFO    [config (9698:MainThread:9698)] Updating configurations for managementPlane
+2022-01-04T13:27:53.179 INFO    [activate (9698:MainThread:9698)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:27:53.198 INFO    [mgdutils (9698:MainThread:9698)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:27:53.199 INFO    [mgd (9698:MainThread:9698)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:27:53.199 INFO    [vcodr (9698:MainThread:9698)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:27:53.200 INFO    [activate (9698:MainThread:9698)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:27:53.200 DEBUG   [act (9698:MainThread:9698)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:27:53.202 ERROR   [resolver (9698:MainThread:9698)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:27:53.215 ERROR   [act (9698:MainThread:9698)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:32:53.555 INFO    [config (10053:MainThread:10053)] Updating configurations for managementPlane
+2022-01-04T13:32:53.555 INFO    [activate (10053:MainThread:10053)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:32:53.575 INFO    [mgdutils (10053:MainThread:10053)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:32:53.576 INFO    [mgd (10053:MainThread:10053)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:32:53.576 INFO    [vcodr (10053:MainThread:10053)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:32:53.577 INFO    [activate (10053:MainThread:10053)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:32:53.577 DEBUG   [act (10053:MainThread:10053)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:32:53.579 ERROR   [resolver (10053:MainThread:10053)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:32:53.592 ERROR   [act (10053:MainThread:10053)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:37:53.935 INFO    [config (10410:MainThread:10410)] Updating configurations for managementPlane
+2022-01-04T13:37:53.935 INFO    [activate (10410:MainThread:10410)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:37:53.956 INFO    [mgdutils (10410:MainThread:10410)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:37:53.957 INFO    [mgd (10410:MainThread:10410)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:37:53.957 INFO    [vcodr (10410:MainThread:10410)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:37:53.957 INFO    [activate (10410:MainThread:10410)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:37:53.958 DEBUG   [act (10410:MainThread:10410)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:37:53.959 ERROR   [resolver (10410:MainThread:10410)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:37:53.973 ERROR   [act (10410:MainThread:10410)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:42:54.307 INFO    [config (10766:MainThread:10766)] Updating configurations for managementPlane
+2022-01-04T13:42:54.307 INFO    [activate (10766:MainThread:10766)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:42:54.327 INFO    [mgdutils (10766:MainThread:10766)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:42:54.328 INFO    [mgd (10766:MainThread:10766)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:42:54.328 INFO    [vcodr (10766:MainThread:10766)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:42:54.329 INFO    [activate (10766:MainThread:10766)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:42:54.329 DEBUG   [act (10766:MainThread:10766)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:42:54.330 ERROR   [resolver (10766:MainThread:10766)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:42:54.344 ERROR   [act (10766:MainThread:10766)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:47:54.679 INFO    [config (11117:MainThread:11117)] Updating configurations for managementPlane
+2022-01-04T13:47:54.680 INFO    [activate (11117:MainThread:11117)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:47:54.700 INFO    [mgdutils (11117:MainThread:11117)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:47:54.701 INFO    [mgd (11117:MainThread:11117)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:47:54.701 INFO    [vcodr (11117:MainThread:11117)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:47:54.701 INFO    [activate (11117:MainThread:11117)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:47:54.702 DEBUG   [act (11117:MainThread:11117)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:47:54.703 ERROR   [resolver (11117:MainThread:11117)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:47:54.717 ERROR   [act (11117:MainThread:11117)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:52:55.050 INFO    [config (11473:MainThread:11473)] Updating configurations for managementPlane
+2022-01-04T13:52:55.050 INFO    [activate (11473:MainThread:11473)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:52:55.070 INFO    [mgdutils (11473:MainThread:11473)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:52:55.071 INFO    [mgd (11473:MainThread:11473)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:52:55.071 INFO    [vcodr (11473:MainThread:11473)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:52:55.072 INFO    [activate (11473:MainThread:11473)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:52:55.072 DEBUG   [act (11473:MainThread:11473)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:52:55.073 ERROR   [resolver (11473:MainThread:11473)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:52:55.087 ERROR   [act (11473:MainThread:11473)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T13:57:55.426 INFO    [config (11829:MainThread:11829)] Updating configurations for managementPlane
+2022-01-04T13:57:55.427 INFO    [activate (11829:MainThread:11829)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T13:57:55.446 INFO    [mgdutils (11829:MainThread:11829)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T13:57:55.447 INFO    [mgd (11829:MainThread:11829)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T13:57:55.447 INFO    [vcodr (11829:MainThread:11829)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T13:57:55.448 INFO    [activate (11829:MainThread:11829)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T13:57:55.448 DEBUG   [act (11829:MainThread:11829)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T13:57:55.450 ERROR   [resolver (11829:MainThread:11829)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T13:57:55.463 ERROR   [act (11829:MainThread:11829)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:02:55.801 INFO    [config (12185:MainThread:12185)] Updating configurations for managementPlane
+2022-01-04T14:02:55.801 INFO    [activate (12185:MainThread:12185)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:02:55.822 INFO    [mgdutils (12185:MainThread:12185)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:02:55.823 INFO    [mgd (12185:MainThread:12185)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:02:55.823 INFO    [vcodr (12185:MainThread:12185)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:02:55.823 INFO    [activate (12185:MainThread:12185)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:02:55.824 DEBUG   [act (12185:MainThread:12185)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:02:55.825 ERROR   [resolver (12185:MainThread:12185)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:02:55.839 ERROR   [act (12185:MainThread:12185)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:07:56.175 INFO    [config (12534:MainThread:12534)] Updating configurations for managementPlane
+2022-01-04T14:07:56.175 INFO    [activate (12534:MainThread:12534)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:07:56.195 INFO    [mgdutils (12534:MainThread:12534)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:07:56.196 INFO    [mgd (12534:MainThread:12534)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:07:56.196 INFO    [vcodr (12534:MainThread:12534)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:07:56.196 INFO    [activate (12534:MainThread:12534)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:07:56.197 DEBUG   [act (12534:MainThread:12534)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:07:56.198 ERROR   [resolver (12534:MainThread:12534)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:07:56.212 ERROR   [act (12534:MainThread:12534)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:12:56.546 INFO    [config (12890:MainThread:12890)] Updating configurations for managementPlane
+2022-01-04T14:12:56.547 INFO    [activate (12890:MainThread:12890)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:12:56.567 INFO    [mgdutils (12890:MainThread:12890)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:12:56.568 INFO    [mgd (12890:MainThread:12890)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:12:56.568 INFO    [vcodr (12890:MainThread:12890)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:12:56.569 INFO    [activate (12890:MainThread:12890)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:12:56.569 DEBUG   [act (12890:MainThread:12890)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:12:56.570 ERROR   [resolver (12890:MainThread:12890)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:12:56.584 ERROR   [act (12890:MainThread:12890)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:17:56.921 INFO    [config (13246:MainThread:13246)] Updating configurations for managementPlane
+2022-01-04T14:17:56.921 INFO    [activate (13246:MainThread:13246)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:17:56.942 INFO    [mgdutils (13246:MainThread:13246)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:17:56.942 INFO    [mgd (13246:MainThread:13246)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:17:56.943 INFO    [vcodr (13246:MainThread:13246)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:17:56.943 INFO    [activate (13246:MainThread:13246)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:17:56.944 DEBUG   [act (13246:MainThread:13246)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:17:56.945 ERROR   [resolver (13246:MainThread:13246)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:17:56.959 ERROR   [act (13246:MainThread:13246)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:22:57.295 INFO    [config (13602:MainThread:13602)] Updating configurations for managementPlane
+2022-01-04T14:22:57.295 INFO    [activate (13602:MainThread:13602)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:22:57.316 INFO    [mgdutils (13602:MainThread:13602)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:22:57.316 INFO    [mgd (13602:MainThread:13602)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:22:57.317 INFO    [vcodr (13602:MainThread:13602)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:22:57.317 INFO    [activate (13602:MainThread:13602)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:22:57.318 DEBUG   [act (13602:MainThread:13602)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:22:57.319 ERROR   [resolver (13602:MainThread:13602)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:22:57.333 ERROR   [act (13602:MainThread:13602)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:27:57.667 INFO    [config (13958:MainThread:13958)] Updating configurations for managementPlane
+2022-01-04T14:27:57.667 INFO    [activate (13958:MainThread:13958)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:27:57.688 INFO    [mgdutils (13958:MainThread:13958)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:27:57.688 INFO    [mgd (13958:MainThread:13958)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:27:57.688 INFO    [vcodr (13958:MainThread:13958)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:27:57.689 INFO    [activate (13958:MainThread:13958)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:27:57.690 DEBUG   [act (13958:MainThread:13958)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:27:57.691 ERROR   [resolver (13958:MainThread:13958)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:27:57.704 ERROR   [act (13958:MainThread:13958)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:32:58.046 INFO    [config (14308:MainThread:14308)] Updating configurations for managementPlane
+2022-01-04T14:32:58.046 INFO    [activate (14308:MainThread:14308)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:32:58.068 INFO    [mgdutils (14308:MainThread:14308)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:32:58.068 INFO    [mgd (14308:MainThread:14308)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:32:58.068 INFO    [vcodr (14308:MainThread:14308)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:32:58.069 INFO    [activate (14308:MainThread:14308)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:32:58.070 DEBUG   [act (14308:MainThread:14308)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:32:58.071 ERROR   [resolver (14308:MainThread:14308)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:32:58.084 ERROR   [act (14308:MainThread:14308)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:37:58.418 INFO    [config (14664:MainThread:14664)] Updating configurations for managementPlane
+2022-01-04T14:37:58.418 INFO    [activate (14664:MainThread:14664)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:37:58.438 INFO    [mgdutils (14664:MainThread:14664)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:37:58.439 INFO    [mgd (14664:MainThread:14664)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:37:58.439 INFO    [vcodr (14664:MainThread:14664)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:37:58.439 INFO    [activate (14664:MainThread:14664)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:37:58.440 DEBUG   [act (14664:MainThread:14664)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:37:58.441 ERROR   [resolver (14664:MainThread:14664)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:37:58.454 ERROR   [act (14664:MainThread:14664)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:42:58.795 INFO    [config (15019:MainThread:15019)] Updating configurations for managementPlane
+2022-01-04T14:42:58.796 INFO    [activate (15019:MainThread:15019)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:42:58.816 INFO    [mgdutils (15019:MainThread:15019)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:42:58.816 INFO    [mgd (15019:MainThread:15019)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:42:58.817 INFO    [vcodr (15019:MainThread:15019)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:42:58.817 INFO    [activate (15019:MainThread:15019)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:42:58.818 DEBUG   [act (15019:MainThread:15019)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:42:58.819 ERROR   [resolver (15019:MainThread:15019)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:42:58.833 ERROR   [act (15019:MainThread:15019)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:47:59.169 INFO    [config (15375:MainThread:15375)] Updating configurations for managementPlane
+2022-01-04T14:47:59.170 INFO    [activate (15375:MainThread:15375)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:47:59.190 INFO    [mgdutils (15375:MainThread:15375)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:47:59.190 INFO    [mgd (15375:MainThread:15375)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:47:59.191 INFO    [vcodr (15375:MainThread:15375)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:47:59.191 INFO    [activate (15375:MainThread:15375)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:47:59.192 DEBUG   [act (15375:MainThread:15375)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:47:59.193 ERROR   [resolver (15375:MainThread:15375)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:47:59.207 ERROR   [act (15375:MainThread:15375)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:52:59.544 INFO    [config (15725:MainThread:15725)] Updating configurations for managementPlane
+2022-01-04T14:52:59.544 INFO    [activate (15725:MainThread:15725)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:52:59.565 INFO    [mgdutils (15725:MainThread:15725)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:52:59.566 INFO    [mgd (15725:MainThread:15725)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:52:59.566 INFO    [vcodr (15725:MainThread:15725)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:52:59.566 INFO    [activate (15725:MainThread:15725)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:52:59.567 DEBUG   [act (15725:MainThread:15725)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:52:59.568 ERROR   [resolver (15725:MainThread:15725)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:52:59.582 ERROR   [act (15725:MainThread:15725)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T14:57:59.915 INFO    [config (16081:MainThread:16081)] Updating configurations for managementPlane
+2022-01-04T14:57:59.916 INFO    [activate (16081:MainThread:16081)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T14:57:59.936 INFO    [mgdutils (16081:MainThread:16081)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T14:57:59.937 INFO    [mgd (16081:MainThread:16081)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T14:57:59.937 INFO    [vcodr (16081:MainThread:16081)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T14:57:59.937 INFO    [activate (16081:MainThread:16081)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T14:57:59.938 DEBUG   [act (16081:MainThread:16081)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T14:57:59.939 ERROR   [resolver (16081:MainThread:16081)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T14:57:59.953 ERROR   [act (16081:MainThread:16081)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:03:00.301 INFO    [config (16437:MainThread:16437)] Updating configurations for managementPlane
+2022-01-04T15:03:00.301 INFO    [activate (16437:MainThread:16437)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:03:00.322 INFO    [mgdutils (16437:MainThread:16437)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:03:00.322 INFO    [mgd (16437:MainThread:16437)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:03:00.323 INFO    [vcodr (16437:MainThread:16437)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:03:00.323 INFO    [activate (16437:MainThread:16437)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:03:00.324 DEBUG   [act (16437:MainThread:16437)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:03:00.325 ERROR   [resolver (16437:MainThread:16437)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:03:00.339 ERROR   [act (16437:MainThread:16437)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:08:00.677 INFO    [config (16793:MainThread:16793)] Updating configurations for managementPlane
+2022-01-04T15:08:00.677 INFO    [activate (16793:MainThread:16793)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:08:00.698 INFO    [mgdutils (16793:MainThread:16793)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:08:00.698 INFO    [mgd (16793:MainThread:16793)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:08:00.699 INFO    [vcodr (16793:MainThread:16793)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:08:00.699 INFO    [activate (16793:MainThread:16793)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:08:00.700 DEBUG   [act (16793:MainThread:16793)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:08:00.701 ERROR   [resolver (16793:MainThread:16793)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:08:00.715 ERROR   [act (16793:MainThread:16793)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:13:01.048 INFO    [config (17149:MainThread:17149)] Updating configurations for managementPlane
+2022-01-04T15:13:01.048 INFO    [activate (17149:MainThread:17149)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:13:01.068 INFO    [mgdutils (17149:MainThread:17149)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:13:01.069 INFO    [mgd (17149:MainThread:17149)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:13:01.069 INFO    [vcodr (17149:MainThread:17149)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:13:01.070 INFO    [activate (17149:MainThread:17149)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:13:01.070 DEBUG   [act (17149:MainThread:17149)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:13:01.071 ERROR   [resolver (17149:MainThread:17149)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:13:01.085 ERROR   [act (17149:MainThread:17149)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:18:01.418 INFO    [config (17498:MainThread:17498)] Updating configurations for managementPlane
+2022-01-04T15:18:01.419 INFO    [activate (17498:MainThread:17498)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:18:01.439 INFO    [mgdutils (17498:MainThread:17498)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:18:01.439 INFO    [mgd (17498:MainThread:17498)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:18:01.439 INFO    [vcodr (17498:MainThread:17498)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:18:01.440 INFO    [activate (17498:MainThread:17498)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:18:01.441 DEBUG   [act (17498:MainThread:17498)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:18:01.442 ERROR   [resolver (17498:MainThread:17498)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:18:01.455 ERROR   [act (17498:MainThread:17498)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:23:01.794 INFO    [config (17855:MainThread:17855)] Updating configurations for managementPlane
+2022-01-04T15:23:01.795 INFO    [activate (17855:MainThread:17855)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:23:01.815 INFO    [mgdutils (17855:MainThread:17855)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:23:01.816 INFO    [mgd (17855:MainThread:17855)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:23:01.816 INFO    [vcodr (17855:MainThread:17855)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:23:01.817 INFO    [activate (17855:MainThread:17855)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:23:01.817 DEBUG   [act (17855:MainThread:17855)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:23:01.818 ERROR   [resolver (17855:MainThread:17855)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:23:01.833 ERROR   [act (17855:MainThread:17855)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:28:02.167 INFO    [config (18211:MainThread:18211)] Updating configurations for managementPlane
+2022-01-04T15:28:02.167 INFO    [activate (18211:MainThread:18211)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:28:02.187 INFO    [mgdutils (18211:MainThread:18211)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:28:02.188 INFO    [mgd (18211:MainThread:18211)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:28:02.188 INFO    [vcodr (18211:MainThread:18211)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:28:02.188 INFO    [activate (18211:MainThread:18211)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:28:02.189 DEBUG   [act (18211:MainThread:18211)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:28:02.190 ERROR   [resolver (18211:MainThread:18211)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:28:02.204 ERROR   [act (18211:MainThread:18211)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:33:02.540 INFO    [config (18566:MainThread:18566)] Updating configurations for managementPlane
+2022-01-04T15:33:02.541 INFO    [activate (18566:MainThread:18566)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:33:02.561 INFO    [mgdutils (18566:MainThread:18566)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:33:02.561 INFO    [mgd (18566:MainThread:18566)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:33:02.562 INFO    [vcodr (18566:MainThread:18566)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:33:02.562 INFO    [activate (18566:MainThread:18566)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:33:02.563 DEBUG   [act (18566:MainThread:18566)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:33:02.564 ERROR   [resolver (18566:MainThread:18566)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:33:02.578 ERROR   [act (18566:MainThread:18566)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:38:02.914 INFO    [config (18916:MainThread:18916)] Updating configurations for managementPlane
+2022-01-04T15:38:02.914 INFO    [activate (18916:MainThread:18916)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:38:02.934 INFO    [mgdutils (18916:MainThread:18916)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:38:02.935 INFO    [mgd (18916:MainThread:18916)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:38:02.935 INFO    [vcodr (18916:MainThread:18916)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:38:02.935 INFO    [activate (18916:MainThread:18916)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:38:02.936 DEBUG   [act (18916:MainThread:18916)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:38:02.937 ERROR   [resolver (18916:MainThread:18916)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:38:02.951 ERROR   [act (18916:MainThread:18916)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:43:03.286 INFO    [config (19272:MainThread:19272)] Updating configurations for managementPlane
+2022-01-04T15:43:03.286 INFO    [activate (19272:MainThread:19272)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:43:03.306 INFO    [mgdutils (19272:MainThread:19272)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:43:03.307 INFO    [mgd (19272:MainThread:19272)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:43:03.307 INFO    [vcodr (19272:MainThread:19272)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:43:03.307 INFO    [activate (19272:MainThread:19272)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:43:03.308 DEBUG   [act (19272:MainThread:19272)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:43:03.309 ERROR   [resolver (19272:MainThread:19272)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:43:03.323 ERROR   [act (19272:MainThread:19272)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:48:03.661 INFO    [config (19628:MainThread:19628)] Updating configurations for managementPlane
+2022-01-04T15:48:03.661 INFO    [activate (19628:MainThread:19628)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:48:03.681 INFO    [mgdutils (19628:MainThread:19628)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:48:03.682 INFO    [mgd (19628:MainThread:19628)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:48:03.682 INFO    [vcodr (19628:MainThread:19628)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:48:03.683 INFO    [activate (19628:MainThread:19628)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:48:03.683 DEBUG   [act (19628:MainThread:19628)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:48:03.684 ERROR   [resolver (19628:MainThread:19628)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:48:03.698 ERROR   [act (19628:MainThread:19628)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:53:04.035 INFO    [config (19983:MainThread:19983)] Updating configurations for managementPlane
+2022-01-04T15:53:04.035 INFO    [activate (19983:MainThread:19983)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:53:04.055 INFO    [mgdutils (19983:MainThread:19983)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:53:04.056 INFO    [mgd (19983:MainThread:19983)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:53:04.056 INFO    [vcodr (19983:MainThread:19983)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:53:04.056 INFO    [activate (19983:MainThread:19983)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:53:04.057 DEBUG   [act (19983:MainThread:19983)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:53:04.058 ERROR   [resolver (19983:MainThread:19983)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:53:04.072 ERROR   [act (19983:MainThread:19983)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T15:58:04.405 INFO    [config (20333:MainThread:20333)] Updating configurations for managementPlane
+2022-01-04T15:58:04.405 INFO    [activate (20333:MainThread:20333)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T15:58:04.426 INFO    [mgdutils (20333:MainThread:20333)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T15:58:04.426 INFO    [mgd (20333:MainThread:20333)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T15:58:04.426 INFO    [vcodr (20333:MainThread:20333)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T15:58:04.427 INFO    [activate (20333:MainThread:20333)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T15:58:04.428 DEBUG   [act (20333:MainThread:20333)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T15:58:04.429 ERROR   [resolver (20333:MainThread:20333)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T15:58:04.442 ERROR   [act (20333:MainThread:20333)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:03:04.784 INFO    [config (20689:MainThread:20689)] Updating configurations for managementPlane
+2022-01-04T16:03:04.784 INFO    [activate (20689:MainThread:20689)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:03:04.805 INFO    [mgdutils (20689:MainThread:20689)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:03:04.806 INFO    [mgd (20689:MainThread:20689)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:03:04.806 INFO    [vcodr (20689:MainThread:20689)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:03:04.806 INFO    [activate (20689:MainThread:20689)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:03:04.807 DEBUG   [act (20689:MainThread:20689)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:03:04.808 ERROR   [resolver (20689:MainThread:20689)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:03:04.822 ERROR   [act (20689:MainThread:20689)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:08:05.156 INFO    [config (21044:MainThread:21044)] Updating configurations for managementPlane
+2022-01-04T16:08:05.156 INFO    [activate (21044:MainThread:21044)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:08:05.176 INFO    [mgdutils (21044:MainThread:21044)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:08:05.177 INFO    [mgd (21044:MainThread:21044)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:08:05.177 INFO    [vcodr (21044:MainThread:21044)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:08:05.177 INFO    [activate (21044:MainThread:21044)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:08:05.178 DEBUG   [act (21044:MainThread:21044)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:08:05.179 ERROR   [resolver (21044:MainThread:21044)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:08:05.193 ERROR   [act (21044:MainThread:21044)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:13:05.534 INFO    [config (21400:MainThread:21400)] Updating configurations for managementPlane
+2022-01-04T16:13:05.535 INFO    [activate (21400:MainThread:21400)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:13:05.555 INFO    [mgdutils (21400:MainThread:21400)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:13:05.556 INFO    [mgd (21400:MainThread:21400)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:13:05.556 INFO    [vcodr (21400:MainThread:21400)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:13:05.556 INFO    [activate (21400:MainThread:21400)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:13:05.557 DEBUG   [act (21400:MainThread:21400)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:13:05.558 ERROR   [resolver (21400:MainThread:21400)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:13:05.572 ERROR   [act (21400:MainThread:21400)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:18:05.906 INFO    [config (21756:MainThread:21756)] Updating configurations for managementPlane
+2022-01-04T16:18:05.906 INFO    [activate (21756:MainThread:21756)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:18:05.926 INFO    [mgdutils (21756:MainThread:21756)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:18:05.927 INFO    [mgd (21756:MainThread:21756)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:18:05.927 INFO    [vcodr (21756:MainThread:21756)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:18:05.927 INFO    [activate (21756:MainThread:21756)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:18:05.928 DEBUG   [act (21756:MainThread:21756)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:18:05.929 ERROR   [resolver (21756:MainThread:21756)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:18:05.943 ERROR   [act (21756:MainThread:21756)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:23:06.278 INFO    [config (22106:MainThread:22106)] Updating configurations for managementPlane
+2022-01-04T16:23:06.278 INFO    [activate (22106:MainThread:22106)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:23:06.299 INFO    [mgdutils (22106:MainThread:22106)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:23:06.300 INFO    [mgd (22106:MainThread:22106)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:23:06.300 INFO    [vcodr (22106:MainThread:22106)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:23:06.300 INFO    [activate (22106:MainThread:22106)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:23:06.301 DEBUG   [act (22106:MainThread:22106)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:23:06.302 ERROR   [resolver (22106:MainThread:22106)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:23:06.316 ERROR   [act (22106:MainThread:22106)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:28:06.658 INFO    [config (22461:MainThread:22461)] Updating configurations for managementPlane
+2022-01-04T16:28:06.658 INFO    [activate (22461:MainThread:22461)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:28:06.679 INFO    [mgdutils (22461:MainThread:22461)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:28:06.679 INFO    [mgd (22461:MainThread:22461)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:28:06.680 INFO    [vcodr (22461:MainThread:22461)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:28:06.680 INFO    [activate (22461:MainThread:22461)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:28:06.681 DEBUG   [act (22461:MainThread:22461)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:28:06.682 ERROR   [resolver (22461:MainThread:22461)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:28:06.696 ERROR   [act (22461:MainThread:22461)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:33:07.028 INFO    [config (22817:MainThread:22817)] Updating configurations for managementPlane
+2022-01-04T16:33:07.028 INFO    [activate (22817:MainThread:22817)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:33:07.048 INFO    [mgdutils (22817:MainThread:22817)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:33:07.049 INFO    [mgd (22817:MainThread:22817)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:33:07.049 INFO    [vcodr (22817:MainThread:22817)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:33:07.050 INFO    [activate (22817:MainThread:22817)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:33:07.050 DEBUG   [act (22817:MainThread:22817)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:33:07.051 ERROR   [resolver (22817:MainThread:22817)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:33:07.065 ERROR   [act (22817:MainThread:22817)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:38:07.404 INFO    [config (23173:MainThread:23173)] Updating configurations for managementPlane
+2022-01-04T16:38:07.405 INFO    [activate (23173:MainThread:23173)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:38:07.425 INFO    [mgdutils (23173:MainThread:23173)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:38:07.426 INFO    [mgd (23173:MainThread:23173)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:38:07.426 INFO    [vcodr (23173:MainThread:23173)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:38:07.426 INFO    [activate (23173:MainThread:23173)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:38:07.427 DEBUG   [act (23173:MainThread:23173)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:38:07.428 ERROR   [resolver (23173:MainThread:23173)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:38:07.442 ERROR   [act (23173:MainThread:23173)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:43:07.775 INFO    [config (23523:MainThread:23523)] Updating configurations for managementPlane
+2022-01-04T16:43:07.776 INFO    [activate (23523:MainThread:23523)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:43:07.796 INFO    [mgdutils (23523:MainThread:23523)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:43:07.797 INFO    [mgd (23523:MainThread:23523)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:43:07.797 INFO    [vcodr (23523:MainThread:23523)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:43:07.797 INFO    [activate (23523:MainThread:23523)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:43:07.798 DEBUG   [act (23523:MainThread:23523)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:43:07.799 ERROR   [resolver (23523:MainThread:23523)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:43:07.813 ERROR   [act (23523:MainThread:23523)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:48:08.149 INFO    [config (23880:MainThread:23880)] Updating configurations for managementPlane
+2022-01-04T16:48:08.149 INFO    [activate (23880:MainThread:23880)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:48:08.170 INFO    [mgdutils (23880:MainThread:23880)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:48:08.170 INFO    [mgd (23880:MainThread:23880)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:48:08.171 INFO    [vcodr (23880:MainThread:23880)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:48:08.171 INFO    [activate (23880:MainThread:23880)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:48:08.172 DEBUG   [act (23880:MainThread:23880)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:48:08.173 ERROR   [resolver (23880:MainThread:23880)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:48:08.187 ERROR   [act (23880:MainThread:23880)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:53:08.521 INFO    [config (24236:MainThread:24236)] Updating configurations for managementPlane
+2022-01-04T16:53:08.521 INFO    [activate (24236:MainThread:24236)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:53:08.541 INFO    [mgdutils (24236:MainThread:24236)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:53:08.542 INFO    [mgd (24236:MainThread:24236)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:53:08.542 INFO    [vcodr (24236:MainThread:24236)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:53:08.542 INFO    [activate (24236:MainThread:24236)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:53:08.543 DEBUG   [act (24236:MainThread:24236)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:53:08.544 ERROR   [resolver (24236:MainThread:24236)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:53:08.558 ERROR   [act (24236:MainThread:24236)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T16:58:08.894 INFO    [config (24593:MainThread:24593)] Updating configurations for managementPlane
+2022-01-04T16:58:08.894 INFO    [activate (24593:MainThread:24593)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T16:58:08.915 INFO    [mgdutils (24593:MainThread:24593)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T16:58:08.916 INFO    [mgd (24593:MainThread:24593)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T16:58:08.916 INFO    [vcodr (24593:MainThread:24593)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T16:58:08.917 INFO    [activate (24593:MainThread:24593)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T16:58:08.917 DEBUG   [act (24593:MainThread:24593)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T16:58:08.918 ERROR   [resolver (24593:MainThread:24593)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T16:58:08.932 ERROR   [act (24593:MainThread:24593)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:03:09.270 INFO    [config (24942:MainThread:24942)] Updating configurations for managementPlane
+2022-01-04T17:03:09.270 INFO    [activate (24942:MainThread:24942)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:03:09.290 INFO    [mgdutils (24942:MainThread:24942)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:03:09.291 INFO    [mgd (24942:MainThread:24942)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:03:09.291 INFO    [vcodr (24942:MainThread:24942)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:03:09.291 INFO    [activate (24942:MainThread:24942)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:03:09.292 DEBUG   [act (24942:MainThread:24942)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:03:09.293 ERROR   [resolver (24942:MainThread:24942)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:03:09.307 ERROR   [act (24942:MainThread:24942)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:08:09.649 INFO    [config (25298:MainThread:25298)] Updating configurations for managementPlane
+2022-01-04T17:08:09.650 INFO    [activate (25298:MainThread:25298)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:08:09.670 INFO    [mgdutils (25298:MainThread:25298)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:08:09.671 INFO    [mgd (25298:MainThread:25298)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:08:09.671 INFO    [vcodr (25298:MainThread:25298)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:08:09.672 INFO    [activate (25298:MainThread:25298)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:08:09.672 DEBUG   [act (25298:MainThread:25298)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:08:09.674 ERROR   [resolver (25298:MainThread:25298)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:08:09.688 ERROR   [act (25298:MainThread:25298)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:13:10.020 INFO    [config (25654:MainThread:25654)] Updating configurations for managementPlane
+2022-01-04T17:13:10.021 INFO    [activate (25654:MainThread:25654)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:13:10.041 INFO    [mgdutils (25654:MainThread:25654)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:13:10.041 INFO    [mgd (25654:MainThread:25654)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:13:10.042 INFO    [vcodr (25654:MainThread:25654)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:13:10.042 INFO    [activate (25654:MainThread:25654)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:13:10.043 DEBUG   [act (25654:MainThread:25654)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:13:10.044 ERROR   [resolver (25654:MainThread:25654)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:13:10.057 ERROR   [act (25654:MainThread:25654)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:18:10.403 INFO    [config (26010:MainThread:26010)] Updating configurations for managementPlane
+2022-01-04T17:18:10.404 INFO    [activate (26010:MainThread:26010)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:18:10.425 INFO    [mgdutils (26010:MainThread:26010)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:18:10.425 INFO    [mgd (26010:MainThread:26010)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:18:10.426 INFO    [vcodr (26010:MainThread:26010)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:18:10.426 INFO    [activate (26010:MainThread:26010)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:18:10.427 DEBUG   [act (26010:MainThread:26010)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:18:10.428 ERROR   [resolver (26010:MainThread:26010)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:18:10.442 ERROR   [act (26010:MainThread:26010)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:23:10.777 INFO    [config (26366:MainThread:26366)] Updating configurations for managementPlane
+2022-01-04T17:23:10.777 INFO    [activate (26366:MainThread:26366)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:23:10.798 INFO    [mgdutils (26366:MainThread:26366)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:23:10.799 INFO    [mgd (26366:MainThread:26366)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:23:10.799 INFO    [vcodr (26366:MainThread:26366)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:23:10.799 INFO    [activate (26366:MainThread:26366)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:23:10.800 DEBUG   [act (26366:MainThread:26366)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:23:10.801 ERROR   [resolver (26366:MainThread:26366)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:23:10.815 ERROR   [act (26366:MainThread:26366)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:28:11.151 INFO    [config (26715:MainThread:26715)] Updating configurations for managementPlane
+2022-01-04T17:28:11.151 INFO    [activate (26715:MainThread:26715)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:28:11.172 INFO    [mgdutils (26715:MainThread:26715)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:28:11.173 INFO    [mgd (26715:MainThread:26715)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:28:11.173 INFO    [vcodr (26715:MainThread:26715)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:28:11.173 INFO    [activate (26715:MainThread:26715)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:28:11.174 DEBUG   [act (26715:MainThread:26715)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:28:11.175 ERROR   [resolver (26715:MainThread:26715)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:28:11.189 ERROR   [act (26715:MainThread:26715)] Unable to talk to push activation server activate-sdwan.vmware.com: Host activate-sdwan.vmware.com: socket.gaierror: [Errno -2] Name or service not known
+2022-01-04T17:33:11.526 INFO    [config (27071:MainThread:27071)] Updating configurations for managementPlane
+2022-01-04T17:33:11.526 INFO    [activate (27071:MainThread:27071)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:33:11.547 INFO    [mgdutils (27071:MainThread:27071)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com
+2022-01-04T17:33:11.548 INFO    [mgd (27071:MainThread:27071)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:33:11.548 INFO    [vcodr (27071:MainThread:27071)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:33:11.549 INFO    [activate (27071:MainThread:27071)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:33:11.549 DEBUG   [act (27071:MainThread:27071)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:33:11.551 ERROR   [resolver (27071:MainThread:27071)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known
+2022-01-04T17:37:05.663 INFO    [config (7108:MainThread:7108)] Updating configurations for managementPlane
+2022-01-04T17:37:05.663 INFO    [activate (7108:MainThread:7108)] Executing command ['/opt/vc/bin/setdefroute.sh', '-f', 'activate-sdwan.vmware.com']
+2022-01-04T17:37:09.722 ERROR   [mgdutils (7108:MainThread:7108)] Command: /opt/vc/bin/setdefroute.sh -f activate-sdwan.vmware.com; Return code 1; Output: conntrack v1.4.2 (conntrack-tools): connection tracking table has been emptied.
+conntrack v1.4.2 (conntrack-tools): connection tracking table has been emptied.
+
+2022-01-04T17:37:09.723 INFO    [mgd (7108:MainThread:7108)] VCO primary = activate-sdwan.vmware.com, secondary = None
+2022-01-04T17:37:09.723 INFO    [vcodr (7108:MainThread:7108)] dr check: primary=activate-sdwan.vmware.com, secondary=None; no DR checks
+2022-01-04T17:37:09.725 INFO    [activate (7108:MainThread:7108)] Querying push activation server activate-sdwan.vmware.com
+2022-01-04T17:37:09.726 DEBUG   [act (7108:MainThread:7108)] Push activation: Announcing to primary activate-sdwan.vmware.com
+2022-01-04T17:37:19.736 ERROR   [resolver (7108:MainThread:7108)] Unable to resolve name activate-sdwan.vmware.com: [Errno -2] Name or service not known

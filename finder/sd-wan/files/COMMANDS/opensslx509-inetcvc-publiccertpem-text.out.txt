@@ -1,0 +1,80 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            f8:c3:92:ba:f3:2e:17:ff
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=vco, OU=OPS, O=VeloCloud
+        Validity
+            Not Before: Aug  7 16:17:01 2022 GMT
+            Not After : Nov  6 16:17:01 2022 GMT
+        Subject: CN=05c1d898-6b17-467c-9ec1-79b35f02b717, O=f6222128-6e00-46f1-a747-c6ff155d92b9/serialNumber=1NY6V43/title=edge
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b0:68:0e:80:76:50:8c:7b:81:e8:54:a3:2b:15:
+                    fb:1b:c0:be:b7:d8:21:4b:bb:da:2c:0b:d7:9c:44:
+                    b8:21:6f:04:24:34:07:4b:eb:56:bc:04:55:4f:27:
+                    35:2e:9d:8b:9a:eb:c1:db:13:8e:85:e1:3c:2c:ef:
+                    e6:68:a2:72:e7:6d:db:69:54:2b:a3:1e:e5:49:d5:
+                    2d:94:a5:d8:9e:1d:cc:26:4c:da:de:da:fa:0a:ed:
+                    7b:fd:a3:00:cd:56:a3:f7:51:af:47:0f:50:33:e2:
+                    0e:25:f1:21:1a:d2:93:d5:41:43:9c:ea:33:42:02:
+                    f4:61:9a:66:c6:a8:c6:e4:6e:6b:86:f5:df:af:99:
+                    8d:3a:3f:83:5c:b8:88:35:a9:06:00:0c:78:24:69:
+                    c3:b0:d0:ce:26:78:f0:3a:52:2a:44:ea:19:eb:2a:
+                    3d:b5:b1:b9:67:ac:b6:ee:5c:6e:09:3d:e1:5a:5b:
+                    f0:f2:e2:6c:0e:8e:56:3a:10:c9:98:d3:07:a1:63:
+                    38:ab:b2:3f:fd:94:ec:f3:dc:4e:42:48:56:f8:99:
+                    2b:6b:c9:0b:1b:af:75:12:9a:77:57:ee:a5:d3:fa:
+                    5f:24:89:5b:ea:b1:c2:48:e2:f7:ad:75:01:a4:b0:
+                    d0:5d:5a:9f:d6:9f:1f:0a:78:5b:cf:2e:d7:cf:d6:
+                    ce:01
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Key Identifier: 
+                DF:5C:5D:D1:EE:9D:7F:8C:52:73:E6:4D:68:33:28:43:CB:F9:0F:ED
+            X509v3 Authority Key Identifier: 
+                keyid:C6:77:E7:17:C2:45:BC:43:4D:02:59:FB:0A:43:7B:D1:B4:12:40:73
+
+    Signature Algorithm: sha256WithRSAEncryption
+         a1:63:73:8c:b0:ec:c7:d9:e6:5f:59:7b:28:08:f9:fb:48:6c:
+         e2:4e:eb:e2:0b:2f:7e:31:01:04:91:d5:64:d0:d5:3c:28:d5:
+         47:51:31:82:fb:11:20:92:fc:75:f2:15:bc:9f:80:5f:b8:0b:
+         67:63:a0:e4:bc:ef:21:a1:6c:1d:b7:eb:eb:80:99:7e:ed:06:
+         2e:b7:ed:d4:73:75:38:34:3b:28:8e:ec:66:df:9f:14:f6:4f:
+         36:6e:dc:f9:9f:ed:c4:0e:0c:8a:7d:a2:c4:65:f2:ce:66:15:
+         b5:a6:b5:cb:04:f5:ee:8b:66:d7:ed:b6:90:f5:a6:03:c8:e6:
+         62:ce:db:6e:ce:45:8f:0b:5d:3d:c6:36:2b:01:62:49:e3:99:
+         89:04:17:df:ca:d0:fc:11:17:9a:14:c5:ea:7a:f1:ff:e3:09:
+         29:c1:9e:00:35:f4:5c:7d:fd:e9:ca:7f:be:40:93:93:2d:62:
+         69:9c:18:1e:09:3d:84:e9:db:8c:e9:f4:68:bb:99:12:d3:c6:
+         62:2d:9a:46:ff:d8:75:c6:c4:cc:0e:50:17:f7:b0:4f:47:33:
+         83:c6:d4:f4:5e:e4:47:b4:57:22:0f:13:2a:f6:bf:ee:0a:11:
+         b8:b0:d4:0e:22:77:60:ab:05:9a:09:4b:97:41:ee:78:e7:49:
+         44:df:a3:1a
+-----BEGIN CERTIFICATE-----
+MIIDkzCCAnugAwIBAgIJAPjDkrrzLhf/MA0GCSqGSIb3DQEBCwUAMDAxDDAKBgNV
+BAMTA3ZjbzEMMAoGA1UECxMDT1BTMRIwEAYDVQQKEwlWZWxvQ2xvdWQwHhcNMjIw
+ODA3MTYxNzAxWhcNMjIxMTA2MTYxNzAxWjB/MS0wKwYDVQQDEyQwNWMxZDg5OC02
+YjE3LTQ2N2MtOWVjMS03OWIzNWYwMmI3MTcxLTArBgNVBAoTJGY2MjIyMTI4LTZl
+MDAtNDZmMS1hNzQ3LWM2ZmYxNTVkOTJiOTEQMA4GA1UEBRMHMU5ZNlY0MzENMAsG
+A1UEDBMEZWRnZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALBoDoB2
+UIx7gehUoysV+xvAvrfYIUu72iwL15xEuCFvBCQ0B0vrVrwEVU8nNS6di5rrwdsT
+joXhPCzv5miicudt22lUK6Me5UnVLZSl2J4dzCZM2t7a+grte/2jAM1Wo/dRr0cP
+UDPiDiXxIRrSk9VBQ5zqM0IC9GGaZsaoxuRua4b136+ZjTo/g1y4iDWpBgAMeCRp
+w7DQziZ48DpSKkTqGesqPbWxuWestu5cbgk94Vpb8PLibA6OVjoQyZjTB6FjOKuy
+P/2U7PPcTkJIVviZK2vJCxuvdRKad1fupdP6XySJW+qxwkji9611AaSw0F1an9af
+Hwp4W88u18/WzgECAwEAAaNhMF8wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUF
+BwMCMB0GA1UdDgQWBBTfXF3R7p1/jFJz5k1oMyhDy/kP7TAfBgNVHSMEGDAWgBTG
+d+cXwkW8Q00CWfsKQ3vRtBJAczANBgkqhkiG9w0BAQsFAAOCAQEAoWNzjLDsx9nm
+X1l7KAj5+0hs4k7r4gsvfjEBBJHVZNDVPCjVR1ExgvsRIJL8dfIVvJ+AX7gLZ2Og
+5LzvIaFsHbfr64CZfu0GLrft1HN1ODQ7KI7sZt+fFPZPNm7c+Z/txA4Min2ixGXy
+zmYVtaa1ywT17otm1+22kPWmA8jmYs7bbs5FjwtdPcY2KwFiSeOZiQQX38rQ/BEX
+mhTF6nrx/+MJKcGeADX0XH396cp/vkCTky1iaZwYHgk9hOnbjOn0aLuZEtPGYi2a
+Rv/YdcbEzA5QF/ewT0czg8bU9F7kR7RXIg8TKva/7goRuLDUDiJ3YKsFmglLl0Hu
+eOdJRN+jGg==
+-----END CERTIFICATE-----

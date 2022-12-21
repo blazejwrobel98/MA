@@ -1,0 +1,36 @@
+{
+    "type": "cp",
+    "name": "cp",
+    "mem":  4096,
+    "cpu": 2,
+    "args" : [ "-machine", "type=q35,accel=kvm" ],
+    "state": "active",
+    "drive" : [{
+        "path": "cp77_30.qcow2",
+        "sha1" : "1bfabbbba505b8146ac0fe9f357a0b1bd69ef02b"
+    }],
+    "config" : {
+        "files" : [{
+            "path" : "openstack/latest/user_data",
+            "url"  : "file:///opt/vc/etc/vnf/Checkpoint/user_data"
+        }],
+        "data" : {
+            "sic_key"  : "Velocloud123",
+            "admin"    : "admin",
+            "vendorSpecificData": {
+                "vmConfiguration" : {
+                    "adminPassword" : "admin"
+                }
+            }
+        }
+    },
+    "model" : {
+        "edge520-v" : { "mem" : 2048 },
+        "edge620" : { "mem" : 2048 }
+    },
+    "snmp": {
+        "SNMPv2-SMI::enterprises.2620.1.5.6.0":"Active",
+        "IF-MIB::ifOperStatus.4":"up",
+        "IF-MIB::ifOperStatus.5":"up"
+    }
+}

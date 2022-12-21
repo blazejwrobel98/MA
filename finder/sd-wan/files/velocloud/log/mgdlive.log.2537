@@ -1,0 +1,221 @@
+
+2022-08-16T16:12:24.276 DEBUG   [diagutils (15926:Live Mode Diagnostics:30777)] Test marked as completed: test's length is 7
+2022-08-16T16:12:24.277 INFO    [live_websocket (15926:Live Mode Diagnostics:30777)] after inserting, send_queue.size()=[1]
+2022-08-16T16:12:24.277 INFO    [diagutils (15926:Live Mode Diagnostics:30777)] Action completed: eyJjb250ZW50IjoiYjZiYmJjMzU5MTRhNTgwMzc3YTFiZWRiNTliMWM2OGJmOWI2MDU3Zjk5MDQ3OTY5Y2M0YTdmNTczNjY3MTA5NTA1MTI2MGUyODI2MGEyOWZjNDI4NWNiYmVjNTMxM2NiYmVhOTkzNmJjMjcyOTBjNmFmZjc4ZDk3YTkzOTEwMDE3Y2U1ZjAyNjk5NmQyYjk0ZWI4ZjVhMTRhYzQwYzNmNWI1ZGQ4Mjg2YzFhYzliN2UiLCJ0YWciOiIxODVhZmU2YmEzNDJmMTdiMzdjZTYyZmNhYTBhM2E5YSIsIml2IjoiODcxNTdjNzAyNTBjMTJmZTM1ODRhN2Y5ODc5MmE2NjMiLCJzYWx0IjoiZWE4ZmM1YjMzODI5MTQ2YzlmMjYxNmUwIn0
+2022-08-16T16:12:24.277 DEBUG   [diagutils (15926:Live Mode Diagnostics:30777)] Cleaning up completed action: eyJjb250ZW50IjoiYjZiYmJjMzU5MTRhNTgwMzc3YTFiZWRiNTliMWM2OGJmOWI2MDU3Zjk5MDQ3OTY5Y2M0YTdmNTczNjY3MTA5NTA1MTI2MGUyODI2MGEyOWZjNDI4NWNiYmVjNTMxM2NiYmVhOTkzNmJjMjcyOTBjNmFmZjc4ZDk3YTkzOTEwMDE3Y2U1ZjAyNjk5NmQyYjk0ZWI4ZjVhMTRhYzQwYzNmNWI1ZGQ4Mjg2YzFhYzliN2UiLCJ0YWciOiIxODVhZmU2YmEzNDJmMTdiMzdjZTYyZmNhYTBhM2E5YSIsIml2IjoiODcxNTdjNzAyNTBjMTJmZTM1ODRhN2Y5ODc5MmE2NjMiLCJzYWx0IjoiZWE4ZmM1YjMzODI5MTQ2YzlmMjYxNmUwIn0
+2022-08-16T16:12:24.899 INFO    [live_websocket (15926:Live Worker:30778)] after popping, send_queue.size()=[0]
+2022-08-16T16:12:24.899 INFO    [websocketclient (15926:Live Worker:30778)] send message: action[runDiagnostics]
+2022-08-16T16:12:31.479 DEBUG   [live (15926:Live Mode:22163)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660666351461:exitLiveMode"}]}
+2022-08-16T16:12:31.480 DEBUG   [live (15926:Live Mode:22163)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660666351461:exitLiveMode", "results": null}]}
+2022-08-16T16:12:31.627 DEBUG   [live (15926:Live Mode:22163)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660666351598:exitLiveMode"}]}
+2022-08-16T16:12:31.627 INFO    [live (15926:Live Mode:22163)] Exiting live mode
+2022-08-16T16:12:31.627 DEBUG   [worker (15926:Live Mode:22163)] Stopping thread: Live Mode
+2022-08-16T16:12:31.628 DEBUG   [worker (15926:Live Mode:22163)] Stopping thread: Live Mode Stats
+2022-08-16T16:12:31.628 DEBUG   [worker (15926:Live Mode:22163)] Stopping thread: Live Mode Diagnostics
+2022-08-16T16:12:31.628 DEBUG   [worker (15926:Live Mode:22163)] Exiting thread: Live Mode
+2022-08-16T16:12:31.709 DEBUG   [worker (15926:Live Mode Stats:22164)] Exiting thread: Live Mode Stats
+2022-08-16T16:12:32.547 DEBUG   [worker (15926:Live Mode Diagnostics:22165)] Exiting thread: Live Mode Diagnostics
+2022-08-16T16:20:13.224 DEBUG   [worker (15926:Live Mode:26375)] do_live_heartbeat: Sleeping for 1.00 sec
+2022-08-16T16:20:13.225 DEBUG   [worker (15926:Live Mode Stats:26376)] upload_stats: Sleeping for 2.00 sec
+2022-08-16T16:20:13.226 INFO    [diagutils (15926:Heartbeat:16046)] Starting live-mode diagnostic tests thread
+2022-08-16T16:20:13.227 DEBUG   [worker (15926:Live Mode Diagnostics:26377)] handle_actions: Sleeping for 5.00 sec
+2022-08-16T16:24:47.278 DEBUG   [live (15926:Live Mode:26375)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660667087261:exitLiveMode"}]}
+2022-08-16T16:24:47.279 DEBUG   [live (15926:Live Mode:26375)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660667087261:exitLiveMode", "results": null}]}
+2022-08-16T16:24:47.410 DEBUG   [live (15926:Live Mode:26375)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660667087392:exitLiveMode"}]}
+2022-08-16T16:24:47.411 INFO    [live (15926:Live Mode:26375)] Exiting live mode
+2022-08-16T16:24:47.411 DEBUG   [worker (15926:Live Mode:26375)] Stopping thread: Live Mode
+2022-08-16T16:24:47.411 DEBUG   [worker (15926:Live Mode:26375)] Stopping thread: Live Mode Stats
+2022-08-16T16:24:47.411 DEBUG   [worker (15926:Live Mode:26375)] Stopping thread: Live Mode Diagnostics
+2022-08-16T16:24:47.412 DEBUG   [worker (15926:Live Mode:26375)] Exiting thread: Live Mode
+2022-08-16T16:24:48.184 DEBUG   [worker (15926:Live Mode Stats:26376)] Exiting thread: Live Mode Stats
+2022-08-16T16:24:48.266 DEBUG   [worker (15926:Live Mode Diagnostics:26377)] Exiting thread: Live Mode Diagnostics
+2022-08-16T17:52:30.658 ERROR   [websocketclient (15926:WSClient:30708)] ### going to restart, met error [WebSocketConnectionClosedException('Connection is already closed.',)] ###
+2022-08-16T17:52:30.670 INFO    [websocketclient (15926:WSClient:30708)] ### going to close ###
+2022-08-16T17:52:30.670 INFO    [websocketclient (15926:WSClient:30708)] --- starting cleanup ---
+2022-08-16T17:52:30.671 INFO    [websocketclient (15926:WSClient:30708)] stopping live_worker
+2022-08-16T17:52:30.671 INFO    [live_websocket (15926:WSClient:30708)] stopping main_worker and diag_worker
+2022-08-16T17:52:30.671 DEBUG   [worker (15926:WSClient:30708)] Stopping thread: Live Worker
+2022-08-16T17:52:30.671 DEBUG   [worker (15926:WSClient:30708)] Stopping thread: Live Mode Diagnostics
+2022-08-16T17:52:30.671 INFO    [websocketclient (15926:WSClient:30708)] ### cleanup done ###
+2022-08-16T17:52:31.245 DEBUG   [worker (15926:Live Mode Diagnostics:30777)] Exiting thread: Live Mode Diagnostics
+2022-08-16T17:52:31.341 DEBUG   [worker (15926:Live Worker:30778)] Exiting thread: Live Worker
+2022-08-16T17:53:00.000 DEBUG   [websocketclient (15926:Thread-40898:17533)] watchdog restart websocket since it is not running
+2022-08-16T17:53:00.001 INFO    [websocketclient (15926:WSClient:17645)] websocket would sleep for 6 seconds before start
+2022-08-16T17:53:06.002 INFO    [websocketclient (15926:WSClient:17645)] creating socket and starting to run forever after setting ssl parameters, keyfile[/etc/vc-private/key.pem], certfile[/etc/vc-public/cert.pem]
+2022-08-16T17:53:06.002 INFO    [websocketclient (15926:WSClient:17645)] trying to establish websocket connection with wss://vco206-fra1.velocloud.net/edgeWs/
+2022-08-16T17:53:06.003 DEBUG   [_http (15926:WSClient:17645)] trying to bind socket on: ('0.0.0.0', 0)
+2022-08-16T17:53:06.129 INFO    [_core (15926:WSClient:17645)] bind websocket on: ('85.128.72.178', 38842)
+2022-08-16T17:53:06.129 INFO    [websocketclient (15926:WSClient:17645)] ### going to setup workers ###
+2022-08-16T17:53:06.130 INFO    [websocketclient (15926:WSClient:17645)] starting live_worker
+2022-08-16T17:53:06.130 INFO    [live_websocket (15926:WSClient:17645)] starting main_worker and diag_worker
+2022-08-16T17:53:06.130 INFO    [diagutils (15926:WSClient:17645)] Starting live-mode diagnostic tests thread
+2022-08-16T17:53:06.130 DEBUG   [worker (15926:Live Mode Diagnostics:17667)] handle_actions: Sleeping for 1.00 sec
+2022-08-16T17:53:06.131 DEBUG   [worker (15926:Live Worker:17668)] live_handler: Sleeping for 1.00 sec
+2022-08-16T17:53:06.133 INFO    [websocketclient (15926:WSClient:17645)] message received: {"action":"noop","data":{},"actionId":null,"token":"eyJjb250ZW50IjoiMjEyYzQ2N2U0ODIxMGE4MzNiOGMyYWI5ODNkYzcyYzg0ZmFjZTExN2VlMDFiNmU0YjQ0MDA4YWMzMzkwMTY4MDExNzFhN2Y3OGY3Y2Y1NWUyYjI5YzE5ZGZmYjQzODI3ZTU0ZDRjMzhmNzc1NzViNzIzZjkyZjk3MTc3YmExNmI1NDQyNTM2MDZjZjA0N2E2YmIzYTJhNDQ4ZTUxNDI3ZDY5OWZlMGQyMzkyNGNlNGQ5NGQxNTkwZGEyYmVjZTc3Yjk2Njg5ZTVhNmExODY5NGQ1OWIyY2ZiNTRmNjg2NjVlOTY5MTQ1OWIxNDI0NWUwYTM4NTBiMWQ4MzA4YmJmMzIwYWQiLCJ0YWciOiI1YmU4MTAyODE1MDg3ZTYxYWVlOWM2NjYwYTI3YTBkOCIsIml2IjoiNzBiOTBkOGZiNGVmYjBiYmZlYmQ0NDRiOWQ0ZDc1NjUiLCJzYWx0IjoiN2Y3YjBjZTc4YjljMGU0NThmODNmYjdhIn0"}
+2022-08-16T17:53:06.134 INFO    [websocketclient (15926:WSClient:17645)] ws_token set as [eyJjb250ZW50IjoiMjEyYzQ2N2U0ODIxMGE4MzNiOGMyYWI5ODNkYzcyYzg0ZmFjZTExN2VlMDFiNmU0YjQ0MDA4YWMzMzkwMTY4MDExNzFhN2Y3OGY3Y2Y1NWUyYjI5YzE5ZGZmYjQzODI3ZTU0ZDRjMzhmNzc1NzViNzIzZjkyZjk3MTc3YmExNmI1NDQyNTM2MDZjZjA0N2E2YmIzYTJhNDQ4ZTUxNDI3ZDY5OWZlMGQyMzkyNGNlNGQ5NGQxNTkwZGEyYmVjZTc3Yjk2Njg5ZTVhNmExODY5NGQ1OWIyY2ZiNTRmNjg2NjVlOTY5MTQ1OWIxNDI0NWUwYTM4NTBiMWQ4MzA4YmJmMzIwYWQiLCJ0YWciOiI1YmU4MTAyODE1MDg3ZTYxYWVlOWM2NjYwYTI3YTBkOCIsIml2IjoiNzBiOTBkOGZiNGVmYjBiYmZlYmQ0NDRiOWQ0ZDc1NjUiLCJzYWx0IjoiN2Y3YjBjZTc4YjljMGU0NThmODNmYjdhIn0]
+2022-08-16T17:53:06.134 INFO    [websocketclient (15926:WSClient:17645)] after inserting, send_queue.size()=[1]
+2022-08-16T17:53:07.134 INFO    [live_websocket (15926:Live Worker:17668)] after popping, send_queue.size()=[0]
+2022-08-16T17:53:07.135 INFO    [websocketclient (15926:Live Worker:17668)] send message: action[connected]
+2022-08-16T22:41:27.729 ERROR   [websocketclient (15926:WSClient:17645)] ### going to restart, met error [WebSocketConnectionClosedException('Connection is already closed.',)] ###
+2022-08-16T22:41:27.744 INFO    [websocketclient (15926:WSClient:17645)] ### going to close ###
+2022-08-16T22:41:27.745 INFO    [websocketclient (15926:WSClient:17645)] --- starting cleanup ---
+2022-08-16T22:41:27.745 INFO    [websocketclient (15926:WSClient:17645)] stopping live_worker
+2022-08-16T22:41:27.745 INFO    [live_websocket (15926:WSClient:17645)] stopping main_worker and diag_worker
+2022-08-16T22:41:27.745 DEBUG   [worker (15926:WSClient:17645)] Stopping thread: Live Worker
+2022-08-16T22:41:27.745 DEBUG   [worker (15926:WSClient:17645)] Stopping thread: Live Mode Diagnostics
+2022-08-16T22:41:27.746 INFO    [websocketclient (15926:WSClient:17645)] ### cleanup done ###
+2022-08-16T22:41:27.788 DEBUG   [worker (15926:Live Worker:17668)] Exiting thread: Live Worker
+2022-08-16T22:41:27.789 DEBUG   [worker (15926:Live Mode Diagnostics:17667)] Exiting thread: Live Mode Diagnostics
+2022-08-16T22:41:30.000 DEBUG   [websocketclient (15926:Thread-41478:26108)] watchdog restart websocket since it is not running
+2022-08-16T22:41:30.002 INFO    [websocketclient (15926:WSClient:26255)] websocket would sleep for 5 seconds before start
+2022-08-16T22:41:35.004 INFO    [websocketclient (15926:WSClient:26255)] creating socket and starting to run forever after setting ssl parameters, keyfile[/etc/vc-private/key.pem], certfile[/etc/vc-public/cert.pem]
+2022-08-16T22:41:35.004 INFO    [websocketclient (15926:WSClient:26255)] trying to establish websocket connection with wss://vco206-fra1.velocloud.net/edgeWs/
+2022-08-16T22:41:35.006 DEBUG   [_http (15926:WSClient:26255)] trying to bind socket on: ('0.0.0.0', 0)
+2022-08-16T22:41:35.160 INFO    [_core (15926:WSClient:26255)] bind websocket on: ('85.128.72.178', 37258)
+2022-08-16T22:41:35.161 INFO    [websocketclient (15926:WSClient:26255)] ### going to setup workers ###
+2022-08-16T22:41:35.161 INFO    [websocketclient (15926:WSClient:26255)] starting live_worker
+2022-08-16T22:41:35.162 INFO    [live_websocket (15926:WSClient:26255)] starting main_worker and diag_worker
+2022-08-16T22:41:35.164 INFO    [diagutils (15926:WSClient:26255)] Starting live-mode diagnostic tests thread
+2022-08-16T22:41:35.165 DEBUG   [worker (15926:Live Mode Diagnostics:26273)] handle_actions: Sleeping for 1.00 sec
+2022-08-16T22:41:35.165 DEBUG   [worker (15926:Live Worker:26274)] live_handler: Sleeping for 1.00 sec
+2022-08-16T22:41:35.169 INFO    [websocketclient (15926:WSClient:26255)] message received: {"action":"noop","data":{},"actionId":null,"token":"eyJjb250ZW50IjoiZTU0NmQzN2EyYzgyMzIwZGU2ZGE2Y2VmZjdlMmQ5OTY2MTU2ZjdjNzU5MGNiNzFmODAzYWQ5NjU1ZjE2NDVhMGM2YzUyZmQ0NzRlMzdmZTViYmQwNjg5YjhmMmE0OTUyNzRlYjEzYWRhY2U4NTNlMzFjNzJjYjUwOTM2MDQzNTllYzY3ZTYyYjVmY2M0NzI0MzQyOWUwYjczMzFlYjhhZjgyNjg4MTRiMDU0YmZiN2VlZDI5YTBkOTE3M2NkNWMwMDhkNjUzNDI4MjIyMmI2MzIzMzZkNzEwNDhjYmI0MTNhNzIyZjI3N2M1NTNjODIyNjExNWMxYWI0YjE0ZDExZTJkYjUiLCJ0YWciOiJiY2IyMzA0NmQwYTE5NmQ1ZjZjOTBlOTYzY2I4MTQzYiIsIml2IjoiMTAyZTlkNzY5MWVlYWY5MWU1OTQ1NzA2OWJjYjY1OGYiLCJzYWx0IjoiZDZhZWViYjU4N2JkMjVkYzAxOWQ1OWJlIn0"}
+2022-08-16T22:41:35.170 INFO    [websocketclient (15926:WSClient:26255)] ws_token set as [eyJjb250ZW50IjoiZTU0NmQzN2EyYzgyMzIwZGU2ZGE2Y2VmZjdlMmQ5OTY2MTU2ZjdjNzU5MGNiNzFmODAzYWQ5NjU1ZjE2NDVhMGM2YzUyZmQ0NzRlMzdmZTViYmQwNjg5YjhmMmE0OTUyNzRlYjEzYWRhY2U4NTNlMzFjNzJjYjUwOTM2MDQzNTllYzY3ZTYyYjVmY2M0NzI0MzQyOWUwYjczMzFlYjhhZjgyNjg4MTRiMDU0YmZiN2VlZDI5YTBkOTE3M2NkNWMwMDhkNjUzNDI4MjIyMmI2MzIzMzZkNzEwNDhjYmI0MTNhNzIyZjI3N2M1NTNjODIyNjExNWMxYWI0YjE0ZDExZTJkYjUiLCJ0YWciOiJiY2IyMzA0NmQwYTE5NmQ1ZjZjOTBlOTYzY2I4MTQzYiIsIml2IjoiMTAyZTlkNzY5MWVlYWY5MWU1OTQ1NzA2OWJjYjY1OGYiLCJzYWx0IjoiZDZhZWViYjU4N2JkMjVkYzAxOWQ1OWJlIn0]
+2022-08-16T22:41:35.171 INFO    [websocketclient (15926:WSClient:26255)] after inserting, send_queue.size()=[1]
+2022-08-16T22:41:36.166 INFO    [live_websocket (15926:Live Worker:26274)] after popping, send_queue.size()=[0]
+2022-08-16T22:41:36.166 INFO    [websocketclient (15926:Live Worker:26274)] send message: action[connected]
+2022-08-17T11:19:45.242 ERROR   [websocketclient (15926:WSClient:26255)] ### going to restart, met error [WebSocketConnectionClosedException('Connection is already closed.',)] ###
+2022-08-17T11:19:45.257 INFO    [websocketclient (15926:WSClient:26255)] ### going to close ###
+2022-08-17T11:19:45.257 INFO    [websocketclient (15926:WSClient:26255)] --- starting cleanup ---
+2022-08-17T11:19:45.257 INFO    [websocketclient (15926:WSClient:26255)] stopping live_worker
+2022-08-17T11:19:45.257 INFO    [live_websocket (15926:WSClient:26255)] stopping main_worker and diag_worker
+2022-08-17T11:19:45.258 DEBUG   [worker (15926:WSClient:26255)] Stopping thread: Live Worker
+2022-08-17T11:19:45.258 DEBUG   [worker (15926:WSClient:26255)] Stopping thread: Live Mode Diagnostics
+2022-08-17T11:19:45.258 INFO    [websocketclient (15926:WSClient:26255)] ### cleanup done ###
+2022-08-17T11:19:45.293 DEBUG   [worker (15926:Live Worker:26274)] Exiting thread: Live Worker
+2022-08-17T11:19:46.052 DEBUG   [worker (15926:Live Mode Diagnostics:26273)] Exiting thread: Live Mode Diagnostics
+2022-08-17T11:20:00.001 DEBUG   [websocketclient (15926:Thread-42997:25069)] watchdog restart websocket since it is not running
+2022-08-17T11:20:00.002 INFO    [websocketclient (15926:WSClient:25191)] websocket would sleep for 1 seconds before start
+2022-08-17T11:20:01.004 INFO    [websocketclient (15926:WSClient:25191)] creating socket and starting to run forever after setting ssl parameters, keyfile[/etc/vc-private/key.pem], certfile[/etc/vc-public/cert.pem]
+2022-08-17T11:20:01.005 INFO    [websocketclient (15926:WSClient:25191)] trying to establish websocket connection with wss://vco206-fra1.velocloud.net/edgeWs/
+2022-08-17T11:20:01.007 DEBUG   [_http (15926:WSClient:25191)] trying to bind socket on: ('0.0.0.0', 0)
+2022-08-17T11:20:01.181 INFO    [_core (15926:WSClient:25191)] bind websocket on: ('85.128.72.178', 51114)
+2022-08-17T11:20:01.182 INFO    [websocketclient (15926:WSClient:25191)] ### going to setup workers ###
+2022-08-17T11:20:01.183 INFO    [websocketclient (15926:WSClient:25191)] starting live_worker
+2022-08-17T11:20:01.183 INFO    [live_websocket (15926:WSClient:25191)] starting main_worker and diag_worker
+2022-08-17T11:20:01.184 INFO    [diagutils (15926:WSClient:25191)] Starting live-mode diagnostic tests thread
+2022-08-17T11:20:01.185 DEBUG   [worker (15926:Live Mode Diagnostics:25197)] handle_actions: Sleeping for 1.00 sec
+2022-08-17T11:20:01.187 DEBUG   [worker (15926:Live Worker:25198)] live_handler: Sleeping for 1.00 sec
+2022-08-17T11:20:01.191 INFO    [websocketclient (15926:WSClient:25191)] message received: {"action":"noop","data":{},"actionId":null,"token":"eyJjb250ZW50IjoiOGVhYmY2OGM5ZmIzMGVlZmExODBlMjZjOWU5MTA2MTgxOTc2YjJkOTRlNjY1NWFmZjAzMjEzZWQ2ZTVjNGVmMmUxYmMyM2IzZTRiNGVlMmQxMDA5MWQ3M2RlZDI4YjI0MjM0NGExNjE2ODlmMTc3YWUzYjZjMjFlNTk1ZGQwNDFjN2VlNTQ4MWViYmJjMmYwNGRlZWJlNmYxM2Q2MmYyNGM4MzAzMzFiZWU0YjUyODJkMDYxNTY5YTdmM2FmNDBkYjM4YmRiMzA3OWE4NTkyOTRjYTY3NThlMTQxMmNkOGI2MGVmODM3ZjE3NmQwNzBlOTM1NmVhMzdkNzFmNzM0MWQwYTMiLCJ0YWciOiI2MTU3ZTMwMTdkNTM2NWNjZWQ0NjRlMTFiOTA0ZGZmYiIsIml2IjoiMmI3MmEyZmQ1NjVjMGMxOTZkNjg2MWFlOTU2MWI4NTgiLCJzYWx0IjoiNGNlZWQxYzZkZjIyZmRjM2ZhNzRhODVkIn0"}
+2022-08-17T11:20:01.192 INFO    [websocketclient (15926:WSClient:25191)] ws_token set as [eyJjb250ZW50IjoiOGVhYmY2OGM5ZmIzMGVlZmExODBlMjZjOWU5MTA2MTgxOTc2YjJkOTRlNjY1NWFmZjAzMjEzZWQ2ZTVjNGVmMmUxYmMyM2IzZTRiNGVlMmQxMDA5MWQ3M2RlZDI4YjI0MjM0NGExNjE2ODlmMTc3YWUzYjZjMjFlNTk1ZGQwNDFjN2VlNTQ4MWViYmJjMmYwNGRlZWJlNmYxM2Q2MmYyNGM4MzAzMzFiZWU0YjUyODJkMDYxNTY5YTdmM2FmNDBkYjM4YmRiMzA3OWE4NTkyOTRjYTY3NThlMTQxMmNkOGI2MGVmODM3ZjE3NmQwNzBlOTM1NmVhMzdkNzFmNzM0MWQwYTMiLCJ0YWciOiI2MTU3ZTMwMTdkNTM2NWNjZWQ0NjRlMTFiOTA0ZGZmYiIsIml2IjoiMmI3MmEyZmQ1NjVjMGMxOTZkNjg2MWFlOTU2MWI4NTgiLCJzYWx0IjoiNGNlZWQxYzZkZjIyZmRjM2ZhNzRhODVkIn0]
+2022-08-17T11:20:01.192 INFO    [websocketclient (15926:WSClient:25191)] after inserting, send_queue.size()=[1]
+2022-08-17T11:20:02.188 INFO    [live_websocket (15926:Live Worker:25198)] after popping, send_queue.size()=[0]
+2022-08-17T11:20:02.188 INFO    [websocketclient (15926:Live Worker:25198)] send message: action[connected]
+2022-08-17T12:03:27.495 DEBUG   [worker (15926:Live Mode:3844)] do_live_heartbeat: Sleeping for 1.00 sec
+2022-08-17T12:03:27.496 DEBUG   [worker (15926:Live Mode Stats:3845)] upload_stats: Sleeping for 2.00 sec
+2022-08-17T12:03:27.496 INFO    [diagutils (15926:Heartbeat:16046)] Starting live-mode diagnostic tests thread
+2022-08-17T12:03:27.497 DEBUG   [worker (15926:Live Mode Diagnostics:3846)] handle_actions: Sleeping for 5.00 sec
+2022-08-17T12:04:26.787 DEBUG   [live (15926:Heartbeat:16046)] Live mode: Extending lifetime to 900 seconds from now
+2022-08-17T12:05:08.402 INFO    [websocketclient (15926:WSClient:25191)] message received: {"action":"listDiagnostics","data":{"logicalId":"05c1d898-6b17-467c-9ec1-79b35f02b717"},"actionId":"eyJjb250ZW50IjoiYzAzYjU2MzBmYzA5NzgzMDZmNmY3ZDBlNmMyNmY0NzFkZTIyODYwNmVkYjllM2U4NWQ3ZmM3MjNiMjRkYjFjZDBlMTdkMjc5ZGRlMjMwMjRjNmIyYjdiMzRiMjhhMjcxNmQzZTE4ZmRjZWE5NTFlYzg4YjQyNDdiNjNkNzkzMDMxM2RhYWQzMjk2YWY3NzhlZDAyYTBmNGZhZTJkMTZmNjY3MzI2NGIzMTJlYWEzZGJiMDA2NWEwMjQ4YzI5OSIsInRhZyI6IjIzODQwYjhlMzA2NjZlZWIwZGEyYzQ3YzEyZTgyYjc0IiwiaXYiOiJhYjY1YjJkNDJiNGYyYmI1YmNmN2M1NjcyMTVhMmEwZCIsInNhbHQiOiIyMGY0ODEzNTFlYjc4YjI2YTAxMmI4NmQifQ"}
+2022-08-17T12:05:08.403 INFO    [websocketclient (15926:WSClient:25191)] after inserting, msg_queue.size()=[1]
+2022-08-17T12:05:08.723 INFO    [live_websocket (15926:Live Worker:25198)] after popping, msg_queue.size()=[0]
+2022-08-17T12:05:17.099 INFO    [live_websocket (15926:Live Worker:25198)] after inserting, send_queue.size()=[1]
+2022-08-17T12:05:18.099 INFO    [live_websocket (15926:Live Worker:25198)] after popping, send_queue.size()=[0]
+2022-08-17T12:05:18.100 INFO    [websocketclient (15926:Live Worker:25198)] send message: action[listDiagnostics]
+2022-08-17T12:05:56.228 DEBUG   [live (15926:Heartbeat:16046)] Live mode: Extending lifetime to 900 seconds from now
+2022-08-17T12:07:24.708 DEBUG   [live (15926:Heartbeat:16046)] Live mode: Extending lifetime to 900 seconds from now
+2022-08-17T12:08:05.216 DEBUG   [live (15926:Live Mode:3844)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660738085197:exitLiveMode"}]}
+2022-08-17T12:08:05.216 DEBUG   [live (15926:Live Mode:3844)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660738085197:exitLiveMode", "results": null}]}
+2022-08-17T12:08:05.351 DEBUG   [live (15926:Live Mode:3844)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660738085331:exitLiveMode"}]}
+2022-08-17T12:08:05.351 INFO    [live (15926:Live Mode:3844)] Exiting live mode
+2022-08-17T12:08:05.352 DEBUG   [worker (15926:Live Mode:3844)] Stopping thread: Live Mode
+2022-08-17T12:08:05.352 DEBUG   [worker (15926:Live Mode:3844)] Stopping thread: Live Mode Stats
+2022-08-17T12:08:05.352 DEBUG   [worker (15926:Live Mode:3844)] Stopping thread: Live Mode Diagnostics
+2022-08-17T12:08:05.352 DEBUG   [worker (15926:Live Mode:3844)] Exiting thread: Live Mode
+2022-08-17T12:08:05.547 DEBUG   [worker (15926:Live Mode Diagnostics:3846)] Exiting thread: Live Mode Diagnostics
+2022-08-17T12:08:05.943 DEBUG   [worker (15926:Live Mode Stats:3845)] Exiting thread: Live Mode Stats
+2022-08-17T12:10:22.625 DEBUG   [worker (15926:Live Mode:5808)] do_live_heartbeat: Sleeping for 1.00 sec
+2022-08-17T12:10:22.626 DEBUG   [worker (15926:Live Mode Stats:5809)] upload_stats: Sleeping for 2.00 sec
+2022-08-17T12:10:22.626 INFO    [diagutils (15926:Heartbeat:16046)] Starting live-mode diagnostic tests thread
+2022-08-17T12:10:22.627 DEBUG   [worker (15926:Live Mode Diagnostics:5810)] handle_actions: Sleeping for 5.00 sec
+2022-08-17T12:15:12.014 DEBUG   [live (15926:Live Mode:5808)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660738511995:exitLiveMode"}]}
+2022-08-17T12:15:12.015 DEBUG   [live (15926:Live Mode:5808)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660738511995:exitLiveMode", "results": null}]}
+2022-08-17T12:15:12.179 DEBUG   [live (15926:Live Mode:5808)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660738512136:exitLiveMode"}]}
+2022-08-17T12:15:12.179 INFO    [live (15926:Live Mode:5808)] Exiting live mode
+2022-08-17T12:15:12.180 DEBUG   [worker (15926:Live Mode:5808)] Stopping thread: Live Mode
+2022-08-17T12:15:12.180 DEBUG   [worker (15926:Live Mode:5808)] Stopping thread: Live Mode Stats
+2022-08-17T12:15:12.180 DEBUG   [worker (15926:Live Mode:5808)] Stopping thread: Live Mode Diagnostics
+2022-08-17T12:15:12.180 DEBUG   [worker (15926:Live Mode:5808)] Exiting thread: Live Mode
+2022-08-17T12:15:12.355 DEBUG   [worker (15926:Live Mode Stats:5809)] Exiting thread: Live Mode Stats
+2022-08-17T12:15:12.654 DEBUG   [worker (15926:Live Mode Diagnostics:5810)] Exiting thread: Live Mode Diagnostics
+2022-08-17T12:55:20.339 DEBUG   [worker (15926:Live Mode:17319)] do_live_heartbeat: Sleeping for 1.00 sec
+2022-08-17T12:55:20.340 DEBUG   [worker (15926:Live Mode Stats:17320)] upload_stats: Sleeping for 2.00 sec
+2022-08-17T12:55:20.340 INFO    [diagutils (15926:Heartbeat:16046)] Starting live-mode diagnostic tests thread
+2022-08-17T12:55:20.341 DEBUG   [worker (15926:Live Mode Diagnostics:17321)] handle_actions: Sleeping for 5.00 sec
+2022-08-17T13:00:02.403 DEBUG   [live (15926:Live Mode:17319)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660741202377:exitLiveMode"}]}
+2022-08-17T13:00:02.404 DEBUG   [live (15926:Live Mode:17319)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660741202377:exitLiveMode", "results": null}]}
+2022-08-17T13:00:02.580 DEBUG   [live (15926:Live Mode:17319)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660741202545:exitLiveMode"}]}
+2022-08-17T13:00:02.580 INFO    [live (15926:Live Mode:17319)] Exiting live mode
+2022-08-17T13:00:02.581 DEBUG   [worker (15926:Live Mode:17319)] Stopping thread: Live Mode
+2022-08-17T13:00:02.582 DEBUG   [worker (15926:Live Mode:17319)] Stopping thread: Live Mode Stats
+2022-08-17T13:00:02.582 DEBUG   [worker (15926:Live Mode:17319)] Stopping thread: Live Mode Diagnostics
+2022-08-17T13:00:02.583 DEBUG   [worker (15926:Live Mode:17319)] Exiting thread: Live Mode
+2022-08-17T13:00:03.283 DEBUG   [worker (15926:Live Mode Stats:17320)] Exiting thread: Live Mode Stats
+2022-08-17T13:00:03.374 DEBUG   [worker (15926:Live Mode Diagnostics:17321)] Exiting thread: Live Mode Diagnostics
+2022-08-17T22:21:28.197 ERROR   [websocketclient (15926:WSClient:25191)] ### going to restart, met error [WebSocketConnectionClosedException('Connection is already closed.',)] ###
+2022-08-17T22:21:28.213 INFO    [websocketclient (15926:WSClient:25191)] ### going to close ###
+2022-08-17T22:21:28.213 INFO    [websocketclient (15926:WSClient:25191)] --- starting cleanup ---
+2022-08-17T22:21:28.214 INFO    [websocketclient (15926:WSClient:25191)] stopping live_worker
+2022-08-17T22:21:28.214 INFO    [live_websocket (15926:WSClient:25191)] stopping main_worker and diag_worker
+2022-08-17T22:21:28.214 DEBUG   [worker (15926:WSClient:25191)] Stopping thread: Live Worker
+2022-08-17T22:21:28.214 DEBUG   [worker (15926:WSClient:25191)] Stopping thread: Live Mode Diagnostics
+2022-08-17T22:21:28.214 INFO    [websocketclient (15926:WSClient:25191)] ### cleanup done ###
+2022-08-17T22:21:28.357 DEBUG   [worker (15926:Live Mode Diagnostics:25197)] Exiting thread: Live Mode Diagnostics
+2022-08-17T22:21:29.093 DEBUG   [worker (15926:Live Worker:25198)] Exiting thread: Live Worker
+2022-08-17T22:21:30.000 DEBUG   [websocketclient (15926:Thread-44326:31788)] watchdog restart websocket since it is not running
+2022-08-17T22:21:30.001 INFO    [websocketclient (15926:WSClient:31897)] websocket would sleep for 8 seconds before start
+2022-08-17T22:21:38.002 INFO    [websocketclient (15926:WSClient:31897)] creating socket and starting to run forever after setting ssl parameters, keyfile[/etc/vc-private/key.pem], certfile[/etc/vc-public/cert.pem]
+2022-08-17T22:21:38.003 INFO    [websocketclient (15926:WSClient:31897)] trying to establish websocket connection with wss://vco206-fra1.velocloud.net/edgeWs/
+2022-08-17T22:21:38.003 DEBUG   [_http (15926:WSClient:31897)] trying to bind socket on: ('0.0.0.0', 0)
+2022-08-17T22:21:38.130 INFO    [_core (15926:WSClient:31897)] bind websocket on: ('85.128.72.178', 55970)
+2022-08-17T22:21:38.131 INFO    [websocketclient (15926:WSClient:31897)] ### going to setup workers ###
+2022-08-17T22:21:38.131 INFO    [websocketclient (15926:WSClient:31897)] starting live_worker
+2022-08-17T22:21:38.131 INFO    [live_websocket (15926:WSClient:31897)] starting main_worker and diag_worker
+2022-08-17T22:21:38.131 INFO    [diagutils (15926:WSClient:31897)] Starting live-mode diagnostic tests thread
+2022-08-17T22:21:38.132 DEBUG   [worker (15926:Live Mode Diagnostics:31944)] handle_actions: Sleeping for 1.00 sec
+2022-08-17T22:21:38.132 DEBUG   [worker (15926:Live Worker:31945)] live_handler: Sleeping for 1.00 sec
+2022-08-17T22:21:38.134 INFO    [websocketclient (15926:WSClient:31897)] message received: {"action":"noop","data":{},"actionId":null,"token":"eyJjb250ZW50IjoiZDlkMTcxMDc3NzI2ODI1MmFjNDk2YTU1MzVmYmZiOTNlODE3NjM1ZGNhYzBkZTNiYzI5ZDQ2N2Y5ZGYxNWY0NjNjOTIxOTljYWM2ZTkzMjEwNTVjZWZiNTdmYWM1MTU2NDAwN2Y0MTY0ODgyYTk4M2Q5Yzg3MDUyNzAxYjkzOTFkZTI4MzE2MTFiNjU1ZTg0NDc2ZGYzNmRjZGI4NTc5MTdhNThmMWY4NDhkMGE3ODFmMzNhMGM1MGU5ZjRjZDBkZGMxMTZmZjdmZGI2YjkwZGIxMDA1MTA0N2E2NzcwMjMxY2NlMWVmZWZjNjg3YWJhYWMzY2I3YzhmN2ViODRmZmI1NjgiLCJ0YWciOiJmM2MwMTNmNTIzN2UyY2U3MjA5ZmM5ODdlYzk2ZjM3ZCIsIml2IjoiZDZiNjA5NjMyYmVlNDFlNTJhNDZlNDk0OGUyMmU1Y2UiLCJzYWx0IjoiNTI3Y2M1MWZkZGM4NWI0NTdmNTA5MWUyIn0"}
+2022-08-17T22:21:38.135 INFO    [websocketclient (15926:WSClient:31897)] ws_token set as [eyJjb250ZW50IjoiZDlkMTcxMDc3NzI2ODI1MmFjNDk2YTU1MzVmYmZiOTNlODE3NjM1ZGNhYzBkZTNiYzI5ZDQ2N2Y5ZGYxNWY0NjNjOTIxOTljYWM2ZTkzMjEwNTVjZWZiNTdmYWM1MTU2NDAwN2Y0MTY0ODgyYTk4M2Q5Yzg3MDUyNzAxYjkzOTFkZTI4MzE2MTFiNjU1ZTg0NDc2ZGYzNmRjZGI4NTc5MTdhNThmMWY4NDhkMGE3ODFmMzNhMGM1MGU5ZjRjZDBkZGMxMTZmZjdmZGI2YjkwZGIxMDA1MTA0N2E2NzcwMjMxY2NlMWVmZWZjNjg3YWJhYWMzY2I3YzhmN2ViODRmZmI1NjgiLCJ0YWciOiJmM2MwMTNmNTIzN2UyY2U3MjA5ZmM5ODdlYzk2ZjM3ZCIsIml2IjoiZDZiNjA5NjMyYmVlNDFlNTJhNDZlNDk0OGUyMmU1Y2UiLCJzYWx0IjoiNTI3Y2M1MWZkZGM4NWI0NTdmNTA5MWUyIn0]
+2022-08-17T22:21:38.135 INFO    [websocketclient (15926:WSClient:31897)] after inserting, send_queue.size()=[1]
+2022-08-17T22:21:39.133 INFO    [live_websocket (15926:Live Worker:31945)] after popping, send_queue.size()=[0]
+2022-08-17T22:21:39.133 INFO    [websocketclient (15926:Live Worker:31945)] send message: action[connected]
+2022-08-18T09:17:36.575 DEBUG   [worker (15926:Live Mode:4552)] do_live_heartbeat: Sleeping for 1.00 sec
+2022-08-18T09:17:36.577 INFO    [diagutils (15926:Heartbeat:16046)] Starting live-mode diagnostic tests thread
+2022-08-18T09:17:36.576 DEBUG   [worker (15926:Live Mode Stats:4553)] upload_stats: Sleeping for 2.00 sec
+2022-08-18T09:17:36.578 DEBUG   [worker (15926:Live Mode Diagnostics:4554)] handle_actions: Sleeping for 5.00 sec
+2022-08-18T09:19:15.512 INFO    [websocketclient (15926:WSClient:31897)] message received: {"action":"listDiagnostics","data":{"logicalId":"05c1d898-6b17-467c-9ec1-79b35f02b717"},"actionId":"eyJjb250ZW50IjoiOTM1M2U5YmQyMTJjNzNlOGE4NWJlYjVlZDdlNmI2YTg3MDQ1MmExMzE1ZTcxYjA0ZDViZDQ0YmY0YTg4Njc2YTk4NDQ1NDM4ZjlhMzhiMTY5MDM5MmQ5MmIxNmZkOWUyNzE0MmMyNGFjMjBkYTNiZDg0YTczODQxNjNjYTI4MjE1OWUzYjA0YjY4NDgzYTllZjY2NjA5YjQxZjA2OTI2N2UwNzQ4ZjA4ZGU4OWRlZDcwOGMxYWFkMzRiZWFlODM1IiwidGFnIjoiNTViYjNhOWM3NTZlMGVhMzg3MTJlZjg5Yzg1ZGFjNjciLCJpdiI6ImUwNzM5MTliMDM1NDYyMmNkMTAyMTg2MThkZDU5ZDQ5Iiwic2FsdCI6ImIzYjY4MWFiYzMxNGEwYzdiZTQzMjcxNCJ9"}
+2022-08-18T09:19:15.512 INFO    [websocketclient (15926:WSClient:31897)] after inserting, msg_queue.size()=[1]
+2022-08-18T09:19:16.492 INFO    [live_websocket (15926:Live Worker:31945)] after popping, msg_queue.size()=[0]
+2022-08-18T09:19:24.359 INFO    [live_websocket (15926:Live Worker:31945)] after inserting, send_queue.size()=[1]
+2022-08-18T09:19:25.359 INFO    [live_websocket (15926:Live Worker:31945)] after popping, send_queue.size()=[0]
+2022-08-18T09:19:25.360 INFO    [websocketclient (15926:Live Worker:31945)] send message: action[listDiagnostics]
+2022-08-18T09:20:33.995 INFO    [websocketclient (15926:WSClient:31897)] message received: {"action":"listDiagnostics","data":{"logicalId":"05c1d898-6b17-467c-9ec1-79b35f02b717"},"actionId":"eyJjb250ZW50IjoiMmRmNDJhY2E2NDRmYTcwZjk5ZWJjODY3NjllNjgzZjY5N2I4MzYwY2RiMjNlMTc3NzE0MmE4NzM5OWNmYWQxNjk4OWYzMDk4NmE5ZGQ3MGVhMTQxZDdmZmM1YmFiNmFjYTM4MjkwZTczYzI0NmY1ZjIxMTM0NDU0NDFlYTMyOWY4ZDNhNDc3Nzk4ZGZmM2NiZDBhNjYzNGIzYmM2OTYwNWIxMjkzZWYxOTFlYjNlYTQzMzEyMTllODIxOTc0ZWM2IiwidGFnIjoiMWU2MWU0NzQ0NWM5Yjc0ZDBjY2JmZjM1NjY0YTA0MGEiLCJpdiI6IjNmNmRiOGFiM2FiZjc4YWVlOGRhOGVlNjI1MmQwMmU2Iiwic2FsdCI6Ijg3MjBkNWE2ZDViZjNkN2VmMWI2NmNlYiJ9"}
+2022-08-18T09:20:33.996 INFO    [websocketclient (15926:WSClient:31897)] after inserting, msg_queue.size()=[1]
+2022-08-18T09:20:34.388 INFO    [live_websocket (15926:Live Worker:31945)] after popping, msg_queue.size()=[0]
+2022-08-18T09:20:43.586 INFO    [live_websocket (15926:Live Worker:31945)] after inserting, send_queue.size()=[1]
+2022-08-18T09:20:44.586 INFO    [live_websocket (15926:Live Worker:31945)] after popping, send_queue.size()=[0]
+2022-08-18T09:20:44.587 INFO    [websocketclient (15926:Live Worker:31945)] send message: action[listDiagnostics]
+2022-08-18T09:21:17.211 INFO    [websocketclient (15926:WSClient:31897)] message received: {"action":"listDiagnostics","data":{"logicalId":"05c1d898-6b17-467c-9ec1-79b35f02b717"},"actionId":"eyJjb250ZW50IjoiZWMzOTZkZTUwMTlhYzYzYWMxMjcxNzMxNzdhMWMwYzM5ZDU1ZWQ0YWQ1M2M1ZDljOGExMDg2NTk0YWFkZGNlZjExZTg5ZTcyZjgzMjc2OGNmNDRjYWVlNzgxZmY5MDIzZjFiMTI3ODZhZGQyYmMwYWY4NTQ3ZGM2MzNjMzM3NzJhMTY0NjlmY2MwZTE2NmRhZDFiZGJjY2YxZjFmMTM5ZWUwMmZlMDlkMjJiYWJmNjdkNjgwMmIwMmRjZDkzM2FmIiwidGFnIjoiOWUzMDg3ZmMxNjFjODZjMDNiZjc0ZTI4YzdhZWU1MjkiLCJpdiI6IjQwZTI4ZGJmZThlYzNlODQxOTc0OTViM2ZjM2U0Zjc5Iiwic2FsdCI6ImNmZmU4MDIzOGI3ZmZlZTBjMmM5MGY2OCJ9"}
+2022-08-18T09:21:17.212 INFO    [websocketclient (15926:WSClient:31897)] after inserting, msg_queue.size()=[1]
+2022-08-18T09:21:17.609 INFO    [live_websocket (15926:Live Worker:31945)] after popping, msg_queue.size()=[0]
+2022-08-18T09:21:25.062 INFO    [live_websocket (15926:Live Worker:31945)] after inserting, send_queue.size()=[1]
+2022-08-18T09:21:26.063 INFO    [live_websocket (15926:Live Worker:31945)] after popping, send_queue.size()=[0]
+2022-08-18T09:21:26.063 INFO    [websocketclient (15926:Live Worker:31945)] send message: action[listDiagnostics]
+2022-08-18T09:22:14.165 DEBUG   [live (15926:Live Mode:4552)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660814534144:exitLiveMode"}]}
+2022-08-18T09:22:14.165 DEBUG   [live (15926:Live Mode:4552)] Live-mode Heartbeat: {"actionUpdates"=[{"status": 2, "actionId": "edge:1828:liveData:liveAction:1660814534144:exitLiveMode", "results": null}]}
+2022-08-18T09:22:14.302 DEBUG   [live (15926:Live Mode:4552)] Live-mode Heartbeat reply: {"actions"=[{"action": "exitLiveMode", "status": 0, "actionId": "edge:1828:liveData:liveAction:1660814534283:exitLiveMode"}]}
+2022-08-18T09:22:14.303 INFO    [live (15926:Live Mode:4552)] Exiting live mode
+2022-08-18T09:22:14.303 DEBUG   [worker (15926:Live Mode:4552)] Stopping thread: Live Mode
+2022-08-18T09:22:14.303 DEBUG   [worker (15926:Live Mode:4552)] Stopping thread: Live Mode Stats
+2022-08-18T09:22:14.303 DEBUG   [worker (15926:Live Mode:4552)] Stopping thread: Live Mode Diagnostics
+2022-08-18T09:22:14.304 DEBUG   [worker (15926:Live Mode:4552)] Exiting thread: Live Mode
+2022-08-18T09:22:14.518 DEBUG   [worker (15926:Live Mode Stats:4553)] Exiting thread: Live Mode Stats

@@ -1,0 +1,79 @@
+{
+    "platform": [
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 50, 
+            "max_concurrent_flows" : 0,
+            "model": "edge500",
+            "max_bw": 1000
+        }, 
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 50, 
+            "max_concurrent_flows" : 0,
+            "model": "edge520",
+            "max_bw": 1000,
+            "max_cps": 2400
+        }, 
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 100, 
+            "max_concurrent_flows" : 0,
+            "model": "edge540",
+            "max_bw": 2000,
+            "max_cps": 5600
+        }, 
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 400, 
+            "max_concurrent_flows" : 0,
+            "model": "edge840",
+            "max_bw": 10000,
+            "max_cps": 21000
+        }, 
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 2000, 
+            "max_concurrent_flows" : 0,
+            "model": "edge1000",
+            "max_bw": 10000
+        },
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 6000,
+            "max_concurrent_flows" : 0,
+            "model": "edge1000qat",
+            "max_bw": 10000,
+            "max_cps": 41000
+        },
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 6000,
+            "max_concurrent_flows" : 0,
+            "model": "edge3400",
+            "max_bw": 10000
+        },
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 6000,
+            "max_concurrent_flows" : 0,
+            "model": "edge3800",
+            "max_bw": 10000,
+            "max_cps": 41000
+        },
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 6000,
+            "max_concurrent_flows" : 0,
+            "model": "edge3810",
+            "max_bw": 10000
+        },
+        {
+            "memory_MB" : 0,
+            "max_tunnels": 0,
+            "max_concurrent_flows" : 0,
+            "model": "virtual",
+            "max_bw":0
+        }
+    ]
+}

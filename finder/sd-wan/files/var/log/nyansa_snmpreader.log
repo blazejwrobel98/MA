@@ -1,0 +1,9 @@
+2022-08-02T14:16:48.968 INFO [nyansa_snmpreader 6180(6208)] Service has been enabled: nyansa_snmpreader
+2022-08-02T14:16:48.971 INFO [nyansa_snmpreader 6180(6208)] Launching process nyansa_snmpreader: /opt/vc/bin/nyansa_snmpreader.sh
+2022-08-02T14:16:48.980 INFO [nyansa_snmpreader 6180(6208)] Process nyansa_snmpreader: pid = 6218
+2022-08-02T14:24:23.038 INFO [nyansa_snmpreader 6180(6208)] Process nyansa_snmpreader (6218, 6218) returned from wait with retcode -15
+2022-08-02T14:24:23.038 INFO [nyansa_snmpreader 6180(6208)] process nyansa_snmpreader (pid 6218) completed
+2022-08-02T14:24:23.038 INFO [nyansa_snmpreader 6180(6208)] Process nyansa_snmpreader stopped during shutdown
+2022-08-02T14:24:23.585 INFO [nyansa_snmpreader 15890(15912)] Service has been enabled: nyansa_snmpreader
+2022-08-02T14:24:23.587 INFO [nyansa_snmpreader 15890(15912)] Launching process nyansa_snmpreader: /opt/vc/bin/nyansa_snmpreader.sh
+2022-08-02T14:24:23.605 INFO [nyansa_snmpreader 15890(15912)] Process nyansa_snmpreader: pid = 15929
